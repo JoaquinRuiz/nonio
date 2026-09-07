@@ -1,0 +1,58 @@
+De esta forma, el resultado obtenido (60) no es la cantidad de subconjuntos de 3 elementos de {A, B, C, D, E}, sino que cada subconjunto está contado seis veces, por lo que la cantidad de subconjuntos es realmente 60/6 = 10.
+
+El argumento presentado para el ejemplo puede generalizarse de la siguiente forma. Si se tiene un conjunto con n elementos, de los cuales se van a escoger k, la elección (ordenada) puede hacerse de
+
+maneras, ya que en el primer paso se tienen n opciones, en el segundo se tienen n-1, en el tercero n-2, y así sucesivamente, terminando en el paso k que tendrá n-k+1 opciones.
+
+Ahora, hay que dividir el producto anterior entre el número de selecciones «equivalentes». Pero si se tiene k objetos, hay k! formas de permutarlos, es decir, k! formas de listarlos en distinto orden. Recordemos que k! se lee k-factorial y es igual a
+
+Concluimos que el número de subconjuntos con k elementos, escogidos de un conjunto con n elementos es
+
+La expresión anterior puede escribirse de forma más compacta usando factoriales, expresión que es usada en ocasiones como la definición misma de coeficiente binomial (sobre todo en textos elementales que no explican el origen combinatorio de la misma):
+
+donde 
+ 
+ 
+ 
+ n
+ ,
+ k
+ &#x2208;
+ 
+ Z
+ 
+ 
+ 
+ {\displaystyle n,k\in \mathbb {Z} }
+ 
+ con 
+ 
+ 
+ 
+ n
+ &#x2265;
+ 0
+ 
+ 
+ {\displaystyle n\geq 0}
+ 
+ y 
+ 
+ 
+ 
+ k
+ >
+ 0
+ 
+ 
+ {\displaystyle k>0}
+ 
+ siendo
+
+Si se tiene un conjunto de n elementos, donde n ≥ 0, hay un único subconjunto sin elementos (o de cero elementos), que es el conjunto vacío, por lo que el número de estos subconjuntos de cero elementos que hay es 1, cualquiera que sea n. &#8203;
+
+Por otro lado, si tenemos una lista de los subconjuntos de k elementos y a cada uno de ellos añadimos, por turno, cada uno de los n-k elementos del conjunto inicial que no estaban en dicho subconjunto, la lista de subconjuntos resultante contendrá todos los subconjuntos de k+1 elementos y además cada uno de ellos aparecerá repetido k+1 veces en dicha lista.
+
+Finalmente, existe una tercera forma de definir los coeficientes binomiales, la cual da origen a su nombre. Sin embargo, esta definición obscurece el significado combinatorio de los números, pues la equivalencia con las definiciones anteriores no es evidente.
+
+La afirmación de que esta definición es equivalente a las anteriores se conoce como teorema binomial o teorema de Newton, quien dio una prueba de una versión general del resultado. Sin embargo, la forma de calcular los coeficientes era conocida por diversas culturas con muchos siglos de anticipación.

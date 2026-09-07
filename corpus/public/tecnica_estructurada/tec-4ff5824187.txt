@@ -1,0 +1,15 @@
+Los líquidos y gases no pueden soportar una compresión uniaxial o biaxial constante, se deformarán rápida y permanentemente y no ofrecerán ninguna fuerza de reacción permanente. Sin embargo, pueden soportar la compresión isotrópica y pueden comprimirse de otras formas momentáneamente, por ejemplo, en una onda de sonido.
+
+Todo material ordinario se contraerá en volumen cuando se somete a compresión isotrópica, se contraerá en el área de la sección transversal cuando se somete a compresión biaxial uniforme y se contraerá en longitud cuando se someta a compresión uniaxial. La deformación puede no ser uniforme y puede no estar alineada con las fuerzas de compresión. Lo que sucede en las direcciones donde no hay compresión depende del material. &#8203; La mayoría de los materiales se expandirán en esas direcciones, pero algunos materiales especiales permanecerán sin cambios o incluso se contraerán. En general, la relación entre la tensión aplicada a un material y la deformación resultante es un tema central de mecánica del continuo.
+
+La compresión de los sólidos tiene muchas implicaciones en la ciencia de materiales, la física y la ingeniería estructural, ya que la compresión produce cantidades notables de esfuerzo y tensión.
+
+Al inducir la compresión, se pueden medir propiedades mecánicas como la resistencia a la compresión o el módulo de elasticidad. &#8203;
+
+Las máquinas de compresión van desde los sistemas de mesa muy pequeños hasta los que tienen más de 53 MN de capacidad.
+
+Los gases suelen almacenarse y enviarse muy comprimidos para ahorrar espacio. El aire ligeramente comprimido u otros gases también se utilizan para llenar globos, botes de goma y otras estructuras inflables. Los líquidos comprimidos se utilizan en equipos hidráulicos y en la fracturación.
+
+En los motores de combustión interna, la mezcla explosiva se comprime antes de encenderse; la compresión mejora el rendimiento del motor. En el ciclo Otto, por ejemplo, la segunda carrera del pistón produce la compresión de la carga que ha sido introducida en el cilindro por la primera carrera de avance. &#8203;
+
+El término se aplica a la disposición por la cual la válvula de escape de una máquina de vapor se cierra, cerrando una parte del vapor de escape en el cilindro, antes de que la carrera del pistón sea completa. Este vapor se comprime a medida que se completa la carrera, se forma un cojín contra el que el pistón trabaja mientras su velocidad se reduce rápidamente, y así se reducen las tensiones en el mecanismo debido a la inercia de las piezas recíprocas. &#8203; Esta compresión, además, evita el choque que de otro modo causaría la admisión del vapor fresco para la carrera de retorno.

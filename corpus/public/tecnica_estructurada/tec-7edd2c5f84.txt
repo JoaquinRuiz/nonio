@@ -1,0 +1,63 @@
+En mecánica, compresión es la aplicación de fuerzas equilibradas hacia adentro ("empujar") a diferentes puntos de un material o estructura, es decir, fuerzas sin suma neta o torque dirigidas para reducir el tamaño del material o estructura en una o más direcciones. &#8203; Contrasta con la tensión o tracción, la aplicación de fuerzas equilibradas hacia afuera ("tracción"); y con fuerzas cortantes, dirigidas para desplazar capas del material paralelas entre sí. La resistencia a la compresión de materiales y estructuras es una consideración de ingeniería importante.
+
+En la compresión uniaxial, las fuerzas se dirigen a lo largo de una sola dirección, de modo que actúan hacia la disminución de la longitud del objeto a lo largo de esa dirección. &#8203; Las fuerzas de compresión también se pueden aplicar en múltiples direcciones; por ejemplo hacia adentro a lo largo de los bordes de una placa o en toda la superficie lateral de un cilindro, para reducir su área (compresión biaxial), o hacia adentro sobre toda la superficie de un cuerpo, a fin de reducir su volumen.
+
+Técnicamente, un material está bajo un estado de compresión, en algún punto específico y en una dirección específica 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+, si el componente normal del vector tensión a través de una superficie con dirección normal 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+ se dirige de forma opuesta a 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+. Si el vector de tensión en sí es opuesto a 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+, se dice que el material está bajo compresión normal o tensión de compresión pura a lo largo de 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+. En un sólido, la cantidad de compresión generalmente depende de la dirección 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+, y el material puede estar bajo compresión en algunas direcciones pero bajo tracción en otras. Si el vector de tensión es puramente compresivo y tiene la misma magnitud en todas las direcciones, se dice que el material está bajo compresión isotrópica o compresión hidrostática en ese punto. Este es el único tipo de compresión estática que pueden soportar líquidos y gases. &#8203;
+
+En una onda longitudinal mecánica, u onda de compresión, el medio se desplaza en la dirección de la onda, lo que resulta en áreas de compresión y rarefacción.
+
+Cuando se somete a compresión (o cualquier otro tipo de tensión), todo material sufrirá alguna deformación, aunque sea imperceptible, que hace que cambien las posiciones relativas medias de sus átomos y moléculas. La deformación puede ser permanente o puede revertirse cuando desaparecen las fuerzas de compresión. En el último caso, la deformación da lugar a fuerzas de reacción que se oponen a las fuerzas de compresión y pueden eventualmente equilibrarlas. &#8203;

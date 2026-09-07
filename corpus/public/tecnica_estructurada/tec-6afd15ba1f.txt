@@ -1,0 +1,151 @@
+En matemáticas, un álgebra asociativa sobre un cuerpo (conmutativo) es una de las estructuras algebraicas utilizadas en álgebra abstracta. Es un espacio vectorial en el que también se define una multiplicación vectorial, que tiene las propiedades de bilinealidad (en particular de distributividad) y de asociatividad. En otras palabras, es tanto un álgebra asociativa como un álgebra sobre un cuerpo.
+
+Un álgebra asociativa 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ sobre un cuerpo 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+, también llamada álgebra asociativa 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+, es un espacio vectorial en 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ provisto con una multiplicación bilineal 
+ 
+ 
+ 
+ A
+ &#x00D7;
+ A
+ &#x2192;
+ A
+ 
+ 
+ {\displaystyle A\times A\to A}
+ 
+ tal que
+
+Si 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ contiene una unidad, es decir, un elemento 1 tal que (1 x = x = x 1) para todo x en 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+, entonces 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ se llama un álgebra asociativa unificada o unitaria. Tal álgebra es un anillo y contiene el campo base 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ identificando c en 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ con (c 1) en 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+.
+
+La dimensión de un álgebra asociativa 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ sobre un cuerpo 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ es su dimensión como espacio vectorial sobre 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+.

@@ -1,0 +1,9 @@
+El motor alimentado por bomba eléctrica es un motor de cohete bipropelente en el que las bombas de combustible funcionan con electricidad, por lo que todo el propulsor de entrada se quema directamente en la cámara de combustión principal y ninguno se desvía para conducir las bombas. Esto difiere de los diseños tradicionales de motores de cohetes, en los que las bombas son accionadas por una parte de los propulsores de entrada.
+
+Un motor de ciclo eléctrico utiliza bombas eléctricas para presurizar los propulsores desde un tanque de combustible de baja presión hasta los niveles de la cámara de combustión de alta presión, generalmente de 0,2 a 0,3 MPa a 10 a 20 MPa. Las bombas funcionan con un motor eléctrico, con electricidad de un banco de baterías.
+
+La bomba eléctrica se había utilizado en el sistema de propulsión secundario del vehículo de la etapa superior de Agena. &#8203;
+
+A partir de enero de 2018, los únicos motores de cohete que utilizan sistemas de bombas eléctricas de propulsión son el motor Rutherford, &#8203; nueve de los cuales alimentan el cohete Electron, &#8203; y el motor de cohete eléctrico alimentado por bomba utilizado en cohetes sonda desarrollado por Astra Space (anteriormente Ventions). &#8203; El 21 de enero de 2018, Electron fue el primer cohete alimentado por bomba eléctrica en alcanzar la órbita. &#8203;
+
+En comparación con los ciclos de cohetes turbobombados, como la combustión por etapas y el generador de gas, un motor de ciclo eléctrico tiene un rendimiento potencialmente peor debido a la mayor masa de baterías, pero puede tener menores costos de desarrollo y fabricación debido a su simplicidad mecánica, su falta de alta temperatura turbomaquinaria, y su facilidad de control. &#8203; Por el contrario, un motor de ciclo eléctrico puede tener un rendimiento significativamente mejor que los motores de cohete alimentados a presión y los motores de cohete propulsor sólido.

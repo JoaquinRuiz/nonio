@@ -1,0 +1,15 @@
+La cinemática de un robot es el estudio de los movimientos de un robot. En un análisis cinemático la posición, velocidad y aceleración de cada uno de los elementos del robot son calculados sin considerar las fuerzas que causan el movimiento. La relación entre el movimiento y las fuerzas asociadas son estudiadas en la dinámica de robots.
+
+El estudio de la cinemática de manipuladores se refiere a todas las propiedades geométricas y basadas en el tiempo del movimiento. Las relaciones entre los movimientos y las fuerzas y movimientos de torsión que lo ocasionan constituyen el problema de la dinámica.
+Un problema muy básico en el estudio de la manipulación mecánica se conoce como cinemática directa, que es el problema geométrico estático de calcular la posición y orientación del efector final del manipulador.
+ &#8203;
+
+Se denomina cinemática directa a una técnica usada en gráficos 3D por computadora, para calcular la posición de partes de una estructura articulada a partir de sus componentes fijas y las transformaciones inducidas por las articulaciones de la estructura.
+
+La cinemática directa se refiere al uso de ecuaciones cinemáticas para calcular la posición de su actuador final a partir de valores específicos denominado parámetros. Las ecuaciones cinemáticas de un robot son usadas en robots, juegos de computadoras y la animación. El proceso inverso que calcula el conjunto de parámetros a partir de una posición especifica del actuador final es la cinemática inversa.
+
+En una cadena serial, la solución siempre es única: dado un conjunto de vectores estos siempre corresponderán a una única posición del actuador.
+
+En una cadena paralela, la solución no es única: para esta un conjunto de coordenadas se tienen más de una posición final para el actuador.
+
+Un ejemplo típico de estructura jerárquica sobre el que realizar estos cálculos es un robot, formado por cuerpos rígidos enlazados por articulaciones. Se puede establecer un sistema de referencia fijo situado en la base del robot, y describir la localización de cada uno de los eslabones con respecto a dicho sistema de referencia. Una pieza rígida A depende jerárquicamente de otra B si, para alcanzar la parte fija de la estructura (base del robot) desde A, se debe pasar por B. Para calcular la posición de una pieza rígida de la estructura se deben calcular las posiciones de todas las piezas de las que depende. Bibliotecas gráficas de uso generalizado, como OpenGL, están diseñadas para facilitar estos cálculos y llevarlos a cabo eficientemente mediante pilas de matrices.

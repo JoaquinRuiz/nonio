@@ -1,0 +1,110 @@
+En termodinámica, un baño térmico es un sistema (S) cuya capacidad calorífica es tan grande que, cuando se halla en contacto con un sistema de prueba 
+ 
+ 
+ 
+ (
+ &#x03A3;
+ )
+ 
+ 
+ {\displaystyle (\Sigma )}
+ 
+, la temperatura de (S) permanece constante. Se trata de un sistema ideal que constituye una reserva infinita de energía.
+
+Sea (S) un baño térmico de volumen constante a temperatura 
+ 
+ 
+ 
+ 
+ T
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle T_{0}}
+ 
+. Si el baño térmico se pone en contacto con el sistema de prueba 
+ 
+ 
+ 
+ (
+ &#x03A3;
+ )
+ 
+ 
+ {\displaystyle (\Sigma )}
+ 
+, y recibe el calor elemental 
+ 
+ 
+ 
+ &#x03B4;
+ Q
+ 
+ 
+ {\displaystyle \delta Q}
+ 
+, la energía interna U del baño térmico varía según:
+
+conforme al primer principio de la termodinámica. Si el volumen del baño térmico permanece constante, se cumple:
+
+donde 
+ 
+ 
+ 
+ 
+ C
+ 
+ V
+ 
+ 
+ 
+ 
+ {\displaystyle C_{V}}
+ 
+ es la capacidad calorífica a volumen constante del baño térmico y 
+ 
+ 
+ 
+ d
+ 
+ T
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle dT_{0}}
+ 
+ su incremento de temperatura. De la definición capacidad calorífica a volumen constante se obtiene:
+
+Por lo tanto, para que el incremento de temperatura del baño térmico sea nulo, la capacidad térmica del baño térmico tiene que ser infinita:
+
+Dado que la capacidad térmica a volumen constante es una magnitud extensiva, el número de moles del baño térmico tiene que ser infinito:
+
+En la práctica, la condición para que un sistema (S) se considere un baño térmico respecto a otro 
+ 
+ 
+ 
+ (
+ &#x03A3;
+ )
+ 
+ 
+ {\displaystyle (\Sigma )}
+ 
+, radica en que el número de moles de (S) sea superior al número de moles de 
+ 
+ 
+ 
+ (
+ &#x03A3;
+ )
+ 
+ 
+ {\displaystyle (\Sigma )}
+ 
+ en varios órdenes de magnitud.

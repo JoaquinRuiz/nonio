@@ -1,0 +1,88 @@
+La solución del ejemplo anterior es conceptualmente correcta (da el resultado mediante una interpretación combinatoria) pero no es práctica ya que no proporciona realmente el número de formas en que se puede hacer la repartición. Para obtener la fórmula procedemos a usar la siguiente estratagema.
+
+Queremos dividir 10 objetos (los caramelos) en cuatro grupos. Para ello colocamos 10 objetos en línea e insertamos tres separadores para dividirlos en cuatro secciones. Por ejemplo, si representamos los caramelos con asteriscos y los separadores con barras, &#8203; los ejemplos mencionados serían:
+
+Y cualquier disposición de 10 asteriscos separados por tres barras (permitiendo grupos vacíos) corresponde a una forma de repartir y a su vez, a un multiconjunto:
+
+De esta forma, el número de formas de repartir corresponde al número de disposiciones de 13 símbolos, de los cuales: 10 son asteriscos y tres barras. Pero esto es precisamente el número de formas de elegir tres objetos de un conjunto con 13 (de las 13 disposiciones se están escogiendo cuales 3 serán barras) y por tanto el resultado (el número de ordenamientos) es 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 13
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ =
+ 286
+ 
+ 
+ {\displaystyle {\binom {13}{3}}=286}
+ 
+ formas.
+
+Este argumento se puede aplicar en general: repartir k objetos entre n personas, corresponde a formar multiconjuntos de tamaño k (los karamelos) escogidos de un conjunto con n (los niños), y a su vez esto puede enumerarse con una serie de k asteriscos y n-1 barras, que puede realizarse de 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ k
+ +
+ (
+ n
+ &#x2212;
+ 1
+ )
+ 
+ 
+ n
+ &#x2212;
+ 1
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ =
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ n
+ +
+ k
+ &#x2212;
+ 1
+ 
+ k
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\binom {k+(n-1)}{n-1}}={\binom {n+k-1}{k}}}
+ 
+ formas. Queda establecido así el siguiente teorema.

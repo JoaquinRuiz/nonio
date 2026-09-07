@@ -1,0 +1,137 @@
+En matemáticas, un coeficiente es un factor vinculado a un monomio. Dado un divisor del monomio, el coeficiente es el cociente del monomio por el divisor. Así el monomio es el producto del coeficiente y el divisor. Los diferentes coeficientes dependerán de la factorización del monomio.
+Este suele estar junto a la letra que acompaña a la fracción algebraica.
+Un coeficiente numérico es un factor constante de un objeto específico. Por ejemplo, en la expresión 9x , el coeficiente de x es 9. 
+En álgebra elemental, coeficientes numéricos de términos semejantes se agrupan para simplificar las expresiones algebraicas.
+
+El objeto puede ser cosas tales como una variable, un vector, una función, etc. En algunos casos, los objetos y los coeficientes están ordenados de la misma manera, dando lugar a expresiones tales como:
+
+donde an es el coeficiente de la variable xn para cada n = 1, 2, 3, …
+
+En un polinomio P(x) de una variable x, el coeficiente de x puede ordenar por k, dando por ejemplo:
+
+Para el mayor valor de k, donde ak ≠ 0, ak se denomina primer coeficiente de P, ya que la mayor parte de las veces, los polinomios se escriben a partir de la izquierda, con la mayor potencia de x. Así, por ejemplo, el primer coeficiente del polinomio:
+
+Importantes coeficientes en matemáticas incluyen los coeficientes binomiales que son los coeficientes en la declaración del teorema del binomio. Estos se pueden encontrar parcialmente con el triángulo de Pascal.
+Por ejemplo,
+
+El coeficiente 4 en los términos de x y - x y es conocido como el coeficiente binomial 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ n
+ b
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tbinom {n}{b}}}
+ 
+ o 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ n
+ c
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tbinom {n}{c}}}
+ 
+ (los dos tienen el mismo valor).
+
+En álgebra lineal, el primer coeficiente de una fila en una matriz es la primera entrada no nula en aquella fila. Así, por ejemplo, dado:
+
+El primer coeficiente de la primera fila es 1; 2 es el primer coeficiente de la segunda fila; 4 es el primer coeficiente de la tercera fila, y la última fila no tiene ningún coeficiente.
+
+Aunque los coeficientes con frecuencia sean vistos como constantes en el álgebra elemental, con mayor frecuencia suelen ser variables. Por ejemplo, las coordenadas 
+ 
+ 
+ 
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ ,
+ 
+ x
+ 
+ 2
+ 
+ 
+ ,
+ .
+ .
+ .
+ 
+ x
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (x_{1},x_{2},...x_{n})}
+ 
+ de un vector (física) v en un espacio vectorial con base 
+ 
+ 
+ 
+ {
+ 
+ e
+ 
+ 1
+ 
+ 
+ ,
+ 
+ e
+ 
+ 2
+ 
+ 
+ ,
+ .
+ .
+ .
+ 
+ e
+ 
+ n
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle \lbrace e_{1},e_{2},...e_{n}\rbrace }
+ 
+, son los coeficientes de los vectores de la base en la expresión

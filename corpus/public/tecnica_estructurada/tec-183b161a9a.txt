@@ -1,0 +1,87 @@
+El álgebra (del árabe: الجبر al-ŷabr ‘reintegración, recomposición’ &#8203; y obtención de datos &#8203;) es la rama de la matemática que estudia la combinación de elementos de estructuras abstractas acorde a ciertas reglas. &#8203; Originalmente esos elementos podían ser interpretados como números o cantidades, por lo que el álgebra en cierto modo originalmente fue una generalización y extensión de la aritmética. &#8203; &#8203; En el álgebra moderna existen áreas del álgebra que en modo alguno pueden considerarse extensiones de la aritmética (álgebra abstracta, álgebra homológica, álgebra exterior, etc.).
+
+El álgebra elemental difiere de la aritmética en el uso de abstracciones, como el uso de letras para representar números que son desconocidos o que pueden tomar muchos valores. Por ejemplo, en 
+ 
+ 
+ 
+ x
+ +
+ 2
+ =
+ 5
+ 
+ 
+ {\displaystyle x+2=5}
+ 
+ la letra 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+ es una incógnita, pero aplicando el opuesto se puede revelar su valor: 
+ 
+ 
+ 
+ x
+ =
+ 3
+ 
+ 
+ {\displaystyle x=3}
+ 
+. En 
+ 
+ 
+ 
+ E
+ =
+ m
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle E=mc^{2}\,}
+ 
+, las letras 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ 
+ y 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+ son variables, y la letra 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ 
+ es una constante, la velocidad de la luz en el vacío. El álgebra proporciona métodos para escribir fórmulas y resolver ecuaciones que son mucho más claros y fáciles que el antiguo método de escribir todo con palabras.
+
+La palabra álgebra también se utiliza en ciertas formas especializadas. Un tipo especial de objeto matemático en el álgebra abstracta se llama álgebra, y la palabra se utiliza, por ejemplo, en las frases álgebra lineal y topología algebraica.
+
+La palabra álgebra proviene del árabeالجبر &#8203; y cálculo de datos &#8203; del título del libro de principios del siglo IX Ilm al-jabr wa l-muqābala, La ciencia del restablecimiento y el equilibrio por el matemático y astrónomo Persa Muḥammad ibn Mūsā al-Khwārizmī. En su obra, el término al-jabr se refería a la operación de mover un término de un lado de una ecuación al otro, المقابلة al-muqābala "equilibrar" se refería a añadir términos iguales a ambos lados. Acortada a simplemente algeber o álgebra en latín, la palabra acabó entrando en la lengua inglesa durante el siglo XV, ya sea desde el español, el italiano o el latín medieval. Originalmente se refería al procedimiento quirúrgico de fijar huesos rotos o dislocados. El significado matemático se registró por primera vez (en inglés) en el siglo XVI. &#8203;
+
+A diferencia de la aritmética elemental, que trata de los números y las operaciones fundamentales, en álgebra -para lograr la generalización- se introducen además símbolos (usualmente letras) para representar parámetros (variables o coeficientes), o cantidades desconocidas (incógnitas); las expresiones así formadas son llamadas «fórmulas algebraicas», y expresan una regla o un principio general. &#8203; El álgebra conforma una de las grandes áreas de las matemáticas, junto a la teoría de números, la geometría y el análisis.

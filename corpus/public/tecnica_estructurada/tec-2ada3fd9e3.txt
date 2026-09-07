@@ -1,0 +1,106 @@
+En matemáticas, los coeficientes binomiales, números combinatorios o combinaciones son números estudiados en combinatoria que corresponden al número de formas en que se puede extraer subconjuntos a partir de un conjunto dado. Sin embargo, dependiendo del enfoque que tenga la exposición, se pueden usar otras definiciones equivalentes.
+
+Se tiene un conjunto con seis objetos diferentes {A, B, C, D, E, F}, de los cuales se desea escoger dos (sin importar el orden de elección). Existen 15 formas de efectuar tal elección:
+
+El número de formas de escoger k elementos a partir de un conjunto de n, puede denotarse de varias formas: &#8203; 
+ 
+ 
+ 
+ 
+ C
+ 
+ (
+ n
+ ,
+ k
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle C_{(n,k)}}
+ 
+, 
+ 
+ 
+ 
+ n
+ 
+ C
+ 
+ k
+ 
+ 
+ 
+ {\displaystyle n\,C\,k\,}
+ 
+, 
+ 
+ 
+ 
+ 
+ C
+ 
+ k
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle C_{k}^{n}\,}
+ 
+, 
+ 
+ 
+ 
+ 
+ C
+ 
+ n
+ 
+ 
+ k
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle C_{n}^{k}\,}
+ 
+, o 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ n
+ k
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {n \choose k}}
+ 
+.
+Así, en el ejemplo anterior se tiene entonces que C(6,2)=15, puesto que hay 15 formas de escoger 2 objetos a partir de un conjunto con seis elementos.
+
+Los números C(n,k) se conocen como «coeficientes binomiales», pero es frecuente referirse a ellos como «combinaciones de n en k», o simplemente «n en k». Por tanto, la primera definición es:
+
+Es importante notar que la definición asume implícitamente que n y k son naturales, y que además k no excede a n. Podemos definir C(n,k)=0 si k>n, puesto que no es posible escoger más elementos que los que tiene el conjunto dado (por tanto hay cero formas de hacer la elección). Estas precisiones cobrarán relevancia más adelante cuando se discutan generalizaciones del concepto (por ejemplo, cuando n o k sean negativos o cuando no sean números enteros).
+
+La definición combinatoria no permite calcular el valor de los coeficientes binomiales, salvo listando los subconjuntos y contándolos. Sin embargo, existe una fórmula explícita que nos proporciona el valor de C(n,k).
+
+Supongamos que el conjunto original tiene cinco elementos, de los cuales se deben escoger tres. Al momento de escoger el primero, se tiene cinco opciones disponibles, pero una vez fijo el primero, solo hay cuatro opciones para el segundo, y por tanto solo tres opciones para el último (pues no se puede repetir los escogidos en los primeros dos pasos). De este modo, la selección puede hacerse de 5×4×3=60 formas.
+
+Sin embargo, en tal conteo, el orden en que se escogen los elementos hace diferencia. Por ejemplo, tomar C, luego B, luego E, es una selección diferente de tomar B, luego C y luego E. Pero en la definición de coeficiente binomial, no importa el orden en que se eligen los objetos, únicamente cuáles se escogen. Por tanto, las elecciones BCE, BEC, CEB, CBE, ECB y EBC son todas equivalentes. Del mismo modo, las elecciones ABC, ACB, BCA, BAC, CAB y CBA son equivalentes, y así para cualquier terna de letras.

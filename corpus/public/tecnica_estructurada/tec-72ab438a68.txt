@@ -1,0 +1,302 @@
+Si todos los términos se escriben individualmente, se utiliza el símbolo "+" (leído más). Con esto, la suma de los números 1, 2 y 4 es 
+ 
+ 
+ 
+ 1
+ +
+ 2
+ +
+ 4
+ =
+ 7
+ 
+ 
+ {\displaystyle 1+2+4=7}
+ 
+.
+
+También se puede emplear el símbolo "+" cuando, a pesar de no escribirse individualmente los términos, se indican los números omitidos mediante puntos suspensivos y es sencillo reconocer los números omitidos. Por ejemplo:
+
+En sumas largas o infinitas se emplea un nuevo símbolo, llamado sumatorio, y se representa con la letra griega sigma mayúscula (Σ). Por ejemplo:
+
+Esta es una suma de una sucesión, cuyo enésimo término es la suma de los primeros n términos de la serie infinita; es decir, se suman todos los elementos de un conjunto infinito; sin embargo, en realidad se calcula el límite de todos los elementos que se suman y se calcula el límite matemático.
+
+Los sumandos se colocan en filas sucesivas ordenando las cifras en columnas, empezando por la derecha con la cifra de las unidades (U), a la izquierda las decenas (D), la siguiente las centenas (C), la siguiente los millares (M), etc.
+
+La suma de los números 750 + 1583 + 69 se ordenarían de la siguiente forma:
+
+M
+ 
+ 
+ C
+ 
+ 
+ D
+ 
+ 
+ U
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 5
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 1
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 2
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 3
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrr}&M&C&D&U\\&&7&5&0\\&1&5&8&3\\+&&&6&9\\\hline \end{array}}{\begin{array}{l}\\\longleftarrow 1^{\circ }\;{\textrm {sumando}}\\\longleftarrow 2^{\circ }\;{\textrm {sumando}}\\\longleftarrow 3^{\circ }\;{\textrm {sumando}}\\\end{array}}}
+
+Se suman en primer lugar las cifras de la columna de las unidades según las tablas elementales, colocando en el resultado la cifra de unidades que resulte; cuando estas unidades sean más de 10 las decenas se acumulan como un sumando más en la fila de acarreo.
+
+En este caso 3 más 9 son 12, el 2 del 12 se pone en la parte inferior y el 1 se pasa como acarreo en la columna siguiente.
+
+1
+ 
+ 
+ 
+ 
+ 
+ 
+ M
+ 
+ 
+ C
+ 
+ 
+ D
+ 
+ 
+ U
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 5
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ acarreo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 1
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 2
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 3
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrr}&&&1&\\&M&C&D&U\\&&7&5&0\\&1&5&8&3\\+&&&6&9\\\hline &&&&2\\\end{array}}{\begin{array}{l}{\color {Red}\longleftarrow {\textrm {acarreo}}}\\\\\longleftarrow 1^{\circ }\;{\textrm {sumando}}\\\longleftarrow 2^{\circ }\;{\textrm {sumando}}\\\longleftarrow 3^{\circ }\;{\textrm {sumando}}\\\\\end{array}}}
+
+En la columna de las decenas, procediendo entonces a la suma de esa columna como si fueran unidades.
+
+Sumamos el 1 del acarreo más 5, 8 y 6 que dan un total de 20, el 0 de 20 se pone en la parte inferior como resultado y el 2 se pasa como acarreo a la columna siguiente.

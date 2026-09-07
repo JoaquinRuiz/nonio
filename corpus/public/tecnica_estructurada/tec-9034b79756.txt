@@ -1,0 +1,225 @@
+En realidad, con esto los operadores de derivación definen una conexión de Galois antítona entre los retículos de conjuntos potencia de los conjuntos de objetos y los conjuntos de características. A la inversa, cualquiera de estas conexiones de Galois entre retículos de conjuntos potencia puede representarse como un par de operadores de derivación de un contexto formal.
+
+Para un contexto formal 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ un par 
+ 
+ 
+ 
+ (
+ A
+ ,
+ B
+ )
+ 
+ 
+ {\displaystyle (A,B)}
+ 
+ se denomina entonces un concepto formal &#8203; de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+, si se cumple:
+
+El conjunto 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ se denomina entonces extensión y el conjunto 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ 
+ intención (contenido) del concepto 
+ 
+ 
+ 
+ (
+ A
+ ,
+ B
+ )
+ 
+ 
+ {\displaystyle (A,B)}
+ 
+ . El conjunto de todos los conceptos se designa con 
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ 
+ (
+ 
+ K
+ 
+ )
+ 
+ 
+ {\displaystyle {\mathfrak {B}}(\mathbb {K} )}
+ 
+. Si se representan los contextos formales como tablas cruzadas, se pueden comprender los conceptos formales — existiendo un orden apropiado de los objetos y características — como rectángulos máximos completamente llenos en esa tabla cruzada.
+
+Finalmente, sean 
+ 
+ 
+ 
+ (
+ A
+ ,
+ B
+ )
+ ,
+ (
+ C
+ ,
+ D
+ )
+ &#x2208;
+ 
+ 
+ B
+ 
+ 
+ (
+ 
+ K
+ 
+ )
+ 
+ 
+ {\displaystyle (A,B),(C,D)\in {\mathfrak {B}}(\mathbb {K} )}
+ 
+, entonces con
+
+se puede definir un orden parcial 
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ 
+ (
+ 
+ K
+ 
+ )
+ 
+ 
+ {\displaystyle {\mathfrak {B}}(\mathbb {K} )}
+ 
+. Ese orden constituye entonces la estructura 
+ 
+ 
+ 
+ (
+ 
+ 
+ B
+ 
+ 
+ (
+ 
+ K
+ 
+ )
+ ,
+ &#x2264;
+ )
+ 
+ 
+ {\displaystyle ({\mathfrak {B}}(\mathbb {K} ),\leq )}
+ 
+ en un retículo completo. De hecho, a la inversa, según el teorema principal del análisis formal de conceptos, todo retículo completo es isomorfo respecto de un retículo de conceptos.
+
+Los retículos de conceptos pueden representarse como diagramas de orden (diagramas de líneas) y desplegar así los datos en su estructura y sus relaciones. En ellos, todos los objetos tienen características (unidas por los cantos); en el ejemplo que figura al lado es 4 un número par, compuesto, cuadrado.
+
+De manera matemáticamente más precisa se puede fundamentar primeramente la rotulación simplificada de retículos de conceptos. Si se considera para un objeto 
+ 
+ 
+ 
+ g
+ &#x2208;
+ G
+ 
+ 
+ {\displaystyle g\in G}
+ 
+ el conjunto de todos los conceptos que contienen 
+ 
+ 
+ 
+ g
+ 
+ 
+ {\displaystyle g}
+ 
+ en su extensión, entonces ese conjunto tiene un filtro principal en el retículo de conceptos. Por eso el objeto 
+ 
+ 
+ 
+ g
+ 
+ 
+ {\displaystyle g}
+ 
+ se registra solo debajo del concepto más pequeño, que contiene 
+ 
+ 
+ 
+ g
+ 
+ 
+ {\displaystyle g}
+ 
+ en la extensión. Dualmente, se registra la característica 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+ encima del concepto más grande que posee una característica dada 
+ 
+ 
+ 
+ m
+ &#x2208;
+ M
+ 
+ 
+ {\displaystyle m\in M}
+ 
+ en la intención (contenido). En el diagrama de orden, un concepto tiene entonces exactamente un objeto en su extensión cuando se encuentra por encima del concepto que está rotulado con el objeto. Correspondientemente, un concepto tiene, en el diagrama de orden, una característica en su intención (contenido) cuando está por debajo del concepto que está rotulado con esa característica.

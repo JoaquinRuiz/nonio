@@ -1,0 +1,158 @@
+Otra identidad muy famosa se refiere a la cantidad de subconjuntos que puede tener un conjunto dado. Esta identidad establece
+
+Frecuentemente, la demostración de la identidad se reduce a «sustituir x=1, y=1 en el teorema de Newton», aunque tal prueba impide entender la idea central detrás del resultado.
+
+Partamos de un conjunto de 5 elementos. La suma 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 0
+ 
+ 
+ )
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 1
+ 
+ 
+ )
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 4
+ 
+ 
+ )
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 5
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {5 \choose 0}+{5 \choose 1}+{5 \choose 2}+{5 \choose 3}+{5 \choose 4}+{5 \choose 5}}
+ 
+ cuenta el número total de subconjuntos posibles, ya que
+
+La veracidad de la identidad quedará establecida si al contar el número total de subconjuntos de una forma distinta, se obtiene que tal cantidad es 2 .
+
+Supongamos que el conjunto original es {A, B, C, D, E}. Cada subconjunto está en correspondencia con una serie de cinco opciones sí/no:
+
+Del mismo modo, dada una sucesión de cinco opciones sí/no, es posible recuperar el conjunto que le da origen:
+
+Por tanto, al corresponder cada subconjunto con una serie de sí/no, se tiene que el número de subconjuntos es igual al número de series posibles. Sin embargo, el número de formas de hacer cinco elecciones, cada una con dos opciones, es 2×2×2×2×2 = 2 .
+
+La prueba del caso general con conjuntos de cualquier tamaño es directa. Cada subconjunto corresponde a una sucesión de n opciones «sí/no», habiendo 2×2×···×2=2 diferentes sucesiones.
+
+Así como los coeficientes binomiales enumeran formas de tomar subconjuntos a partir de un conjunto dado, es posible plantear el problema de determinar el número de formas de escoger un multisubconjunto de un conjunto.
+
+Recordemos que en un multiconjunto es permitido repetir elementos aunque, al igual que en los conjuntos, el orden en que se mencionan es irrelevante.
+
+Para ilustrar el problema, consideremos el conjunto X={a, b, c, d}. Listemos todos los posibles multiconjuntos de tres elementos obtenidos del conjunto X. Para brevedad, indicaremos las letras como si fuesen una palabra:
+
+Se recalca que el orden no importa, por esto es que no se lista por ejemplo, aca ya que el multiconjunto {a, c, a} es el mismo que el multiconjunto {a, a, c}. Estas selecciones donde se permite repetición pero no se toma en cuenta el orden se denominan combinaciones con repetición.
+
+Así, del listado inicial podemos deducir que 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 4
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ =
+ 20
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \left(\!\!{4 \choose 3}\!\!\right)=20}
+ 
+. Antes de establecer una fórmula para el cálculo directo de combinaciones con repetición, plantearemos un ejemplo clásico de problema relacionado con multiconjuntos.

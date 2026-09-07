@@ -1,0 +1,382 @@
+El objetivo principal del análisis formal de conceptos es la representación de retículos completos a través de contextos formales. Además, permite también a la inversa el examen de datos en forma de contextos formales con herramientas de la teoría del orden. En esta sección se discuten las definiciones básicas para ello.
+
+Dados dos conjuntos 
+ 
+ 
+ 
+ G
+ ,
+ 
+ M
+ 
+ 
+ {\displaystyle G,\,M}
+ 
+ y una relación 
+ 
+ 
+ 
+ I
+ &#x2286;
+ G
+ &#x00D7;
+ M
+ 
+ 
+ {\displaystyle I\subseteq G\times M}
+ 
+. Entonces, el trío 
+ 
+ 
+ 
+ 
+ K
+ 
+ =
+ (
+ G
+ ,
+ M
+ ,
+ I
+ )
+ 
+ 
+ {\displaystyle \mathbb {K} =(G,M,I)}
+ 
+ se denomina contexto formal, &#8203; 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ 
+ conjunto de objetos y 
+ 
+ 
+ 
+ M
+ 
+ 
+ {\displaystyle M}
+ 
+ su conjunto de características; para un objeto 
+ 
+ 
+ 
+ g
+ &#x2208;
+ G
+ 
+ 
+ {\displaystyle g\in G}
+ 
+ y una característica 
+ 
+ 
+ 
+ m
+ &#x2208;
+ M
+ 
+ 
+ {\displaystyle m\in M}
+ 
+ significa 
+ 
+ 
+ 
+ (
+ g
+ ,
+ m
+ )
+ &#x2208;
+ I
+ 
+ 
+ {\displaystyle (g,m)\in I}
+ 
+ «el objeto 
+ 
+ 
+ 
+ g
+ 
+ 
+ {\displaystyle g}
+ 
+ tiene la característica 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+“. Frecuentemente se escribe también como 
+ 
+ 
+ 
+ g
+ 
+ 
+ I
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle g{\mathrel {I}}m}
+ 
+ en vez de 
+ 
+ 
+ 
+ (
+ g
+ ,
+ m
+ )
+ &#x2208;
+ I
+ 
+ 
+ {\displaystyle (g,m)\in I}
+ 
+. El conjunto 
+ 
+ 
+ 
+ I
+ 
+ 
+ {\displaystyle I}
+ 
+ se denomina relación de incidencia del contexto formal.
+
+Si los conjuntos 
+ 
+ 
+ 
+ G
+ 
+ 
+ {\displaystyle G}
+ 
+ y 
+ 
+ 
+ 
+ M
+ 
+ 
+ {\displaystyle M}
+ 
+ son finitos, entonces pueden los contextos formales representarse bien como «tablas cruzadas». Tómese en cuenta aquí que objetos y características pueden ordenarse de manera arbitraria en esta representación. Pero ese orden, entonces, no forma parte del contexto formal, sino solo de su representación.
+
+Sea 
+ 
+ 
+ 
+ A
+ &#x2286;
+ G
+ 
+ 
+ {\displaystyle A\subseteq G}
+ 
+ un conjunto de objetos de un contexto formal 
+ 
+ 
+ 
+ 
+ K
+ 
+ =
+ (
+ G
+ ,
+ M
+ ,
+ I
+ )
+ 
+ 
+ {\displaystyle \mathbb {K} =(G,M,I)}
+ 
+, entonces se denota con
+
+el conjunto de las características comunes de los objetos en 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+. Respectivamente, se define para un conjunto 
+ 
+ 
+ 
+ B
+ &#x2286;
+ M
+ 
+ 
+ {\displaystyle B\subseteq M}
+ 
+ de características de 
+ 
+ 
+ 
+ 
+ K
+ 
+ =
+ (
+ G
+ ,
+ M
+ ,
+ I
+ )
+ 
+ 
+ {\displaystyle \mathbb {K} =(G,M,I)}
+ 
+ el conjunto
+
+de todos los objetos que poseen todas las características de 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ 
+. Los conjuntos 
+ 
+ 
+ 
+ 
+ A
+ &#x2032;
+ 
+ 
+ 
+ {\displaystyle A'}
+ 
+ y 
+ 
+ 
+ 
+ 
+ B
+ &#x2032;
+ 
+ 
+ 
+ {\displaystyle B'}
+ 
+ se denominan «derivaciones» (Ableitungen/derivative) de los correspondientes conjuntos 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ y 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ 
+ y las funciones, designadas ambas con 
+ 
+ 
+ 
+ (
+ &#x22C5;
+ 
+ )
+ &#x2032;
+ 
+ 
+ 
+ {\displaystyle (\cdot )'}
+ 
+ , se denominan «operadores de derivación» 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+.
+
+Los operadores de derivación cumplen con una serie de propiedades fundamentales. Sean 
+ 
+ 
+ 
+ A
+ ,
+ 
+ 
+ A
+ 
+ 1
+ 
+ 
+ ,
+ 
+ 
+ A
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle A,\,A_{1},\,A_{2}}
+ 
+ conjuntos de objetos y 
+ 
+ 
+ 
+ B
+ ,
+ 
+ 
+ B
+ 
+ 1
+ 
+ 
+ ,
+ 
+ 
+ B
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle B,\,B_{1},\,B_{2}}
+ 
+ conjuntos de características, entonces:

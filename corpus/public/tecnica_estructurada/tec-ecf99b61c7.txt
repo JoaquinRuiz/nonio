@@ -1,0 +1,14 @@
+La Base de datos de Dortmund &#8203; (abreviado de sus siglas en inglés: DDB) es una base de datos para termodinámica y datos termofísicos. Su uso principal es el suministro de datos para la simulación de procesos donde los datos experimentales son la base para el diseño, análisis, síntesis y optimización de procesos químicos. La DDB se utiliza para ajustar parámetros para modelos termodinámicos como NRTL o UNIQUAC y para muchas ecuaciones diferentes que describen propiedades de componentes puros como, por ejemplo, la ecuación de Antoine para presiones de vapor. La BBDD también se utiliza para el desarrollo y revisión de métodos predictivos como UNIFAC y PSRK.
+
+Los bases de datos de mezclas contienen actualmente (abril de 2007) aproximadamente 308.000 conjuntos de datos con 2.157.000 puntos de datos para 10750 componentes que construyen 84870 sistemas/combinaciones binarios, ternarios y superiores diferentes.
+
+Las bases de datos de propiedades de componentes puros contiene actualmente (abril de 2007) unos 157.000 conjuntos de datos con 1.080.000 puntos de datos para 16700 componentes diferentes.
+Entalpía de vaporización
+
+La BBDD es una colección de datos experimentales publicados por los autores originales. Todos los datos están referenciados y un banco de datos de literatura bastante grande es parte de la BBDD, que actualmente contiene más de 92.000 artículos, libros, comunicaciones privadas, documentos depositados de Rusia (VINITI), de Ucrania] (Ukrniiti) y otros estados de la ex URSS, informes de empresas (principalmente de antiguas empresas de la RDA), tesis, patentes y contribuciones a conferencias.
+
+Las fuentes secundarias, como las recopilaciones de datos, normalmente se descuidan y sólo se utilizan como fuente de literatura. Los datos derivados tampoco se recopilan con la excepción principal del banco de datos azeotrópicos, que se construye en parte a partir de datos evaluados de equilibrio vapor-líquido.
+
+La base de datos de Dortmund fue fundado en los años 70 en la Universidad de Dortmund en Alemania. La razón original para iniciar la recolección de datos de equilibrio de fase vapor-líquido fue el desarrollo &#8203; del método de contribución de grupo UNIFAC que permite estimar las presiones de vapor de las mezclas.
+
+Desde entonces, la DDB se ha extendido a muchas otras propiedades y ha aumentado drásticamente en tamaño también gracias a la ayuda intensiva (alemana) del gobierno. La financiación ha terminado y el desarrollo y mantenimiento posteriores son realizados por DDBST GmbH, una empresa fundada por miembros de la cátedra de química industrial de la Universidad Carl von Ossietzky de Oldenburo, Alemania.

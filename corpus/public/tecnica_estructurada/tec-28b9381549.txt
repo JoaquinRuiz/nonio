@@ -1,0 +1,107 @@
+El producto cartesiano de dos conjuntos A y B es el conjunto C, C = A × B, donde los pares ordenados (a,b) están formados por un primer elemento perteneciente a A y un segundo elemento perteneciente a B.
+
+A
+ 
+ 
+ {\displaystyle A}
+ 
+×
+ 
+ 
+ 
+ B
+ =
+ {
+ (
+ a
+ ,
+ b
+ )
+ 
+ /
+ 
+ a
+ &#x2208;
+ A
+ &#x2227;
+ b
+ &#x2208;
+ B
+ }
+ 
+ 
+ {\displaystyle B=\{(a,b)/a\in A\land b\in B\}}
+
+Es la generalización del resultado de las uniones de un número arbitrario de conjuntos, es una técnica muy importante que se usa principalmente en los problemas de enumeración.
+
+Sucede por ejemplo cuando queremos encontrar un cardinal de la unión de dos conjuntos y para encontrar dicho número de la unión de dos conjuntos finitos A y B, hay que tener en cuenta que en A∪B cada elemento de A está solo una vez en A, pero no en B, y viceversa, pero hay algunos elementos que pueden pertenecer a A y a B a la vez, por lo tanto el principio de inclusión-exclusión se basa en restar a la unión de dos conjuntos finitos la intersección de ambos.
+
+En matemáticas, una identidad es cuando dos objetos que aparentemente son distintos por la forma en la que se representan, al final son lo mismo. Por lo tanto, una identidad es una igualdad entre dos expresiones, entre los conjuntos existen una serie de leyes de identidades, que les muestro a continuación:
+
+Las operaciones de unión y de intersección tienen la propiedad asociativa, por lo tanto si tenemos tres conjuntos A, B y C...
+
+La unión de esos tres conjuntos es otro conjunto D el cual contiene todos aquellos elementos que están al menos en uno de los conjuntos A, B o C. (A∪B∪C)
+
+Un elemento x pertenece a la unión de los conjuntos A, B y C si, y sólo si, x pertenece al conjunto A o x pertenece al conjunto B o x pertenece al conjunto C, por lo tanto: 
+ 
+ 
+ 
+ A
+ &#x222A;
+ B
+ &#x222A;
+ C
+ =
+ {
+ x
+ 
+ /
+ 
+ x
+ &#x2208;
+ A
+ &#x2228;
+ x
+ &#x2208;
+ B
+ &#x2228;
+ x
+ &#x2208;
+ C
+ }
+ 
+ 
+ {\displaystyle A\cup B\cup C=\{x/x\in A\lor x\in B\lor x\in C\}}
+
+La intersección de los conjuntos A, B y C queda como resultado otro conjunto D el cual tiene los elementos que están estrictamente en A, en B y en C. (A∩B∩C)
+
+Un elemento x pertenece a la intersección de los conjuntos A, B y C si, y sólo si, x pertenece al conjunto A, x pertenece al conjunto B y x pertenece al conjunto C, por lo tanto: 
+ 
+ 
+ 
+ A
+ &#x2229;
+ B
+ &#x2229;
+ C
+ =
+ {
+ x
+ 
+ /
+ 
+ x
+ &#x2208;
+ A
+ &#x2227;
+ x
+ &#x2208;
+ B
+ &#x2227;
+ x
+ &#x2208;
+ C
+ }
+ 
+ 
+ {\displaystyle A\cap B\cap C=\{x/x\in A\land x\in B\land x\in C\}}

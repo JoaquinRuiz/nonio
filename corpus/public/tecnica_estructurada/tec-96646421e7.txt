@@ -1,0 +1,420 @@
+El algoritmo estándar para multiplicar dos números enteros, requiere el aprendizaje previo de las tablas de multiplicar. La multiplicación se empieza desde la derecha, teniendo cuidado con la ley de los signos y con colocar las unidades de un orden bajo las unidades del mismo orden (unidades bajo unidades, decenas bajo decenas, centenas bajo centenas, etc.). Luego se suman los productos de cada cifra del segundo factor por todas las del primero.
+
+Se coloca el multiplicador debajo del multiplicando, haciendo coincidir las columnas de las unidades por la derecha.
+
+Conforme a las tablas elementales, se multiplica la cifra de unidades (4)del multiplicador por cada una de las cifras del multiplicando, empezando por las unidades (3) acarreando, en su caso, las decenas (4 × 3 = 12, acarreo de 1 unidad) como suma al resultado de la multiplicación de la cifra siguiente [(4 × 0) + 1 = 1), 1 de acarreo], continuándose de igual forma con las demás cifras del multiplicando (4103 × 4 = 16412). Consideramos esta línea como línea provisional.
+
+4
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 5
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrr}&&&4&1&0&3\\\times &&&&2&5&4\\\hline &&1&6&4&1&2\\\end{array}}}
+
+Se procede de igual forma con la cifra de las decenas del multiplicador con cada una de las cifras del multiplicando, si bien el resultado se escribe debajo de la fila anterior corriendo un lugar a la izquierda la cifra de las unidades. (4103 × 5 = 20515)
+
+4
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 5
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 0
+ 
+ 
+ 5
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrr}&&&4&1&0&3\\\times &&&&2&5&4\\\hline &&1&6&4&1&2\\&2&0&5&1&5&\\\end{array}}}
+
+4
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 5
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 0
+ 
+ 
+ 5
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ 8
+ 
+ 
+ 2
+ 
+ 
+ 0
+ 
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrr}&&&4&1&0&3\\\times &&&&2&5&4\\\hline &&1&6&4&1&2\\&2&0&5&1&5&\\&8&2&0&6&&\\\end{array}}}
+
+Finalmente se suman las cifras de cada una de las líneas provisionales, considerando los huecos de la derecha como ceros.
+
+4
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 5
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 0
+ 
+ 
+ 5
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ 8
+ 
+ 
+ 2
+ 
+ 
+ 0
+ 
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 4
+ 
+ 
+ 2
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrr}&&&4&1&0&3\\\times &&&&2&5&4\\\hline &&1&6&4&1&2\\&2&0&5&1&5&\\&8&2&0&6&&\\\hline 1&0&4&2&1&6&2\\\end{array}}}
+
+El resultado o Multiplicación es el que resulta de dicha suma (4103 × 254 = 1042162)
+
+En este ejemplo se utiliza la multiplicación larga de multiplicar 23&#160;958&#160;233 (multiplicando) por 5&#160;830 (multiplicador) y se llega al 139&#160;676&#160;498&#160;390 como resultado del producto.
+
+2
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 2
+ 
+ 
+ 3
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ Multiplicando
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ Multiplicador
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrrrrrrr}&&&&2&3&9&5&8&2&3&3\\\times &&&&&&&&5&8&3&0\\\hline \end{array}}{\begin{array}{l}\longleftarrow \;{\text{Multiplicando}}\\\longleftarrow \;{\text{Multiplicador}}\\\end{array}}}

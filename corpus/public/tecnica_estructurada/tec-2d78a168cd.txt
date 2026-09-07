@@ -1,0 +1,577 @@
+Sea 
+ 
+ 
+ 
+ 
+ K
+ 
+ =
+ (
+ G
+ ,
+ M
+ ,
+ I
+ )
+ 
+ 
+ {\displaystyle \mathbb {K} =(G,M,I)}
+ 
+ un contexto formal y 
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ &#x005F;
+ 
+ 
+ (
+ 
+ K
+ 
+ )
+ 
+ 
+ {\displaystyle {\underline {\mathfrak {B}}}(\mathbb {K} )}
+ 
+ su retículo de conceptos. Se pueden considerar para objetos 
+ 
+ 
+ 
+ g
+ &#x2208;
+ G
+ 
+ 
+ {\displaystyle g\in G}
+ 
+ y características 
+ 
+ 
+ 
+ m
+ &#x2208;
+ M
+ 
+ 
+ {\displaystyle m\in M}
+ 
+ los conceptos
+
+Se denomina 
+ 
+ 
+ 
+ &#x03B3;
+ (
+ g
+ )
+ 
+ 
+ {\displaystyle \gamma (g)}
+ 
+ al concepto de objeto de 
+ 
+ 
+ 
+ g
+ 
+ 
+ {\displaystyle g}
+ 
+ y 
+ 
+ 
+ 
+ &#x03BC;
+ (
+ m
+ )
+ 
+ 
+ {\displaystyle \mu (m)}
+ 
+ al concepto de característica de 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+. Además rige
+
+Sea, por último, 
+ 
+ 
+ 
+ 
+ 
+ L
+ &#x005F;
+ 
+ 
+ =
+ (
+ L
+ ,
+ 
+ &#x2264;
+ 
+ L
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle {\underline {L}}=(L,\leq _{L})}
+ 
+ un retículo completo, entonces 
+ 
+ 
+ 
+ 
+ 
+ L
+ &#x005F;
+ 
+ 
+ 
+ 
+ {\displaystyle {\underline {L}}}
+ 
+ entonces es isomorfo respecto de 
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ &#x005F;
+ 
+ 
+ (
+ 
+ K
+ 
+ )
+ 
+ 
+ {\displaystyle {\underline {\mathfrak {B}}}(\mathbb {K} )}
+ 
+, precisamente cuando existen aplicaciones 
+ 
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 
+ L
+ &#x005F;
+ 
+ 
+ 
+ &#x003A;
+ G
+ &#x2192;
+ L
+ ,
+ 
+ &#x03BC;
+ 
+ 
+ L
+ &#x005F;
+ 
+ 
+ 
+ &#x003A;
+ M
+ &#x2192;
+ L
+ 
+ 
+ {\displaystyle \gamma _{\underline {L}}\colon G\to L,\mu _{\underline {L}}\colon M\to L}
+ 
+ tales que rige
+
+En particular, 
+ 
+ 
+ 
+ 
+ 
+ L
+ &#x005F;
+ 
+ 
+ 
+ 
+ {\displaystyle {\underline {L}}}
+ 
+ es isomorfo respecto de 
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ &#x005F;
+ 
+ 
+ (
+ L
+ ,
+ L
+ ,
+ 
+ &#x2264;
+ 
+ L
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle {\underline {\mathfrak {B}}}(L,L,\leq _{L})}
+ 
+.
+
+Para un contexto formal 
+ 
+ 
+ 
+ 
+ K
+ 
+ =
+ (
+ G
+ ,
+ M
+ ,
+ I
+ )
+ 
+ 
+ {\displaystyle \mathbb {K} =(G,M,I)}
+ 
+ se puede estudiar su teoría de las implicaciones. Aquí una implicación de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ es simplemente un par 
+ 
+ 
+ 
+ (
+ A
+ ,
+ B
+ )
+ 
+ 
+ {\displaystyle (A,B)}
+ 
+ con 
+ 
+ 
+ 
+ A
+ ,
+ B
+ &#x2286;
+ M
+ 
+ 
+ {\displaystyle A,B\subseteq M}
+ 
+, lo suele denotarse como 
+ 
+ 
+ 
+ A
+ &#x2192;
+ B
+ 
+ 
+ {\displaystyle A\to B}
+ 
+. Se dice que 
+ 
+ 
+ 
+ A
+ &#x2192;
+ B
+ 
+ 
+ {\displaystyle A\to B}
+ 
+ rige en 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+, si todo objeto que posee todas las características de 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+, también posee todas las características de 
+ 
+ 
+ 
+ B
+ 
+ 
+ {\displaystyle B}
+ 
+, es decir, si también rige 
+ 
+ 
+ 
+ 
+ A
+ &#x2032;
+ 
+ &#x2286;
+ 
+ B
+ &#x2032;
+ 
+ 
+ 
+ {\displaystyle A'\subseteq B'}
+ 
+. Esta condición es equivalente a que rija 
+ 
+ 
+ 
+ B
+ &#x2286;
+ 
+ A
+ &#x2033;
+ 
+ 
+ 
+ {\displaystyle B\subseteq A''}
+ 
+.
+
+Sea 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+ un conjunto de implicaciones de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ y sea 
+ 
+ 
+ 
+ A
+ &#x2286;
+ M
+ 
+ 
+ {\displaystyle A\subseteq M}
+ 
+, entonces se designa con 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ (
+ A
+ )
+ 
+ 
+ {\displaystyle {\mathcal {L}}(A)}
+ 
+ el conjunto más pequeño que contiene 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ y que sea un conjunto cerrado bajo 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+. Aquí se entiende que un conjunto 
+ 
+ 
+ 
+ X
+ &#x2286;
+ M
+ 
+ 
+ {\displaystyle X\subseteq M}
+ 
+ es cerrado bajo 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+, si para todas las implicaciones siempre rige 
+ 
+ 
+ 
+ (
+ A
+ &#x2192;
+ B
+ )
+ &#x2208;
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle (A\to B)\in {\mathcal {L}}}
+ 
+ 
+ 
+ 
+ 
+ A
+ &#x2288;
+ X
+ 
+ 
+ {\displaystyle A\not \subseteq X}
+ 
+ o 
+ 
+ 
+ 
+ B
+ &#x2286;
+ X
+ 
+ 
+ {\displaystyle B\subseteq X}
+ 
+, es decir, cuando 
+ 
+ 
+ 
+ A
+ &#x2286;
+ X
+ 
+ 
+ {\displaystyle A\subseteq X}
+ 
+ implica siempre 
+ 
+ 
+ 
+ B
+ &#x2286;
+ X
+ 
+ 
+ {\displaystyle B\subseteq X}
+ 
+. Se observa entonces que la aplicación 
+ 
+ 
+ 
+ A
+ &#x2192;
+ 
+ 
+ L
+ 
+ 
+ (
+ A
+ )
+ 
+ 
+ {\displaystyle A\to {\mathcal {L}}(A)}
+ 
+ es un operador de cierre sobre el conjunto potencia 
+ 
+ 
+ 
+ M
+ 
+ 
+ {\displaystyle M}
+ 
+.

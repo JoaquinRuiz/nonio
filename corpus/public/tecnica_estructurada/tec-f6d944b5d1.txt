@@ -1,0 +1,13 @@
+Un conjunto parcialmente ordenado es localmente finito cuando cada intervalo cerrado [a, b] es finito. Para cada poset localmente finito y cada cuerpo de escalares hay un álgebra de incidencia, que es un álgebra asociativa definida como sigue. Los miembros del álgebra de incidencia son las funciones f que asigna a cada intervalo [a, b] un escalar f(a, b). En este conjunto subyacente se definen la adición y la multiplicación por escalar punto a punto, y la "multiplicación" en el álgebra de incidencia es una convolución definida por
+
+Un álgebra de incidencia es finito-dimensional si y solamente si el poset subyacente es finito.
+
+La función ζ de un álgebra de incidencia es la función constante ζ(a, b) = 1 para cada intervalo [a, b]. Se puede mostrar que ese elemento es inversible en el álgebra de incidencia (con respecto a la convolución definida arriba). (Generalmente, un miembro h del álgebra de incidencia es inversible si y solamente si h(x, x) ≠ 0 para cada x.) El inverso multiplicativo de la función ζ es la función de Möbius μ(a, b); cada valor de μ(a, b) es un múltiplo integral de 1 en el cuerpo base.
+
+Un poset es acotado si tiene menor y mayor elementos, que llamamos 0 y 1 respectivamente (no deben ser confundidos con el cero y el uno del cuerpo base. En este párrafo, tomamos Q). La característica de Euler de un poset finito acotado es μ(0,1); es siempre un número entero. Este concepto se relaciona con la clásica Característica de Euler de un complejo de grupos.
+
+Cualquier miembro de un álgebra de incidencia que asigna el mismo valor a cualesquiera dos intervalos que sean isomorfos el uno al otro como posets es un miembro del álgebra de incidencia reducida. Álgebras de incidencia reducidas iluminan la teoría de las funciones generatrices.
+
+Las álgebras de incidencia de posets localmente finitos fueron tratadas en un número de papers por Gian-Carlo Rota comenzando en 1964, y por muchos otros "combinatorialistas" posteriormente.
+
+On the Foundations of Combinatorial Theory I: Theory of Möbius Functions, Zeitschrift für Wahrscheinlichkeitstheorie und Verwandte Gebiete, volumen 2, páginas 340-368.

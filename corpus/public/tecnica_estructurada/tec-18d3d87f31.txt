@@ -1,0 +1,10 @@
+Un ángulo triedro es la unión de tres planos diedros y el ángulo poliedro formado por tres semirrectas o aristas. Se forman tres ángulos diedros y tres ángulos planos en un ángulo triedro.
+
+El triedro es un anguloide de tres caras; es el ángulo poliedro de menos caras que puede existir; convexo por naturaleza, no tiene planos diagonales. &#8203;
+
+La intersección de un triedro con una superficie esférica con el centro en su vértice es un triángulo esférico: 
+Los lados del triángulo a, b, c, son arcos de circunferencia máxima cuyas medidas coinciden con las de las respectivas caras del triedro. Los ángulos del triángulo son los correspondientes diedros del triedro.
+
+Un ángulo triedro puede tener uno, dos o tres ángulos rectos; en cuyo caso se llama ángulo triedro rectángulo, birrectángulo o trirrectángulo
+respectivamente.
+Un triedro trirrectángulo es el que tiene los tres diedros rectos, es decir, el que está formado por tres planos perpendiculares entre sí. Sus aristas son tres semirrectas perpendiculares entre sí, y por tanto, la intersección de sus lados son también ángulos rectos. El correspondiente triángulo esférico tiene los tres lados y los tres ángulos de 90°.

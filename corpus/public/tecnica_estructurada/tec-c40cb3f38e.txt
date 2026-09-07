@@ -1,0 +1,65 @@
+En 1654, Blaise Pascal entabló correspondencia con Pierre de Fermat sobre ciertos problemas de probabilidad, correspondencia que daría origen a su Traité du triangle arithmétique, considerado uno de los trabajos pioneros en el estudio moderno de la probabilidad. En ese trabajo, entre otras cosas, estudia lo que hoy se conoce como triángulo de Pascal que es un arreglo de números definido a continuación.
+
+Se tiene una cuadrícula rectangular en la cual se escribe el número 1 en las casillas del borde superior y el borde izquierdo:
+
+Los números de las demás casillas se obtienen con la siguiente regla: en cada casilla se escribe la suma de los valores de las dos casillas contiguas situadas a su izquierda y en la parte superior:
+
+La matriz es simétrica, por ello es común presentar el arreglo en forma triangular, con los bordes inclinados, tal como se ilustra en la figura. De esta forma, cada número es igual a la suma de los dos que se encuentran arriba del mismo.
+
+ya que solo hay una forma de escoger cero o todos los elementos de un conjunto dado. De esta forma, se pueden reescribir los bordes como:
+
+Cuando se listan las entradas de forma triangular como en la figura, es posible enunciar este resultado como
+
+La afirmación de que las entradas del triángulo de Pascal son precisamente los coeficientes binomiales, se basa en la siguiente identidad, conocida ahora como identidad de Pascal o teorema de Pascal.
+
+Si bien puede probarse el teorema de Pascal por medio de manipulaciones algebraicas de la fórmula con factoriales, una prueba puramente combinatoria es mucho más sencilla, proporcionando un ejemplo elegante del enfoque y técnicas de la combinatoria.
+
+Como ejemplo, se verificará el Teorema de Pascal cuando n=5, k=3. El lado izquierdo de la identidad cuenta el número de formas de escoger tres elementos a partir de un conjunto de cinco elementos. Supongamos ahora que el primer objeto se colorea de rojo y los demás azules. Al escoger los tres objetos, hay dos casos:
+
+Ambos casos cubren la totalidad de subconjuntos con tres elementos, por tanto su suma debe ser igual a 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {5 \choose 3}}
+ 
+.
+
+Para contar el primer caso, dado que el objeto rojo tiene que estar incluido, solo es necesario escoger dos objetos entre los cuatro azules restantes, lo cual puede efectuarse de 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 4
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {4 \choose 2}}
+ 
+ formas.

@@ -1,0 +1,18 @@
+En matemáticas una categoría abeliana es una categoría en la cual los morfismos tienen estructura de grupo abeliano, existen tanto núcleos y conúcleos y tienen propiedades deseables. El ejemplo usual de una categoría abeliana es la categoría de grupos abelianos Ab. La teoría tiene su origen como un intento de unificar varias teorías de cohomologia por Alexander Grothendieck. Las categorías abelianas son categorías muy estables, por ejemplo son regulares y satisfacen el lema de la serpiente. La clase de categorías abelianas es cerrada bajo varias construcciones categóricas, por ejemplo la categoría de complejos de cadenas de una categoría abeliana o la categoría de funtores de una categoría pequeña abeliana es una categoría abeliana, estas propiedades estables son inevitables en álgebra homológica, está teoría tiene sus mayores aplicaciones en geometría algebraica, cohomología
+y teoría de categorías.
+
+La estructura de grupo abeliano en cada conjunto de homomorfismos es una consecuencia de los tres axiomas de la primera definición, esto muestra la importancia fundamental de la categoría de grupos abelianos en la teoría y su naturaleza canónica.
+
+El concepto de sucesión exacta surge de manera natural en este entorno y da lugar al concepto de funtor exacto i.e. el funtor preserva sucesiones exactas, estos son los funtores que conciernen a las categorías abelianas. El concepto de exactitud ha sido axiomatizado en la teoría de categorías exactas formando un caso muy especial de categorías regulares.
+
+En su artículo de Tôhoku, Grothendieck enlisto cuatro axiomas adicionales (y sus duales) que una categoría abeliana A debería de cumplir. Estos axiomas. Son los siguientes:
+
+Los axiomas AB1) and AB2) también fueron dados. Estos son los que hacen de una categoría aditiva que sea abeliana. Específicamente son:
+
+Dado cualquier par de objetos A, B en una categoría abeliana existe un morfismo "especial", el morfismo cero de A a B. Esté puede ser definido como el único elemento cero del conjunto de homomorfismos Hom(A,B), ya que esté es un grupo abeliano.
+De forma alterna, puede ser definido como la única composición A → 0 → B, donde 0 es el objeto cero de la categoría.
+
+En una categoría abeliana, todo morfismo f se puede escribir como la composición de un epimorfismo seguido de un monomorfismo.
+Esté epimorfismo recibe el nombre de coimagen of f mientras que el monomorfismo es llamado la imagen de f.
+
+Toda categoría abeliana A es un módulo sobre la categoría monoidal de grupos abelianos finitamente generados, esto es, podemos formar el producto tensorial de un grupo abeliano finitamente generado G y cualquier objeto A de A.

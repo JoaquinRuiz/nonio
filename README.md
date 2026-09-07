@@ -67,6 +67,13 @@ Documentation and interface are in English; the measurement itself is calibrated
 Those are different things on purpose: a threshold measured on English text says nothing about
 Spanish, so Nonio abstains for languages it has not measured rather than extrapolating.
 
+## Documentation
+
+- [Known limitations](docs/limitations.md) — including ones the measurement
+  revealed and that have not been fixed
+- [Reproducibility](docs/reproducibility.md) — what a third party can and cannot
+  reproduce, and on what hardware the figures were measured
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).

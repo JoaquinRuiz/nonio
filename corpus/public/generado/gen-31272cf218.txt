@@ -1,0 +1,11 @@
+El sistema de riego de un huerto pequeño es un sistema eficiente y sostenible que garantiza el suministro adecuado de agua a las plantas, promoviendo su crecimiento y producción. A continuación, se detallan los principios básicos y componentes esenciales de este sistema:
+
+1. **Análisis del terreno y cálculo de necesidades hídricas**: Antes de instalar el sistema de riego, es fundamental evaluar el terreno, la topografía y las características del suelo. Esto permite determinar la cantidad de agua necesaria para cada planta y la distribución adecuada en el huerto. Una vez realizado el análisis, se calculan las necesidades hídricas diarias y se establecen las zonas de riego.
+
+2. **Sistema de irrigación por goteo**: Una de las soluciones más eficientes y adecuadas para huertos pequeños es el riego por goteo. Este sistema consiste en una red de tuberías o tubos flexibles, colocados a una altura razonable (generalmente entre 30 y 60 cm) y conectados a mangueras o goteles de spray. Las tuberías o tubos están distribuidos a lo largo de las banquetas o camas de cultivo, permitiendo un riego uniforme y preciso.
+
+3. **Regulador de flujo y control de presión**: Este componente es esencial para garantizar que el agua fluya a la velocidad adecuada y mantenga la presión constante en todo el sistema. Un regulador de flujo y un control de presión permiten ajustar la cantidad de agua que cada planta recibe, minimizando el desperdicio y maximizando la eficiencia.
+
+4. **Agua fuente y filtro**: El agua de riego debe provenir de una fuente confiable y limpia, como un suministro municipal o una cisterna. Antes de llegar a la red de tuberías, es recomendable instalar un filtro para eliminar posibles contaminantes y asegurar la calidad del agua.
+
+5. **Zona de entrada y distribución**: En este punto, el agua sale de la tubería principal y se distribuye a las diferentes zonas

@@ -1,0 +1,32 @@
+.specify
+CLAUDE.md
+AGENTS.md
+.claude/
+specs/
+plan.md
+tasks.md
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.benchmarks/
+
+# --- Universal ---
+.DS_Store
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# --- Nonio ---
+# Recursos de medición descargados: no se versionan (Artículo V, se obtienen con `nonio download`)
+models/
+# Corpus privado: cifras publicadas, textos no redistribuibles (FR-029)
+corpus/private/

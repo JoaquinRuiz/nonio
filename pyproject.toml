@@ -1,0 +1,66 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nonio"
+version = "0.1.0"
+description = "Instrumento de medida de señales estadísticas asociadas a la generación automática de texto"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+  "torch>=2.2",
+  "transformers>=4.40",
+  "markdown-it-py>=3.0",
+  "lxml>=5.0",
+  "py3langid>=0.3",
+  "pydantic>=2.6",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-benchmark>=4.0", "ruff>=0.4", "black>=24.0"]
+
+[project.scripts]
+nonio = "nonio.cli.main:app"
+
+[project.urls]
+Homepage = "https://github.com/JoaquinRuiz/nonio"
+
+# El corpus público viaja con el paquete: sin él, un tercero puede importar
+# evaluate() pero no tiene contra qué ejecutarlo (FR-022, SC-003).
+[tool.hatch.build.targets.wheel]
+packages = ["nonio"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"corpus/public" = "nonio/_corpus/public"
+"corpus/manifest.jsonl" = "nonio/_corpus/manifest.jsonl"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "SIM"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "contract: invariantes de contrato y constitucionales",
+  "integration: escenarios de quickstart.md de punta a punta",
+  "benchmark: medición de rendimiento (SC-006)",
+  "needs_models: requiere recursos de medición descargados",
+  "needs_corpus: requiere el corpus público ensamblado",
+]

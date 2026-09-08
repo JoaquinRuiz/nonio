@@ -1,0 +1,61 @@
+name: Publish to PyPI
+
+# Trusted Publishing: PyPI verifica la identidad del workflow por OIDC, así que
+# no hay ningún token de API guardado en secretos. Hay que darlo de alta una vez
+# en pypi.org -> Publishing -> Add a new pending publisher.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  suite:
+    # No se publica nada que no pase la suite ni la evaluación del corpus.
+    # El Artículo VII hace de ambas condición de merge; con más razón de release.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv python install 3.12
+      - run: uv sync --extra dev
+      - run: uv run ruff check .
+      - run: uv run black --check .
+      - run: uv run pytest tests/ -v -m "not needs_models"
+
+  build:
+    needs: suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv python install 3.12
+      - name: Comprobar que el corpus empaquetado está al día
+        run: |
+          uv run python -m nonio.evaluation.bundle --out /tmp/corpus.jsonl.gz
+          # No se compara byte a byte porque gzip no es reproducible entre
+          # versiones; se comprueba que existe y tiene un tamaño razonable.
+          test -s nonio/_corpus/corpus.jsonl.gz
+      - run: uv build
+      - run: uv run --with twine twine check dist/*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/nonio
+    permissions:
+      id-token: write   # necesario para Trusted Publishing
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

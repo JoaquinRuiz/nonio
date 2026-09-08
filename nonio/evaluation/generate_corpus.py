@@ -64,6 +64,7 @@ def generate(
     max_new_tokens: int = 600,
     seed: int = 0,
     skip_existing: bool = True,
+    manifest: Path | None = None,
 ) -> list[CorpusCase]:
     """Genera textos para la categoría `generado`.
 
@@ -73,6 +74,11 @@ def generate(
     nuevos, pasa una semilla distinta.
 
     `skip_existing` evita además reescribir un caso ya presente en disco.
+
+    Si se da `manifest`, cada caso se registra **en cuanto se escribe su fichero**,
+    no al terminar. Generar 50 textos tarda una hora y una interrupción a mitad
+    dejaba textos en disco sin licencia ni procedencia registradas — huérfanos que
+    el Artículo VII no admite en el corpus. Costó dos interrupciones descubrirlo.
     """
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -116,23 +122,33 @@ def generate(
                 print(f"  {cid} ya existe, se omite", file=sys.stderr)
                 continue
             (out_root / rel).write_text(text + "\n", encoding="utf-8")
-            cases.append(
-                CorpusCase(
-                    id=cid,
-                    category=CorpusCategory.GENERADO,
-                    text_path=rel,
-                    provenance=(
-                        f"Generado con {GENERATOR} (temp=0.9, top_p=0.95, "
-                        f"seed={seed + pi * 100 + k}); prompt: {prompt!r}"
-                    ),
-                    license=GENERATOR_LICENSE,
-                    redistributable=True,
-                    language="es",
-                    generator=GENERATOR,
-                )
+            caso = CorpusCase(
+                id=cid,
+                category=CorpusCategory.GENERADO,
+                text_path=rel,
+                provenance=(
+                    f"Generado con {GENERATOR} (temp=0.9, top_p=0.95, "
+                    f"seed={seed + pi * 100 + k}); prompt: {prompt!r}"
+                ),
+                license=GENERATOR_LICENSE,
+                redistributable=True,
+                language="es",
+                generator=GENERATOR,
             )
+            cases.append(caso)
+            if manifest is not None:
+                _registrar(manifest, caso)
             print(f"  {cid}  {len(text.split())} palabras", file=sys.stderr)
     return cases
+
+
+def _registrar(manifest: Path, caso: CorpusCase) -> None:
+    """Añade un caso al manifiesto de inmediato, sin esperar al final."""
+    from nonio.calibration.corpus import load_manifest
+
+    previos = {c.id: c for c in load_manifest(manifest)} if manifest.exists() else {}
+    previos[caso.id] = caso
+    write_manifest(manifest, list(previos.values()))
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -145,15 +161,13 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = ap.parse_args(argv)
 
-    cases = generate(args.out, n_per_prompt=args.n_per_prompt, seed=args.seed)
-    if args.manifest.exists():
-        from nonio.calibration.corpus import load_manifest
-
-        previos = {c.id: c for c in load_manifest(args.manifest)}
-        previos.update({c.id: c for c in cases})
-        cases = list(previos.values())
-    write_manifest(args.manifest, cases)
-    print(f"generado: {len(cases)} casos en total", file=sys.stderr)
+    cases = generate(
+        args.out,
+        n_per_prompt=args.n_per_prompt,
+        seed=args.seed,
+        manifest=args.manifest,
+    )
+    print(f"generado: {len(cases)} casos nuevos", file=sys.stderr)
     return 0
 
 

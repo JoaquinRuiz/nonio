@@ -1,0 +1,9 @@
+Arduino es una placa electrónica de hardware libre que utiliza un microcontrolador reprogramable con una serie de pines que permiten establecer conexiones entre el controlador y los diferentes sensores, es decir el "cerebro" de algún circuito o maquinaria. &#160;
+
+En un circuito se suele utilizar como fuente de alimentación y “puente” entre los diferentes componentes para lograr que interactúen entre ellos.
+
+En un cuerpo robótico deja de servir como fuente de alimentación y se convierte enteramente en el cerebro del cuerpo con ayuda de placas externas conocidas como shields (escudos).
+
+El núcleo del equipo de desarrollo de Arduino está formado por Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino, David Mellis y Nicholas Zambetti.
+
+Es posible comunicar una aplicación que corra sobre Arduino con otros dispositivos que corran otros lenguajes de programación y aplicaciones populares, &#8203; debido a que Arduino usa la transmisión de datos en serie, la cual es soportada por la mayoría de los lenguajes que se mencionan a continuación. Y para los que no soportan el formato serie de forma nativa, es posible utilizar software intermediario que traduzca los mensajes enviados por ambas partes para permitir una comunicación fluida. Algunos ejemplos de lenguajes son:

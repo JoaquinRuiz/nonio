@@ -1,0 +1,5 @@
+Una vez así ordenadas, reordenamos la parrilla ordenando las columnas de acuerdo con el orden alfabético de la palabra clave, esto es pasando de PALCO a ACLOP.
+
+Ya, lo único que nos falta es copiar el resultado, columna a columna, de arriba abajo, empezando por la primera y tenemos el mensaje listo para retransmitir. En el presente caso, para una mayor claridad, se insertará un espacio entre la transcripción de cada columna.
+
+La razón de la denominación ADFGVX para esta clave se debe a la elección de esas letras para dar nombre a líneas y columnas en la matriz de sustitución. El motivo de la elección de tales letras, en lugar de algo más sencillo como ABCDEF, reside en que debían ser retransmitidas por telégrafo o por radio de onda corta, en ambos casos, empleando el alfabeto Morse. En el alfabeto Morse, las letras A, D, F, G, V y X son muy distintas por lo que se reducía la probabilidad de errores de transmisión.

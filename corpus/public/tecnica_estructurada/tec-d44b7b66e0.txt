@@ -1,0 +1,7 @@
+El bus de direcciones es un canal del microprocesador totalmente independiente del bus de datos donde se establece la dirección de memoria del dato en tránsito.
+
+El bus de dirección consiste en el conjunto de líneas eléctricas necesarias para establecer una dirección. La capacidad de la memoria que se puede direccionar depende de la cantidad de bits que conforman el bus de direcciones, siendo 2 el tamaño máximo en bits del banco de memoria que se podrá direccionar con n líneas. Por ejemplo, para direccionar una memoria de 256 bits, son necesarias al menos 8 líneas, pues 2 = 256. Adicionalmente pueden ser necesarias líneas de control para señalar cuándo la dirección está disponible en el bus. Esto depende del diseño del propio bus.
+
+El bus de datos permite el intercambio de datos entre la CPU y el resto de unidades.
+
+Algunos diseños utilizan líneas eléctricas multiplexadas para el bus de direcciones y el bus de datos. Esto significa que un mismo conjunto de líneas eléctricas se comportan unas veces como bus de direcciones y otras veces como bus de datos, pero nunca al mismo tiempo. Una línea de control permite discernir cuál de las dos funciones está activa.

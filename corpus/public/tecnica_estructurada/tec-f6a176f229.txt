@@ -1,0 +1,11 @@
+En electrónica, un astable es un circuito multivibrador que no tiene ningún estado estable, lo que significa que posee dos estados inestables entre los que conmuta, permaneciendo en cada uno de ellos un tiempo determinado. Este tipo de circuitos fue desarrollado por Abraham y Bloch que lo denominaron "multivibrador" dado que la forma de onda de la oscilación vibra en múltiples frecuencias (la fundamental y los armónicos impares). La frecuencia de conmutación depende, en general, de la carga y descarga de condensadores. Entre sus múltiples aplicaciones se cuentan la generación de ondas periódicas (generador de reloj) y de trenes de pulsos.
+
+En la Figura 1 se muestra el esquema de un multivibrador astable realizado con componentes discretos. El funcionamiento de este circuito es el siguiente:
+
+Al aplicar la tensión de alimentación (Vcc), los dos transistores iniciarán la conducción, ya que sus bases reciben un potencial positivo a través de las resistencias R-2 y R-3, pero como los transistores no serán exactamente idénticos, por el propio proceso de fabricación y el grado de impurezas del material semiconductor, uno conducirá antes o más rápido que el otro.
+
+Supongamos que es TR-1 el que conduce primero. En estas condiciones el voltaje en su colector estará próximo a 0 voltios, por lo que C-1 comenzará a cargarse a través de R-2, creando al principio una muy pequeña diferencia de potencial entre sus placas y, por tanto, trasladando el voltaje próximo a 0 hasta la base de TR-2, que se pondrá en corte. Cuando el voltaje en C-1 alcance los 0,6 V, TR-2 comenzará a conducir, pasando la salida a nivel bajo (tensión próxima a 0V). C-2, que se había cargado vía R-4 y unión base-emisor de TR-1, se descargará ahora provocando el bloqueo de TR-1.
+
+C-2 comienza a cargarse vía R-3 y al alcanzar la tensión de 0,6 V provocará nuevamente la conducción de TR-1, la descarga de C-1, el bloqueo de TR-2 y el pase a nivel alto (tensión próxima a Vcc (+) de la salida Y).
+
+A partir de aquí la secuencia se repite indefinidamente, dependiendo los tiempos de conducción y bloqueo de cada transistor de las relaciones R-2/C-1 y R-3/C-2. Estos tiempos no son necesariamente iguales, por lo que pueden obtenerse distintos ciclos de trabajo actuando sobre los valores de dichos componentes.

@@ -1,0 +1,11 @@
+Un codificador es un circuito combinacional con 2 entradas y N salidas, cuya misión es presentar en la salida el código binario correspondiente a la entrada activada.
+
+Existen dos tipos fundamentales de codificadores: codificadores sin prioridad y codificadores con prioridad. En el caso de codificadores sin prioridad, puede darse el caso de salidas cuya entrada no pueda ser conocida: por ejemplo, la salida 0 podría indicar que no hay ninguna entrada activada o que se ha activado la entrada número 0. Además, ciertas entradas pueden hacer que en la salida se presente la suma lógica de dichas entradas, ocasionando mayor confusión. Por ello, este tipo de codificadores es usado únicamente cuando el rango de datos de entrada está correctamente acotado y su funcionamiento garantizado.
+
+Para evitar los problemas anteriormente comentados, se diseñan los codificadores con prioridad.En estos sistemas, cuando existe más de una señal activa, la salida codifica la de mayor prioridad (generalmente correspondiente al valor decimal más alto). Adicionalmente, se codifican dos salidas más: una indica que ninguna entrada está activa, y la otra que alguna entrada está activa. Esta medida permite discernir entre los supuestos de que el circuito estuviera deshabilitado por la no activación de la señal de capacitación, que el circuito no tuviera ninguna entrada activa, o que la entrada número 0 estuviera activada.
+
+También entendemos como codificador (códec), un esquema que regula una serie de transformaciones sobre una señal o información. Estos pueden transformar una señal a una forma codificada usada para la transmisión o cifrado o bien obtener la señal adecuada para la visualización o edición (no necesariamente la forma original) a partir de la forma codificada.
+
+En este caso, los codificadores son utilizados en archivos multimedia para comprimir audio, imagen o vídeo, ya que la forma original de este tipo de archivos es demasiado grande para ser procesada y transmitida por los sistema de comunicación disponibles actualmente. Se utilizan también en la compresión de datos para obtener un tamaño de archivo menor.
+
+Según esta nueva definición, podemos dividir los codificadores en códecs sin pérdidas y códecs con pérdidas, según si la información que se recupera coincide exactamente con la original o es una aproximación.

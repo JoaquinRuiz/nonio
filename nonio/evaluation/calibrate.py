@@ -41,11 +41,32 @@ class CaseMeasurement:
 
 
 def measure_cases(
-    cases: list[CorpusCase], root: Path, pair: LoadedPair, *, limit_per_category: int | None = None
+    cases: list[CorpusCase],
+    root: Path,
+    pair: LoadedPair,
+    *,
+    limit_per_category: int | None = None,
+    progress: bool = True,
 ) -> list[CaseMeasurement]:
+    """Mide el corpus. Informa de progreso: medir miles de textos tarda una hora
+    y un proceso opaco durante una hora es un proceso que nadie sabe si colgó."""
+    import sys
+    import time
+
     por_categoria: dict[CorpusCategory, int] = {}
     out: list[CaseMeasurement] = []
-    for case in cases:
+    total = len(cases)
+    t0 = time.time()
+    for i, case in enumerate(cases):
+        if progress and out and len(out) % 50 == 0 and i % 50 == 0:
+            hechos = len(out)
+            ritmo = (time.time() - t0) / max(1, hechos)
+            print(
+                f"  {hechos} medidos ({i}/{total} vistos)  "
+                f"{ritmo:.1f}s/texto  ETA {ritmo * (total - i) / 60:.0f} min",
+                file=sys.stderr,
+                flush=True,
+            )
         n = por_categoria.get(case.category, 0)
         if limit_per_category is not None and n >= limit_per_category:
             continue
@@ -104,6 +125,7 @@ def fit_table(
     corpus_version: str,
     min_words: int,
     target_fpr: float = 0.05,
+    reproducible: dict[str, bool] | None = None,
 ) -> CalibrationTable:
     """Ajusta umbral y calcula TPR/FPR por categoría.
 
@@ -139,7 +161,9 @@ def fit_table(
             tpr=round(rate if es_positiva else 0.0, 6),
             fpr=round(0.0 if es_positiva else rate, 6),
             n_samples=len(grupo),
-            reproducible=True,
+            # FR-029 / SC-003: una cifra del corpus privado no la puede
+            # reproducir un tercero, y debe viajar diciéndolo.
+            reproducible=(reproducible or {}).get(category.value, True),
         )
 
     return CalibrationTable(

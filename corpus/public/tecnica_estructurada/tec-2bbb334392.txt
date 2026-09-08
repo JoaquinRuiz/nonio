@@ -1,0 +1,72 @@
+La hidrogenación de arenos crea anillos saturados. El compuesto 1-naftol se reduce completamente a una mezcla de isómeros decalina -ol. &#8203;
+
+El compuesto resorcinol, hidrogenado con níquel Raney en presencia de hidróxido de sodio acuoso forma un enolato que se alquila con yoduro de metilo a 2-metil-1,3-ciclohexandiona:
+
+La reacción de cicloadición no es común. En la reacción de Wagner-Jauregg se puede encontrar una inusual reactividad térmica de Diels-Alder de los arenos. Otras reacciones de cicloadición fotoquímica con alquenos ocurren a través de excímeros.
+
+Los derivados de benceno tienen de uno a seis sustituyentes unidos al núcleo de benceno central. Ejemplos de compuestos de benceno con un solo sustituyente son el fenol, que lleva un grupo hidroxilo, y el tolueno con un grupo metilo. Cuando hay más de un sustituyente presente en el anillo, su relación espacial se vuelve importante para lo cual se diseñan los patrones de sustitución areno orto, meta y para. Por ejemplo, existen tres isómeros para el cresol porque el grupo metilo y el grupo hidroxilo pueden colocarse uno al lado del otro (orto), una posición separada entre sí (meta) o dos posiciones separadas entre sí (para). El xilenol tiene dos grupos metilo además del grupo hidroxilo y, para esta estructura, existen 6 isómeros.
+
+El anillo aromático tiene la capacidad de estabilizar cargas. Esto se ve, por ejemplo, en el fenol (
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ H
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ OH
+ 
+ 
+ 
+ {\displaystyle {\ce {C6H5OH}}}
+ 
+), que es ácido en el hidroxilo (
+ 
+ 
+ 
+ 
+ OH
+ 
+ 
+ 
+ {\displaystyle {\ce {OH}}}
+ 
+), ya que una carga de este oxígeno (alcóxido 
+ 
+ 
+ 
+ 
+ 
+ &#x2212;
+ 
+ 
+ O
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\ce {-O-}}}
+ 
+) se deslocaliza parcialmente en el anillo de benceno.
+
+Los hidrocarburos aromáticos policíclicos (HAP) son hidrocarburos aromáticos que consisten en anillos aromáticos fusionados y no contienen heteroátomos ni llevan sustituyentes. &#8203; El naftaleno es el ejemplo más simple de HAP. Los HAP se encuentran en depósitos de petróleo, carbón y alquitrán, y se producen como subproductos de la quema de combustibles (ya sean combustibles fósiles o biomasa). Como contaminantes, son motivo de preocupación porque algunos compuestos se han identificado como carcinógenos, mutagénicos y teratogénicos. Los HAP también se encuentran en alimentos cocidos. Los estudios han demostrado que se encuentran altos niveles de HAP, por ejemplo, en la carne cocinada a altas temperaturas, como asar a la parrilla o asar a la parrilla, y en el pescado ahumado. &#8203; &#8203; &#8203;
+
+También se encuentran en el medio interestelar, en los cometas y en los meteoritos y son una molécula candidata para actuar como base para las formas de vida más antiguas. En el grafeno, el motivo HAP se extiende a grandes hojas 2D.

@@ -1,0 +1,16 @@
+A principios de 2008, los cinco cofundadores del proyecto Arduino crearon la empresa Arduino LLC, cuyo propósito era englobar las marcas comerciales asociadas a las placas Arduino. &#8203; La fabricación y venta de las placas Arduino debía ser hecha por compañías externas, y Arduino LLC obtendría un royalty (comisión), de ellos. Los estatutos bajo los cuales se creó Arduino LLC especificaban que cada uno de los cinco fundadores originales transferirían la propiedad de la marca Arduino a la empresa recién formada (Arduino LLC). &#8203;
+
+A finales de 2008, la empresa de Gianluca Martino (Smart Projects), registró la marca Arduino en Italia y mantuvo esto en secreto de los otros co-fundadores durante un periodo aproximado de dos años. Esto fue descubierto cuando la compañía Arduino LLC intentó registrar la marca en otras partes del mundo (originalmente ellos se habían registrado solo en EE. UU.), encontrando que esta ya estaba registrada en Italia. Las negociaciones con Gianluca y su firma para poner la marca bajo control de la compañía Arduino LLC fallaron. En el año 2014, Smart Projects comenzó a negarse a pagar regalías. Luego nombraron a un nuevo CEO, Federico Musto, que renombró a la empresa Arduino SRL y creó el sitio web arduino.org, copiando los gráficos y el diseño del arduino.cc original. Esto resultó en una fractura en el equipo de desarrollo de Arduino. &#8203; &#8203; &#8203;
+
+En mayo de 2015, Arduino LLC creó la marca mundial Genuino, utilizada como marca fuera de los Estados Unidos.
+ &#8203;
+
+En julio de 2017, la nueva compañía BCMI LABS LLC fundada por Massimo Banzi, David Cuartielles, David Mellis y Tom Igoe, adquirió Arduino AG y todas las marcas registradas de Arduino. Fabio Violante se convirtió en el nuevo CEO que reemplazaría a Federico Musto, quien ya no trabajaría para Arduino AG.
+ &#8203;
+
+Durante la "World Maker Faire" en Nueva York del 1 de octubre de 2016, el cofundador y CEO de Arduino LLC (Massimo Banzi) y el CEO de Arduino SRL (Federico Musto), anunciaron la fusión de ambas compañías.
+ &#8203;
+
+Arduino es un hardware libre. Los diseños de referencia de hardware se distribuyen bajo licencia Creative Commons Attribution Share-Alike 2.5 y están disponibles en el sitio web de Arduino. Los esquemáticos y archivos de montaje de componentes (PCBs) para algunas versiones de placas también están disponibles.
+
+Aunque los diseños de hardware y software están disponibles bajo licencias de copyleft, los desarrolladores han solicitado que el nombre Arduino sea exclusivo del producto oficial y no se use para trabajos derivados sin antes solicitar permiso. El documento de política oficial sobre el uso del nombre Arduino enfatiza que el proyecto está abierto a incorporar el trabajo de otros en el producto oficial. &#8203;Varios productos compatibles con Arduino lanzados comercialmente han evitado incluir el nombre del proyecto Arduino en sus dispositivos al emplear nombres que terminan en «-duino». &#8203;

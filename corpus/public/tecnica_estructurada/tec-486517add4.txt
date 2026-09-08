@@ -1,0 +1,13 @@
+El objetivo de un sistema criptográfico es dotar de seguridad. Por tanto para calibrar la calidad de un sistema criptográfico es necesario evaluar la seguridad que aporta dicho sistema.
+
+Para poder evaluar mejor la seguridad de un sistema criptográfico, además de las verificaciones internas de seguridad que la organización haga, se puede considerar hacer público a todo el mundo los entresijos del sistema. Sin embargo, al hacer pública esa información se facilita el que alguien pueda descubrir alguna debilidad y la aproveche o incluso la haga pública para que otros la puedan utilizar. Cuanta más información se publique más fácil será encontrar debilidades tanto para buenos objetivos (mejorar el producto) como para malos (realizar ataques). En resumen cuanta más información se publique más personas podrán evaluar la seguridad y se podrán corregir las debilidades que se encuentren, pero también aumenta la exposición a ataques. En función de las decisiones que se tomen se establecerá una política de revelación.
+
+Se considera que la seguridad de un sistema criptográfico debe descansar sobre el tamaño de las claves utilizadas y no sobre el secreto del algoritmo. Esta consideración se formaliza en el llamado principio de Kerckhoffs. Esto no quiere decir que cuando usemos criptografía tengamos que revelar los algoritmos, lo que quiere decir es que el algoritmo tiene que ser seguro aunque este sea difundido. Evidentemente si un sistema criptográfico es seguro aun revelando su algoritmo, entonces será aún más seguro si no lo revelamos.
+
+A la política de revelación de no publicar ninguna información para que ningún atacante encuentre debilidades se le llama de no revelación y sigue una estrategia de seguridad por oscuridad. A la política de revelación de revelar toda la información se le llama revelación total. Entre ambos tipos de política de revelación hay estrategias intermedias, llamadas "de revelación parcial".
+
+Las personas o entidades interesadas en romper la seguridad de este tipo de sistemas tienen en cuenta todos estos frentes. Por ejemplo las informaciones de Edward Snowden revelan que el programa Bullrun adopta estos tres tipos de estrategias.
+
+Cuando se evalúa la seguridad de un sistema criptográfico se puede calibrar la seguridad que aporta en función de si este es seguro de forma incondicional o si es seguro sólo si se cumplen ciertas condiciones.
+
+Se dice que un sistema criptográfico tiene una seguridad incondicional sobre cierta tarea si un atacante no puede resolver la tarea aunque tenga infinito poder computacional. &#8203; En función de la tarea sobre la que se dice que el sistema criptográfico es incondicionalmente seguro, podemos hablar por ejemplo de:

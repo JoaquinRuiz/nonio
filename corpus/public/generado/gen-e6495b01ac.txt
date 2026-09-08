@@ -1,0 +1,17 @@
+Un sistema de riego eficiente y sostenible es fundamental para el éxito de un huerto pequeño. Este sistema permite mantener el suelo húmedo, promover el crecimiento de las plantas y reducir el desperdicio de agua. A continuación, describiremos los componentes básicos y la implementación de un sistema de riego para un huerto pequeño.
+
+1. **Análisis del terreno y del clima**: Antes de instalar un sistema de riego, es crucial evaluar el tipo de suelo (arcilla, suelo suelto, musgo, etc.) y el clima local (precipitaciones, temperaturas, vientos, etc.). Estas características determinarán la mejor técnica de riego y la elección de los equipos.
+
+2. **Selección del sistema**: Existen diversas opciones para los pequeños huertos, como:
+
+   - **Riego por goteo o a goteo**: Consiste en instalar tubos de enterrado con pequeños orificios (goteadores) que liberan agua directamente a la raíz de las plantas. Es una técnica eficiente y con bajo consumo de agua, adecuada para cultivos de alta demanda de agua, como tomates y hortalizas.
+
+   - **Riego por aspersión**: Utiliza bombas y mangueras para regar superficialmente el suelo. Es una opción rápida y fácil de instalar, pero puede generar riego superfluo y evaporación, lo que puede ser insostenible en climas áridos.
+
+   - **Riego por inundación**: Aunque no es ideal para los huertos pequeños debido a su bajo rendimiento y alto consumo de agua, puede ser una alternativa temporal en zonas con abundantes lluvias.
+
+3. **Diseño y instalación**:
+
+   - **Callejero de riego**: Planifique un patrón de tubos que cubra todo el huerto, permitiendo un riego equitativo y evitando encharcamientos.
+
+   - **Tubos de enterrado**: Elige tubos de PVC o polipropileno resistentes y flexibles, con un diámetro adecuado a la profundidad y ancho de los espacios entre las plantas.

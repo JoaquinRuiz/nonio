@@ -1,0 +1,11 @@
+El sistema de riego de un huerto pequeño es un elemento crucial para garantizar el crecimiento y la salud de las plantas, optimizando el uso del agua y promoviendo la eficiencia en el cultivo. A continuación, describiremos brevemente los pasos y principios fundamentales que subyacen a la implementación de un sistema de riego eficaz para un huerto doméstico.
+
+1. **Evaluación del huerto y selección del sistema**: Antes de iniciar, es esencial evaluar las características del espacio y las necesidades de riego de las plantas presentes. Los sistemas de riego pueden variar desde simples grifos manuales hasta complejos sistemas automatizados. Para un huerto pequeño, las opciones más comunes son:
+
+   a. **Irrigación por goteo**: Se trata de un sistema por bombas que suministra agua directamente a las raíces de las plantas a través de tuberías de drenaje o tubos de pvc. Los manguera de goteo ofrecen una distribución uniforme del agua, reduciendo la evaporación y el desperdicio de agua.
+
+   b. **Muro de sombra o muro de sombra**: En este sistema, el agua fluye por un canal o tubería colocado a una distancia moderada de las plantas, permitiendo que el suelo se evapore naturalmente. Es una opción sencilla y económica, adecuada para plantas con diferentes necesidades de riego.
+
+   c. **Riego por aspersión**: Este método consiste en colocar mangueras o aspersores sobre el huerto para suministrar agua de manera uniforme. Ideal para superficies planas y espacios abiertos, aunque puede resultar en mayor evaporación y desperdicio de agua.
+
+2. **Instalación y preparación del sistema**: Dependiendo del sistema elegido, la instalación implica la colocación de tuberías, mangueras, aspersores o mangueras de goteo, así como la configuración de bombas o grifos. Es importante asegurarse de que el sistema esté bien anclado y que las tuberías estén enterradas o protegidas para evitar daños durante ocasiones de llu

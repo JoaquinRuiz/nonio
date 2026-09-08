@@ -17,7 +17,9 @@ from nonio.backends.loader import (
 )
 from nonio.backends.profiles import Profile, profiles
 from nonio.backends.profiles import get_profile as load_profile
+from nonio.config_author import AuthorLinks, load_author_links
 from nonio.core import NONIO_VERSION, UnreadableInputError, analyze
+from nonio.report_html import render_html
 from nonio.schema.enums import AbstentionCause, CorpusCategory, Level
 from nonio.schema.export import SCHEMA_VERSION, output_schema
 from nonio.schema.models import Abstention, AnalysisResult, Block, Reading, Signal
@@ -41,6 +43,10 @@ __all__ = [
     "load_profile",
     "check_resources",
     "Profile",
+    # informes
+    "render_html",
+    "AuthorLinks",
+    "load_author_links",
     # contrato
     "output_schema",
     "SCHEMA_VERSION",

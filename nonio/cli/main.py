@@ -23,7 +23,15 @@ def _cmd_analyze(args) -> int:
     result = nonio.analyze(
         source, profile=args.profile, language=args.language, min_words=args.min_words
     )
-    if args.json:
+    if args.html:
+        texto = source if isinstance(source, str) else source.read_text(encoding="utf-8")
+        salida = nonio.render_html(result, text=texto)
+        if args.output:
+            Path(args.output).write_text(salida, encoding="utf-8")
+            print(f"informe escrito en {args.output}", file=sys.stderr)
+        else:
+            print(salida)
+    elif args.json:
         print(result.model_dump_json(indent=2))
     else:
         print(render(result))
@@ -116,6 +124,8 @@ def app() -> argparse.ArgumentParser:
     a = sub.add_parser("analyze", help="Analiza un fichero o la entrada estándar")
     a.add_argument("path", nargs="?", default="-")
     a.add_argument("--json", action="store_true")
+    a.add_argument("--html", action="store_true", help="Informe HTML autocontenido")
+    a.add_argument("-o", "--output", metavar="FICHERO", help="Escribe la salida a un fichero")
     a.add_argument("--profile")
     a.add_argument("--language", help="Fuerza el idioma; no autoriza a extrapolar umbrales")
     a.add_argument("--min-words", type=int)

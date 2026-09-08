@@ -198,6 +198,7 @@ def fit_table(
         min_words=min_words,
         corpus_version=corpus_version,
         per_category=per_category,
+        null_distributions=nulls,
     )
 
 

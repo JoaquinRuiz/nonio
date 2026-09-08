@@ -102,6 +102,13 @@ class CalibrationTable:
     min_words: int
     corpus_version: str
     per_category: dict[CorpusCategory, CategoryStats] = field(default_factory=dict)
+    #: Distribución nula de cada señal sobre la categoría de referencia. Sin ella
+    #: no se puede convertir un valor bruto en percentil, y sin percentil no hay
+    #: lectura: las escalas de las señales no son comparables entre sí ni entre
+    #: perfiles (R-009). Va en la tabla y no aparte porque pertenece a la misma
+    #: calibración: usar las nulas de un perfil con los umbrales de otro sería el
+    #: mismo error que R-003 prohíbe.
+    null_distributions: dict[str, list[float]] = field(default_factory=dict)
 
     # ---- Artículo VIII / R-003 -------------------------------------------------
 
@@ -197,6 +204,7 @@ class CalibrationTable:
                 "min_words": self.min_words,
                 "corpus_version": self.corpus_version,
                 "per_category": {k.value: asdict(v) for k, v in self.per_category.items()},
+                "null_distributions": self.null_distributions,
             },
             ensure_ascii=False,
             indent=2,
@@ -214,4 +222,5 @@ class CalibrationTable:
             per_category={
                 CorpusCategory(k): CategoryStats(**v) for k, v in raw["per_category"].items()
             },
+            null_distributions=raw.get("null_distributions", {}),
         )

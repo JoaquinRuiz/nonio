@@ -163,7 +163,10 @@ def analyze(
 
     measurement = measure(extraction.measurable_text, pair)
     category = match_category(raw, excluded_ratio=extraction.excluded_ratio)
-    nulls = getattr(table, "_nulls", {}) or {}
+    # Las nulas viajan en la tabla: sin ellas no hay percentil y sin percentil no
+    # hay lectura. Antes esto leía un atributo privado que nunca se rellenaba, con
+    # lo que analyze() se abstenía siempre aunque hubiera calibración.
+    nulls = table.null_distributions
 
     def _signals(start: int, end: int) -> list[Signal]:
         agg = measurement.aggregate(start, end)

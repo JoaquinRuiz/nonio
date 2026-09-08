@@ -58,8 +58,22 @@ def _assert_generator_is_foreign(generator: str) -> None:
 
 
 def generate(
-    out_root: Path, *, n_per_prompt: int = 4, max_new_tokens: int = 600, seed: int = 0
+    out_root: Path,
+    *,
+    n_per_prompt: int = 4,
+    max_new_tokens: int = 600,
+    seed: int = 0,
+    skip_existing: bool = True,
 ) -> list[CorpusCase]:
+    """Genera textos para la categoría `generado`.
+
+    `seed` desplaza toda la serie: ampliar el corpus con la misma semilla
+    reproduce los textos que ya existen —misma semilla, mismo texto, mismo hash—
+    y desperdicia el cómputo regenerando ficheros idénticos. Para añadir casos
+    nuevos, pasa una semilla distinta.
+
+    `skip_existing` evita además reescribir un caso ya presente en disco.
+    """
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
@@ -98,6 +112,9 @@ def generate(
 
             cid = f"gen-{hashlib.sha1(text.encode()).hexdigest()[:10]}"
             rel = f"{CorpusCategory.GENERADO.value}/{cid}.txt"
+            if skip_existing and (out_root / rel).exists():
+                print(f"  {cid} ya existe, se omite", file=sys.stderr)
+                continue
             (out_root / rel).write_text(text + "\n", encoding="utf-8")
             cases.append(
                 CorpusCase(
@@ -123,9 +140,12 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--out", type=Path, default=Path("corpus/public"))
     ap.add_argument("--manifest", type=Path, default=Path("corpus/manifest.jsonl"))
     ap.add_argument("--n-per-prompt", type=int, default=4)
+    ap.add_argument(
+        "--seed", type=int, default=0, help="Desplaza la serie para añadir casos nuevos"
+    )
     args = ap.parse_args(argv)
 
-    cases = generate(args.out, n_per_prompt=args.n_per_prompt)
+    cases = generate(args.out, n_per_prompt=args.n_per_prompt, seed=args.seed)
     if args.manifest.exists():
         from nonio.calibration.corpus import load_manifest
 

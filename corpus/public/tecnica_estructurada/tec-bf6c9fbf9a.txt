@@ -1,0 +1,392 @@
+De esta manera, si 
+ 
+ 
+ 
+ E
+ <
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle E<V_{0}}
+ 
+, el coeficiente de transmisión depende de la anchura de la barrera 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+ de forma exponencial
+
+T
+ =
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x223C;
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 2
+ 
+ k
+ 
+ 1
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle T={\frac {|C_{r}|^{2}}{|A_{r}|^{2}}}\sim {\frac {|B_{l}|^{2}}{|A_{r}|^{2}}}e^{-2k_{1}a}}
+
+Para obtener la dependencia con la energía, tenemos que resolver el sistema de ecuaciones (5), con el fin de relacionar 
+ 
+ 
+ 
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle B_{l}}
+ 
+ con 
+ 
+ 
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle A_{r}}
+ 
+.
+
+B
+ 
+ l
+ 
+ 
+ =
+ 
+ 
+ 
+ 2
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ 
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ &#x2212;
+ 
+ k
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle B_{l}={\frac {2ik_{0}}{ik_{0}-k_{1}}}A_{r}}
+
+T
+ &#x223C;
+ 
+ 
+ 
+ 4
+ 
+ k
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ k
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ +
+ 
+ k
+ 
+ 1
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 2
+ 
+ k
+ 
+ 1
+ 
+ 
+ a
+ 
+ 
+ =
+ 
+ 
+ 
+ 4
+ E
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 2
+ 
+ 
+ 2
+ m
+ (
+ 
+ V
+ 
+ 0
+ 
+ 
+ &#x2212;
+ E
+ )
+ 
+ /
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle T\sim {\frac {4k_{0}^{2}}{k_{0}^{2}+k_{1}^{2}}}e^{-2k_{1}a}={\frac {4E}{V_{0}}}e^{-2{\sqrt {2m(V_{0}-E)/\hbar ^{2}}}a}}
+
+En este caso 
+ 
+ 
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ =
+ 
+ 
+ 2
+ m
+ (
+ 
+ V
+ 
+ 0
+ 
+ 
+ &#x2212;
+ E
+ )
+ 
+ /
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle k_{1}={\sqrt {2m(V_{0}-E)/\hbar ^{2}}}}
+
+En este caso 
+ 
+ 
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ =
+ 
+ 
+ 2
+ m
+ (
+ E
+ &#x2212;
+ 
+ V
+ 
+ 0
+ 
+ 
+ )
+ 
+ /
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle k_{1}={\sqrt {2m(E-V_{0})/\hbar ^{2}}}}

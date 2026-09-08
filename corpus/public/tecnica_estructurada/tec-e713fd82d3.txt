@@ -1,0 +1,165 @@
+Así, se ha visto como se puede enviar dos bits clásicos a partir de la transmisión de un qubit de un sistema a otro mediante el proceso de codificación superdensa.
+
+La figura que se tiene a la derecha representa un circuito cuántico, simbolizando las operaciones seguidas en la codificación superdensa. La primera parte consiste en entrelazar los qubits de Alice y Bob, el cuál en este proceso ya se ha supuesto como condición inicial, pero se puede ver en el proceso de teleportación cuántica, aplicando un operador CNOT y de Hadamard. En la segunda parte Alice codifica los dos bits en un qubit, representado por los operadores 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ 
+ (el círculo en 
+ 
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle b_{2}}
+ 
+) y 
+ 
+ 
+ 
+ Z
+ 
+ 
+ {\displaystyle Z}
+ 
+ (el cuadrado en 
+ 
+ 
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle b_{1}}
+ 
+). Por último, una vez que Bob ya tiene los dos qubits, este realiza una puerta CNOT para desentrelazar los dos qubits, representada por la línea conectando los dos qubits, y una operador de Hadamard sobre el qubit de Alice (representado por el cuadrado con 
+ 
+ 
+ 
+ H
+ 
+ 
+ {\displaystyle H}
+ 
+). Los últimos dos cuadrados con un segmento de curva y una flecha atravesándolo se interpretan como una medida, obteniendo los bits que Alice quería enviar.
+
+Todo esto que se ha realizado ha sido para dos dimensiones, es decir, cuando tenemos bits y qubits. Pero se puede generalizar para N dimensiones, teniendo dits y qudits (que viene del inglés por ser d-dimensional), como por ejemplo, trits y qutrits. Para dos dimensiones, se tiene que las componentes de la base de dimensión 2 del espacio de Hilbert (que no la única base, si no la usual o canónica) son 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+, entonces, para N dimensiones, la base estará formada desde 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ hasta 
+ 
+ 
+ 
+ 
+ |
+ 
+ N
+ &#x2212;
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |N-1\rangle }
+ 
+.
+
+Entonces, si se tienen dos qudits, tendremos un espacio de 
+ 
+ 
+ 
+ 
+ N
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle N^{2}}
+ 
+ dimensiones (en el caso de dos qutrits, la dimensión es 9). Para codificación superdensa, el proceso descrito no cambia: Alice sigue haciendo ciertas operaciones sobre su qudit, en la base N-dimensional, para luego enviárselo a Bob, que aplicará los debidos operadores a los dos qudits en la base de 
+ 
+ 
+ 
+ 
+ N
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle N^{2}}
+ 
+ dimensiones, obteniendo los dos dits que Alice quería enviar.
+Destacar que, como no se está en 2 dimensiones, los operadores utilizados aquí (
+ 
+ 
+ 
+ C
+ N
+ O
+ T
+ ,
+ H
+ ,
+ X
+ ,
+ Y
+ ,
+ Z
+ 
+ 
+ {\displaystyle CNOT,H,X,Y,Z}
+ 
+) tendrán que ser redefinidos para cada dimensión.

@@ -1,0 +1,21 @@
+En Informática, la difusión amplia, difusión ancha o broadcast, es una forma de transmisión de información donde un nodo emisor envía información a una multitud de nodos receptores de manera simultánea, sin necesidad de reproducir la misma transmisión nodo por nodo.
+
+El protocolo IP en su versión 4 (IPv4) también permite la difusión de datos. En este caso no existe un medio de transmisión compartido, no obstante, se simula un comportamiento similar.
+
+La difusión en IPv4 no se realiza a todos los nodos de la red porque colapsarían las líneas de comunicaciones debido a que no existe un medio de transmisión compartido. Solamente es posible la difusión a subredes concretas dentro de la red, generalmente, aquellas bajo el control de un mismo enrutador. Para ello existen dos modalidades de difusión:
+
+Consiste en enviar un paquete de datos IP con la dirección 255.255.255. 0. Este paquete solamente alcanzará a los nodos que se encuentran dentro de la misma red física subyacente. En general, la red subyacente será una LAN o un segmento de la LAN
+
+La multidifusión utiliza un rango especial de direcciones denominado “rango de clase D”. Estas direcciones no identifican nodos sino redes o subredes.
+
+Cuando se envía un paquete con una dirección de multidifusión, todos los enrutadores intermedios se limitan a re-enviar el paquete hasta el enrutador de dicha subred. Este último se encarga de hacerlo llegar a todos los nodos que se encuentran en la subred.
+
+Aquella dirección que tiene todos y cada uno de los bits de la parte de dirección de máquina con valor 1 es una dirección de multidifusión. Por ejemplo, en una red 192.168.11.0/24, la dirección de broadcast es 192.168.11.255. El valor de host 255 en 192.168.11.255 se codifica en binario con sus ocho bits a 1: 11111111.
+
+La multidifusión se utiliza únicamente como experimento. Existe una propuesta de implementación de videoconferencia utilizando multidifusión, sin embargo, se han estandarizado otros mecanismos (H.323).
+
+La difusión en IPv6 ha demostrado tener bastante utilidad en la práctica. Por eso, la nueva versión 6 del Internet Protocol ha optado por otro esquema para simular la difusión:
+
+La multidifusión es sensiblemente distinta en IPv6 respecto a IPv4. Un paquete de multidifusión no está dirigido necesariamente a una red o subred, concepto que no existe en IPv6, sino a un grupo de nodos predefinido compuesto por cualquier equipo en cualquier parte de la red.
+
+El nodo emisor emite su paquete a una dirección de multidifusión como si se tratase de cualquier otro paquete. Dicho paquete es procesado por diversos enrutadores intermedios. Estos enrutadores utilizan una tabla de correspondencia que asocia cada dirección de multidifusión con un conjunto de direcciones reales de nodos. Una vez determinadas dichas direcciones, retransmite una copia del paquete a cada uno de los nodos interesados.

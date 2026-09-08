@@ -1,0 +1,147 @@
+La codificación superdensa es un proceso en el cual se pueden transmitir dos bits clásicos almacenados en un qubit entre dos posiciones mediante un canal cuántico. Se denomina superdensa porque podemos enviar en un solo qubit dos bits. En cierto sentido, la codificación superdensa se puede considerar como la operación "inversa" a la teleportación cuántica. Previamente, Alice y Bob deberán compartir un estado entrelazado. Para simplificar el proceso, el estado que comparten suele ser uno de los estados de la base de Bell.
+
+Para empezar, Alice aplicará el operador 
+ 
+ 
+ 
+ 
+ X
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ Z
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle X^{b_{2}}Z^{b_{1}}}
+ 
+ en función del par de bits 
+ 
+ 
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle b_{1}b_{2}}
+ 
+ que quiera enviar. El resultado de aplicar este operador será un estado que Alice enviará a Bob por un canal cuántico. Cuando Bob lo tenga, aplicará primero una puerta CNOT al qubit recibido de Alice y al suyo. Como es sabido, el operador CNOT aplicado a dos qubits hace que estos se entrelacen. Pero no solo eso, debido a que este operador es unitario, el operador inverso (el que desentrelaza) es el mismo operador CNOT. Por lo que aplicar este operador hará que los dos qubits se desentrelazen.
+
+Luego, Bob aplicará una puerta de Hadamard a los dos qubits (el qubit de Alice será el de control, el de Bob el target), que no es más que una rotación de ángulo 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+ sobre el eje 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ x
+ &#x005E;
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ z
+ &#x005E;
+ 
+ 
+ 
+ )
+ 
+ /
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle ({\hat {x}}+{\hat {z}})/{\sqrt {2}}}
+ 
+. Con esto, Bob obtendrá un estado de la forma 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |b_{1}b_{2}\rangle }
+ 
+, y solo tendrá que medir ambos qubits para obtener los dos bits clásicos 
+ 
+ 
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle b_{1}b_{2}}
+ 
+. &#8203;
+
+La criptografía cuántica es el uso de las propiedades de la mecánica cuántica para codificar y enviar información de forma segura. La teoría detrás de este proceso es el hecho de que es imposible medir un estado cuántico de un sistema sin perturbar al sistema. Esto se puede utilizar para detectar a un intruso que intente conseguir esta información.
+
+El método más frecuente de criptografía cuántica es el intercambio de claves cuánticas, que no es más que un método de comunicación seguro que implementa un protocolo criptográfico utilizando propiedades de la mecánica cuántica. Permite que dos sistemas (u observadores) produzcan una clave secreta aleatoria compartida que solo ellos conocen, que luego puede usarse para cifrar y descifrar mensajes.

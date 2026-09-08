@@ -1,0 +1,15 @@
+La longitud, el área y el volumen describen el tamaño o la extensión de un objeto en una dimensión, dos dimensiones y tres dimensiones, respectivamente. &#8203;
+
+En geometría euclidiana y geometría analítica, la longitud de un segmento de línea a menudo se puede calcular mediante el teorema de Pitágoras. &#8203;
+
+El área y el volumen pueden definirse como cantidades fundamentales separadas de la longitud, o pueden describirse y calcularse en términos de longitudes en un plano o espacio tridimensional. &#8203; Los matemáticos han encontrado muchas fórmulas explícitas para el área y fórmulas para el volumen de varios objetos geométricos. En cálculo , el área y el volumen se pueden definir en términos de integrales , como la integral de Riemann &#8203;o la integral de Lebesgue. &#8203;
+
+El concepto de longitud o distancia se puede generalizar, dando lugar a la idea de métricas. &#8203; Por ejemplo, la métrica euclidiana mide la distancia entre puntos en el plano euclidiano, mientras que la métrica hiperbólica mide la distancia en el plano hiperbólico. Otros ejemplos importantes de métricas incluyen la métrica de Lorentz de la relatividad especial y la métrica semirriemanniana de la relatividad general. &#8203;
+
+En otra dirección, los conceptos de longitud, área y volumen se amplían con la teoría de la medida, que estudia métodos de asignación de un tamaño o medida a conjuntos, donde las medidas siguen reglas similares a las del área y volumen clásicos. &#8203;
+
+La congruencia y la similitud son conceptos que describen cuando dos formas tienen características similares. &#8203; En la geometría euclidiana, la similitud se usa para describir objetos que tienen la misma forma, mientras que la congruencia se usa para describir objetos que son iguales tanto en tamaño como en forma. &#8203; Hilbert, en su trabajo sobre la creación de una base más rigurosa para la geometría, trató la congruencia como un término indefinido cuyas propiedades están definidas por axiomas.
+
+La congruencia y la similitud se generalizan en la geometría de transformación , que estudia las propiedades de los objetos geométricos que se conservan mediante diferentes tipos de transformaciones. &#8203;
+
+Los geómetras clásicos prestaron especial atención a la construcción de objetos geométricos que se habían descrito de alguna otra manera. Clásicamente, los únicos instrumentos permitidos en las construcciones geométricas son el compás y la regla. Además, cada construcción tenía que completarse en un número finito de pasos. Sin embargo, algunos problemas resultaron difíciles o imposibles de resolver solo por estos medios, y se encontraron ingeniosas construcciones utilizando parábolas y otras curvas, así como dispositivos mecánicos.

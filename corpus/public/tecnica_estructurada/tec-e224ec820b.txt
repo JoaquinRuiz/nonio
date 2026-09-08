@@ -1,0 +1,45 @@
+Un contraargumento es que la superposición de dos estados conscientes no es paradójica, así como no hay interacción entre los múltiples estados cuánticos de una partícula, por lo que las conciencias superpuestas no necesitan ser conscientes una de la otra. &#8203;
+
+Las diversas versiones de la interpretación de muchos mundos evitan la necesidad de postular que la conciencia causa el colapso; de hecho, que el colapso ocurre en absoluto.
+
+La tesis doctoral de Hugh Everett III "Formulación del estado relativo de la mecánica cuántica" &#8203; sirve como la base para muchas versiones actuales de los mundos múltiples interpretaciones. En la parte introductoria de su trabajo, Everett analiza el " drama divertido, pero extremadamente hipotético " de la paradoja del amigo de Wigner. Tenga en cuenta que hay evidencia de un dibujo del escenario en un borrador inicial de la tesis de Everett. &#8203; Por lo tanto, fue Everett quien proporcionó la primera discusión escrita del problema cuatro o cinco años antes de que se discutiera en "Comentarios sobre la cuestión de la mente y el cuerpo" &#8203; por Wigner, de quien recibió el nombre y la fama a partir de entonces. Sin embargo, como Everett es alumno de Wigner, está claro que deben haberlo discutido juntos en algún momento. &#8203;
+
+En contraste con su maestro Wigner, quien sostenía que la conciencia de un observador era responsable de un colapso, Everett entiende el escenario amigo de Wigner de una manera diferente: insistiendo en que las asignaciones de estados cuánticos deben ser objetivas y noperspectivas, Everett deriva una contradicción lógica directa cuando dejando la razón de 
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ 
+ y 
+ 
+ 
+ 
+ W
+ 
+ 
+ {\displaystyle W}
+ 
+ sobre el estado del laboratorio 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ 
+ juntos con 
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ 
+. Entonces, el escenario de Wigner's Friend le muestra a Everett una incompatibilidad del postulado del colapso para describir las mediciones con la evolución determinista de los sistemas cerrados. &#8203; En el contexto de su nueva teoría, Everett afirma resolver la paradoja del amigo de Wigner permitiendo sólo una evolución continua unitaria en el tiempo de la función de onda del universo. Las medidas se modelan como interacciones entre subsistemas del universo y se manifiestan como una ramificación del estado universal. Las diferentes ramas dan cuenta de los diferentes resultados de medición posibles y se considera que existen como experiencias subjetivas de los observadores correspondientes.
+
+Según las teorías del colapso objetivo, el colapso de la función de onda ocurre cuando un sistema superpuesto alcanza un cierto umbral objetivo de tamaño o complejidad. Los defensores del colapso objetivo esperarían que un sistema tan macroscópico como un gato colapsara antes de que se abriera la caja, por lo que la cuestión de la observación de los observadores no les surge. &#8203; Si el sistema medido fuera mucho más simple (como un estado de un solo giro), una vez que se realizó la observación, se esperaría que el sistema colapsara, ya que el sistema más grande del científico, el equipo y la sala se consideraría demasiado complejo para enredarse en la superposición.

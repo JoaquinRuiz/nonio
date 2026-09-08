@@ -1,0 +1,189 @@
+De primer orden en esta expansión, las condiciones sobre A y B pueden ser escritas.
+
+Si la amplitud varía con la suficiente lentitud en comparación con la fase (
+ 
+ 
+ 
+ 
+ A
+ 
+ 0
+ 
+ 
+ (
+ x
+ )
+ =
+ 0
+ 
+ 
+ {\displaystyle A_{0}(x)=0}
+ 
+), se deduce que:
+
+que sólo es válido cuando la energía total es mayor que la energía potencial, como es siempre el caso en movimiento clásico. Después que el mismo procedimiento sobre el siguiente orden de la expansión se deduce que:
+
+De otro lado, si se varía la fase que varía lentamente (en comparación con la amplitud), (
+ 
+ 
+ 
+ 
+ B
+ 
+ 0
+ 
+ 
+ (
+ x
+ )
+ =
+ 0
+ 
+ 
+ {\displaystyle B_{0}(x)=0}
+ 
+) entonces
+
+El cual es solo válido cuando la energía potencial es más grande que la energía total (el régimen en el que túnel cuántico ocurre). rectificando el siguiente orden en el campo de expansión.
+
+Se desprende del denominador, que ambas de las soluciones aproximadas divergen cerca del punto de inflexión clásico donde 
+ 
+ 
+ 
+ E
+ =
+ V
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle E=V(x)}
+ 
+ y no puede ser válida. Estas son las soluciones aproximadas lejos del valle del potencial y por debajo del valle del potencial. Lejos del valle del potencial, la partícula actúa similarmente a la fase-onde libre que está oscilando. Por debajo del valle de potencial, la partícula sufre cambios exponenciales en amplitud.
+
+Para completar la derivación, las soluciones aproximadas que se encuentran en todas partes y sus coeficientes emparejados se pueden utilizar para obtener una solución aproximada global. La solución aproximada cerca de los puntos de inflexión clásicos 
+ 
+ 
+ 
+ E
+ =
+ V
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle E=V(x)}
+ 
+ esta aún por ser encontrada.
+
+Para un punto clásico de inflexión 
+ 
+ 
+ 
+ 
+ x
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle x_{1}}
+ 
+ y cerca a 
+ 
+ 
+ 
+ E
+ =
+ V
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle E=V(x_{1})}
+ 
+, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ m
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ V
+ (
+ x
+ )
+ &#x2212;
+ E
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle {\frac {2m}{\hbar ^{2}}}\left(V(x)-E\right)}
+ 
+ puede ser expandida en series de potencias:
+
+Esta ecuación diferencial es conocida como la ecuación de Airy, y la solución puede ser escrita en términos de la función de Airy.
+
+Esta solución debe conectar lejos y por debajo del potencial con las soluciones. Dados los dos coeficientes en un lado del punto de inflexión clásico, los dos coeficientes en el otro lado del punto de inflexión clásico se pueden determinar mediante el uso de esta solución local para conectarlos. Por lo tanto, una relación entre 
+ 
+ 
+ 
+ 
+ C
+ 
+ 0
+ 
+ 
+ ,
+ &#x03B8;
+ 
+ 
+ {\displaystyle C_{0},\theta }
+ 
+ y 
+ 
+ 
+ 
+ 
+ C
+ 
+ +
+ 
+ 
+ ,
+ 
+ C
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ {\displaystyle C_{+},C_{-}}
+ 
+ puede ser encotnrada.

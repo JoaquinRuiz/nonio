@@ -1,0 +1,25 @@
+Esta operación permite particionar las SC(UE) obtenida en el Paso 1, en las sumas de cuadrados de las fuentes correspondientes al diseño experimental particular de donde se tomaron los datos.
+
+Es conveniente observar que las sumas de cuadrados "total" obtenidas con la 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+ en este Paso 2, corresponderán a la SC(UE) obtenida en el Paso 1.
+
+PASO 3. Para obtener el Análisis de Varianza (ANOVA) del diseño experimental con submuestreo, se combinan las sumas de cuadrados de los pasos 1 y 2 en una nueva tabla.
+Del Paso 2, se toman las Sumas de Cuadrados correspondientes al diseño particular; observe que la Suma de Cuadrados Total calculada en el paso 2, coincide con las SC(UE) calculada en el paso 1. Del Paso 1, se toman la Suma de Cuadrados del Error Muestral (SC(EM)) y la Suma de Cuadrados Total.
+Para hacer las pruebas de hipótesis sobre las fuentes de variación del diseño particular (esto es. tratamientos, bloques, filas, etc), se usará como denominador el cuadrado medio del error experimental obtenida en el Paso 2. Para hacer la prueba de hipótesis sobre el error experimental, se usará como denominado el Error de muestreo obtenido en el Paso 1.

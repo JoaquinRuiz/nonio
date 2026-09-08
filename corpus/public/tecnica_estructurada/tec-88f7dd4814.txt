@@ -1,0 +1,143 @@
+En geometría, el circuncentro de masas es un centro asociado con un polígono que comparte muchas de las propiedades del centro de masas. De forma general, el circuncentro de masas puede definirse para politopos simpliciales y también en las geometrías esféricas e hiperbólicas.
+
+En el caso especial de cuando el politopo es un cuadrilátero o hexágono, el circuncentro de masas se denomina "cuasicircuncentro" y se ha utilizado para definir una recta de Euler de un cuadrilátero. &#8203; &#8203; El circuncentro de masas también permite definir una recta de Euler para politopos simpliciales.
+
+Sea 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+ un polígono orientado (con vértices numerados anticíclicamente) en el plano, con vértices 
+ 
+ 
+ 
+ 
+ V
+ 
+ 1
+ 
+ 
+ ,
+ 
+ V
+ 
+ 2
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ V
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle V_{1},V_{2},\ldots ,V_{n}}
+ 
+ y sea 
+ 
+ 
+ 
+ O
+ 
+ 
+ {\displaystyle O}
+ 
+ un punto arbitrario que no se encuentre sobre las aristas (o sus extensiones). Considérese la triangulación de 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+ formada por los triángulos orientados 
+ 
+ 
+ 
+ O
+ 
+ V
+ 
+ i
+ 
+ 
+ 
+ V
+ 
+ i
+ +
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle OV_{i}V_{i+1}}
+ 
+ (el índice 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ 
+ tiene módulo 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+). Asóciese a cada uno de estos triángulos su circuncentro 
+ 
+ 
+ 
+ 
+ C
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle C_{i}}
+ 
+ con un peso igual a su área orientada (positivo si su secuencia de vértices es anticíclica; negativa de lo contrario). El circuncentro de masas de 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+ es el centro de masas de estos circuncentros ponderados. El resultado es independiente de la elección del punto 
+ 
+ 
+ 
+ O
+ 
+ 
+ {\displaystyle O}
+ 
+. &#8203;
+
+En el caso especial de un polígono cíclico, el circuncentro de masas coincide con el circuncentro.
+
+El circuncentro de masas satisface un análogo del Lema de Arquímedes, que establece que si un polígono se descompone en dos polígonos más pequeños, entonces el circuncentro de masas de ese polígono es una suma ponderada de los circuncentros de masas de los dos polígonos más pequeños. Como consecuencia, cualquier triangulación con triángulos no degenerados puede usarse para definir el circuncentro de masas.
+
+Para un polígono equilátero, el circuncentro de masas y el centro de masas coinciden. En términos más generales, el circuncentro de masas y el centro de masas coinciden para un politopo simplicial para el que cada cara tiene la suma de cuadrados de sus bordes constante. &#8203;
+
+El circuncentro de masas es invariante bajo la operación de "recorte" de polígonos, &#8203; y ante la transformación discreta bicíclica (Darboux); en otras palabras, la imagen de un polígono bajo estas operaciones tiene el mismo circuncentro de masas que el polígono original. La recta de Euler generalizada interviene en la teoría de sistemas integrables. &#8203;

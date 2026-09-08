@@ -1,0 +1,95 @@
+La caracterización de los átomos hidrogenoides se realiza en el marco de la mecánica cuántica, ya que debido a las dimensiones de dichos sistemas físicos ni la mecánica clásica que describe adecuadamente el movimiento de partículas macroscópicas a velocidades moderadas, ni el electromagnetismo clásico son aplicables a escalas tan pequeñas.
+Dentro de la mecánica cuántica una primera aproximación se obtiene mediante la ecuación de Schrödinger que predice cualitativamente todas las características importantes de los estados estacionarios de los átomos hidrogenoides y perimte obtener valores cuantitativos muy precisos para casi todas las magnitudes. Un refinamiento de este tratamiento es el análisis relativista mediante la ecuación de Dirac que predice pequeñas correcciones a las soluciones obtenidas del análisis no-relativista mediante la ecuación de Schrödinger.
+
+Los orbitales atómicos de los átomos hidrogenoides son las soluciones de la ecuación de Schrödinger para el caso de un potencial de simetría esférica. En este caso, el término de potencial es el potencial de la ley de Coulomb:
+
+V
+ (
+ r
+ )
+ =
+ &#x2212;
+ 
+ 
+ 1
+ 
+ 4
+ &#x03C0;
+ 
+ &#x03F5;
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Z
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle V(r)=-{\frac {1}{4\pi \epsilon _{0}}}{\frac {Ze^{2}}{r}}}
+
+Debido a que el potencial tiene simetría esférica es posible separar el movimiento del centro de masas del movimiento relativo entre electrón y núcleo. Así, el movimiento relativo se puede tratar como el movimiento de una partícula cuya masa es la masa reducida, 
+ 
+ 
+ 
+ &#x03BC;
+ 
+ 
+ {\displaystyle \mu }
+ 
+, del sistema. De esta manera, la función de onda es una función de sólo tres variables espaciales. Tras eliminar la dependencia temporal, la ecuación de Schrödinger es una ecuación en derivadas parciales de tres variables. Debido a que el potencial tiene simetría esférica es conveniente utilizar las coordenadas esféricas para obtener las soluciones, aplicando para ello el método de separación de variables. De esta forma cualquier autofunción ψ puede escribirse como un producto de tres funciones que suelen escribirse de la forma siguiente:
+
+&#x03C8;
+ (
+ r
+ ,
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ =
+ R
+ (
+ r
+ )
+ f
+ (
+ &#x03B8;
+ )
+ g
+ (
+ &#x03D5;
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \psi (r,\theta ,\phi )=R(r)f(\theta )g(\phi )\,\!}
+
+donde θ representa el ángulo polar (colatitud) y 
+ 
+ 
+ 
+ &#x03D5;
+ 
+ 
+ 
+ {\displaystyle \phi \,}
+ 
+ el ángulo azimutal.
+
+De acuerdo con la interpretación probabilística de la función de onda, esta deberá estar normalizada a 1, por lo que se añadirá una constante de normalización. El resto de la ecuación se separa entre la parte radial representada por la función de onda radial que incorporará la constante de normalización y la angular representada por los armónicos esféricos. Todas estas funciones serán dependientes de los tres números cuánticos antes citados, n, l y m. Así, se tiene lo siguiente:

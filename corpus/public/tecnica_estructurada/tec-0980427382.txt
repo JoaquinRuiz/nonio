@@ -1,0 +1,11 @@
+El algoritmo de Chang y Roberts &#8203; es un algoritmo de elección de líder/coordinador en un conjunto de procesos situados en anillo. Se aplica en sistemas distribuidos.
+
+En 1977 Le Lann propuso el primer algoritmo para la elección de líder en anillos unidireccionales de procesos. &#8203; Dos años más tarde, en 1979, Chang y Roberts proponen una mejora de ese primer algoritmo con la que logran reducir el número de mensajes generados para la misma tarea. El objetivo de su algoritmo es encontrar el mayor identificador entre el total de los procesos. Consiguen pasar de un orden O(n^2) a un orden de O(n log n) en el caso medio.
+
+En el caso peor, donde el proceso que resulta elegido como nuevo coordinador es el vecino anterior al proceso que da comienzo a la elección, se necesitan 3n-1 mensajes para encontrar el identificador mayor y comunicar el resultado de la elección a todos los procesos del anillo.
+
+La primera de las mediciones significativas del algoritmo propuesto por Chang y Roberts es el tiempo que se necesita para encontrar el identificador de proceso más alto.
+
+Para el análisis de tiempos se supone un conjunto de n procesos numerados de 1 a n dispuestos en anillo. El paso de mensajes es unidireccional y en el sentido de las agujas del reloj. El mensaje generado por el proceso i será identificado como mensaje i.
+
+Total: (n + (n-1) + (n-2) + … + 1) = (n(n+1))/2, es decir O(n^2).

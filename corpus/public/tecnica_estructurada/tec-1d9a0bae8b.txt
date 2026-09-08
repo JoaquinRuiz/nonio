@@ -1,0 +1,43 @@
+En geometría algebraica computacional y álgebra conmutativa computacional, el algoritmo de Buchberger es un método para transformar un conjunto dado de generadores de un ideal de polinomios en una base de Gröbner con respecto a algún orden monomial. Fue inventado por el matemático austríaco Bruno Buchberger &#8203;. Se puede ver como una generalización del algoritmo euclidiano para calcular el máximo común divisor y de la eliminación Gaussiana para sistemas lineales.
+
+A continuación se muestra una versión tosca de este algoritmo para encontrar una base para un ideal I de un anillo de polinomios R:
+
+Al polinomio Sij se le suele denominar el S-polinomio, donde S se refiere a sustracción (Buchberger) o sizigia (otros). El par de polinomios con que está asociado es comúnmente llamado par crítico.
+
+Hay numerosas maneras de mejorar el algoritmo. Por ejemplo, se puede reducir cada nuevo elemento de G con respecto de los demás antes de añadirlos. Si los términos líderes de fi y fj no tienen variables en común, entonces Sij siempre se reducirá a 0 (si solo se usan fi y fj en la reducción), luego no es necesario calcularlo todo.
+
+El algoritmo termina porque el ideal monomial generado por los términos líderes del conjunto F aumenta en cada iteración, y el Lema de Dickson (o el Teorema de la base de Hilbert) garantiza que cualquier cadena ascendente de este tipo se estabiliza (se acaba volviendo constante).
+
+La complejidad computacional del algoritmo de Buchberger es muy difícil de estimar, debido a la cantidad de elecciones que pueden cambiar drásticamente el tiempo de cálculo. No obstante, TW Dubé ha demostrado &#8203; que los grados de los elementos de una base de Gröbner reducida siempre están acotados por
+
+donde n es el número de variables y d es el grado total máximo de los polinomios de entrada. Esto permite, en teoría, utilizar álgebra lineal sobre el espacio vectorial de los polinomios de grado como mucho este valor, para obtener un algoritmo de complejidad 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ n
+ +
+ o
+ (
+ 1
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle d^{2^{n+o(1)}}}
+ 
+ .
+
+Por otro lado, hay ejemplos &#8203; donde la base de Gröbner contiene elementos de grado
+
+y el límite superior de complejidad anterior es óptimo. Sin embargo, estos ejemplos son extremadamente raros.
+
+Desde su descubrimiento, se han introducido muchas variantes de Buchberger para mejorar su eficiencia. Los algoritmos F4 y F5 de Faugère son actualmente los algoritmos más eficientes para calcular bases de Gröbner y permiten calcular de forma rutinaria bases de Gröbner que constan de cientos de polinomios, cada uno de los cuales con cientos de términos, a su vez con coeficientes de cientos de dígitos.

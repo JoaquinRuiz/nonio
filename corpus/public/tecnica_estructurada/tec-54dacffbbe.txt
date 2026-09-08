@@ -1,0 +1,301 @@
+En mecánica cuántica, la barrera de potencial finita es un problema modelo mono-dimensional que permite demostrar el fenómeno del efecto túnel. Para ello se resuelve la ecuación de Schrödinger independiente del tiempo para una partícula que incide sobre una barrera de potencial.
+
+Desde el punto de vista clásico, si la energía de la partícula es menor que la barrera siempre será reflejada, es decir, rebotada. Mientras que si la energía es mayor que la de la barrera siempre la pasará.
+
+El comportamiento cuántico esperado es muy diferente del clásico. De hecho sucede que cuánticamente hay siempre una probabilidad finita de que la partícula "penetre" la barrera y continúe viajando hacia el otro lado, incluso cuando la energía de la partícula es menor que la de la barrera. La probabilidad de que la partícula pase a través de la barrera viene dada por el coeficiente de transmisión, mientras que la probabilidad de que la partícula sea reflejada viene dada por el coeficiente de reflexión.
+
+H
+ &#x03C8;
+ (
+ x
+ )
+ =
+ 
+ [
+ 
+ &#x2212;
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 2
+ m
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 2
+ 
+ 
+ 
+ d
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ +
+ V
+ (
+ x
+ )
+ 
+ ]
+ 
+ &#x03C8;
+ (
+ x
+ )
+ =
+ E
+ &#x03C8;
+ (
+ x
+ )
+ ,
+ 
+ 
+ {\displaystyle H\psi (x)=\left[-{\frac {\hbar ^{2}}{2m}}{\frac {d^{2}}{dx^{2}}}+V(x)\right]\psi (x)=E\psi (x),}
+
+donde 
+ 
+ 
+ 
+ H
+ 
+ 
+ {\displaystyle H}
+ 
+ es el Hamiltoniano, 
+ 
+ 
+ 
+ &#x210F;
+ 
+ 
+ {\displaystyle \hbar }
+ 
+ es la constante de Planck reducida, 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+ es la masa de la partícula, 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ 
+ es la energía de la partícula y
+
+(1)
+ 
+ 
+ 
+ V
+ (
+ x
+ )
+ =
+ 
+ 
+ {
+ 
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ x
+ <
+ 0
+ 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ 0
+ &#x2264;
+ x
+ &#x2264;
+ a
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ x
+ >
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle V(x)={\begin{cases}0&{\mbox{si }}x<0\\V_{0}&{\mbox{si }}0\leq x\leq a\\0&{\mbox{si }}x>a\\\end{cases}}}
+
+es la barrera de potencial de altura 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ >
+ 0
+ 
+ 
+ {\displaystyle V_{0}>0}
+ 
+ y anchura 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+.
+
+(Una forma más elegante de expresar el potencial es en función de la función escalón de Heaviside, definida por
+
+ 
+ 
+ 
+ &#x0398;
+ (
+ x
+ )
+ =
+ 0
+ ,
+ 
+ x
+ <
+ 0
+ ;
+ 
+ &#x0398;
+ (
+ x
+ )
+ =
+ 1
+ ,
+ 
+ x
+ &#x2265;
+ 0
+ 
+ 
+ 
+ {\displaystyle \Theta (x)=0,\;x<0;\;\Theta (x)=1,\;x\geq 0\,}
+ 
+. Entonces, el potencial se expresa como 
+ 
+ 
+ 
+ V
+ (
+ x
+ )
+ =
+ 
+ V
+ 
+ 0
+ 
+ 
+ [
+ &#x0398;
+ (
+ x
+ )
+ &#x2212;
+ &#x0398;
+ (
+ x
+ &#x2212;
+ a
+ )
+ ]
+ 
+ 
+ 
+ {\displaystyle V(x)=V_{0}[\Theta (x)-\Theta (x-a)]\,}
+ 
+).
+Con esta elección del origen de coordenadas, la barrera se encuentra entre 
+ 
+ 
+ 
+ x
+ =
+ 0
+ 
+ 
+ {\displaystyle x=0}
+ 
+ y 
+ 
+ 
+ 
+ x
+ =
+ a
+ 
+ 
+ {\displaystyle x=a}
+ 
+. Sin embargo, es posible cualquier otra elección del origen de coordenadas sin que cambien los resultados.

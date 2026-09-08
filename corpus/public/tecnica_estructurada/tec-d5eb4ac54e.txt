@@ -1,0 +1,15 @@
+La aleatoriedad se asocia a todo proceso cuyo resultado no es previsible más que en razón de la intervención del azar; un ejemplo muy sencillo de un evento aleatorio es el lanzamiento de dados. El resultado de todo suceso aleatorio no puede determinarse en ningún caso antes de que este se produzca. El estudio de los fenómenos aleatorios queda dentro del ámbito de la teoría de la probabilidad y, en un marco más amplio, en el de la estadística.
+
+La palabra aleatorio se usa para expresar una aparente carencia de propósito, causa, u orden. En cambio, el término aleatoriedad se usa a menudo como sinónimo con un número de propiedades estadísticas medibles, tales como la carencia de tendencias o correlación, es decir, que no haya patrones que se puedan identificar.
+
+La especie humana se ha preocupado de la aleatoriedad y la imprevisibilidad aparejada desde tiempos prehistóricos. La creencia en la posibilidad de la adivinación (al leer mensajes siguiendo patrones aleatorios e imprevisibles), los juegos de azar y en parte la encomendación a deidades religiosas están conectadas con la preocupación por la imprevisibilidad y la aleatoriedad.
+
+En tiempos históricos, la contraposición entre libre albedrío y determinismo ha sido una cuestión ampliamente discutida en la filosofía y la teología desde hace milenios, y documentada desde muy antiguamente en numerosas culturas.
+
+A pesar de la prevalencia de los juegos en todas las épocas y culturas, por un largo período hubo una cierta investigación occidental sobre el tema, posiblemente debido a la desaprobación que la Iglesia católica mantenía en cuestiones de juegos y la adivinación. Si bien Gerolamo Cardano y Galileo escribieron sobre los juegos de azar, fueron Blaise Pascal, Pierre de Fermat y Christiaan Huygens quienes nos condujeron a lo que hoy se conoce como teoría de probabilidad.
+
+Los matemáticos se centraron primero en aleatoriedad estadística y consideraron frecuencias de bloque (es decir, no solo las frecuencias de ocurrencias de elementos individuales, sino también bloques de longitudes arbitrarias) como la medida de la aleatoriedad, un acercamiento que se prolongará hacia la entropía de la información en la teoría de la información.
+
+A principios de los años 60, Gregory Chaitin, Andréi Kolmogórov y Ray Solomonoff introdujeron la noción de aleatoriedad algorítmica, en la cual la aleatoriedad de una secuencia depende de si es posible comprimirla.
+
+En la investigación científica, la aleatoriedad es estudiada por la estadística y la teoría de la probabilidad. En física, la mecánica estadística y la teoría del caos han servido para construir modelos científicos para sistemas que presentan un alto grado de imprevisibilidad y aleatoriedad aparente.

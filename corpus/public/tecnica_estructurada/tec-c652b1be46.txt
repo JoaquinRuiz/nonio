@@ -1,0 +1,13 @@
+Se denomina región angular a cada una de las dos partes en que queda dividido el plano por un ángulo. &#8203;
+
+Los ángulos se pueden medir mediante utensilios tales como el goniómetro, el cuadrante, el sextante, la ballestina, el transportador de ángulos o semicírculo graduado, graduador, etc.
+
+Aunque la definición de la medida de un ángulo no respalda el concepto de ángulo negativo, con frecuencia es útil imponer una convención que permita que los valores angulares positivos y negativos representen orientaciones y / o rotaciones en direcciones opuestas con respecto a alguna referencia.
+
+En un sistema de coordenadas cartesiano bidimensional, un ángulo se define típicamente por sus dos lados, con su vértice en el origen. El lado inicial está en el eje "x" positivo, mientras que el otro lado o lado terminal está definido por la medida del lado inicial en radianes, grados o vueltas. Con ángulos positivos que representan rotaciones hacia el eje "y" positivo y ángulos negativos que representan rotaciones hacia el eje "y" negativo. Cuando las coordenadas cartesianas están representadas por la posición estándar, definida por el eje "x" hacia la derecha y el eje "y" eje hacia arriba, las rotaciones positivas son en sentido antihorario y las rotaciones negativas son en sentido horario.
+
+En muchos contextos, un ángulo de -θ es efectivamente equivalente a un ángulo de "una vuelta completa menos θ". Por ejemplo, una orientación representada como -45 ° es efectivamente equivalente a una orientación representada como 360° -45 ° o 315°. Aunque la posición final es la misma, una rotación física (movimiento) de -45° no es lo mismo que una rotación de 315° (por ejemplo, la rotación de una persona sosteniendo una escoba descansando sobre un piso polvoriento dejaría huellas visualmente diferentes de regiones barridas en el suelo).
+
+En la geometría tridimensional, "en el sentido de las agujas del reloj" y "en el sentido contrario a las agujas del reloj" no tienen un significado absoluto, por lo que la dirección de los ángulos positivos y negativos debe definirse en relación con alguna referencia, que suele ser un vector que pasa por el vértice del ángulo y es perpendicular al plano en donde se encuentran los rayos del ángulo.
+
+En la navegación, los rumbos o acimut se miden en relación con el norte. Por convención, visto desde arriba, los ángulos de orientación son positivos en el sentido de las agujas del reloj, por lo que una orientación de 45° corresponde a una orientación noreste. Los rumbos negativos no se utilizan en la navegación, por lo que una orientación noroeste corresponde a un rumbo de 315°.

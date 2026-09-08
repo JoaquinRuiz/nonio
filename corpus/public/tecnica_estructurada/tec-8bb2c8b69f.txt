@@ -1,0 +1,159 @@
+entrega todas aquellas tuplas que están en R, pero no en S.
+R y S deben ser uniones compatibles.
+
+Estas operaciones son fundamentales en el sentido en que (1) todas las demás operaciones pueden ser expresadas como una combinación de éstas y (2) ninguna de estas operaciones pueden ser omitidas sin que con ello se pierda información.
+
+La intersección, como en Teoría de conjuntos, corresponde al conjunto de todas las tuplas que están en R y en S, siendo R y S uniones compatibles.
+
+La operación unión natural en el álgebra relacional es la que permite reconstruir las tablas originales previas al proceso de normalización. Consiste en combinar las proyección, selección y producto cartesiano en una sola operación, donde la condición 
+ 
+ 
+ 
+ &#x03B8;
+ 
+ 
+ {\displaystyle \theta }
+ 
+ es la igualdad Clave Primaria = Clave Externa (o Foránea), y la proyección elimina la columna duplicada (clave externa).
+
+Supongamos que tenemos dos relaciones A(x, y) y B(y) donde el dominio de y en A y B, es el mismo.
+
+El operador división A / B retorna todos los valores de x tales que para todo valor y en B existe una tupla 
+ 
+ 
+ 
+ &#x27E8;
+ x
+ ,
+ y
+ &#x27E9;
+ 
+ 
+ {\displaystyle \langle x,y\rangle }
+ 
+ en A.
+
+Permite agrupar conjuntos de valores en función de un campo determinado y hacer operaciones con otros campos.
+
+Primero, realizaremos una combinación entre alumnos y apoderados (pues necesitamos saber a que alumno le corresponde tal apoderado). La combinación realizará un producto cartesiano, es decir, para cada tupla de alumnos (todas las filas de alumnos) hará una mezcla con cada una tupla de apoderados y seleccionará aquellas nuevas tuplas en que alumnos.id sea igual a apoderados.id_alumno, esto es:
+
+Ahora, aquí debemos mostrar solo el nombre del alumno y el nombre del apoderado, esto lo hacemos con un Proyect o Proyección, donde la tabla final sería:
+
+&#x03A0;
+ 
+ A
+ l
+ u
+ m
+ n
+ o
+ s
+ .
+ N
+ O
+ M
+ B
+ R
+ E
+ ,
+ A
+ p
+ o
+ d
+ e
+ r
+ a
+ d
+ o
+ s
+ .
+ N
+ O
+ M
+ B
+ R
+ E
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{Alumnos.NOMBRE,Apoderados.NOMBRE}{\big (}}
+ 
+Alumnos 
+ 
+ 
+ 
+ &#x22C8;
+ 
+ 
+ {\displaystyle \bowtie }
+ 
+
+ 
+ 
+ A
+ l
+ u
+ m
+ n
+ o
+ s
+ .
+ I
+ D
+ 
+ 
+ &#xA0;
+ 
+ 
+ =
+ 
+ 
+ &#xA0;
+ 
+ 
+ A
+ p
+ o
+ d
+ e
+ r
+ a
+ d
+ o
+ s
+ .
+ I
+ D
+ &#x005F;
+ A
+ L
+ U
+ M
+ N
+ O
+ 
+ 
+ 
+ 
+ {\displaystyle {}_{Alumnos.ID{\mbox{ }}={\mbox{ }}Apoderados.ID\_ALUMNO}}
+ 
+ Apoderados
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\big )}}
+
+Se lee: Proyecta los nombre de alumnos y nombre de apoderados de los alumnos cuyo ID sea el mismo que el ID_ALUMNO de los apoderados.

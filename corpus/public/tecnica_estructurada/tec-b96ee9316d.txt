@@ -1,0 +1,211 @@
+A finales del siglo XIX y comienzos del siglo XX era virtualmente imposible darse cuenta de que la raíz de los inconvenientes que presentaba la interpretación de algunos fenómenos físicos estaba en la hipótesis de que la energía era continua. Este cambio de mentalidad que supone la emisión y absorción de la luz por los cuerpos en forma de cuantos de energía lo pondría también de manifiesto Einstein en 1905 con la explicación del efecto fotoeléctrico.
+
+La ley de Planck establece que la energía electromagnética absorbida o emitida por un cuerpo negro se realiza por medio de intercambio de cuantos de energía electromagnética hf, de acuerdo con la siguiente expresión,
+
+I
+ (
+ f
+ ,
+ T
+ )
+ =
+ 
+ 
+ 
+ 2
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ f
+ 
+ 
+ 
+ e
+ 
+ h
+ f
+ 
+ /
+ 
+ k
+ T
+ 
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle I(f,T)={\frac {2f^{2}}{c^{2}}}{\frac {hf}{e^{hf/kT}-1}}\qquad }
+
+Se puede apreciar cómo aparece reflejado en el término exponencial de esta función de distribución 
+ 
+ 
+ 
+ I
+ (
+ f
+ ,
+ T
+ )
+ 
+ 
+ {\displaystyle I(f,T)}
+ 
+ el cuanto de energía hf. La ley de Planck se comporta correctamente en mediciones experimentales de astrofísica, y más directamente relacionadas con la Tierra, en aquellas aplicaciones donde intervenga el espectro solar para todo el margen de frecuencias del espectro electromagnético. &#8203;
+
+A los pocos años, el éxito de su teoría cuántica para la correcta interpretación de la entropía y del tercer principio de la termodinámica, así como las ideas de Einstein sobre la teoría cuántica de la radiación, reafirmaron a Planck en la certeza de su teoría.
+
+En el límite clásico de bajas frecuencias la ley de Planck coincide con la ley de Rayleigh-Jeans:
+
+I
+ (
+ f
+ ,
+ T
+ )
+ =
+ 
+ 
+ 
+ 2
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ f
+ 
+ 
+ 
+ e
+ 
+ h
+ f
+ 
+ /
+ 
+ k
+ T
+ 
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ =
+ 
+ 
+ 
+ 2
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h
+ f
+ 
+ 
+ (
+ 1
+ +
+ 
+ 
+ 
+ h
+ f
+ 
+ 
+ k
+ T
+ 
+ 
+ 
+ +
+ .
+ .
+ .
+ )
+ &#x2212;
+ 1
+ 
+ 
+ 
+ &#x2248;
+ 
+ 
+ 
+ 2
+ 
+ f
+ 
+ 2
+ 
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ k
+ T
+ 
+ 
+ 
+ {\displaystyle I(f,T)={\frac {2f^{2}}{c^{2}}}{\frac {hf}{e^{hf/kT}-1}}={\frac {2f^{2}}{c^{2}}}{\frac {hf}{(1+{\frac {hf}{kT}}+...)-1}}\approx {\frac {2f^{2}}{c^{2}}}kT\qquad }
+
+Para frecuencias intermedias y altas, sin embargo, difieren. Es más, al aumentar la frecuencia f, la segunda crece indefinidamente mientras que la primera tiende a cero.
+
+En 1887 Heinrich Rudolf Hertz descubrió que una descarga eléctrica entre dos electrodos ocurría más fácilmente cuando sobre uno de ellos incidía luz ultravioleta. Posteriormente, Philipp Lenard demostró que la luz ultravioleta facilita la descarga eléctrica ya que provoca la emisión de electrones desde la superficie del cátodo. Sin embargo a Albert Einstein le valió este experimento para contradecir algunos aspectos de la teoría electromagnética clásica, &#8203; &#8203; y su correcta interpretación le valió el premio Nobel de 1921. El efecto fotoeléctrico ha sido uno de los ejemplos más interesantes para ilustrar la naturaleza corpuscular de la luz, llevando al desarrollo de la mecánica cuántica durante el siglo XX.

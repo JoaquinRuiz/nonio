@@ -1,0 +1,45 @@
+En matemática y, en particular, en topología algebraica, la característica de Euler o característica de Euler-Poincaré es un invariante topológico, un número definido que sirve para describir la forma o la estructura de una clase de espacios topológicos. Es denotada generalmente por 
+ 
+ 
+ 
+ &#x03C7;
+ 
+ 
+ {\displaystyle \chi }
+ 
+ (la letra griega Ji).
+La característica de Euler fue definida en un principio solo para poliedros y sirvió para demostrar algunos teoremas como la clasificación de los sólidos platónicos. Su nombre se refiere a Leonhard Euler, que fue el responsable de los primeros resultados.
+
+La característica de Euler de un politopo de tres dimensiones (poliedro) se puede calcular usando la fórmula siguiente:
+
+donde V, A y C son los números de vértices, de aristas y de caras, respectivamente. En particular, para cualquier poliedro homeomorfo a una esfera tenemos
+
+Por ejemplo, para un cubo tenemos 6 + 8 - 12 = 2 y para un tetraedro tenemos 4 + 4 - 6= 2. La fórmula anterior también se llama la fórmula de Euler, que se puede demostrar por inducción matemática o mapeos sobre una esfera.
+
+Un poliedro que no sea homeomorfo a una esfera, como el Poliedro toroidal de la figura, que tiene 48 caras, 22 vértices y 70 aristas obtendremos 22 - 70 + 48 = 0.
+
+Una superficie compacta como la esfera, el toro, el bi-toro, un disco con borde, etc. surgen de deformar de forma continua un poliedro. Por ejemplo, si deformamos un icosaedro hasta obtener una esfera las aristas se transformarán en curvas sobre la esfera, las caras serán "triángulos" y los vértices serán puntos sobre las mismas. Así la esfera quedará "triangulada" (Véase triangulación). Para definir la característica de una superficie se usaran estas triangulaciones realizando la fórmula análoga χ(S) = Triángulos - Lados + Vértices. En realidad las triangulaciones no deben ser hechas necesariamente con triángulos, sino con cualquier polígono, teniendo en cuenta que dos polígonos solo compartan una arista como máximo, y que, si comparten un lado, solo compartan los dos vértices de ese lado. Así la generalización de la característica de Euler para una superficie cerrada S es
+
+La característica de Euler de superficies orientadas cerradas se relaciona con su género g, que es un número que describe la cantidad de «asas» que tiene la superficie. La relación es dada por:
+
+Por ejemplo: El toro (la rosquilla) tiene una asa y por lo tanto 
+ 
+ 
+ 
+ &#x03C7;
+ =
+ 2
+ &#x2212;
+ 2
+ g
+ =
+ 2
+ &#x2212;
+ 2
+ =
+ 0
+ 
+ 
+ {\displaystyle \chi =2-2g=2-2=0}
+ 
+.

@@ -1,0 +1,69 @@
+En la tabla que sigue figuran los valores de λ medidos en el laboratorio docente y los valores de la tensión de encendido deducida comparando las medidas que se obtienen corriente alterna y con las correspondientes en continua, explicado en esta sección.
+
+'Valores experimentales obtenidos para las longitudes de onda y para las tensiones de encendido para siete LED de diferentes longitudes de onda'.
+
+En la tabla siguiente se han resumido los valores experimentales necesarios para determinar la constante de Planck por un procedimiento de laboratorio universitario. En la primera columna figuran los diodos LED empleados, en la segunda columna aparece la frecuencia característica de emisión de cada uno de ellos y en la tercera la anchura de la banda prohibida determinada experimentalmente, expresada en unidades de energía. En la cuarta columna se muestra una estimación de la constante de Planck calculada a partir de los valores medidos para cada diodo LED.
+
+El valor definitivo de la constante de Planck se determina representando los siete puntos experimentales 
+ 
+ 
+ 
+ (
+ f
+ ,
+ E
+ )
+ 
+ 
+ {\displaystyle (f,E)}
+ 
+,y ajustándolos a una recta. La pendiente de la recta ajustada constituye una buena estimación de la constante de Planck.
+
+Para completar el la determinación, se representan los siete puntos resultado de las medidas, de coordenadas 
+ 
+ 
+ 
+ (
+ f
+ ,
+ e
+ 
+ V
+ 
+ 0
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (f,eV_{0})}
+ 
+. En la misma la gráfica aparece la recta correspondiente al ajuste realizado, ecuación (5), según explicación dada al comienzo de la sección. El resultado del ajuste proporciona un valor de
+
+h
+ =
+ (
+ 6
+ ,
+ 79
+ &#x00B1;
+ 0
+ ,
+ 06
+ )
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 34
+ 
+ 
+ J
+ .
+ s
+ 
+ 
+ {\displaystyle h=(6,79\pm 0,06)\times 10^{-34}J.s}
+
+Este resultado, si bien es una estimación de la constante ya que aprecia solo la primera cifra significativa, resulta adecuado teniendo en cuenta la sencillez del método utilizado para obtenerla. Este procedimiento de medida se utiliza también a modo de introducción en la mecánica cuántica para estudiantes de ciencias e ingeniería. De los muy diversos trabajos existentes en laboratorios docentes universitarios y a modo de comparación, se incluyen tres referencias que utilizan este método para obtener la Constante de Planck: Una de la Universidad de Pensilvania, &#8203; otra del Cornell Center for Material Resarch &#8203; y finalmente una referencia de la Universidad de Buenos Aires. &#8203; En esta última referencia se compara el valor obtenido para la constante de Planck con el obtenido por otros dos métodos en los que consideran el modelo de Shockley para el diodo y que, sin embargo, no obtienen una mejor estimación.

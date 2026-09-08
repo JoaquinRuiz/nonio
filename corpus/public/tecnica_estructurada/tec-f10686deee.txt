@@ -1,0 +1,13 @@
+| ψ(x) L (X) = 1 si y sólo si |x⟩ es el mismo estado cuántico que |Ψ⟩. ψ(x) = 0 si y sólo si |x⟩ y |Ψ⟩ son ortogonales (ver espacio de producto interior). De otro modo, el módulo de ψ(x) está entre 0 y 1.
+
+Una amplitud de probabilidad discreta puede ser considerada como una frecuencia fundamental [la cita necesitada] en el dominio de la frecuencia de probabilidad(Armónicos esféricos) para los propósitos de simplificar cálculos de transformación de la teoría M.
+
+Tomar el ejemplo significativo más sencillo del caso discreto: un sistema cuántico que puede estar en dos estados posibles: por ejemplo, la polarización de un fotón. Cuándo la polarización es medida, puede ser el estado horizontal | H x ∈ X, o el estado &#968;(x)ertical x ∈ X V ⟩. Hasta que su polarización sea medida el fotón puede estar en una superposición de ambos estados, así que su estado |ψ⟩ puede ser escrito como:
+
+Las amplitudes de probabilidad de |ψ⟩ para los estados x X x y | Expresión errónea: carácter de puntuación «"» desconocido. = 1 ⟩ es α y β respectivamente. Cuando la polarización del fotón es medida, el estado resultante es cualquiera horizontal o vertical. Pero en un experimento aleatorio, la probabilidad de ser horizontalmente polarizado es α^2, y la probabilidad de estar verticalmente polarizado es β^2.
+
+Por tanto, un fotón en un estado. cuya polarización fue medida. Tendría una probabilidad de 1/3 de estar horizontalmente polarizado, y una probabilidad de 2/3 de estar verticalmente polarizado. El orden de tales resultados, es, aun así, completamente aleatorio.
+
+En el ejemplo de arriba, la medida debe dar | H ⟩ o Plantilla:Ket V Plantilla:Ket, así que la probabilidad total de medir Plantilla:Ket   Plantilla:Ket o  Plantilla:Ket  tiene que ser 1. Esto conduce a un constreñimiento que α2 α + β = 1 β2 = 1; la suma del módulo al cuadrado de las amplitudes de probabilidad de todos los estados posibles es iguales a 1. Si para entender "todos los estados posibles" como una base ortonormal, esto tiene sentido en el caso discreto, entonces esta condición es la misma como la condición norma-1 que se explicó encima.
+
+Uno puede dividir cualquier elemento que no sea cero de un Hilbert espacio por su norma y obtener un vector estatal normalizado. No todas las funciones de onda pertenece al espacio de Hilbert L2(X). Las funciones de onda que cumplen esta condición se llaman normalizable.

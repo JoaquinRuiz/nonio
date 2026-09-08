@@ -1,0 +1,135 @@
+El algoritmo a priori es un algoritmo utilizado en minería de datos, sobre bases de datos transaccionales, que permite encontrar de forma eficiente "conjuntos de ítems frecuentes", los cuales sirven de base para generar reglas de asociación. Procede identificando los ítems individuales frecuentes en la base y extendiéndolos a conjuntos de mayor tamaño siempre y cuando esos conjuntos de datos aparezcan suficientemente seguidos en dicha base de datos. Este algoritmo se ha aplicado grandemente en el análisis de transacciones comerciales y en problemas de predicción.
+
+El algoritmo a priori fue propuesto en 1994 for Agrawal y Srikant. Está diseñado para operar sobre bases de datos que contienen transacciones (por ejemplo, colecciones de artículos comprados por consumidores o detalles sobre la frecuentación a un sitio web). Cada transacción es vista como un conjunto de ítems. Dado un valor de un umbral 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ 
+, el algoritmo a priori identifica todos los conjuntos de ítems que son subconjuntos de al menos 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ 
+ transacciones en la base de datos.
+A priori utilizada un enfoque "bottom up", donde subconjuntos frecuentes son ampliados por un ítem a la vez (este paso se conoce como generación de candidatos) y grupos de candidatos son validados contra los datos. El algoritmo termina cuando no se pueden encontrar más ampliaciones exitosas de los conjuntos previos.
+Apriori utiliza una búsqueda en anchura y un Árbol de Merkle para almacenar el conjunto de ítems candidatos eficientemente. Genera conjuntos de ítems candidatos de tamaño 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ 
+ a partir de conjuntos de ítems de tamaño 
+ 
+ 
+ 
+ k
+ &#x2212;
+ 1
+ 
+ 
+ {\displaystyle k-1}
+ 
+, luego poda los candidatos que tienen un subpatrón infrecuente. Según el lema de clausura hacia debajo, el conjunto candidato contiene todos los conjuntos frecuentes de tamaño 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ 
+. Luego de este paso, escanea la base de datos para determinar los conjuntos de ítems frecuentes entre los candidatos.
+
+A continuación se muestra el pseudocódigo para el algoritmo, dada una base de datos transaccional 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ 
+ y un umbral de confianza 
+ 
+ 
+ 
+ e
+ p
+ s
+ i
+ l
+ o
+ n
+ 
+ 
+ {\displaystyle epsilon}
+ 
+. La notación usual de teoría de conjuntos es utilizada, y se define a 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ 
+ como un multiconjunto. 
+ 
+ 
+ 
+ 
+ C
+ 
+ k
+ 
+ 
+ 
+ 
+ {\displaystyle C_{k}}
+ 
+ es el conjunto candidato en al nivel 
+ 
+ 
+ 
+ k
+ 
+ 
+ {\displaystyle k}
+ 
+. En cada paso se generan los conjuntos candidatos a partir del conjunto de ítems del nivel precedente, atendiendo al lema de clausura hacia debajo. 
+ 
+ 
+ 
+ c
+ o
+ u
+ n
+ t
+ [
+ c
+ ]
+ 
+ 
+ {\displaystyle count[c]}
+ 
+ accede al campo de la estructura de datos que representa el conjunto candidato 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ 
+, que inicialmente se asume cero. Muchos detalles son omitidos, usualmente la parte más importante es la implementación de la estructura de datos utilizada para almacenar los conjuntos candidatos y contar su frecuencia.

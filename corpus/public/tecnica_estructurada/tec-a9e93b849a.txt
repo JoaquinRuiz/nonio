@@ -1,0 +1,25 @@
+Donde 
+ 
+ 
+ 
+ q
+ 
+ 
+ {\displaystyle q}
+ 
+ es la carga del electrón y 
+ 
+ 
+ 
+ V
+ 
+ 
+ {\displaystyle V}
+ 
+ el potencial de frenado.
+
+La solución que Einstein propuso al problema del efecto fotoeléctrico resuelve por completo las contrariedades del modelo ondulatorio. Al tratar la luz como cuantos, se puede comprender que la intensidad de la luz no afecta a la energía del electrón, sino a la cantidad de electrones que se emiten, todos ellos con la misma energía, la cual depende de la frecuencia. Por la misma razón, este efecto no se aprecia para todas las frecuencias, sino solo cuando el fotón tiene la suficiente energía para superar la energía umbral. Por último, no existen motivos para que exista un margen de tiempo para apreciar el efecto ya que el electrón se desprende tan pronto como el fotón impacta la superficie. Este hecho constituye una prueba definitiva de la naturaleza corpuscular de la luz.
+
+Niels Bohr fue un físico danés que contribuyó a la comprensión de la estructura del átomo y de la mecánica cuántica. Basándose en las teorías de Ernest Rutherford, publicó su modelo atómico en 1913, en el que introdujo la teoría de las órbitas cuantizadas, y en 1922 recibió el Premio Nobel de Física por sus trabajos sobre la estructura atómica y la radiación. Numerosos físicos, basándose en este principio, concluyeron que la luz presentaba una dualidad onda-partícula.
+
+En la física atómica, el modelo atómico de Bohr presenta el átomo como un pequeño núcleo cargado positivamente rodeado por electrones que se mueven alrededor del núcleo en órbitas circulares, similar en estructura al sistema solar, pero con una atracción producida por fuerzas electrostáticas en lugar de gravitatorias. Supuso una mejora con respecto al anterior modelo de Thomson o el modelo de Rutherford. Dado que el modelo de Bohr es una modificación del modelo de Rutherford basada en la física cuántica, distintas fuentes combinan los dos y hablan del modelo de Rutherford-Bohr. La clave para el éxito del modelo radica en explicar la fórmula de Rydberg para las líneas de emisión espectrales del hidrógeno atómico. La fórmula de Rydberg funcionaba experimentalmente pero no se pudo justificar teóricamente hasta que Bohr introdujo su modelo. Este no solo explica la razón de la estructura de la fórmula de Rydberg, sino que también proporciona una justificación de sus resultados empíricos en términos de constantes físicas fundamentales. En comparación con la teoría del modelo actual, el de Bohr es un modelo primitivo del átomo de hidrógeno pero, debido a su simplicidad y a sus resultados correctos en la interpretación de algunos sistemas concretos, el modelo de Bohr aparece siempre en las introducciones a la mecánica cuántica.

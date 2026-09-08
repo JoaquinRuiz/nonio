@@ -1,0 +1,269 @@
+Afortunadamente, las funciones de Airy divergen en seno, coseno y funciones exponenciales en los límites adecuados. La relación puede ser encontrada para ser de la siguiente manera (a menudo referido como "fórmulas de conexión"):
+
+La serie asintótica para 
+ 
+ 
+ 
+ y
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle y(x)}
+ 
+ es usualmente una serie divergente cuyos términos generales 
+ 
+ 
+ 
+ 
+ &#x03B4;
+ 
+ n
+ 
+ 
+ 
+ S
+ 
+ n
+ 
+ 
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle \delta ^{n}S_{n}(x)}
+ 
+ comienzan a aumentar después de un cierto valor 
+ 
+ 
+ 
+ n
+ =
+ 
+ n
+ 
+ max
+ 
+ 
+ 
+ 
+ {\displaystyle n=n_{\max }}
+ 
+. Por lo tanto, el más mínimo error obtenido por el método WKB es de orden menor al último término incluido. Para la ecuación: 
+ 
+ 
+ 
+ 
+ &#x03F5;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 2
+ 
+ 
+ y
+ 
+ 
+ d
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ =
+ Q
+ (
+ x
+ )
+ y
+ 
+ 
+ {\displaystyle \epsilon ^{2}{\frac {d^{2}y}{dx^{2}}}=Q(x)y}
+ 
+ con 
+ 
+ 
+ 
+ Q
+ (
+ x
+ )
+ <
+ 0
+ 
+ 
+ {\displaystyle Q(x)<0}
+ 
+ una función analítica, el valor 
+ 
+ 
+ 
+ 
+ n
+ 
+ max
+ 
+ 
+ 
+ 
+ {\displaystyle n_{\max }}
+ 
+ y la magnitud del último término puede ser estimada como sigue (ver Winitzki 2005),
+
+donde 
+ 
+ 
+ 
+ 
+ x
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle x_{0}}
+ 
+ es el punto en el cual 
+ 
+ 
+ 
+ y
+ (
+ 
+ x
+ 
+ 0
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle y(x_{0})}
+ 
+ necesita ser evaluado y 
+ 
+ 
+ 
+ 
+ x
+ 
+ &#x2217;
+ 
+ 
+ 
+ 
+ {\displaystyle x_{*}}
+ 
+ es el punto de inflexión (complejo) donde 
+ 
+ 
+ 
+ Q
+ (
+ 
+ x
+ 
+ &#x2217;
+ 
+ 
+ )
+ =
+ 0
+ 
+ 
+ {\displaystyle Q(x_{*})=0}
+ 
+, más cerca a 
+ 
+ 
+ 
+ x
+ =
+ 
+ x
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle x=x_{0}}
+ 
+. El número 
+ 
+ 
+ 
+ 
+ n
+ 
+ max
+ 
+ 
+ 
+ 
+ {\displaystyle n_{\max }}
+ 
+ puede ser interpretado como el número de oscilaciones entre 
+ 
+ 
+ 
+ 
+ x
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle x_{0}}
+ 
+ y el punto de inflexión más cercano. Si 
+ 
+ 
+ 
+ 
+ &#x03F5;
+ 
+ &#x2212;
+ 1
+ 
+ 
+ Q
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle \epsilon ^{-1}Q(x)}
+ 
+ es una función que cambia lentamente,
+
+el número 
+ 
+ 
+ 
+ 
+ n
+ 
+ max
+ 
+ 
+ 
+ 
+ {\displaystyle n_{\max }}
+ 
+ será grande, y el error mínimo de la serie asintótica será exponencialmente pequeño.

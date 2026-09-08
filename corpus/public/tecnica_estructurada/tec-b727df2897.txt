@@ -1,0 +1,21 @@
+Para un CW-complejo finito y en particular para un complejo simplicial finito, la característica de Euler se puede definir como la suma alternada
+
+Entonces, se puede definir la característica de Euler de una variedad como la característica de Euler de un complejo simplicial homeomorfo a él. Por ejemplo, el círculo y el toro tienen característica de Euler 0 y las bolas sólidas tienen característica de Euler 1.
+
+La característica de Euler es independiente de la triangulación. La fórmula se puede también utilizar para las descomposiciones en polígonos arbitrarios.
+
+Para las variedades cerradas, la característica de Euler coincide con el número de Euler, es decir, la clase de Euler de su fibrado tangente evaluado en la clase fundamental de la variedad.
+
+Para las variedades de Riemann cerradas, la característica de Euler puede encontrarse también integrando la curvatura -- vea el teorema de Gauss-Bonnet para el caso de dos dimensiones y el teorema de Gauss-Bonnet generalizado para el caso general. Un análogo discreto del teorema de Gauss-Bonnet es el teorema de Descartes que el "defecto total" de un poliedro, medido en círculos completos, es la característica de Euler del poliedro; vea defecto (geometría).
+
+Más generalmente aún, para cualquier espacio topológico, podemos definir el n-ésimo número de Betti bn como el rango del n-ésimo grupo de homología. La característica de Euler se puede entonces definir como la suma alternada
+
+Esta definición tiene sentido si los números de Betti son todos finitos y cero más allá de cierto índice n0.
+
+Dos espacios topológicos que son equivalentes homotópicos tienen grupos isomorfos de homología y por lo tanto la misma característica de Euler.
+
+De esta definición y la dualidad de Poincaré, se sigue que la característica de Euler de cualquier variedad cerrada de dimensión impar es cero.
+
+Si M y N son espacios topológicos, entonces la característica de Euler de su producto M × N es
+
+El concepto de característica de Euler de un poset finito acotado es otra generalización, importante en combinatoria. Un poset es acotado si tiene elementos mínimos y máximos, que podemos llamar 0 y 1. La característica de Euler de tal poset es &#956;(0,1), donde &#956; es la función de Möbius en el álgebra de incidencia de ese poset.

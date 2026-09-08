@@ -1,0 +1,11 @@
+Las cartas de control sirven para poder analizar el comportamiento de los diferentes procesos y poder prever posibles fallos de producción mediante métodos estadísticos. Estas se utilizan en la mayoría de los procesos industriales.
+
+En ciertos procesos en los que se alcanza un alto grado de capacidad es aconsejable reducir el nivel de control proporcionado por las cartas de control estándar, para ello utilizaremos los límites de control modificados.
+
+Los límites de control modificados para la Xmedia se utilizan cuando Cp o Cpk es mucho mayor que 1, es decir, cuando la variabilidad del proceso es mucho menor que la extensión de los límites. Pongamos, por ejemplo, que nuestro proceso consiste en llenar sacos de arena. Las especificaciones del fabricante exigen que cada saco sea llenado con una cantidad de arena entre los 10.00Kg y los 10.20 kg. Por otra parte, nuestro proceso puede operar con una variación de 0.01 kg. Vemos que en este caso la capacidad del proceso es:
+
+En estos casos en los que el intervalo de las especificaciones es tan grande en relación a 6σ se recomienda cambiar de la carta de control de Xmedia habitual a la carta modificada. En esta, se permite el desplazamiento de la media un cierto rango, siempre que esta variación no resulte en la aparición de un número significativo de piezas defectuosas, es decir, producir piezas defectuosas con una probabilidad δ. La media se puede desplazar, tanto superior µU como inferiormente µL, un valor tal que la probabilidad de estar fuera de las especificaciones sea δ. Supondremos que la variabilidad del proceso está bajo control. Para especificar los nuevos límites de control de la carta modificada, tendremos en cuenta que el valor de la media tiene que estar entre µU y µL, se pueden calcular mediante:
+
+Para estimar estos límites lo más común es que la Zα tenga un valor de 3.
+
+Para las cartas de control modificadas debe utilizarse una buena estimación de σ. En los casos en los que la variabilidad en el proceso cambia, los límites de control modificados no son adecuados y en su lugar se debe usar una carta R o S.

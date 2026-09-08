@@ -1,0 +1,132 @@
+El problema consiste en encontrar el máximo de un conjunto de números. Para un ejemplo más complejo véase Algoritmo de Euclides.
+
+Dado un conjunto finito 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ 
+ de números, se tiene el problema de encontrar el número más grande. Sin pérdida de generalidad se puede asumir que dicho conjunto no es vacío y que sus elementos están numerados como 
+ 
+ 
+ 
+ 
+ c
+ 
+ 0
+ 
+ 
+ ,
+ 
+ c
+ 
+ 1
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ c
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle c_{0},c_{1},\dots ,c_{n}}
+ 
+.
+
+Es decir, dado un conjunto 
+ 
+ 
+ 
+ C
+ =
+ {
+ 
+ c
+ 
+ 0
+ 
+ 
+ ,
+ 
+ c
+ 
+ 1
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ c
+ 
+ n
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle C=\{c_{0},c_{1},\dots ,c_{n}\}}
+ 
+ se pide encontrar 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+ tal que 
+ 
+ 
+ 
+ x
+ &#x2264;
+ m
+ 
+ 
+ {\displaystyle x\leq m}
+ 
+ para todo elemento 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+ que pertenece al conjunto 
+ 
+ 
+ 
+ C
+ 
+ 
+ {\displaystyle C}
+ 
+.
+
+Para encontrar el elemento máximo, se asume que el primer elemento (
+ 
+ 
+ 
+ 
+ c
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle c_{0}}
+ 
+) es el máximo; luego, se recorre el conjunto y se compara cada valor con el valor del máximo número encontrado hasta ese momento. En el caso que un elemento sea mayor que el máximo, se asigna su valor al máximo. Cuando se termina de recorrer la lista, el máximo número que se ha encontrado es el máximo de todo el conjunto.

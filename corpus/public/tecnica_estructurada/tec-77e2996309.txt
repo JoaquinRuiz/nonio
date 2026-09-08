@@ -1,0 +1,9 @@
+Para construir dichas tablas de correspondencia, es necesario que cada nodo receptor se registre previamente en una dirección de multidifusión.
+
+Las direcciones de multidifusión comienzan por FF00 (en hexadecimal). A diferencia de IPv4, la implementación de la multidifusión es obligatoria para los enrutadores. Su aplicación práctica está en la videoconferencia y telefonía.
+
+La difusión anycast es similar a la multidifusión. La diferencia radica en que no se requiere que el paquete llegue a todos los nodos del grupo, sino que se selecciona uno en concreto que recibirá la información.
+
+La utilidad de este tipo de difusión puede ser aumentar la disponibilidad de un servicio, el descubrimiento de servicios en la red y el reparto de carga de cómputo entre varios nodos.
+
+El broadcasting puede ser utilizado para generar un ataque de denegación de servicio (o ataque DoS). El atacante envía falsos paquetes de peticiones ping con la IP fuente del computador de la víctima. El computador víctima es inundado por las respuestas de todos los computadores del dominio.

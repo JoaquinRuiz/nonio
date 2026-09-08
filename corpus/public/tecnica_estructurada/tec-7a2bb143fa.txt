@@ -1,0 +1,42 @@
+Para implementar la computación reversible, estimar los costes y juzgar sus límites, esta puede ser formalizada en términos de circuitos a nivel de puerta. En un modelo simplificado de tales circuitos las entradas (inputs) incurren en un consumo (pero nótese que en las puertas lógicas reales, tal como se implementan en, por ejemplo, elementos tipo CMOS, no ocurre esto). En este entorno de modelización, una puerta lógica NOT es reversible, porque puede ser «desandada». La puerta XOR es irreversible porque sus dos entradas no se pueden reconstruir de forma inequívoca a partir de su única salida. Sin embargo, es posible definir una versión reversible de la puerta XOR, la puerta cuántica CNOT (Controlled NOT), mediante la preservación de una de las entradas. La variante de tres entradas de la puerta CNOT se denomina puerta Toffoli. Esta puerta preserva dos de sus entradas a,b y sustituye la tercera c mediante 
+ 
+ 
+ 
+ c
+ &#x2295;
+ (
+ a
+ &#x22C5;
+ b
+ )
+ 
+ 
+ {\displaystyle c\oplus (a\cdot b)}
+ 
+. Con 
+ 
+ 
+ 
+ c
+ =
+ 0
+ 
+ 
+ {\displaystyle c=0}
+ 
+ realiza la función AND, y con 
+ 
+ 
+ 
+ a
+ &#x22C5;
+ b
+ =
+ 1
+ 
+ 
+ {\displaystyle a\cdot b=1}
+ 
+ realiza la función NOT. Así pues, la puerta Toffoli es universal y con ella se puede implementar cualquier función booleana (necesitando un número suficiente de bits auxiliares puestos a cero). De forma más general, las puertas reversibles que consumen su señal de entrada no tienen más entradas que salidas. Un circuito reversible conecta puertas reversibles sin fanouts (múltiples conexiones de salida) ni bucles. Por tanto, tales circuitos contienen igual número de conductores de entrada y de salida, cada uno atravesando un circuito entero. De forma similar, en el modelo computacional de la máquina de Turing, una máquina de Turing reversible es aquella cuya función de transición es reversible, de forma que cada estado de la máquina tiene como mucho un predecesor.
+
+Yves Lecerf propuso una máquina de Turing reversible en un artículo de 1963 al que se prestó escasa atención, &#8203; pero, aparentemente desprevenido de la cuestión del principio de Landauer, no fue más lejos con el tema, dedicando el resto de su carrera básicamente a la etnolingüística. En 1973, Bennett, un investigador de IBM, mostró que se podía hacer una máquina de Turing universal que fuese reversible tanto lógica como termodinámicamente, &#8203; y por tanto capaz, en principio, de realizar tantas operaciones de computación como se quiera por unidad de energía física disipada. Bennett puso la biosíntesis de ARN mensajero como ejemplo físico real de computación reversible. En 1982, Fredkin y Toffoli propusieron la computadora de bolas de billar, un mecanismo que usa esferas sólidas para realizar computaciones reversibles a velocidad finita sin disipar energía, pero que requiere un alineamiento inicial perfecto de las trayectorias de las bolas, y la reseña de Bennett &#8203; consideraba estos paradigmas «brownianos» y «balísticos» para la computación reversible. Aparte de la motivación de una computación energéticamente eficiente, las puertas lógicas reversibles ofrecen mejoras prácticas en transformaciones con manipulación de bits en criptografía y gráficos. Desde los años 80 los circuitos reversibles han sido objeto de atención como componentes en algoritmos cuánticos, y más recientemente en tecnologías de computación fotónica y nanocomputación, en algunos de cuyos dispositivos de conmutación no hay ganancia de señal.

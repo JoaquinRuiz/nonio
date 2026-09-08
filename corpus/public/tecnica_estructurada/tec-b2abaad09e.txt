@@ -1,0 +1,485 @@
+F
+ 
+ n
+ ,
+ l
+ j
+ 
+ 
+ (
+ r
+ )
+ =
+ 
+ (
+ 
+ 1
+ +
+ 
+ 
+ E
+ 
+ m
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ e
+ 
+ &#x2212;
+ 
+ 
+ &#x03C1;
+ 2
+ 
+ 
+ 
+ 
+ (
+ 
+ F
+ 
+ 1
+ 
+ 
+ (
+ &#x03C1;
+ )
+ +
+ 
+ F
+ 
+ 2
+ 
+ 
+ (
+ &#x03C1;
+ )
+ )
+ ,
+ 
+ 
+ G
+ 
+ n
+ ,
+ l
+ j
+ 
+ 
+ (
+ r
+ )
+ =
+ 
+ (
+ 
+ 1
+ &#x2212;
+ 
+ 
+ E
+ 
+ m
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ e
+ 
+ &#x2212;
+ 
+ 
+ &#x03C1;
+ 2
+ 
+ 
+ 
+ 
+ (
+ 
+ F
+ 
+ 1
+ 
+ 
+ (
+ &#x03C1;
+ )
+ &#x2212;
+ 
+ F
+ 
+ 2
+ 
+ 
+ (
+ &#x03C1;
+ )
+ )
+ ,
+ 
+ 
+ {\displaystyle F_{n,lj}(r)=\left(1+{\frac {E}{mc^{2}}}\right)e^{-{\frac {\rho }{2}}}(F_{1}(\rho )+F_{2}(\rho )),\qquad G_{n,lj}(r)=\left(1-{\frac {E}{mc^{2}}}\right)e^{-{\frac {\rho }{2}}}(F_{1}(\rho )-F_{2}(\rho )),}
+
+A modo de comparación con el caso no relativista se dan a continuación la forma explícita del espinor de funciones de onda del estado fundamental:
+
+&#x03C8;
+ 
+ n
+ =
+ 1
+ ,
+ j
+ =
+ 
+ 
+ 1
+ 2
+ 
+ 
+ ,
+ m
+ =
+ +
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ (
+ r
+ ,
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ =
+ 
+ 
+ 
+ (
+ 2
+ m
+ Z
+ &#x03B1;
+ 
+ )
+ 
+ 3
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ 
+ (
+ 4
+ &#x03C0;
+ 
+ )
+ 
+ 1
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 1
+ +
+ &#x03B3;
+ 
+ 
+ 2
+ &#x0393;
+ (
+ 1
+ +
+ 2
+ &#x03B3;
+ )
+ 
+ 
+ 
+ )
+ 
+ 
+ 1
+ 
+ /
+ 
+ 2
+ 
+ 
+ (
+ 2
+ m
+ Z
+ &#x03B1;
+ r
+ 
+ )
+ 
+ &#x03B3;
+ &#x2212;
+ 1
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ m
+ Z
+ &#x03B1;
+ r
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ i
+ (
+ 1
+ &#x2212;
+ &#x03B3;
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Z
+ &#x03B1;
+ 
+ 
+ 
+ 
+ 
+ cos
+ &#x2061;
+ &#x03B8;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ i
+ (
+ 1
+ &#x2212;
+ &#x03B3;
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Z
+ &#x03B1;
+ 
+ 
+ 
+ 
+ 
+ sin
+ &#x2061;
+ &#x03B8;
+ 
+ e
+ 
+ i
+ &#x03C6;
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ {\displaystyle \psi _{n=1,j={\frac {1}{2}},m=+{\frac {1}{2}}}(r,\theta ,\phi )={\frac {(2mZ\alpha )^{3/2}}{(4\pi )^{1/2}}}\left({\frac {1+\gamma }{2\Gamma (1+2\gamma )}}\right)^{1/2}(2mZ\alpha r)^{\gamma -1}e^{-mZ\alpha r}{\begin{Bmatrix}1\\0\\{\cfrac {i(1-\gamma )}{Z\alpha }}\cos \theta \\{\cfrac {i(1-\gamma )}{Z\alpha }}\sin \theta e^{i\varphi }\end{Bmatrix}}}
+
+El límite no relativista se obtiene haciendo tender 
+ 
+ 
+ 
+ &#x03B3;
+ :=
+ 
+ 
+ 1
+ &#x2212;
+ 
+ Z
+ 
+ 2
+ 
+ 
+ 
+ &#x03B1;
+ 
+ 2
+ 
+ 
+ 
+ 
+ &#x2192;
+ 1
+ 
+ 
+ {\displaystyle \gamma :={\sqrt {1-Z^{2}\alpha ^{2}}}\to 1}
+ 
+, es decir, haciendo tender la constante de estructura fina a cero.
+
+El tratamiento de los electrones mediante la ecuación de Dirac solo supone pequeñas correcciones a los niveles dados por la ecuación de Schrödinger. Tal vez el efecto más interesante es la desaparición de la degeneración de los niveles, por el efecto de la interacción espín-órbita consistente en que los electrones con valores diferentes del tercer número cuántico m (número cuántico magnético) tienen diferentes energía debido al efecto sobre ellos del momento magnético del núcleo atómico. De hecho los niveles energéticos vienen dados por: &#8203;
+
+E
+ 
+ n
+ 
+ 
+ =
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 1
+ +
+ 
+ 
+ (
+ 
+ 
+ 
+ Z
+ &#x03B1;
+ 
+ 
+ n
+ &#x2212;
+ 
+ |
+ 
+ m
+ 
+ |
+ 
+ +
+ 
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ +
+ (
+ Z
+ &#x03B1;
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle E_{n}=m_{e}c^{2}{\sqrt {1+\left({\frac {Z\alpha }{n-|m|+{\sqrt {m^{2}+(Z\alpha )^{2}}}}}\right)^{2}}}}
+
+Si se prescinde de la energía asociada a la masa en reposo del electrón estos niveles pueden resultan cercanos a los predichos por la ecuación de Schrödinger, especialmente en el caso m = 0:

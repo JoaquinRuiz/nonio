@@ -1,0 +1,18 @@
+La fórmula Altman Z-score para predecir bancarrotas fue publicada en 1968 por Edward I. Altman cuando era Profesor Asistente de Finanzas en la New York University. La fórmula se usa para predecir la probabilidad de una empresa de caer en bancarrota en los próximos dos años. Los Z-scores se usan para predecir las quiebras empresariales y como una sencilla medida de control del estrés financiero de las compañías en los estudios académicos. La fórmula usa múltiples valores de los balances para medir la salud financiera de una compañía.
+
+El Z-score es una combinación lineal de cuatro o cinco ratios financieros comunes ponderados por coeficientes. Los coeficientes se calcularon identificando un conjunto de firmas que declararon bancarrota comparándolas con compañías de tamaño similar en su mismo campo.
+
+Al principio Altman aplicó el método estadístico de análisis discriminante lineal a un conjunto de datos de fabricantes cotizados públicamente. Aunque después se recalculó basándose en grupos de datos para compañías privadas tanto en fabricación como en servicios.
+El conjunto de datos original constaba de 66 firmas, la mitad de las cuales solicitaron la declaración de bancarrota (bankruptcy under Chapter 7). Todas eran fabricantes y se descartaron los negocios con activos inferiores a un millón de USD. &#8203;
+
+Altman halló que el perfil para el grupo de bancarrota caía a una media de −0.25, mientras que el grupo de no bancarrota tenía una media de +4.48.
+
+El trabajo de Altman se basó en los estudios del investigador William H. Beaver y otros. En la década de 1930 Mervyn y otros recolectaron muestras emparejadas y comprobaron que varias ratios contables eran valiosas parar predecir las bancarrotas.
+
+Altman Z-score es una versión de la técnica del análisis discriminante de R. A. Fisher (1936) &#8203;.
+
+El trabajo de William Beaver publicado en 1966 y 1968 fue el primero en aplicar un método estadístico, test-T, para predecir la bancarrota de muestras emparejadas de firmas. Beaver aplicó este método para evaluar la importancia de cada una de las ratios basadas en análisis univariado, usando una ratio contable cada vez. La mejora principal de Altman fue la aplicación del método estadístico, el análisis discriminante, que podía tener en cuenta múltiples variables simultáneamente.
+
+En su prueba inicial, el Altman Z-score tuvo una precisión del 72% al predecir la bancarrota dos años antes del suceso, con error tipo II (falso negativo) del 6% (Altman, 1968).
+
+En pruebas posteriores durante tres períodos, que cubrieron 31 años (hasta 1999), el modelo fue preciso entre un 80% y un 90% prediciendo la bancarrota un año antes del suceso, con un error tipo II (clasificando la firma en bancarrota cuando no va a la bancarrota) de aproximadamente un 15%-20% (Altman, 2000). &#8203; &#8203;

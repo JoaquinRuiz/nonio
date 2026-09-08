@@ -1,0 +1,109 @@
+En Matemática, la autosimilitud, a veces llamada autosemejanza, es la propiedad de un objeto (llamado objeto autosimilar) en el que el todo es exacta o aproximadamente similar a una parte de sí mismo, por ejemplo cuando el todo tiene la misma forma que una o varias de sus partes. Muchos objetos del mundo real, como las costas marítimas, son estadísticamente autosimilares: partes de ella muestran las mismas propiedades estadísticas en diversas escalas. &#8203;
+La autosimilitud es una propiedad de los fractales.
+
+El término autosimilitud se usa informalmente para diferentes conceptos desde el punto de vista matemático. Informalmente, todas las formas de autosimilitud entrañan un parecido estructural entre un objeto geométrico y una parte del mismo, es decir, existe parecido a diferentes escalas. Matemáticamente pueden distintiguirse los siguientes tipos:
+
+Se dice que hay autosimilitud exacta cuando una o varias partes de un todo repiten exactamente su similitud con ese todo. La autosimilitud exacta permite la amplificación sucesiva con repetición exacta única, múltiple o infinita de las propiedades iniciales.
+
+La invariancia de escala es una forma exacta de autosimilitud en la que, al amplificar el tamaño, aparece una pequeña parte del objeto que es similar a la totalidad. Por ejemplo, un lado del copo de nieve de Koch es a la vez simétrico e invariante de escala; su tamaño puede multiplicarse continuamente por tres sin que cambie su forma.
+
+La autosimilitud aproximada o cuasi-autosimilitud se encuentra frecuentemente en la naturaleza (autosimilitud natural). Por ejemplo, cuando la forma de la parte y la forma del todo presentan leves diferencias en la similitud. Generalmente solo se cumple dentro de una porción limitada de ese todo. Puede generarse artificialmente incorporando un factor de ruido aleatorio a la expresión de una autosimilitud exacta.
+
+La autosimilitud estadística es la menos exigente. Solo se conservan algunas propiedades estadísticas durante el cambio de escala, como en las montañas o en los cráteres lunares.
+
+Un conjunto compacto X es autosimilar (exacto) si existe un conjunto finito de homeomorfismos no sobreyectivos 
+ 
+ 
+ 
+ {
+ 
+ F
+ 
+ 1
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ F
+ 
+ n
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle \{F_{1},\dots ,F_{n}\}}
+ 
+ para el cual:
+
+(*)
+ 
+ 
+ 
+ X
+ =
+ 
+ &#x222A;
+ 
+ k
+ =
+ 1
+ 
+ 
+ n
+ 
+ 
+ 
+ F
+ 
+ k
+ 
+ 
+ (
+ X
+ )
+ 
+ 
+ {\displaystyle X=\cup _{k=1}^{n}F_{k}(X)}
+ 
+ .
+
+Si 
+ 
+ 
+ 
+ X
+ &#x2282;
+ Y
+ 
+ 
+ {\displaystyle X\subset Y}
+ 
+, decimos que X es autosimilar si es el único subconjunto no vacío de Y tal que la ecuación anterior es válida para 
+ 
+ 
+ 
+ {
+ 
+ F
+ 
+ k
+ 
+ 
+ 
+ }
+ 
+ k
+ =
+ 1
+ &#x2026;
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \{F_{k}\}_{k=1\dots n}}
+ 
+. Decimos que

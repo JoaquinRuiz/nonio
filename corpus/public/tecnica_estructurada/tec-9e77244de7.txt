@@ -1,0 +1,17 @@
+En torno a 1915 Gustav Embden y Otto Meyerhof realizan sus estudios sobre la glucólisis.
+
+En 1920 se descubre que en las células hay ADN y ARN y que difieren en el azúcar que forma parte de su composición: desoxirribosa o ribosa. El ADN reside en el núcleo. Unos años más tarde, se descubre que en los espermatozoides hay fundamentalmente ADN y proteínas, y posteriormente Feulgen descubre que hay ADN en los cromosomas con su tinción específica para este compuesto.
+
+En 1925 Theodor Svedberg demuestra que las proteínas son macromoléculas y desarrolla la técnica de ultracentrifugación analítica.
+
+Richard Willstätter (en torno 1910) estudia la clorofila y comprueba la similitud que hay con la hemoglobina. Posteriormente Hans Fischer en torno a 1930, investiga la química de las porfirinas de las que derivan la clorofila o el grupo porfirínico de la hemoglobina. Consiguió sintetizar hemina y bilirrubina. Paralelamente Heinrich Otto Wieland formula teorías sobre las deshidrogenaciones y explica la constitución de muchas otras sustancias de naturaleza compleja, como la pteridina, las hormonas sexuales o los ácidos biliares.
+
+En la década de 1940, Melvin Calvin concluye el estudio del ciclo de Calvin en la fotosíntesis y Albert Claude la síntesis del ATP en las mitocondrias.
+
+En torno a 1945 Gerty Cori, Carl Cori, y Bernardo Houssay completan sus estudios sobre el ciclo de Cori.
+
+En 1953 James Dewey Watson y Francis Crick, gracias a los estudios previos con cristalografía de rayos X de ADN de Rosalind Franklin y Maurice Wilkins, y los estudios de Erwin Chargaff sobre apareamiento de bases nitrogenadas, deducen la estructura de doble hélice del ADN. En 1957, Matthew Meselson y Franklin Stahl demuestran que la replicación del ADN es semiconservativa.
+
+En la segunda mitad del siglo XX, comienza la auténtica revolución de la bioquímica y la biología molecular moderna, especialmente gracias al desarrollo de las técnicas experimentales más básicas como la cromatografía, la centrifugación, la electroforesis, las técnicas radioisotópicas y la microscopía electrónica, y las técnicas más complejas como la cristalografía de rayos X, la resonancia magnética nuclear, la PCR (Kary Mullis), el desarrollo de la inmuno-técnicas.
+
+Desde 1950 a 1975 , se conocen en profundidad y detalle aspectos del metabolismo celular inimaginables hasta ahora (fosforilación oxidativa (Peter Dennis Mitchell), ciclo de la urea y ciclo de Krebs (Hans Adolf Krebs), así como otras rutas metabólicas), se produce toda una revolución en el estudio de los genes y su expresión; se descifra el código genético (Francis Crick, Severo Ochoa, Har Gobind Khorana, Robert W. Holley y Marshall Warren Nirenberg), se descubren las enzimas de restricción (finales de 1960, Werner Arber, Daniel Nathans y Hamilton Smith), la ADN ligasa (en 1972, Mertz y Davis) y finalmente en 1973 Stanley Cohen y Herbert Boyer producen el primer ser vivo recombinante, naciendo así la ingeniería genética, convertida en una herramienta poderosísima con la que se supera la frontera entre especies y con la que podemos obtener un beneficio hasta ahora impensable.

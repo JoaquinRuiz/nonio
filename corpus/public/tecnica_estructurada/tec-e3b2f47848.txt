@@ -1,0 +1,9 @@
+El postulado de adición de ángulos establece que si B está en el interior del ángulo AOC, entonces
+
+La medida del ángulo AOC es la suma de la medida del ángulo AOB y la medida del ángulo BOC.
+
+Las unidades utilizadas para representar ángulos se enumeran a continuación en orden de magnitud descendente. De estas unidades, el grado y el radián son, con mucho, las más utilizadas. Los ángulos expresados en radianes son adimensionales para el análisis dimensional.
+
+La mayoría de las unidades de medida angular se definen de forma que un giro (es decir, un círculo completo) es igual a n unidades, para algún número entero n. Las dos excepciones son el radián (y sus submúltiplos decimales) y la parte del diámetro.
+
+&#160;Este artículo&#160;incorpora texto de una publicación sin restricciones conocidas de derecho de autor:&#160;&#160;Chisholm, Hugh, ed. (1910-1911). «Angle». Encyclopædia Britannica. A Dictionary of Arts, Sciences, Literature, and General information (en inglés) 2 (11.ª edición). Encyclopædia Britannica, Inc.; actualmente en dominio público. p.&#160;14.&#160;

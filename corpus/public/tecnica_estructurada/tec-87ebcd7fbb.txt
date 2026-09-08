@@ -1,0 +1,376 @@
+L
+ 
+ 
+ =
+ (
+ X
+ ,
+ S
+ ,
+ {
+ 
+ F
+ 
+ k
+ 
+ 
+ 
+ }
+ 
+ k
+ =
+ 1
+ &#x2026;
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle {\mathfrak {L}}=(X,S,\{F_{k}\}_{k=1\dots n})}
+
+es una estructura autosimilar. Diferentes tipos de similitud pueden obtenerse según la naturaleza de las funciones:
+
+Muchos conjuntos autosimilares pueden ser construidos mediante una construcción llamada sistema iterativo de funciones (SIF) sobre 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \mathbb {R} ^{n}}
+ 
+. En dicho sistema se considera un conjunto de homemorfismos, como en la definición (*), que sean contracciones 
+ 
+ 
+ 
+ {
+ 
+ f
+ 
+ 1
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ f
+ 
+ n
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle \{f_{1},\dots ,f_{n}\}}
+ 
+ con 
+ 
+ 
+ 
+ n
+ &#x2265;
+ 2
+ 
+ 
+ {\displaystyle n\geq 2}
+ 
+:
+
+|
+ 
+ 
+ F
+ 
+ i
+ 
+ 
+ (
+ x
+ )
+ &#x2212;
+ 
+ F
+ 
+ i
+ 
+ 
+ (
+ y
+ )
+ 
+ |
+ 
+ &#x2264;
+ 
+ r
+ 
+ i
+ 
+ 
+ 
+ |
+ 
+ x
+ &#x2212;
+ y
+ 
+ |
+ 
+ ,
+ 
+ 
+ r
+ 
+ i
+ 
+ 
+ <
+ 1
+ 
+ 
+ {\displaystyle |F_{i}(x)-F_{i}(y)|\leq r_{i}|x-y|,\quad r_{i}<1}
+
+Si sobre un conjunto se aplican reiteradamente los anteriores homeomorfismos contractivos (iterativamente), lo que resultará en un sistema iterativo de funciones (SIF). Una propiedad fundamental de los SIFs es que existe un "punto fijo" que es un conjunto compacto E tal que:
+
+E
+ =
+ 
+ &#x222A;
+ 
+ i
+ =
+ 1
+ 
+ 
+ n
+ 
+ 
+ 
+ F
+ 
+ i
+ 
+ 
+ (
+ E
+ )
+ 
+ 
+ {\displaystyle E=\cup _{i=1}^{n}F_{i}(E)}
+
+Frecuentemente ese conjunto es un conjunto fractal y su dimensión de Hausdorff D puede determinarse fácilmente, ya que es la única solución del sistema:
+
+El conjunto de Cantor puede obtenerse puede obtenerse como el "punto fijo" de un iterativo de funciones. Dadas las dos funciones contractivas:
+
+F
+ 
+ 1
+ 
+ 
+ ,
+ 
+ F
+ 
+ 2
+ 
+ 
+ :
+ 
+ R
+ 
+ &#x2192;
+ 
+ R
+ 
+ ,
+ 
+ 
+ F
+ 
+ 1
+ 
+ 
+ (
+ x
+ )
+ :=
+ 
+ 
+ x
+ 3
+ 
+ 
+ ,
+ 
+ F
+ 
+ 2
+ 
+ 
+ (
+ x
+ )
+ :=
+ 
+ 
+ x
+ 3
+ 
+ 
+ +
+ 
+ 
+ 2
+ 3
+ 
+ 
+ 
+ 
+ {\displaystyle F_{1},F_{2}:\mathbb {R} \to \mathbb {R} ,\qquad F_{1}(x):={\frac {x}{3}},F_{2}(x):={\frac {x}{3}}+{\frac {2}{3}}}
+
+K
+ =
+ 
+ F
+ 
+ 1
+ 
+ 
+ (
+ K
+ )
+ &#x222A;
+ 
+ F
+ 
+ 2
+ 
+ 
+ (
+ K
+ )
+ 
+ 
+ {\displaystyle K=F_{1}(K)\cup F_{2}(K)}
+
+r
+ 
+ 1
+ 
+ 
+ D
+ 
+ 
+ +
+ 
+ r
+ 
+ 2
+ 
+ 
+ D
+ 
+ 
+ =
+ 
+ 
+ (
+ 
+ 
+ 1
+ 3
+ 
+ 
+ )
+ 
+ 
+ D
+ 
+ 
+ +
+ 
+ 
+ (
+ 
+ 
+ 1
+ 3
+ 
+ 
+ )
+ 
+ 
+ D
+ 
+ 
+ =
+ 2
+ 
+ 
+ (
+ 
+ 
+ 1
+ 3
+ 
+ 
+ )
+ 
+ 
+ D
+ 
+ 
+ =
+ 1
+ 
+ &#x21D2;
+ 
+ D
+ =
+ 
+ 
+ 
+ ln
+ &#x2061;
+ 2
+ 
+ 
+ ln
+ &#x2061;
+ 3
+ 
+ 
+ 
+ &#x2248;
+ 0
+ ,
+ 630
+ &#x2026;
+ 
+ 
+ {\displaystyle r_{1}^{D}+r_{2}^{D}=\left({\frac {1}{3}}\right)^{D}+\left({\frac {1}{3}}\right)^{D}=2\left({\frac {1}{3}}\right)^{D}=1\quad \Rightarrow \quad D={\frac {\ln 2}{\ln 3}}\approx 0,630\dots }
+
+La composición de funciones produce la estructura algebraica de un monoide. Si 
+ 
+ 
+ 
+ n
+ =
+ 2
+ 
+ 
+ 
+ {\displaystyle n=2\,}
+ 
+, el monoide es llamado monoide diádico. Éste puede verse como un árbol binario infinito. En general, para cualquier número de elementos el monoide puede ser representado como un árbol n-ádico.
+
+Los automorfismos del monoide diádico forman el grupo modular. Los automorfismos pueden representarse como una rotación hiperbólica del árbol binario.

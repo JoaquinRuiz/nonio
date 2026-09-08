@@ -1,0 +1,8 @@
+Desde 1985 los Z-scores ganaron mucha aceptación entre los auditores, gestores contables, tribunales y sistemas de bases de datos usados para la evaluación de préstamos (Eidleman) &#8203; &#8203;. La fórmula se ha usado en gran variedad de contextos y países, aunque fue diseñada originalmente para compañías manufactureras cotizadas públicamente con activos de más de un millón de USD. Variaciones posteriores de Altman se diseñaron para aplicarlas a compañías privadas (Altman Z'-score) y compañías no manufactureras (Altman Z"-score).
+
+Ni los modelos de Altman ni otros modelos basados en los balances están recomendados para su uso sobre compañías financieras, por la opacidad de estas compañías en sus balances y el uso frecuente de partidas fuera del balance.
+
+Los modernos modelos académicos de predicción de bancarrotas se basan fuertemente en datos del mercado en vez de las ratios contables predominantes en el Altman Z-score. &#8203; &#8203;
+ &#8203;
+
+Arvind Products, Suzlon, Royal Orchid Hotel y Deccan Chronicle Holding y Ansal Properties tenían buenas calificaciones unos pocos días antes de la bancarrota. El Altman Z-score predijo la bancarrota en los casos de Royal Orchid, Arvind Products y Suzlon Energy, que no estaban reflejados en las calificaciones. Esto mostró que el sencillo método de Altman Z-score era más informativo que las calificaciones de las agencias calificadoras. &#8203;

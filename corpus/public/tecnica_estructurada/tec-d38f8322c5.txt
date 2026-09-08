@@ -1,0 +1,20 @@
+Solo contienen una subrogante (representante) de la fuente primaria, que permite localizarla. Un registro típico de una base de datos bibliográfica contiene información sobre el autor, fecha de publicación, editorial, título, edición, de una determinada publicación, etc. Puede contener un resumen o extracto de la publicación original, pero nunca el texto completo, porque si no, estaríamos en presencia de una base de datos a texto completo (o de fuentes primarias —ver más abajo). Como su nombre lo indica, el contenido son cifras o números. Por ejemplo, una colección de resultados de análisis de laboratorio, ayuda mucho a la redundancia de datos.
+
+Almacenan las fuentes primarias, como por ejemplo, todo el contenido de todas las ediciones de una colección de revistas científicas.
+
+Estos directorios se pueden clasificar en dos grandes tipos dependiendo de si son personales o empresariales (llamadas páginas blancas o amarillas respectivamente).
+
+Los directorios personales solo hay de un tipo, ya que leyes como la LOPD en España protege la privacidad de los usuarios pertenecientes al directorio.
+
+La búsqueda inversa está prohibida en los directorios personales (a partir de un número de teléfono saber el titular de la línea).
+
+Son bases de datos que almacenan diferentes tipos de información proveniente de la química, las ciencias de la vida o médicas.
+Se pueden considerar en varios subtipos:
+
+Las bases de datos requieren de un software que permita la administración de dicha base de datos. Estos programas especializados sirven como interfaz para que los usuarios puedan, administrar como se estructura y optimiza toda la información recopilada. Un sistema de administración de bases de datos también permite un gran número de operaciones relacionadas con la administración, tal como, supervisar la productividad, ajustes, backups y restauración de los datos .
+
+Entre los gestores de bases de datos o DBMS más conocidos se encuentran: Microsoft SQL Server, MySQL,Oracle Database, Microsoft Access, FileMaker, y dBASE. &#8203;
+
+Las bases de datos y las hojas de cálculo (por ejemplo las hojas de cálculo de los paquetes de ofimática ) son formas convenientes de almacenar información. Las principales diferencias entre las ambas son: &#8203;
+
+Las hojas de cálculo desde sus comienzos fueron diseñadas para un usuario, y puede ser observado en sus características. Son excelentes para uno o un pequeño número de usuarios que no necesitan utilizar un gran volumen de datos complejos. Las bases de datos, por otro lado, fueron creadas para almacenar gran cantidad de información organizada, enormes cantidades en ocasiones. Las bases de datos permiten consultas multiusuario, que permite acceder y consultar los datos de forma rápida y segura a muchos usuarios al mismo tiempo, utilizando una lógica y un lenguaje altamente complejos. &#8203;

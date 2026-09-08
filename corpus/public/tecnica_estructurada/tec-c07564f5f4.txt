@@ -1,0 +1,13 @@
+Un conjunto de datos (conocido también por el anglicismo dataset, comúnmente utilizado en algunos países hispanohablantes) es una colección de datos habitualmente tabulada.
+
+En el caso de datos tabulados, un conjunto de datos contiene los valores para cada una de las variables organizadas como columnas, como por ejemplo la altura y el peso de un objeto, que corresponden a cada miembro del conjunto de datos, que están organizados en filas. Cada uno de estos valores se conoce con el nombre de dato. El conjunto de datos también puede consistir en una colección de documentos o de archivos.
+
+Conjuntos de datos tan grandes que aplicaciones tradicionales de procesamiento de datos no los pueden tratar se llaman big data. &#8203;
+
+La publicación de los conjuntos de datos usados en un experimento son clave para su reproducibilidad, y cada vez son más las leyes públicas y normas de revistas científicas que obligan a hacerlos públicos, para evitar sesgos.
+
+Según el estudio, es un factor clave de las propiedades del conjunto: dispersión, curtosis, etc. &#8203; Los valores pueden ser números, como números reales o enteros, por ejemplo, que representan la altura de una persona en centímetros, pero también pueden ser datos nominales (es decir, que no consisten en valores numéricos), por ejemplo, que representan la etnia de una persona. De manera más general, los valores pueden ser de cualquiera de los tipos descritos como nivel de medición. &#8203;
+
+Para cada variable, los valores son normalmente todos del mismo tipo. Sin embargo, también pueden faltar valores, que deben indicarse de alguna manera.
+
+En estadística, los conjuntos de datos generalmente provienen de observaciones reales obtenidas al muestrear una población estadística, y cada fila corresponde a las observaciones de un elemento de esa población. Además, se pueden generar conjuntos de datos mediante algoritmos con el fin de probar ciertos tipos de software. Algunos software de análisis estadístico moderno, como SPSS, todavía presentan sus datos en la forma clásica de conjuntos de datos. Si faltan datos o son sospechosos, se puede utilizar un método de imputación para completar un conjunto de datos.

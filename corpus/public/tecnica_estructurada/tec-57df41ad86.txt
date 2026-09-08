@@ -1,0 +1,9 @@
+Dado el centro de masa de un triángulo ABC. Sea I = bar { (B, 1), (C, 1)}, entonces G = bar {(A, 1), (B, 1), (C, 1)} = bar {(A, 1), (I, 2)}, lo que significa que G está en el segmento [A,I], a un tercio del camino a partir de I.
+
+El baricentro se puede definir en las matemáticas con coeficientes negativos. Como no existen masas negativas, ¿qué significado físico se puede atribuir a estos cálculos? He aquí un ejemplo muy sencillo: en una hoja de cartón se ha recortado una "medialuna" como lo muestra la figura, constituida de un círculo amarillo, con centro B, en el cual hemos eliminado otro círculo de radio dos veces menor, con centro A. Se pregunta por el centro de masa de esa medialuna.
+
+El cálculo resulta muy simplificado si consideramos a la "medialuna" como una yuxtaposición de dos discos, uno grande con masa positiva, y otro pequeño, con masa negativa. Las masas son proporcionales a las áreas (densidad uniforme), lo que daría una masa de 4 para el primer disco, y de -1 para el segundo. Entonces G = bar {(A, -1), (B, 4)}.
+
+El cálculo geométrico (con regla y compás) del baricentro de un polígono (regular o irregular), de n vértices, se puede realizar de la siguiente forma:
+
+Se descompone el polígono en triángulos y cuadriláteros disjuntos (que no tengan vértices en común). Se calculan los baricentros de estos triángulos y cuadriláteros, y se forma el polígono correspondiente.

@@ -1,0 +1,15 @@
+Un almacén operacional de datos, también llamado ODS (del inglés Operational Data Store), es un contenedor de datos activos, es decir, está diseñado para integrar datos de múltiples fuentes con los que realizar operaciones adicionales en los propios datos. A diferencia de un almacén de datos maestro, los datos no vuelven de nuevo a los sistemas operacionales de origen, sino que se preparan para la realización de otras operaciones o para ser incorporados a un almacén de datos (o data warehouse) para ser explotados en la realización de informes. Por tanto, se puede decir que un sistema ODS estará ubicado entre uno o varios sistema OLTP (origen) y un sistema OLAP (destino).
+
+Dado que los datos se originan a partir de múltiples fuentes, la integración a menudo implica limpiar dichos datos, resolver redundancias y comprobar la integridad de los mismos según las reglas del negocio. Un ODS está generalmente diseñado para contener datos atómicos (indivisibles). Al contrario que los almacenes de datos la actualización de los datos se realiza con una ventana temporal muy pequeña (a veces en tiempo real), y contiene un histórico limitado de los mismos (volátil), por lo que se pueden considerar un área de memoria temporal (los almacenes de datos constituyen un histórico de datos completo y persistente).
+
+El propósito general de un ODS es integrar los datos de los sistemas de origen dispares en una sola estructura, utilizando las tecnologías de integración de datos como la virtualización de datos, la federación de datos, o de extracción, transformación y carga. Esto permitirá el acceso operacional a los datos, es decir, permitirá la realización de informes bajo demanda, la gestión del maestro de datos o de datos de referencia.
+
+Un ODS no sustituye a un almacén de datos, sino que puede convertirse en una de sus fuentes.
+
+Un sistema OLTP diría qué facturas no han sido liquidadas, el monto que falta por liquidar de cada una, cuando se espera que se paguen etc...
+
+Un sistema OLAP diría cuanto debe un cliente, cuantas facturas son, el promedio de días que tarda en pagar...
+
+En un ODS un gerente podría enterarse a grandes rasgos si el cliente está listo para un cambio en los límites de crédito, si se puede o debe reestructurar la deuda y algunas otras notas que le haya escrito su predecesor o algún otro empleado.
+
+Hoy día se considera que la estructura informática de una empresa madura contiene OLTPs + ODS + Data warehouse + OLAPs + Minería de datos.

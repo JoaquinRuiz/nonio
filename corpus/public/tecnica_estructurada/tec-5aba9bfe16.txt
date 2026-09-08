@@ -1,0 +1,21 @@
+En una conexión DCC normal, el iniciador actúa como servidor, y el destino es el cliente. A causa del extendido cortafuegos y la reducción de transparencia de punto-a-punto debido al Network Address Translation (NAT), el iniciador podría no ser capaz de actuar como un servidor. Se han inventado varias formas de solicitar al destino que actúe como el servidor:
+
+Esta extensión al DCC SEND y CHAT normales fue introducido por el cliente de IRC denominado mIRC. El servidor DCC tiene soporte moderado, pero no es un estándar en todos los clientes.
+
+Permite la iniciación de una conexión DCC por dirección IP, sin la necesidad de un servidor IRC. Eso se lleva a cabo recibiendo al cliente que actúa como un servidor (de ahí el nombre) a la espera (normalmente a través del puerto 59) de un saludo por parte del emisor.
+
+Donde <resume position> es el offset del archivo en el cual empezar. Desde aquí la transferencia procede como un DCC SEND normal.
+
+El servidor DCC no proporciona forma alguna de especificar el puerto a utilizar, así que esto ha de negociarse manualmente, lo cual no siempre es posible, ya que una de las partes puede no ser humana. RDCC es un mecanismo de saludo (handshake) para servidor DCC, en el que además del puerto proporciona la dirección IP del servidor, que de otra manera el cliente podría no ser capaz de encontrar debido al enmascaramiento del host. No está ampliamente soportado.
+
+El iniciador solicita el puerto en el que el destino escucha, enviando la petición CTCP:
+
+Donde <function> es c para chat, s para enviar y f para servidor de archivos. El destino puede entonces responder con un CTCP:
+
+Donde <ip> y <port> tienen el mismo significado que para un DCC SEND y CHAT normales. Después, el iniciador conecta a la IP y puerto y el saludo DCC Server prosigue.
+
+Al contrario que con DCC Server, donde el saludo se maneja directamente sobre la conexión IP, DCC REVERSE tiene un saludo CTCP normal, similar al utilizado por DCC SEND. Esto no está ampliamente soportado. El emisor ofrece un archivo al receptor enviando el mensaje CTCP:
+
+Donde <key> es una cadena de 1 a 50 caracteres de longitud formado por caracteres ASCII de rango 33 a 126, y actúa como un identificador para la transferencia. Si el receptor acepta, envía la respuesta CTPC:
+
+Aquí <start> es la posición del archivo en la que empezará el envío, <ip> es la dirección IP del receptor en notación estándar para IPv4, o notación hexadecimal para IPv6. Luego, el emisor conecta a la dirección IP y puerto indicados por el receptor, y le sigue un DCC SEND normal. Tanto el emisor como el receptor pueden cancelar el saludo enviando la respuesta CTPC:

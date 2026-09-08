@@ -1,0 +1,161 @@
+Se define el conmutador de dos operadores lineales 
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ &#x005E;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\hat {A}}}
+ 
+ y 
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ &#x005E;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\hat {B}}}
+ 
+, definidos sobre un mismo dominio denso de cierto espacio de Hilbert, como un nuevo operador definido por la diferencia del producto de operadores:
+
+[
+ 
+ 
+ 
+ A
+ &#x005E;
+ 
+ 
+ 
+ ,
+ 
+ 
+ 
+ B
+ &#x005E;
+ 
+ 
+ 
+ ]
+ =
+ 
+ 
+ 
+ A
+ &#x005E;
+ 
+ 
+ 
+ 
+ 
+ 
+ B
+ &#x005E;
+ 
+ 
+ 
+ &#x2212;
+ 
+ 
+ 
+ B
+ &#x005E;
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ &#x005E;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle [{\hat {A}},{\hat {B}}]={\hat {A}}{\hat {B}}-{\hat {B}}{\hat {A}}}
+
+Los conmutadores tienen gran importancia en la definición de las álgebras de Lie y la mecánica cuántica, así como en el formalismo más actual de la geometría diferencial, ya que son la imagen algebraica de las transformaciones infinitesimales multiparamétricas en una variedad diferenciable. La clave de esto es que son operadores que satisfacen una misma relación algebraica que las derivadas, que es una relación a tres variables conocida como identidad de Jacobi.
+
+En teoría de grupos 
+ 
+ 
+ 
+ [
+ x
+ ,
+ y
+ ]
+ :=
+ 
+ x
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ y
+ 
+ &#x2212;
+ 1
+ 
+ 
+ x
+ y
+ .
+ 
+ 
+ 
+ {\displaystyle [x,y]:=x^{-1}y^{-1}xy.\,}
+ 
+ 
+Las identidades de los conmutadores son herramientas muy importantes en el estudio de la teoría de grupo, (McKay, 2000, p.&#160;4). La expresión 
+ 
+ 
+ 
+ 
+ a
+ 
+ x
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle a^{x}\,}
+ 
+ denota 
+ 
+ 
+ 
+ 
+ x
+ 
+ &#x2212;
+ 1
+ 
+ 
+ a
+ x
+ .
+ 
+ 
+ 
+ {\displaystyle x^{-1}ax.\,}
+ 
+.

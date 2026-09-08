@@ -1,0 +1,231 @@
+Las medidas cuánticas obedecen dos principios claves. El primero, el principio de la medida diferida, prueba que cualquier medida puede moverse y realizarse al final de un circuito cuántico. El segundo, el principio de la medida implícita, expresa que al final de un circuito cuántico, la medida se puede realizar por cualquier línea cuántica. &#8203;
+
+La teleportación cuántica es un proceso en el cual se transmite información cuántica de una posición a otra suficientemente alejada mediante un canal clásico. El objetivo de esta técnica es transmitir un qubit entre Alice (emisora) y Bob (receptor) mediante el envío de dos bits clásicos. Previamente, Alice y Bob deberán compartir un estado entrelazado. Para simplificar el proceso, el estado que comparten suele ser uno de los estados de la base de Bell.
+
+Lo que se pretende ahora es transmitir un estado (o qubit) que alguien le da a Alice, llamando a ese estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03A8;
+ &#x27E9;
+ =
+ &#x03B1;
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ +
+ &#x03B2;
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi \rangle =\alpha |0\rangle +\beta |1\rangle }
+ 
+, a Bob. De este estado ni Alice ni Bob conocen los valores de 
+ 
+ 
+ 
+ &#x03B1;
+ 
+ 
+ {\displaystyle \alpha }
+ 
+ o 
+ 
+ 
+ 
+ &#x03B2;
+ 
+ 
+ {\displaystyle \beta }
+ 
+ menos que el estado debe estar normalizado. Como este estado lo tiene Alice, ella tendrá tanto el qubit que tenía entrelazado con Bob como este qubit. Así, se tendrán en total tres qubits,
+
+Para enviar el qubit 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03A8;
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi \rangle }
+ 
+, primero se hará pasar a los dos qubits de Alice por una puerta CNOT, siendo el qubit 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03A8;
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi \rangle }
+ 
+ el qubit de control y el qubit de Alice el target. Esto provocará que el qubit 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03A8;
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi \rangle }
+ 
+ y el qubit de Alice se entrelacen, que a su vez se entrelazará con el qubit de Bob por estar el de Alice y Bob entrelazados.
+
+Tras esto, Alice hace pasar su qubit 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03A8;
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi \rangle }
+ 
+ por una puerta de Hadamard, que representa una rotación de ángulo 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+ sobre el eje 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ x
+ &#x005E;
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ z
+ &#x005E;
+ 
+ 
+ 
+ )
+ 
+ /
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle ({\hat {x}}+{\hat {z}})/{\sqrt {2}}}
+ 
+. Finalmente, tendremos un estado de tres qubits en el que, dependiendo de que estado tenga Alice, Bob tendrá un estado u otro. Así, Alice medirá sus dos qubtis (puede salir 
+ 
+ 
+ 
+ 0
+ 
+ 
+ {\displaystyle 0}
+ 
+ o 
+ 
+ 
+ 
+ 1
+ 
+ 
+ {\displaystyle 1}
+ 
+), obteniendo los resultados 
+ 
+ 
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle b_{1}b_{2}}
+ 
+. Estos dos bits clásicos son los que Alice enviará a Bob mediante un canal clásico. Dependiendo del resultado de Alice, Bob solo tendrá que aplicar el operador 
+ 
+ 
+ 
+ 
+ X
+ 
+ 
+ b
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ Z
+ 
+ 
+ b
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle X^{b_{2}}Z^{b_{1}}}
+ 
+, obteniendo al final el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03A8;
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi \rangle }
+ 
+, que es el qubit que inicialmente se quería enviar. &#8203; Para una explicación más detallada, mirar la página de teleportación cuántica.

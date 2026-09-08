@@ -1,0 +1,151 @@
+Otra limitación de la aproximación es que esta solo es aplicable a los problemas de optimización, y no a los problemas de decisión en estado "puro", tales como SAT (a pesar de que es posible representar versiones de optimización para tales problemas, como el respectivo Problema de satisfacibilidad máximo).
+
+Para algunos algoritmos de aproximación es posible demostrar con certeza propiedades sobre la aproximación del resultado óptimo. Por ejemplo, en el caso de un ρ-algoritmo de aproximación se ha demostrado que la aproximación a no será mayor (o menor, dependiendo de la situación) que un factor ρ veces la solución óptima s.
+
+El factor ρ se llama garantía de comportamiento relativo (relative performance guarantee). Un algoritmo de aproximación tiene una garantía de comportamiento absoluto o error acotado ε, si se ha demostrado que
+
+Análogamente, el radio de comportamiento aboluto (absolute performance ratio) 
+ 
+ 
+ 
+ 
+ 
+ P
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle \mathrm {P} _{A}}
+ 
+ de un algoritmo de aproximación 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+, donde 
+ 
+ 
+ 
+ I
+ 
+ 
+ {\displaystyle I}
+ 
+ es una instancia del problema, y 
+ 
+ 
+ 
+ 
+ R
+ 
+ A
+ 
+ 
+ (
+ I
+ )
+ 
+ 
+ {\displaystyle R_{A}(I)}
+ 
+ es la garantía de comportamiento de 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ en 
+ 
+ 
+ 
+ I
+ 
+ 
+ {\displaystyle I}
+ 
+ (es decir, 
+ 
+ 
+ 
+ &#x03C1;
+ 
+ 
+ {\displaystyle \rho }
+ 
+ para la instancia 
+ 
+ 
+ 
+ I
+ 
+ 
+ {\displaystyle I}
+ 
+ del problema) es:
+
+Esto significa que 
+ 
+ 
+ 
+ 
+ 
+ P
+ 
+ 
+ A
+ 
+ 
+ 
+ 
+ {\displaystyle \mathrm {P} _{A}}
+ 
+ es la mayor cota en el radio de aproximación, 
+ 
+ 
+ 
+ r
+ 
+ 
+ {\displaystyle r}
+ 
+, que uno encuentra en todas las posibles instancias del problema. Del mismo modo, el radio de comportamiento asintótico (asymptotic performance ratio) 
+ 
+ 
+ 
+ 
+ R
+ 
+ A
+ 
+ 
+ &#x221E;
+ 
+ 
+ 
+ 
+ {\displaystyle R_{A}^{\infty }}
+ 
+ es:
+
+Es decir, que es el mismo radio de comportamiento absoluto, con una cota inferior 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+ en el tamaño de las instancias del problema. Se utilizan estos dos tipos de radio porque debido a que existen algoritmos donde la diferencia entre ellos es significativa.
+
+El análisis de dominación (Domination analysis) provee un camino alternativo para analizar la calidad de un algoritmo de aproximación, en términos del rango de la solución computada en la secuencia ordenada de todas las posibles soluciones.

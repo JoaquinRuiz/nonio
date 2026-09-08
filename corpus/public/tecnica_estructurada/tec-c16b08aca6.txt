@@ -1,0 +1,352 @@
+|
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2261;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2261;
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle _{A}\otimes |1\rangle _{B}\equiv |0\rangle _{A}|1\rangle _{B}\equiv |01\rangle }
+
+Hay varios posibles caminos para crear un estado entrelazado de Bell a través de circuitos cuánticos. Una de las formas más simples se consigue teniendo de entrada un estado de una de las bases computacionales de dos qubits (
+ 
+ 
+ 
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ {\displaystyle |00\rangle ,|01\rangle ,|10\rangle ,|11\rangle }
+ 
+) y pasar a dicho estado por un circuito cuántico compuesto por una puerta de Hadamard (u operador) y una puerta CNOT (u operador), representando en la imagen la puerta de Hadamard con la 
+ 
+ 
+ 
+ H
+ 
+ 
+ {\displaystyle H}
+ 
+ y la CNOT con 
+ 
+ 
+ 
+ &#x2A01;
+ 
+ 
+ {\displaystyle \bigoplus }
+ 
+.
+
+La puerta de Hadamard transforma el primer qubit de un estado de dos qubits. Si el primer qubit es el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+, lo transforma en el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ +
+ &#x27E9;
+ =
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ +
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle |+\rangle ={\frac {|0\rangle +|1\rangle }{2}}}
+ 
+ , y si es 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+, lo transforma en el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x2212;
+ &#x27E9;
+ =
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ &#x2212;
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle |-\rangle ={\frac {|0\rangle -|1\rangle }{2}}}
+ 
+.
+
+La puerta CNOT varia el segundo qubit (target) de un estado de dos qubits en función del valor del primer qubit (control). Así, si el primer qubit es el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+, el segundo qubit permanece inalterado. Si en cambio el primer qubit es el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+, el segundo qubit cambia a su opuesto (si es 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ pasa a 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+ y viceversa).
+
+Por ejemplo, si se tuviese un estado inicial 
+ 
+ 
+ 
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ 
+ 
+ {\displaystyle |00\rangle }
+ 
+, tras pasar por la puerta de Hadamard tendríamos 
+ 
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ +
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ )
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle (|0\rangle +|1\rangle )|0\rangle \over {\sqrt {2}}}
+ 
+, y tras actuar por la puerta CNOT obtendríamos el estado 
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ +
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle |00\rangle +|11\rangle \over {\sqrt {2}}}
+ 
+. Para cualquiera de los cuatro estados iniciales de la base 
+ 
+ 
+ 
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ {\displaystyle |00\rangle ,|01\rangle ,|10\rangle ,|11\rangle }
+ 
+ de dos qubits, el estado de Bell que saldría del circuito cuántico sigue la siguiente fórmula:

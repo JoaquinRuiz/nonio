@@ -1,0 +1,13 @@
+Se define anómero como el isómero de un monosacárido de más de 5 átomos de carbono que ha desarrollado una unión hemiacetálica, lo que le permite tomar una estructura cíclica y determinar dos posiciones diferentes para el grupo hidroxilo: α, o β, según sea su orientación bajo el plano, o sobre el plano, en una proyección de Haworth.
+
+Los ángulos de unión de los carbonos de los extremos de los monosacáridos de más de 5 carbonos permiten un enroscamiento de las moléculas lineales, en la que la función aldehído de las aldosas en el carbono 1 se ubica próxima al hidroxilo del carbono 5 para formar una unión hemiacetálica (reacción de un aldehído o cetona con un alcohol), lo que provoca la ruptura del doble enlace de la primera función para unirse con el grupo oxhidrilo del carbono 5. Lo mismo sucede con las cetosas, pero en este caso la unión hemicetálica se dan entre el carbono 2 y el carbono 5.
+
+Es esta estructura cíclica de isomería la que determina que el glúcido sea α o β.
+
+En Bioquímica de carbohidratos, un carbono anomérico hace referencia al carbono carbonílico que se transforma en un nuevo centro quiral tras una ciclación hemicetal o hemiacetal.
+
+El azúcar (carbohidrato) en su modo cíclico puede asumir dos orientaciones en el espacio, que se designan con las letras griegas α (alfa) y β (beta). Estos son anómeros, correspondientemente uno del otro.
+
+Para su estudio, los azúcares suelen representarse en estructuras bidimensionales de líneas cruzadas, mejor conocidas como Proyección de Fisher. Sin embargo, en el caso de Azúcares que se encuentran ciclados, la forma más eficiente de representarlos es utilizando Proyección de Haworth, donde el Alcohol (-OH) del carbono anomérico, señalará la propiedad anomérica del azúcar en cuestión.
+
+El azúcar ciclado tendrá una configuración Dextro (D) o Levo (L), que será la misma que poseía la estructura abierta según su estereoisomería (D y L son letras que designan a qué enantiómero pertenece el azúcar). Entonces, para su configuración anomérica α el alcohol en el carbono 1 tendrá una dirección opuesta al grupo terminal en el azúcar ciclado, y para una configuración ß deberán tener una misma dirección. De este modo, si el azúcar pertenece a la familia D, entonces el carbono en la posición 6 de la proyección Haworth (CH2OH) estará representado hacia arriba, y el Alcohol en el Carbono anomérico estará representado hacia abajo si es α, o hacia arriba, si es ß. Recordando que puede tener ambas configuraciones anoméricas tanto en D como en L.

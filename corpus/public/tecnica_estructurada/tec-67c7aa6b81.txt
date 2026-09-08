@@ -1,0 +1,89 @@
+La constante de equilibrio de una reacción química es el valor de su cociente de reacción en el equilibrio químico, un estado que se acerca a un sistema químico dinámico después de que haya transcurrido el tiempo suficiente, en el que su composición no tiene una tendencia medible hacia un cambio adicional. Para un conjunto dado de condiciones de reacción, la constante de equilibrio es independiente de las concentraciones analíticas iniciales del reactivo y las especies de productos en la mezcla. Por lo tanto, dada la composición inicial de un sistema, se pueden usar valores constantes de equilibrio conocidos para determinar la composición del sistema en equilibrio. Sin embargo, los parámetros de reacción como la temperatura, el disolvente y la fuerza iónica pueden influir en el valor de la constante de equilibrio.
+
+El conocimiento de las constantes de equilibrio es esencial para la comprensión de muchos sistemas químicos, así como los procesos bioquímicos como el transporte de oxígeno por la hemoglobina en la sangre y la homeostasis ácido-base en el cuerpo humano.
+
+Constantes de estabilidad, constantes de formación, constantes de unión, constantes de asociación y constantes de disociación son todos tipos de constantes de equilibrio.
+
+una constante de equilibrio termodinámica, denotada por 
+ 
+ 
+ 
+ 
+ K
+ 
+ &#x2296;
+ 
+ 
+ 
+ 
+ {\displaystyle K^{\ominus }}
+ 
+, se define como el valor del cociente de reacción Qt cuando las reacciones directa e inversa se producen a la misma velocidad. En el equilibrio químico, la composición química de la mezcla no cambia con el tiempo y el cambio de energía libre de Gibbs 
+ 
+ 
+ 
+ &#x0394;
+ G
+ 
+ 
+ {\displaystyle \Delta G}
+ 
+ porque la reacción es cero. Si la composición de una mezcla en el equilibrio se cambia mediante la adición de algún reactivo, se alcanzará una nueva posición de equilibrio, con suficiente tiempo. Una constante de equilibrio está relacionada con la composición de la mezcla en equilibrio por &#8203; &#8203;
+
+donde {X} denota la actividad termodinámica del reactivo X en el equilibrio, [X] la concentración correspondiente y γ el coeficiente de actividad correspondiente. Si se puede suponer que el cociente de coeficientes de actividad, 
+ 
+ 
+ 
+ &#x0393;
+ 
+ 
+ {\displaystyle \Gamma }
+ 
+es constante en un rango de condiciones experimentales, como el pH, luego se puede derivar una constante de equilibrio como un cociente de concentraciones.
+
+Una constante de equilibrio está relacionada con el cambio de energía libre estándar de Gibbs de la reacción 
+ 
+ 
+ 
+ &#x0394;
+ 
+ G
+ 
+ &#x2296;
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta G^{\ominus }}
+ 
+por
+
+donde R es la constante universal de los gases ideales, T es la temperatura absoluta (en grados kelvin) y ln es el logaritmo natural. Esta expresión implica que 
+ 
+ 
+ 
+ 
+ K
+ 
+ &#x2296;
+ 
+ 
+ 
+ 
+ {\displaystyle K^{\ominus }}
+ 
+debe ser un número puro y no puede tener una dimensión, ya que los logaritmos solo se pueden tomar de números puros. 
+ 
+ 
+ 
+ 
+ K
+ 
+ c
+ 
+ 
+ 
+ 
+ {\displaystyle K_{c}}
+ 
+ también debe ser un número puro. Por otro lado, el cociente de reacción en equilibrio.

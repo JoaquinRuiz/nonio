@@ -1,0 +1,13 @@
+Nota: El cable utilizado habitualmente para la conexión de micrófonos, al tener una impedancia diferente a la utilizada por el protocolo DMX (120 Ohmios), no es aconsejable utilizarlo para la conexión DMX.
+
+Pin 1 = señal de referencia = revestimiento del cable ( malla o masa );
+
+Pin 4 = opcional (la utilización de este pin varía de acuerdo con el aparato en operación y los fabricantes nunca llegaron a un acuerdo sobre cómo utilizarlo. En origen era para tener feedback de los aparatos y que fuera bidireccional);
+
+Pin 5 = opcional (la utilización de este pin varía de acuerdo con el aparato en operación y los fabricantes nunca llegaron a un acuerdo sobre cómo utilizarlo. En origen era para tener feedback de los aparatos y que fuera bidireccional).
+
+Si bien es cierto que en la industria del entretenimiento el cable del tipo XLR-5 es el cable estándar, para aplicaciones arquitecturales por motivos prácticos y estéticos la utilizacíón de cables de red (categoría 5 o mayor) con conectores RJ-45 es muy común también y tiene la capacidad de transmitir la señal DMX con mucha estabilidad.
+
+No todos están de acuerdo en cuán larga puede ser una cadena de señal DMX. El estándar especifica el largo máximo en 500 metros, pero de acuerdo con las condiciones presentes en cada aplicación esta cifra puede variar. En todo caso, debe quedar claro que la señal DMX siempre corre el riesgo de verse afectada por los ruidos eléctricos y demás señales que puedan correr paralelamente al sistema. Es por eso que es aconsejable mantener los cables de la cadena DMX siempre separados a los cables de electricidad por ejemplo, y es también aconsejable el uso de repetidores DMX o aisladores DMX entre el controlador y el aparato controlado cada cierta distancia, que muchos están de acuerdo en que debe de ser cada 100 metros. Esto no asegura la fidelidad de la señal al 100% pero reduce los riesgos de interferencia. Las condiciones ambientales siempre deben ser consideradas, y asegurarse de que el sistema proveedor de electricidad sea estable es muy importante también.
+
+La señal DMX puede ser enlazada entre aparatos a través de una conexión en cascada. El cable DMX con la señal original sale de un controlador DMX y es enviada al primer aparato del enlace DMX. Todos los aparatos con soporte para DMX tienen conectores DMX de entrada y de salida. Así pues, desde el conector de salida del primer aparato se conecta otro cable DMX que se dirige al conector de entrada del siguiente aparato y así sucesivamente. Al final del enlace DMX, es decir, en el conector de salida del último aparato, siempre es recomendable colocar un "terminador" DMX (DMX terminator) que cierra el enlace (resistor con una carga de 120 ohmios) entre los pines 2 y 3 del conector XLR.

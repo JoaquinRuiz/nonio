@@ -1,0 +1,9 @@
+Hay una serie de técnicas biofísicas para la determinar la información de la secuencia. Estos métodos son la degradación de Edman, en el que los residuos N-terminales son hidrolizados a partir de la cadena , uno por uno, para ser luego identificados.
+
+La técnica del espectrómetro de masas también se pueden utilizar, a partir de la electroforesis en gel y electroforesis capilar.
+
+La interferometría de doble polarización se puede emplear para medir los cambios conformacionales o el auto-ensamblaje de estos materiales cuando son estimuladas por el pH, la temperatura, o la fuerza iónica. Por último, las propiedades mecánicas de estos biopolímeros se pueden medir frecuentemente utilizando pinzas ópticas o microscopía de fuerza atómica.
+
+Los biopolímeros pueden ser considerados sustentables debido a que el carbono neutral es siempre renovable, y están hechos de materiales procedentes de plantas que pueden ser cultivadas en forma continua. Estos materiales vegetales provienen de cultivos agrícolas no alimenticios. Por lo tanto, el uso de biopolímeros tiende a crear una industria sostenible, en contraste con las materias primas provenientes de polímeros derivados de petroquímicos. Además, los biopolímeros tienen el potencial de reducir las emisiones de carbono y disminuir las cantidades de CO2 en la atmósfera: esto es debido a que el dióxido de carbono liberado cuando se degrada pueden ser reabsorbido por cultivos.
+
+Algunos biopolímeros son biodegradables, descomponiéndose en CO2 y agua por microorganismos en un período de seis meses. Los biopolímeros que hacen esto pueden estar marcados con un símbolo 'compostable', bajo la norma europea EN 13432 (2000). El embalaje de estos productos está marcado con un símbolo que permite reconocer el proceso de compostaje industrial al cual fueron sometidos. &#8203;

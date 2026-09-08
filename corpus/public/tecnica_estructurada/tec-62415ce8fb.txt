@@ -1,0 +1,23 @@
+Carrier-Grade NAT (CGN o CG-NAT) también conocido como NAT masivo o NAT a gran escala (Large-Scale NAT o LSN), es una herramienta de diseño de redes IPv4 donde los extremos de la comunicación, en concreto, las redes residenciales, se configuran con direcciones de red privadas, que se traducen a direcciones públicas mediante equipos de traducción que se interponen dentro de la red del proveedor entre el usuario e Internet. Estos dispositivos permiten compartir conjuntos pequeños de direcciones públicas entre muchos puntos finales. Esto cambia el lugar tradicional donde se hace y se configura la función de NAT desde el equipo de casa del cliente, hacia la red del proveedor de acceso a Internet.
+
+Está previsto utilizar CGN masivo como disfunción, con el fin de mitigar el agotamiento de direcciones y uso de IPv4. &#8203;
+
+Un escenario de utilización del NAT masivo se puede describir como NAT444, &#8203; porque las conexiones de algunos clientes a los servidores públicos pueden llegar a pasar por tres dominios de direccionamiento IPv4 diferentes: el propio de la red privada del usuario, la red privada del operador e Internet.
+
+Otro escenario de NAT masivo es Dual-Stack Lite, donde la red del operador utiliza IPv6 y por tanto solo se necesitan dos dominios de direccionamiento IPv4.
+
+En abril de 2012, el IANA asignó el rango 100.64.0.0/10 para uso en escenarios de Carrier Grade NAT en el RFC 6598. &#8203; Este bloque de direcciones no debe ser usado en redes privadas o en la Internet pública: ha sido pensado para operaciones de uso interno en redes de teleoperadores (carrier networks). El tamaño del bloque de direcciones, de 100.64.0.1 a 100.127.255.254 (aproximadamente 4 millones de direcciones, 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 22
+ 
+ 
+ 
+ 
+ {\displaystyle 2^{22}}
+ 
+), ha sido seleccionado para ser suficientemente grande para acomodar todos los dispositivos de acceso de un solo operador en un punto de presencia en una red de área metropolitana como la de Tokio. &#8203;

@@ -1,0 +1,7 @@
+La corrección de errores hacia adelante (en inglés, Forward Error Correction o FEC) es un tipo de mecanismo de corrección de errores que permite su corrección en el receptor sin retransmisión de la información original. Se utiliza en sistemas sin retorno o sistemas en tiempo real donde no se puede esperar a la retransmisión para mostrar los datos. Este mecanismo de corrección de errores se utiliza por ejemplo, en las comunicaciones vía satélite, en las grabadoras de DVD y CD o en las emisiones de TDT para terminales móviles (estándar DVB-H).
+
+La posibilidad de corregir errores se consigue añadiendo al mensaje original unos bits de redundancia. La fuente digital envía la secuencia de datos al codificador, encargado de añadir dichos bits de redundancia. A la salida del codificador obtenemos la denominada palabra código. Esta palabra código es enviada al receptor y este, mediante el decodificador adecuado y aplicando los algoritmos de corrección de errores, obtendrá la secuencia de datos original. Los dos principales tipos de codificación usados son:
+
+FEC reduce el número de transmisiones de errores, así como los requisitos de potencia de los sistemas de comunicación e incrementa la efectividad de los mismos evitando la necesidad del reenvío de los mensajes dañados durante la recepción.
+
+En general incluir un número mayor de bits de redundancia supone una mayor capacidad para corregir errores. Sin embargo, este hecho reduce notablemente el régimen binario de transmisión, y aumenta el retardo en la recepción del mensaje

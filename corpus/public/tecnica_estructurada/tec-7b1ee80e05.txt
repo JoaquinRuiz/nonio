@@ -1,0 +1,163 @@
+La constante de Planck es una constante física que desempeña un papel central en la teoría de la mecánica cuántica y recibe su nombre de su descubridor, el físico y matemático alemán Max Planck, uno de los padres de dicha teoría. Denotada como 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ 
+, es la constante que frecuentemente se define como el cuanto elemental de acción. Planck la denominaría precisamente «cuanto de acción» (en alemán, Wirkungsquantum), debido a que la cantidad denominada acción de un proceso físico (el producto de la energía implicada y el tiempo empleado) solo podía tomar valores discretos, es decir, múltiplos enteros de 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ 
+.
+
+Fue inicialmente propuesta como la constante de proporcionalidad entre la energía 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ 
+ de un fotón y la frecuencia 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ 
+ de su onda electromagnética asociada. Esta relación entre la energía y la frecuencia se denomina «relación de Planck-Einstein»:
+
+Dado que la frecuencia 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ 
+, la longitud de onda 
+ 
+ 
+ 
+ &#x03BB;
+ 
+ 
+ {\displaystyle \lambda }
+ 
+, y la velocidad de la luz 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ 
+ cumplen 
+ 
+ 
+ 
+ &#x03BB;
+ f
+ =
+ c
+ 
+ 
+ {\displaystyle \lambda f=c}
+ 
+, la relación de Planck-Einstein se puede expresar como:
+
+Otra ecuación fundamental en la que interviene la constante de Planck es la que relaciona el momento lineal 
+ 
+ 
+ 
+ p
+ 
+ 
+ {\displaystyle p}
+ 
+ de una partícula con la longitud de onda de De Broglie λ de la misma:
+
+En aplicaciones donde la frecuencia viene expresada en términos de radianes por segundo o frecuencia angular, es útil incluir el factor 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 2
+ &#x03C0;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {1}{2\pi }}}
+ 
+ dentro de la constante de Planck. La constante resultante, «constante de Planck reducida» o «constante de Dirac», se expresa como ħ ("h barra"):
+
+De esta forma la energía de un fotón con frecuencia angular 
+ 
+ 
+ 
+ &#x03C9;
+ 
+ 
+ {\displaystyle \omega }
+ 
+, donde 
+ 
+ 
+ 
+ &#x03C9;
+ =
+ 2
+ &#x03C0;
+ f
+ 
+ 
+ {\displaystyle \omega =2\pi f}
+ 
+, se podrá expresar como:
+
+Por otro lado, la constante de Planck reducida es el cuanto del momento angular en mecánica cuántica. Los valores que puede tomar el momento angular orbital, de spin o total, son múltiplos enteros o semienteros de la constante reducida. Así, si 
+ 
+ 
+ 
+ J
+ 
+ 
+ 
+ {\displaystyle J\,}
+ 
+ es el momento angular total de un sistema con invariancia rotacional y 
+ 
+ 
+ 
+ 
+ J
+ 
+ z
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle J_{z}\,}
+ 
+ es el momento angular del sistema medido sobre una dirección cualquiera, por ejemplo la del eje z, estas cantidades solo pueden tomar los valores:
+
+Unicode reserva los códigos U+210E (h) para la constante de Planck y U+210F (h con barra) para la constante de Dirac.

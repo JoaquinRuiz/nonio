@@ -1,0 +1,122 @@
+A
+ (
+ &#x03A9;
+ )
+ =
+ 
+ &#x222C;
+ 
+ &#x03A9;
+ 
+ 
+ 
+ 
+ 1
+ +
+ 
+ 
+ (
+ 
+ 
+ 
+ &#x2202;
+ f
+ 
+ 
+ &#x2202;
+ x
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ +
+ 
+ 
+ (
+ 
+ 
+ 
+ &#x2202;
+ f
+ 
+ 
+ &#x2202;
+ y
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ x
+ 
+ d
+ 
+ y
+ 
+ 
+ {\displaystyle A(\Omega )=\iint _{\Omega }{\sqrt {1+\left({\frac {\partial f}{\partial x}}\right)^{2}+\left({\frac {\partial f}{\partial y}}\right)^{2}}}\mathrm {d} x\mathrm {d} y}
+
+De manera un poco más general si conocemos la ecuación paramétrica de la superficie en función de dos coordenadas cualesquiera u y v entonces el área anterior puede escribirse como:
+
+A
+ (
+ &#x03A9;
+ )
+ =
+ 
+ &#x222C;
+ 
+ &#x03A9;
+ 
+ 
+ 
+ 
+ E
+ G
+ &#x2212;
+ 
+ F
+ 
+ 2
+ 
+ 
+ 
+ 
+ &#xA0;
+ 
+ d
+ 
+ u
+ 
+ d
+ 
+ v
+ 
+ 
+ {\displaystyle A(\Omega )=\iint _{\Omega }{\sqrt {EG-F^{2}}}\ \mathrm {d} u\mathrm {d} v}
+
+Donde E, F y G son las componentes del tensor métrico o primera forma fundamental de la superficie en las coordenadas paramétricas u y v.
+
+En una variedad de Riemann de dimensión n > 1 puede definirse el área de ciertas subvariedades cuya dimensión sea 2. Para ello se define un conjunto de dos coordenadas (u, v) que parametricen la subvariedad y se construye un atlas para subvariedad, entonces el área es la integral de una 2-forma sobre dicha variedad. Esta definición coincidiría con la definición de áreas dada a partir de la primera forma fundamental.
+
+Las unidades de superficie son patrones establecidos mediante convención para facilitar el intercambio de datos de mediciones de la superficie, área o extensión de un objeto, terreno o figura geométrica.
+
+La medición es la técnica mediante la cual asignamos un número a una propiedad física, como resultado de comparar dicha propiedad con otra similar tomada como patrón, la cual se adopta como unidad. La medida de una superficie da lugar a dos cantidades diferentes si se emplean distintas unidades de medida. Así, surgió la necesidad de establecer una unidad de medida única para cada magnitud, de modo que la información fuese fácilmente comprendidas
+
+Según el Sistema Internacional de Unidades, las unidades cuadradas son las que se listan a continuación: &#8203;
+
+En la escala atómica, el área se mide en unidades de barn. &#8203; Se usa comúnmente para describir el área transversal de interacción en física nuclear. &#8203;

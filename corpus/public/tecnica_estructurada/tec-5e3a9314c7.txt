@@ -1,0 +1,42 @@
+El área de una cicloide se puede calcular considerando el área entre la propia cicloide y el rectángulo circundante. Estas tangentes se pueden agrupar para formar un círculo. Si la circunferencia que genera la cicloide tiene radio r, este círculo también tiene radio r y área πr . El área del rectángulo es 
+ 
+ 
+ 
+ 2
+ r
+ &#x00D7;
+ 2
+ &#x03C0;
+ r
+ =
+ 4
+ &#x03C0;
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle 2r\times 2\pi r=4\pi r^{2}}
+ 
+. Por lo tanto, el área de la cicloide es 
+ 
+ 
+ 
+ 3
+ &#x03C0;
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle 3\pi r^{2}}
+ 
+: es 3 veces el área de la circunferencia generadora.
+
+El grupo de tangentes puede verse como un círculo porque la cicloide se genera mediante una circunferencia y cada tangente a la cicloide forma un ángulo recto con la línea desde el punto de generación hasta el punto de giro. Por lo tanto, la tangente y la línea al punto de contacto forman un triángulo rectángulo en el círculo generador. Esto significa que agrupadas juntas, las tangentes describirán la forma del círculo generador.

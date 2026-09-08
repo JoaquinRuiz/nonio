@@ -1,0 +1,15 @@
+Desde la síntesis de Wöhler de la urea un altísimo número de compuestos orgánicos han sido sintetizados químicamente para beneficio humano. Estos incluyen fármacos, desodorantes, perfumes, detergentes, jabones, fibras téxtiles sintéticas, materiales plásticos, polímeros en general, o colorantes orgánicos.
+
+El compuesto más simple es el metano, un átomo de carbono con cuatro de hidrógeno (valencia = 1), pero también puede darse la unión carbono-carbono, formando cadenas de distintos tipos, ya que pueden darse enlaces simples, dobles o triples. Cuando el resto de enlaces de estas cadenas son con hidrógeno, se habla de hidrocarburos, que pueden ser:
+
+Los radicales &#8203; son fragmentos de cadenas de carbonos que cuelgan de la cadena principal. Su nomenclatura se hace con la raíz correspondiente (en el caso de un carbono met-, dos carbonos et-, tres carbonos prop-, cuatro carbonos but-, cinco carbonos pent-, seis carbonos hex-, y así sucesivamente...) y el sufijo -il. Además, se indica con un número, colocado delante, la posición que ocupan. El compuesto más simple que se puede hacer con radicales es el 2-metilbutano. En caso de que haya más de un radical, se nombrarán por orden alfabético de las raíces. Por ejemplo, el 2-etil, 5-metil, 8-butil, 10-docoseno.
+
+Los compuestos orgánicos también pueden contener otros elementos, también otros grupos de átomos además del carbono e hidrógeno, llamados grupos funcionales. Un ejemplo es el grupo hidroxilo, que forma los alcoholes: un átomo de oxígeno enlazado a uno de hidrógeno (-OH), al que le queda una valencia libre. Asimismo también existen funciones alqueno (dobles enlaces), éteres, ésteres, aldehídos, cetonas, carboxílicos, carbamoilos, &#8203; azo, nitro o sulfóxido, entre otros. &#8203;
+
+El grupo –OH es muy polar y, lo que es más importante, es capaz de establecer puentes de hidrógeno: con sus moléculas compañeras o con otras moléculas neutras.
+
+Dependiendo de la cantidad de grupos -OH que forman parte del alcohol, el mismo puede ser clasificado como monohidroxilado (presencia de un hidroxilo) o polihidroxilado (dos o más grupos hidroxilos en la molécula).
+
+Son compuestos que contienen un ciclo saturado. Un ejemplo de estos son los norbornanos, que en realidad son compuestos bicíclicos, los terpenos, u hormonas como el estrógeno, progesterona, testosterona u otras biomoléculas como el colesterol.
+
+Los compuestos aromáticos tienen estructuras cíclicas insaturadas. El benceno es el claro ejemplo de un compuesto aromático, entre cuyos derivados están el tolueno, el fenol o el ácido benzoico. En general se define un compuesto aromático aquel que tiene anillos que cumplen la regla de Hückel, es decir que tienen 4n+2 electrones en orbitales π (n=0,1,2,...). A los compuestos orgánicos que tienen otro grupo distinto al carbono en sus cilos (normalmente N, O u S) se denominan compuestos aromáticos heterocíclicos. Así los compuestos aromáticos se suelen dividir en:

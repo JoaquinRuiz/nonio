@@ -1,0 +1,30 @@
+Puede entenderse la Corrección de Bessel intuitivamente, a partir de los grados de libertad del vector de residuos
+
+donde 
+ 
+ 
+ 
+ 
+ 
+ x
+ &#x00AF;
+ 
+ 
+ 
+ 
+ {\displaystyle {\overline {x}}}
+ 
+ es la media muestral. Mientras que hay n muestras independientes, hay solamente n&#160;−&#160;1 residuos independientes, que suman 0. Es decir, calculados n&#160;−&#160;1 residuos, es inmediato conocer el residuo restante, cuyo valor es la suma de los otros residuos cambiado de signo. Esta circunstancia es debida a la propiedad de la media aritmética que se utiliza en el cálculo de los residuos, que hace que estos siempre sumen 0.
+
+Por último, debe resaltarse que a medida que el número de elementos de las muestras utilizadas es mayor, la diferencia entre las estimaciones corregidas y sin corregir (es decir, la diferencia entre la raíz de 1/n y la raíz de 1/(n-1)), es cada vez más pequeña. Sin embargo, el efecto de la corrección es especialmente relevante para muestras pequeñas (formadas por 10 o menos observaciones), como las que Bessel manejaba habitualmente.
+
+Supóngase que la media de cierta población es 2050, pero el estadístico no la conoce. Por lo tanto, la estima basado en una pequeña muestra elegida al azar de entre la población:
+
+Este valor puede servir como un estimador insesgado de la media poblacional, que es desconocida. Ahora, hay que enfrentarse al problema de estimar la varianza poblacional. O sea, de estimar el promedio entre el cuadrado de las desviaciones respecto a &#160;2050. Si el estadístico supiera que la media poblacional es de 2050, entonces podría proceder de la siguiente forma:
+
+Pero el estimador de la media poblacional del que dispone el estadístico es la media muestral&#160;2052, no&#160;2050.
+En consecuencia, solo puede calcular:
+
+La estimación es substancialmente menor. Por lo tanto surge el interrogante: el estimador de la varianza poblacional calculado usando la media muestral, ¿es siempre menor que la verdadera varianza poblacional? La respuesta es que sí, excepto cuando la media muestral sea igual a la media poblacional.
+
+En términos intuitivos, se busca la suma de los cuadrados de las diferencias respecto a la media poblacional, pero el estadístico termina calculando la suma de los cuadrados de las diferencias de los valores de cada observación respecto a la media muestral, que es, como se verá a continuación, el valor que minimiza la suma de las diferencias al cuadrado. Por lo tanto, a menos que la muestra tenga como media un valor igual al de la media poblacional, su estimador siempre subestimará la varianza poblacional.

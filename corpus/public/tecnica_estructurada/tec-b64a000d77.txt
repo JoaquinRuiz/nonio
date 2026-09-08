@@ -1,0 +1,97 @@
+Los aportes de Bohr a su modelo del átomo se encierran en el segundo y tercer postulados. En el segundo establece la condición de cuantización de las órbitas de los electrones en el átomo y en el tercero introduce la hipótesis de que la energía de un electrón en el átomo solamente puede intercambiarla con el entorno, en pequeñas cantidades múltiplo de la constante de Planck, pasando de una órbita a otra según la condición del segundo postulado. El tercer postulado impide entre otras cosas que el electrón en su movimiento alrededor del núcleo pierda energía de manera continua y salga despedido hacia el núcleo como predecía la teoría clásica.
+
+Los electrones se mueven en ciertas órbitas circulares permitidas alrededor del núcleo sin emitir energía. En el átomo no hay emisión de radiación electromagnética mientras el electrón permanece en su órbita. La causa de que el electrón no radie energía es un postulado, ya que según la electrodinámica clásica una carga en movimiento acelerado, como es el movimiento de rotación, debe emitir energía en forma de radiación.
+
+Para obtener la energía del electrón en una órbita dada en función de su radio, Bohr presupone órbitas circulares y utiliza el siguiente razonamiento: el movimiento de rotación del electrón se mantiene por la acción de la fuerza de Coulomb, atractiva, debida a la presencia del núcleo positivo. Dicha fuerza es precisamente la fuerza centrípeta necesaria para mantener al electrón en su órbita circular. Esto conduce a la siguiente expresión:
+
+k
+ 
+ 
+ 
+ Z
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ =
+ 
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ v
+ 
+ 2
+ 
+ 
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle k{Ze^{2} \over r^{2}}={m_{e}v^{2} \over r}}
+
+Donde el primer término es la fuerza de Coulomb y el segundo es la fuerza centrípeta; k es la constante de la fuerza de Coulomb, Z es el número atómico, e es la carga del electrón, 
+ 
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ 
+ {\displaystyle m_{e}}
+ 
+ es la masa del electrón, v es la velocidad del electrón en la órbita y r el radio de la órbita.
+
+Partiendo de la ecuación anterior y sabiendo que la energía total es la suma de las energías cinética y potencial, la energía de un electrón se expresa en función del radio r de la órbita como:
+
+E
+ =
+ &#x2212;
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ 
+ k
+ Z
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle E=-{1 \over 2}{kZe^{2} \over r}}
+
+Con este postulado, Bohr evitaba el problema de la inestabiliad orbital del electrón, y por tanto del átomo, predicha por la electrodinámica clásica. Esto lo hace al postular que la radiación de energía por parte de las partículas cargadas es válida a escala macroscópica, pero no es aplicable al mundo microscópico del átomo. Sin embargo, surgía el problema de explicar la transición entre los estados estacionarios y la emisión de radiación por el átomo, para lo que Bohr introdujo otro postulado.

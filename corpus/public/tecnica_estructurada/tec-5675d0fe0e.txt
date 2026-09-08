@@ -1,0 +1,46 @@
+A partir de un valor de la tensión externa (que depende del tipo de material semiconductor), el LED comienza a emitir fotones, es la tensión de encendido 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+. Los portadores de la carga, electrones y huecos, pueden desplazarse a través de la unión cuando se aplican a los electrodos diferentes tensiones. Al ir elevando la tensión externa a la unión, el LED comienza a conducir; a partir de la tensión de encendido 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+, comienza a emitir fotones y a tensiones mayores, aumenta la intensidad de luz emitida. Este aumento de intensidad luminosa al aumentar la intensidad de la corriente puede verse disminuida por la recombinación Auger &#8203;
+. &#8203; Durante el proceso de recombinación, el electrón salta de la banda de conducción a la de valencia emitiendo un fotón y accediendo, por conservación de la energía, a un nivel más bajo de energía, por debajo del nivel de Fermi del material. El proceso de emisión se llama recombinación radiativa, &#8203; que corresponde al fenómeno de la emisión espontánea. Así, en cada recombinación radiativa electrón-hueco se emite un fotón de energía igual a la anchura en energías de la banda prohibida, 
+ 
+ 
+ 
+ 
+ E
+ 
+ g
+ 
+ 
+ 
+ 
+ {\displaystyle E_{g}}
+ 
+ (ver la figura):
+
+siendo c la velocidad de la luz y λ es la longitud de onda de la luz que emite. Esta descripción del fundamento de la emisión de radiación electromagnética por el diodo LED (hay LED que emiten también en el ultravioleta y en el infrarrojo) se puede apreciar en la figura donde se hace una representación esquemática de la unión PN del material semiconductor junto con el diagrama de energías, implicado en el proceso de recombinación y emisión de luz, en la parte baja del dibujo. La longitud de onda de la luz emitida, y por lo tanto su color, depende de la anchura de la banda prohibida de energía. En los diodos de silicio o de germanio, los electrones y los huecos se recombinan generando vibraciones de la red en forma de fonones y emitiendo radiación térmica. Es una transición no radiativa que, finalmente, produce el calentamiento del diodo en vez de emitir luz. Los substratos más importantes disponibles para su aplicación en emisión de luz son el GaAs y el InP. Los diodos LED pueden disminuir su eficiencia si sus picos de absorción y emisión espectral en función de su longitud de onda, están muy próximos, como ocurre con los LED de GaAs:Zn (dopado con Zinc) ya que parte de la luz que emiten, la absorben internamente.

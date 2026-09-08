@@ -1,0 +1,200 @@
+donde 
+ 
+ 
+ 
+ 
+ E
+ 
+ h
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle E_{h}\,}
+ 
+ es la unidad atómica de energía o Hartree. Como se puede ver, la fórmula solo depende del número cuántico principal. Esto confiere a los diferentes estados de energía lo que se denomina degeneración accidental. Por ejemplo para n = 2 existen cuatro estados posibles, <n,l,m> = <2,0,0>, <2,1,0>, <2,1,+1> y <2,1,-1>, con la misma energía para 
+ 
+ 
+ 
+ 
+ l
+ =
+ 0
+ 
+ 
+ 
+ {\displaystyle \scriptstyle l=0}
+ 
+ que para 
+ 
+ 
+ 
+ 
+ l
+ =
+ 1
+ 
+ 
+ 
+ {\displaystyle \scriptstyle l=1}
+ 
+. Pero dado que la función de energía solo depende de n y no de l, todos ellos tendrán, en principio, la misma energía (la degeneración en m es consecuencia de la invariancia bajo rotaciones de todos los potenciales centrales). Esta aproximación en la medida de los niveles de energía recibe el nombre de estructura gruesa. Sin embargo, el hecho de que la degeneración sea accidental es debido a que no aparece para otros potenciales centrales, sino justo para un potencial que decaiga exactamente como el de Coulomb, o sea, exactamente con el inverso de la distancia. Clásicamente esta dependencia con la distancia en la energía potencial hace que se pueda construir una cantidad vectorial (el vector de Runge-Lenz) que permanece constante en el movimiento. Cuánticamente, las componentes del operador vectorial que representan al observable de Runge-Lenz no conmutan con el momento angular orbital al cuadrado, lo cual garantiza que tengamos estados linealmente independientes con el mismo autovalor de la energía y diferente autovalor del momento angular orbital al cuadrado: o sea, lo que hemos llamado degeneración accidental. En realidad, existen tres correcciones distintas que hacen variar sensiblemente el valor de la energía de dichos niveles rompiendo esa degeneración. Es la denominada estructura fina del átomo de hidrógeno o hidrogenoide. En los átomos multielectrónicos en la aproximación de campo central, el potencial "apantallado" que sienten los electrones y que tiene en cuenta en parte la repulsión interelectrónica ya no es Coulomb (no decae con el inverso de la distancia al núcleo) y no hay degeneración accidental.
+
+La ecuación de Schrödinger aplicada a electrones es sólo una aproximación no relativista a la ecuación de Dirac que da cuenta tanto del efecto del spin del electrón. En el tratamiento de Dirac de los electrones de hecho la función de onda debe substituirse por un espinor de cuatro componentes:
+
+&#x03C8;
+ 
+ n
+ ,
+ j
+ m
+ 
+ 
+ (
+ &#x00B1;
+ )
+ 
+ 
+ (
+ r
+ ,
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ =
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ i
+ 
+ G
+ 
+ n
+ ,
+ l
+ j
+ 
+ 
+ (
+ r
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x03C6;
+ 
+ 
+ j
+ m
+ 
+ 
+ (
+ &#x00B1;
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ F
+ 
+ n
+ ,
+ l
+ j
+ 
+ 
+ (
+ r
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ &#x03C3;
+ 
+ &#x22C5;
+ 
+ 
+ 
+ 
+ r
+ 
+ &#x005E;
+ 
+ 
+ 
+ )
+ 
+ 
+ &#x03C6;
+ 
+ 
+ j
+ m
+ 
+ 
+ (
+ &#x00B1;
+ )
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ {\displaystyle \psi _{n,jm}^{(\pm )}(r,\theta ,\phi )={\begin{Bmatrix}{\cfrac {iG_{n,lj}(r)}{r}}{\boldsymbol {\varphi }}_{jm}^{(\pm )}\\{\cfrac {F_{n,lj}(r)}{r}}({\boldsymbol {\sigma }}\cdot {\hat {\mathbf {r} }}){\boldsymbol {\varphi }}_{jm}^{(\pm )}\end{Bmatrix}}}

@@ -1,0 +1,15 @@
+El análisis de datos es un proceso que consiste en inspeccionar, &#8203; limpiar y transformar datos con el objetivo de resaltar información útil, para sugerir conclusiones y apoyo en la toma de decisiones. El análisis de datos tiene múltiples facetas y enfoques, que abarca diversas técnicas en una variedad de nombres, en diferentes negocios, la ciencia, y los dominios de las ciencias sociales. Los datos se coleccionan y analizan para indagar en cuestiones, probar conjeturas o refutar teorías. &#8203;
+
+Se centra en la inferencia estadística, la cual permite tomar una decisión de forma sencilla con un grado de confianza determinado, &#8203; identificando, analizando tanto datos como patrones de comportamiento. Las técnicas de este análisis varían según las necesidades de la organización así como también las soluciones tecnológicas,tales comoKNIME , R y tableros de viualización (como Power BI o Qlik View, Tableau o Sas Visual Analytics). Estos proyectan en tiempo real los datos en formato visual. &#8203; &#8203;
+ &#8203; &#8203; &#8203; &#8203; &#8203;
+
+El análisis de datos, en su estudio de la estructura de grandes conjuntos, es moderno pero los métodos de análisis son de larga data. Quien introdujo por primera vez el método de análisis de factores fue Ch. Spearman en 1904 (concepto de factor). &#8203;La primera definición se remonta al año de 1961, cuando el matemático John Wilder Tukey, predijo el efecto de la computación en el análisis definiéndolo como: "(los) Procedimientos para analizar datos, (las) técnicas para interpretar los resultados de dichos procedimientos, (las) formas de planear la recolección de datos para hacer el análisis más fácil, más preciso o más exacto, y toda la maquinaria y los resultados de las estadísticas (matemáticas) que se aplican al análisis." &#8203;
+
+Puede dividirse de acuerdo con el tipo de información que estudia en: análisis cuantitativo y cualitativo. El primero, examina la relación entre información cuantificable; El segundo, examina la relación de información no numérica en contextos situacionales y estructurales. &#8203;
+
+También puede dividirse de acuerdo al objetivo en: análisis exploratorio (ADE) y análisis confirmatorio (ADC). El primero, busca vínculos y relaciones entre los datos; El segundo, se enfoca en comprobar las hipótesis formuladas respecto a un conjunto de información. &#8203;
+
+Son varios los enfoques presentados, sin pretender ser una metodología estricta sino más bien inicial o para exploración de campo, podemos mencionar las siguientes. &#8203;
+
+Se pueden aplicar fórmulas o modelos matemáticos (conocidos como algoritmos) a los datos para identificar relaciones entre las variables; por ejemplo, utilizando correlación o causalidad. &#8203; &#8203; En términos generales, se pueden desarrollar modelos para evaluar una variable específica basada en otras variables contenidas en el conjunto de datos, con algún error residual dependiendo de la precisión del modelo implementado (por ejemplo, Datos = Modelo + Error). &#8203;
+ &#8203;

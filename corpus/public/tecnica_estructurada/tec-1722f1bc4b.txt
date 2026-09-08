@@ -1,0 +1,16 @@
+Un amplituedro (amplituhedron en inglés) es un objeto geométrico descubierto en 2013 que simplifica drásticamente los cálculos de interacciones de partículas en algunas teorías de campos cuánticos. En la teoría supersimétrica N=4 de Yang-Mills, un amplituedro es definido dentro de un espacio matemático conocido como grasmaniano positivo. &#8203;
+
+La teoría del amplituedro desafía la noción de que la localidad y la unitariedad del espacio-tiempo son componentes necesarios de un modelo de interacciones de partículas. En vez de eso, ellas son propiedades que emergen a partir de un fenómeno subyacente. &#8203;
+ &#8203;
+
+La investigación en esta área ha sido encabezada por Nima Arkani-Hamed. El físico Edward Witten describió el trabajo como "muy inesperado" y dijo que "es difícil adivinar qué sucederá o cuáles serán las lecciones". &#8203;
+
+En este acercamiento, los procesos de dispersión on-shell son descritos por un grasmaniano positivo, una estructura en geometría algebraica que generaliza la idea de un símplex en un espacio proyectivo. &#8203; El simplex es un politopo, un tipo de poliedro de dimensión más alta, y los valores calculados son amplitudes de dispersión y de esta manera, el objeto es llamado un amplituedro. &#8203;
+
+Usando la teoría de twistores, las relaciones de recursión BCFW implicadas en el proceso de dispersión pueden ser representadas con un pequeño número de diagramas de twistores. Estos diagramas proveen efectivamente el medio para construir el grasmaniano positivo, es decir, el amplituedro, que puede ser capturado en una sola ecuación. &#8203;
+
+Cuando es calculado el volumen del amplituedro en el límite planar de la teoría supersimétrica N=4 D=4 de Yang-Mills, éste describe las amplitudes de dispersión de las partículas subatómicas. &#8203; Por lo tanto, el amplituedro proporciona un modelo geométrico más intuitivo para los cálculos cuyos principios subyacentes eran anteriormente altamente abstractos. &#8203;
+
+El acercamiento por twistores simplifica los cálculos de las interacciones de partículas, En un acercamiento perturbacional a la teoría cuántica de campos, tales interacciones pueden requerir el cálculo de cientos de diagramas de Feynman. En contraste, la teoría de twistores proporciona un acercamiento en el que las amplitudes de dispersión pueden ser calculadas de una manera que produce expresiones mucho más simples. &#8203;
+
+El acercamiento por twistores previamente ha sido relativamente abstracto. El amplituedro proporciona un modelo subyacente por primera vez. Su naturaleza geométrica sugiere la posibilidad de que la naturaleza del universo, tanto del espacio-tiempo relativista clásico como de la mecánica cuántica, también pueden ser descritos con geometría. Los cálculos pueden ser realizados sin asumir las propiedades de localidad y unitariedad de la mecánica cuántica, que podría ayudar a la investigación de las teorías de la gravedad cuántica.

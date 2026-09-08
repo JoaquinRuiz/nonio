@@ -1,0 +1,17 @@
+Los alcoholes de bajo peso molecular se presentan a temperatura ambiente como líquidos incoloros; los alcoholes más pesados, como sólidos blanquecinos.
+
+El grupo hidroxilo hace polar generalmente a la molécula de alcohol. Esto es debido a su geometría en codo, y a las electronegatividades respectivas del carbono, de oxígeno y del hidrógeno (χ(O) > χ(C) > χ(H)). Estos grupos pueden formar enlaces de hidrógeno entre ellos o con otros compuestos (lo que explica su solubilidad en el agua y en los otros alcoholes).
+
+La solubilidad en el agua de los alcoholes depende de los dos mismos factores mencionados previamente, pero en este caso son antagonistas:
+
+Los alcoholes de bajo peso molecular son generalmente solubles en los solventes orgánicos como la acetona o el éter.
+
+Los alcoholes pueden comportarse como ácidos o como bases gracias a que el grupo funcional es similar al agua, por lo que se establece un dipolo muy parecido al que presenta la molécula de agua.
+
+Por un lado, si se enfrenta un alcohol con una base fuerte o con un hidruro de metal alcalino se forma el grupo alcoxi, en donde el grupo hidroxilo se desprotona dejando al oxígeno con carga negativa. La acidez del grupo hidroxilo es similar a la del agua, aunque depende fundamentalmente del impedimento estérico y del efecto inductivo. Si un hidroxilo se encuentra enlazado a un carbono terciario, este será menos ácido que si se encontrase enlazado a un carbono secundario, y a su vez este sería menos ácido que si estuviese enlazado a un carbono primario, ya que el impedimento estérico impide que la molécula se solvate de manera efectiva. El efecto inductivo aumenta la acidez del alcohol si la molécula posee un gran número de átomos electronegativos unidos a carbonos adyacentes (los átomos electronegativos ayudan a estabilizar la carga negativa del oxígeno por atracción electrostática).
+
+Por otro lado, el oxígeno posee dos pares electrónicos no compartidos, por lo que el hidroxilo podría protonarse, aunque en la práctica esto conduce a una base muy débil, por lo que para que este proceso ocurra, es necesario enfrentar al alcohol con un ácido muy fuerte.
+
+Para fluorar cualquier alcohol se requiere del reactivo de Olah o el reactivo de Ishikawa.
+
+Los alcoholes terciarios reaccionan con ácido clorhídrico directamente para producir el cloroalcano terciario, pero si se usa un alcohol primario o secundario es necesaria la presencia de un ácido de Lewis, un "activador", como el cloruro de zinc. También se puede obtener por reacción de Appel. La conversión puede ser llevada a cabo directamente usando cloruro de tionilo (SOCl2) como alternativa.

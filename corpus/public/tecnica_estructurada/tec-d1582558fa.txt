@@ -1,0 +1,9 @@
+Un conteo rápido o recuento rápido (quick count) es una técnica estadística que se utiliza para estimar el posible resultado de una elección antes de que se den a conocer los resultados oficiales.
+
+El conteo rápido es un ejercicio de registro de los datos sobre resultados de una elección en una muestra de centros de votación seleccionada conforme métodos probabilísticos.
+
+Como resultado de estos ejercicios, es posible conocer con rapidez, dentro de cierto rango de precisión y confianza estadística, los resultados de una elección. La certeza estadística de estos ejercicios depende del tamaño y aleatoriedad de la muestra que se tome.
+
+Los resultados de un conteo rápido pueden ser reportados como estimaciones puntuales o como rangos de estimación para la votación de cada contendiente. Si los rangos para dos o más candidatos con posibilidades de haber resultados ganadores se intersecan, no se puede definir un ganador por este método (too close to call), por lo que suele no reportarse el resultado del ejercicio para evitar confundir al público interesado.
+
+Normalmente, se ubican recolectores de información en el exterior de los centros de votación en muestra para recabar los datos al cierre del proceso de cómputo de votos en dichos centros. Los datos son trasmitidos vía telefónica o por medios informáticos a centros de acopio, donde son procesados y analizados para generar los estimadores.

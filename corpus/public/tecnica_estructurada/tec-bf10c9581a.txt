@@ -1,0 +1,501 @@
+Comenzaremos con una combinación entre los inscritos y los cursos para obtener el nombre de los cursos:
+
+Como podemos observar, la combinación solo nos entrega las combinaciones entre Inscritos y Cursos en que COD sea igual entre los inscritos y el curso correspondiente.
+
+Ahora necesitamos los nombres de los alumnos inscritos. Al resultado anterior (Resultado 1) aplicaremos una nueva combinación comparando los ID de los alumnos para colocar el nombre adecuado con el estudiante adecuado:
+
+Resultado 1 
+ 
+ 
+ 
+ &#x22C8;
+ 
+ 
+ {\displaystyle \bowtie }
+ 
+
+ 
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 
+ 
+ &#xA0;
+ 
+ 
+ 1.
+ I
+ D
+ &#x005F;
+ A
+ L
+ 
+ 
+ &#xA0;
+ 
+ 
+ =
+ 
+ 
+ &#xA0;
+ 
+ 
+ A
+ l
+ u
+ m
+ n
+ o
+ s
+ .
+ I
+ D
+ 
+ 
+ 
+ 
+ {\displaystyle {}_{Resultado{\mbox{ }}1.ID\_AL{\mbox{ }}={\mbox{ }}Alumnos.ID}}
+ 
+ Alumnos
+
+(
+ 
+ 
+ 
+ 
+ {\displaystyle {\big (}}
+ 
+Inscritos 
+ 
+ 
+ 
+ &#x22C8;
+ 
+ 
+ {\displaystyle \bowtie }
+ 
+
+ 
+ 
+ I
+ n
+ s
+ c
+ r
+ i
+ t
+ o
+ .
+ C
+ O
+ D
+ 
+ 
+ &#xA0;
+ 
+ 
+ =
+ 
+ 
+ &#xA0;
+ 
+ 
+ C
+ u
+ r
+ s
+ o
+ .
+ C
+ O
+ D
+ 
+ 
+ 
+ 
+ {\displaystyle {}_{Inscrito.COD{\mbox{ }}={\mbox{ }}Curso.COD}}
+ 
+Cursos
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\big )}}
+ 
+ 
+ 
+ 
+ 
+ &#x22C8;
+ 
+ 
+ {\displaystyle \bowtie }
+ 
+
+ 
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 
+ 
+ &#xA0;
+ 
+ 
+ 1.
+ I
+ D
+ &#x005F;
+ A
+ L
+ 
+ 
+ &#xA0;
+ 
+ 
+ =
+ 
+ 
+ &#xA0;
+ 
+ 
+ A
+ l
+ u
+ m
+ n
+ o
+ s
+ .
+ I
+ D
+ 
+ 
+ 
+ 
+ {\displaystyle {}_{Resultado{\mbox{ }}1.ID\_AL{\mbox{ }}={\mbox{ }}Alumnos.ID}}
+ 
+ Alumnos
+
+&#x03A0;
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 2.
+ N
+ O
+ M
+ B
+ R
+ E
+ 
+ 
+ &#xA0;
+ 
+ 
+ (
+ a
+ l
+ u
+ m
+ n
+ o
+ )
+ ,
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 2.
+ N
+ O
+ M
+ B
+ R
+ E
+ 
+ 
+ &#xA0;
+ 
+ 
+ (
+ c
+ u
+ r
+ s
+ o
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{Resultado2.NOMBRE{\mbox{ }}(alumno),Resultado2.NOMBRE{\mbox{ }}(curso)}}
+ 
+
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ {\displaystyle {\big (}}
+ 
+Resultado 2
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\big )}}
+
+&#x03A0;
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 2.
+ N
+ O
+ M
+ B
+ R
+ E
+ 
+ 
+ &#xA0;
+ 
+ 
+ (
+ a
+ l
+ u
+ m
+ n
+ o
+ )
+ ,
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 2.
+ N
+ O
+ M
+ B
+ R
+ E
+ 
+ 
+ &#xA0;
+ 
+ 
+ (
+ c
+ u
+ r
+ s
+ o
+ )
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{Resultado2.NOMBRE{\mbox{ }}(alumno),Resultado2.NOMBRE{\mbox{ }}(curso)}{\Big (}{\big (}}
+ 
+Inscritos 
+ 
+ 
+ 
+ &#x22C8;
+ 
+ 
+ {\displaystyle \bowtie }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ I
+ n
+ s
+ c
+ r
+ i
+ t
+ o
+ s
+ .
+ C
+ O
+ D
+ 
+ 
+ &#xA0;
+ 
+ 
+ =
+ 
+ 
+ &#xA0;
+ 
+ 
+ C
+ u
+ r
+ s
+ o
+ s
+ .
+ C
+ O
+ D
+ 
+ 
+ 
+ 
+ {\displaystyle {}_{Inscritos.COD{\mbox{ }}={\mbox{ }}Cursos.COD}}
+ 
+Cursos
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ &#x22C8;
+ 
+ 
+ {\displaystyle {\big )}\bowtie }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 1.
+ I
+ D
+ &#x005F;
+ A
+ L
+ 
+ 
+ &#xA0;
+ 
+ 
+ =
+ 
+ 
+ &#xA0;
+ 
+ 
+ A
+ l
+ u
+ m
+ n
+ o
+ s
+ .
+ I
+ D
+ 
+ 
+ 
+ 
+ {\displaystyle {}_{Resultado1.ID\_AL{\mbox{ }}={\mbox{ }}Alumnos.ID}}
+ 
+ Alumnos
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\Big )}}

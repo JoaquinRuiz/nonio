@@ -1,0 +1,80 @@
+El ángulo sólido es el ángulo espacial que abarca un objeto visto desde un punto dado, que se corresponde con la zona del espacio limitada por las rectas proyectantes desde el objeto hacia el observador.
+
+Por ejemplo, si la proyección cónica del objeto tiene forma circular, el ángulo espacial corresponde al ángulo sólido de un cono. Si la proyección cónica es un cuadrado el ángulo sólido es el ángulo espacial de una pirámide cuyo vértice es el observador.
+
+La unidad del ángulo sólido en el SI es el estereorradián, cuyo símbolo es sr. Es una magnitud adimensional que se representa con la letra griega Ω.
+
+Para calcular el ángulo sólido bajo el cual se ve un objeto desde un punto, se proyecta el objeto sobre una esfera de radio 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {R}}
+ 
+ conocido, centrada en el punto de vista. Si la superficie de la proyección del objeto sobre la esfera es 
+ 
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {S}}
+ 
+, el ángulo sólido bajo el cual se ve el objeto es, por definición:
+
+Consideremos una superficie dS (como se muestra en la figura) y unamos todos los puntos de su contorno con un punto O. De este modo obtendremos una superficie cónica, de vértice en O, que delimitará un área 
+ 
+ 
+ 
+ 
+ d
+ &#x03A9;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle d\Omega \,}
+ 
+ sobre la superficie de una esfera de radio unidad y centrada en O. Dicha área constituye la medida de ángulo sólido bajo el cual se ve la superficie dS desde el punto O.
+
+La unidad de ángulo sólido es el estereorradián (sr), definido como el ángulo sólido que teniendo su vértice en el centro de una esfera, delimita un área en la superficie de la misma igual a la de un cuadrado cuyos lados sean iguales a la longitud del radio.
+
+Por convenio, se dice que el ángulo sólido es positivo si desde el punto O se divisa la cara negativa (cóncava) de la superficie. El ángulo sólido será negativo si desde O se divisa la cara positiva (convexa) de la superficie. De acuerdo con las definiciones anteriores, es fácil comprender que el ángulo sólido bajo el cual se ve una superficie cerrada desde un punto O situado en el interior de la misma vale 
+ 
+ 
+ 
+ 
+ +
+ 4
+ &#x03C0;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle +4\pi \,}
+ 
+ sr. Esto es así porque toda la superficie de la esfera de radio unidad, cuya área es 
+ 
+ 
+ 
+ 
+ +
+ 4
+ &#x03C0;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle +4\pi \,}
+ 
+, quedará recubierta al proyectar sobre ella la superficie cerrada que la envuelve.

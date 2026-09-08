@@ -1,0 +1,78 @@
+Sean 
+ 
+ 
+ 
+ 
+ V
+ 
+ i
+ 
+ 
+ =
+ (
+ 
+ x
+ 
+ i
+ 
+ 
+ ,
+ 
+ y
+ 
+ i
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle V_{i}=(x_{i},y_{i})}
+ 
+ los vértices de 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+ y sea 
+ 
+ 
+ 
+ A
+ 
+ 
+ {\displaystyle A}
+ 
+ su área. El circuncentro de masas 
+ 
+ 
+ 
+ C
+ C
+ M
+ (
+ P
+ )
+ 
+ 
+ {\displaystyle CCM(P)}
+ 
+ del polígono 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+ está dado por la fórmula
+
+El circuncentro de masas puede extenderse a curvas suaves mediante un procedimiento limitante. Este límite continuo coincide con el centro de masa de la lámina homogénea delimitada por la curva.
+
+Bajo supuestos naturales, los centros de polígonos que satisfacen el lema de Arquímedes son precisamente los puntos de su recta de Euler. En otras palabras, los únicos centros con "buen comportamiento" que satisfacen el lema de Arquímedes son las combinaciones afines del circuncentro de masas y del centro de masas.
+
+El circuncentro de masas permite que se defina una recta de Euler para cualquier polígono (y más generalmente, para un politopo simplicial). Esta línea de Euler generalizada se define como el lapso afín entre el centro de masas y el circuncentro de masas del politopo.

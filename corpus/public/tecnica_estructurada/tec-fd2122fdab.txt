@@ -1,0 +1,459 @@
+CNOT
+ =
+ 
+ 
+ (
+ 
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \operatorname {CNOT} ={\begin{pmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{pmatrix}}}
+
+Veamos qué significa aplicar este operador. Si se tiene un estado de dos qubits 
+ 
+ 
+ 
+ 
+ |
+ 
+ a
+ b
+ &#x27E9;
+ 
+ 
+ {\displaystyle |ab\rangle }
+ 
+, donde a y b pueden ser 0 o 1, el operador CNOT hará que si a=0, b no cambiará de valor, pero si a=1, b cambiará al valor contrario. Es decir,
+
+{
+ 
+ 
+ 
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ 
+ 
+ 
+ 
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ 
+ 
+ 
+ 
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ 
+ 
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}CNOT|00\rangle =|00\rangle \\CNOT|01\rangle =|01\rangle \\CNOT|10\rangle =|11\rangle \\CNOT|11\rangle =|10\rangle \end{cases}}}
+
+Es conocido el hecho de que aplicar una puerta CNOT a un estado hará que dos qubits se entrelacen. Lo que no es tan conocido es que también puede desentrelazar dos qubits. Esto es debido a que el operador CNOT es un operador unitario, es decir, su matriz inversa se corresponde con su adjunta, o lo que es lo mismo, 
+ 
+ 
+ 
+ C
+ N
+ O
+ T
+ &#x22C5;
+ (
+ C
+ N
+ O
+ T
+ 
+ )
+ 
+ &#x2212;
+ 1
+ 
+ 
+ =
+ C
+ N
+ O
+ T
+ &#x22C5;
+ (
+ C
+ N
+ O
+ T
+ 
+ )
+ 
+ &#x2020;
+ 
+ 
+ =
+ 
+ I
+ 
+ 
+ 
+ {\displaystyle CNOT\cdot (CNOT)^{-1}=CNOT\cdot (CNOT)^{\dagger }=\mathrm {I} }
+ 
+. Si se busca cuál es la matriz adjunta, se puede demostrar que es la misma matriz CNOT, es decir, el operador inverso al operador CNOT es él mismo. Por lo tanto, el operador CNOT puede tanto entrelazar como desentrelazar dos qubits.
+
+Tras esta explicación, Bob aplica esta puerta a los dos qubits que posee, siendo el de control el qubit de Alice y el suyo el objetivo. Veamos el estado resultante para los cuatro casos &#8203;
+
+{
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 00
+ )
+ &#x27E9;
+ =
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 00
+ )
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ +
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ )
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 10
+ )
+ &#x27E9;
+ =
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 10
+ )
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ &#x2212;
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ )
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 01
+ )
+ &#x27E9;
+ =
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 01
+ )
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ +
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ )
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 11
+ )
+ &#x27E9;
+ =
+ C
+ N
+ O
+ T
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 11
+ )
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ &#x2212;
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}|\Psi _{2}(00)\rangle =CNOT|\Psi _{1}(00)\rangle ={\frac {1}{\sqrt {2}}}(|00\rangle +|10\rangle )\\|\Psi _{2}(10)\rangle =CNOT|\Psi _{1}(10)\rangle ={\frac {1}{\sqrt {2}}}(|00\rangle -|10\rangle )\\|\Psi _{2}(01)\rangle =CNOT|\Psi _{1}(01)\rangle ={\frac {1}{\sqrt {2}}}(|11\rangle +|01\rangle )\\|\Psi _{2}(11)\rangle =CNOT|\Psi _{1}(11)\rangle ={\frac {1}{\sqrt {2}}}(|01\rangle -|11\rangle )\end{cases}}}

@@ -1,0 +1,441 @@
+Nótese que la parte izquierda de esta ecuación no depende de las variables de la parte derecha y viceversa, esto quiere decir que la única forma de satisfacer la igualdad es que ambas partes sean igual a una constante, para que la solución sea físicamente aceptable, la constante de separación debe ser 
+ 
+ 
+ 
+ l
+ (
+ l
+ +
+ 1
+ )
+ 
+ 
+ {\displaystyle l(l+1)}
+ 
+ de modo que se obtienen dos ecuaciones.
+
+1
+ 
+ sin
+ &#x2061;
+ &#x03B8;
+ 
+ 
+ 
+ 
+ 
+ &#x2202;
+ 
+ &#x2202;
+ &#x03B8;
+ 
+ 
+ 
+ 
+ (
+ 
+ sin
+ &#x2061;
+ &#x03B8;
+ 
+ 
+ 
+ &#x2202;
+ Y
+ (
+ &#x03B8;
+ ,
+ &#x03C6;
+ )
+ 
+ 
+ &#x2202;
+ &#x03B8;
+ 
+ 
+ 
+ 
+ )
+ 
+ +
+ 
+ 
+ 1
+ 
+ 
+ sin
+ 
+ 2
+ 
+ 
+ &#x2061;
+ &#x03B8;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x2202;
+ 
+ 2
+ 
+ 
+ Y
+ (
+ &#x03B8;
+ ,
+ &#x03C6;
+ )
+ 
+ 
+ &#x2202;
+ 
+ &#x03C6;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ +
+ l
+ (
+ l
+ +
+ 1
+ )
+ Y
+ (
+ &#x03B8;
+ ,
+ &#x03C6;
+ )
+ 
+ =
+ 
+ 0
+ 
+ 
+ {\displaystyle {\frac {1}{\sin \theta }}{\frac {\partial }{\partial \theta }}\left(\sin \theta {\frac {\partial Y(\theta ,\varphi )}{\partial \theta }}\right)+{\frac {1}{\sin ^{2}\theta }}{\frac {\partial ^{2}Y(\theta ,\varphi )}{\partial \varphi ^{2}}}+l(l+1)Y(\theta ,\varphi )\,=\,0}
+
+y en efecto es la ecuación de Laplace en coordenadas esféricas, la solución a esta ecuación es
+
+Y
+ (
+ &#x03B8;
+ ,
+ &#x03C6;
+ )
+ 
+ =
+ 
+ 
+ A
+ 
+ l
+ 
+ 
+ m
+ 
+ 
+ 
+ 
+ e
+ 
+ i
+ m
+ &#x03C6;
+ 
+ 
+ 
+ 
+ P
+ 
+ l
+ 
+ 
+ m
+ 
+ 
+ (
+ cos
+ &#x2061;
+ &#x03B8;
+ )
+ 
+ 
+ {\displaystyle Y(\theta ,\varphi )\,=\,A_{l}^{m}\,e^{im\varphi }\,P_{l}^{m}(\cos \theta )}
+
+y los 
+ 
+ 
+ 
+ 
+ P
+ 
+ l
+ 
+ 
+ m
+ 
+ 
+ (
+ cos
+ &#x2061;
+ &#x03B8;
+ )
+ 
+ 
+ {\displaystyle P_{l}^{m}(\cos \theta )}
+ 
+ los polinomios asociados de Legendre. Estos polinomios son finitos en 0 y 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+ como lo requiere la función de onda aceptable, la forma de construir los polinomios es, entre otras, mediante la fórmula de Rodrigues que para estos polinomios es
+
+P
+ 
+ l
+ 
+ 
+ m
+ 
+ 
+ (
+ x
+ )
+ 
+ =
+ 
+ (
+ &#x2212;
+ 1
+ 
+ )
+ 
+ m
+ 
+ 
+ 
+ 
+ 
+ (
+ 1
+ &#x2212;
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ )
+ 
+ 
+ |
+ 
+ m
+ 
+ |
+ 
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ l
+ 
+ 
+ l
+ !
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 
+ |
+ 
+ m
+ 
+ |
+ 
+ +
+ l
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ x
+ 
+ 
+ |
+ 
+ m
+ 
+ |
+ 
+ +
+ l
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ x
+ 
+ 2
+ 
+ 
+ &#x2212;
+ 1
+ 
+ )
+ 
+ l
+ 
+ 
+ 
+ 
+ {\displaystyle P_{l}^{m}(x)\,=\,(-1)^{m}{\frac {(1-x^{2})^{|m|/2}}{2^{l}l!}}{\frac {{\text{d}}^{|m|+l}}{{\text{d}}x^{|m|+l}}}(x^{2}-1)^{l}}
+
+evaluando después en 
+ 
+ 
+ 
+ x
+ =
+ cos
+ &#x2061;
+ &#x03B8;
+ 
+ 
+ {\displaystyle x=\cos \theta }
+ 
+, la razón por la que la constante de separación se eligió como 
+ 
+ 
+ 
+ l
+ (
+ l
+ +
+ 1
+ )
+ 
+ 
+ {\displaystyle l(l+1)}
+ 
+ fue justamente para que la solución fueran estos polinomios, dado que además de ser una solución conocida a la ecuación, es físicamente aceptable, la otra constante 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+ aparece al aplicar el método de separación a la ecuación de los armónicos esféricos; y también es notable que la ecuación para 
+ 
+ 
+ 
+ &#x03C6;
+ 
+ 
+ {\displaystyle \varphi }
+ 
+ proporciona lógicamente, dos soluciones linealmente independientes, sin embargo la otra se descarta porque la densidad de probabilidad debe ser independiente de la coordenada 
+ 
+ 
+ 
+ &#x03C6;
+ 
+ 
+ {\displaystyle \varphi }
+ 
+ ya que no debe existir una dirección preferencial para encontrar al electrón en el espacio, porque el espacio es isotrópico, la constante 
+ 
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle m}
+ 
+ además, solo puede ser un entero, y esto se debe a que 
+ 
+ 
+ 
+ 
+ e
+ 
+ i
+ m
+ &#x03C6;
+ 
+ 
+ 
+ 
+ {\displaystyle e^{im\varphi }}
+ 
+ no sería monovaluada en caso contrario, por otro lado 
+ 
+ 
+ 
+ l
+ 
+ 
+ {\displaystyle l}
+ 
+ también debe ser un entero, y positivo, para que la solución a la ecuación resultante para 
+ 
+ 
+ 
+ &#x03B8;
+ 
+ 
+ {\displaystyle \theta }
+ 
+ luego de la separación de variables sea aceptable, la fórmula de rodrigues se puede además estabelcer una relación entre las constantes, puesto que si 
+ 
+ 
+ 
+ 
+ |
+ 
+ m
+ 
+ |
+ 
+ >
+ l
+ 
+ 
+ {\displaystyle |m|>l}
+ 
+ el polinomio correspondiente a las constantes dadas se anula y por consiguiente toda la función de onda, en concreto

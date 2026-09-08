@@ -1,0 +1,21 @@
+Cuando dos o más sitios en una molécula asimétrica pueden estar involucrados en una reacción de equilibrio, hay más de una posible constante de equilibrio. Por ejemplo, la molécula L-DOPA tiene dos grupos hidroxilo no equivalentes que pueden desprotonarse. Denotando L -DOPA como LH2, el siguiente diagrama muestra todas las especies que pueden formarse (X= CH2CH(NH2)CO2H):
+
+La concentración de LH es la suma de las concentraciones de los dos micro-especies. Por lo tanto, la constante de equilibrio para la reacción, la macroconstante, es la suma de las microconstantes.
+
+Así, aunque hay siete micro y macro constantes, solo tres de ellas son mutuamente independientes. Además, la constante de isomerización, Ki, es igual a la relación de los microconstantes.
+
+En L -DOPA, la constante de isomerización es 0.9, por lo que las microespecies L H y L H tienen concentraciones casi iguales en todos los valores de pH.
+
+En general, una macro-constante es igual a la suma de todas las micro-constantes y la ocupación de cada sitio es proporcional a la micro-constante. El sitio de protonación puede ser muy importante, por ejemplo, para la actividad biológica.
+
+Las micro-constantes no pueden ser determinadas individualmente por los métodos usuales, que dan macro-constantes. Los métodos que se han utilizado para determinar las micro-constantes incluyen:
+
+En la aproximación del comportamiento ideal, la actividad es reemplazada por la concentración. El pH se mide por medio de un electrodo de vidrio, lo que puede generar una constante de equilibrio mixta, también conocida como constante de Brønsted.
+
+Todo depende de si el electrodo está calibrado por referencia a soluciones de actividad conocida o concentración conocida. En este último caso, la constante de equilibrio sería un cociente de concentración. Si el electrodo se calibra en términos de concentraciones conocidas de iones de hidrógeno, sería mejor escribir p[H] en lugar de pH, pero esta sugerencia generalmente no se adopta.
+
+En solución acuosa, la concentración del ion hidróxido está relacionada con la concentración del ion hidrógeno por
+
+El primer paso en la hidrólisis de iones metálicos &#8203; se puede expresar de dos maneras diferentes
+
+De ello se deduce que β = KKW Las constantes de hidrólisis generalmente se reportan en la forma β y, por lo tanto, a menudo tienen valores mucho menores que 1. Por ejemplo, si log K = 4 y log KW = −14, log β = 4 + (−14) = −10 así que β = 10 . En general, cuando el producto de hidrólisis contiene n grupos hidróxido log β = log K + n log KW

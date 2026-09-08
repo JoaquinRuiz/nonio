@@ -1,0 +1,21 @@
+Esta es la alternativa del cliente KVIrc a DCC REVERSE. El emisor ofrece un archivo enviando el CTCP.
+
+Este mecanismo de DCC pasivo está soportado al menos por mIRC, Visual IRC, XChat, HexChat y KVIrc. El emisor ofrece un archivo enviando el mensaje CTCP:
+
+Donde <ip> es la dirección IP del emisor en (network byte order), expresado como un simple entero (como en DCC estándar). El número 0 se envía en vez de un puerto válido, indicando que esto es una petición de DCC inverso. El <token> es un entero único; si está siendo usado TSEND (por un cliente que lo soporta), la letra "T" se añadirá al token, permitiendo al receptor saber que no necesita enviar respuestas por cada bloque recibido.
+
+El receptor puede aceptar el archivo abriendo un socket de escucha y respondiendo con el mensaje CTCP:
+
+Esto es idéntico al mensaje original del DCC inverso, excepto que la <ip> y <port> identifican el socket donde el receptor está escuchando. El <token> es el mismo que en la petición original, permitiendo al emisor saber qué petición está siendo aceptada. (Desde que este mensaje sigue el mismo formato que una petición DCC Send regular, algunos servidores con filtro de peticiones DCC pueden requerir que el emisor añada al receptor en su lista de "DCC permitidos").
+
+El emisor entonces conecta al socket del receptor, envía el contenido del archivo, y espera a que el receptor cierre el socket cuando el archivo esté finalizado.
+
+Cuando se usa la extensión RESUME al protocolo SEND, la secuencia de comandos llega a ser (con >> indicando un mensaje saliente en el lado iniciador y << respondido por su peer):
+
+Después de lo cual, el protocolo continúa normalmente (por ejemplo el emisor conecta al socket del receptor).
+
+Un DCC fserve, o servidor de archivo, permite a un usuario navegar, leer y descargar archivos localizados en un servidor DCC.
+
+Normalmente, esto se implementa en una sesión DCC CHAT (la cual se presenta al usuario con un comando prompt) o comandos CTCP especiales para solicitar un archivo. Los archivos se envían sobre DCC SEND o DCC XMIT. Hay muchas implementaciones de servidores de archivo DCC. Entre ellos está el comando FSERV en el popular cliente mIRC.
+
+SDCC (Secure Direct Client-to-Client), también conocido como DCC SCHAT, es una variación del protocolo DCC que permite a dos individuos mantener una charla privada en IRC con cifrado sin que se produzca un lag.

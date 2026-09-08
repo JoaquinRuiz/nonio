@@ -1,0 +1,117 @@
+La base de Bell, que está formada por los estados de Bell, un concepto de información cuántica, es un conjunto de estados cuánticos específico de dos qubits que representa el ejemplo más simple (y además maximal) del entrelazamiento cuántico. Los estados de Bell son vectores de una base normalizada y entrelazada. Esta normalización implica que la probabilidad total de que la partícula esté en un determinado estado es 1, esto es, 
+ 
+ 
+ 
+ &#x27E8;
+ &#x03D5;
+ 
+ |
+ 
+ &#x03D5;
+ &#x27E9;
+ =
+ 1
+ 
+ 
+ {\displaystyle \langle \phi |\phi \rangle =1}
+ 
+. El entrelazamiento es el resultado de la superposición, un principio en el que una partícula está en múltiples estados a la vez. &#8203; Debido a esta superposición, la medida en uno de los qubits hará que este colapse en uno de sus estados base con una probabilidad dada. &#8203; Y como existe dicho entrelazamiento, la medida de un qubit asignará solo uno de los dos posibles valores al otro qubit instantáneamente, donde el valor asignado depende de en qué estado de Bell estén los dos qubits.
+
+Los estados de Bell se pueden generalizar para representar específicos estados cuánticos de sistemas multi-qubits, como el estado de Greenberger–Horne–Zeilinger (GHZ) para un sistema de tres qubits.
+
+Entender los estados de Bell es esencial en el análisis de la comunicación cuántica (como la codificación superdensa) y la teleportación cuántica. &#8203;
+
+Los estados de Bell son cuatro específicos estados cuánticos máximamente entrelazados de dos qubits. Están en una superposición de 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+, eso es, una combinación lineal de estos dos estados. Su entrelazamiento significa lo siguiente:
+
+Supongamos dos observadores, Alice y Bob, separados espacialmente tal que no se produzca ninguna influencia entre ambos observadores. Cada uno tiene uno de los qubits, que anteriormente han sido entrelazados. El qubit que Alice tiene puede ser tanto 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ como 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+. Si Alice lo mide en la base estándar, el resultado será totalmente aleatorio, pero la probabilidad tanto de 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ como de 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+será de 
+ 
+ 
+ 
+ 1
+ 
+ /
+ 
+ 2
+ 
+ 
+ {\displaystyle 1/2}
+ 
+. Si entonces Bob mide su qubit, el resultado será el mismo que el de Alice (la probabilidad, no el estado resultante). Sin embargo, si Alice y Bob se comunicaran, se encontrarían con que, a pesar de que sus resultados parezcan aleatorios, están perfectamente correlacionados.

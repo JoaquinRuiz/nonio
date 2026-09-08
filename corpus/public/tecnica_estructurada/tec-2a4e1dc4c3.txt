@@ -1,0 +1,9 @@
+En criptografía, un adversario (raramente oponente, enemigo) es una entidad maliciosa cuyo objetivo es impedir que los usuarios del criptosistema logren su objetivo (principalmente la privacidad, la integridad y la disponibilidad de los datos). Los esfuerzos de un adversario pueden consistir en intentar corromper algunos de los datos del sistema, lo que puede ser causado por un mal funcionamiento. Suplantar la identidad de un emisor o receptor de mensajes o forzar la caída del sistema.
+
+Los adversarios reales, en contraposición a los idealizados, como la mutación criogénica y el razonamiento formal sobre los criptosistemas al plantear el análisis de seguridad de los criptosistemas como un 'juego' entre los usuarios y un enemigo coordinado centralmente. La noción de seguridad de un criptosistema solo tiene sentido con respecto a ataques concretos (que normalmente se supone que son llevados a cabo por determinados tipos de adversarios).
+
+Existen varios tipos de adversarios en función de las capacidades o intenciones que se supone que tienen. &#8203; Los adversarios pueden ser:
+
+En la práctica real de la seguridad, los ataques asignados a estos adversarios se ven a menudo, por lo que este análisis nocional no es meramente teórico.
+
+El éxito de un adversario para romper un sistema se mide por su ventaja. La ventaja de un adversario es la diferencia entre la probabilidad del adversario de romper el sistema y la probabilidad de que el sistema pueda ser roto simplemente adivinando. La ventaja se especifica en función del parámetro de seguridad.

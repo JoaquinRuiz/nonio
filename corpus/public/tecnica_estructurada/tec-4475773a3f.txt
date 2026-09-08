@@ -1,0 +1,18 @@
+La teoría de errores se puede remontar a la Ópera miscellánea (póstuma, 1722) de Roger Cotes y al trabajo preparado por Thomas Simpson en 1755 (impreso en 1756) el cual aplica por primera vez la teoría de la discusión de errores de observación. La reimpresión (1757) de este trabajo incluye el axioma de que errores positivos y negativos son igualmente probables y que hay unos ciertos límites asignables dentro de los cuales se encuentran todos los errores; se describen errores continuos y una curva de probabilidad.
+
+Pierre-Simon Laplace (1774) hace el primer intento de deducir una regla para la combinación de observaciones desde los principios de la teoría de probabilidades. Laplace representó la Ley de probabilidades de errores mediante una curva y dedujo una fórmula para la media de tres observaciones. También, en 1871, obtiene la fórmula para la ley de facilidad del error (término introducido por Lagrange, 1744) pero con ecuaciones inmanejables. Daniel Bernoulli (1778) introduce el principio del máximo producto de las probabilidades de un sistema de errores concurrentes.
+
+El método de mínimos cuadrados, el cual fue usado para minimizar los errores en mediciones, fue publicado independientemente por Adrien-Marie Legendre (1805), Robert Adrain (1808), y Carl Friedrich Gauss (1809). Gauss había usado el método en su famosa predicción de la localización del planeta enano Ceres en 1801. Pruebas adicionales fueron escritas por Laplace (1810, 1812), Gauss (1823), James Ivory (1825, 1826), Hagen (1837), Friedrich Bessel (1838), W. F. Donkin (1844, 1856), John Herschel (1850) y Morgan Crofton (1870). Otros contribuidores fueron Ellis (1844), Augustus De Morgan (1864), Glaisher (1872) y Giovanni Schiaparelli (1875). La fórmula de Peters para 
+ 
+ 
+ 
+ r
+ 
+ 
+ {\displaystyle r}
+ 
+, el probable error de una observación simple es bien conocido.
+
+El siglo XIX incluye autores como Laplace, Silvestre Lacroix (1816), Littrow (1833), Richard Dedekind (1860), Helmert (1872), Hermann Laurent (1873), Liagre y Didion. Augustus De Morgan y George Boole mejoraron la presentación de la teoría. Adolphe Quetelet (1796-1874), fue otro importante fundador de la estadística y quien introdujo la noción del «hombre promedio» (l’homme moyen) como un medio de entender los fenómenos sociales complejos tales como tasas de criminalidad, tasas de matrimonio o tasas de suicidios.
+
+El campo moderno de la estadística se emergió a los principios del siglo XX dirigida por la obra de Francis Galton y Karl Pearson, quienes transformaron la estadística a convertirse en una disciplina matemática rigurosa usada por análisis, no solamente en la ciencia sino en la manufactura y la política. Las contribuciones de Galton incluyen los conceptos de desviación típica, correlación, análisis de la regresión y la aplicación de estos métodos al estudio de la variedad de características —la altura, el peso entre otros—. &#8203; Pearson desarrolló el coeficiente de correlación de Pearson, definió como un momento-producto, &#8203; el método de momentos por caber las distribuciones a las muestras y la distribuciones de Pearson, entre otras cosas. &#8203; Galton y Pearson se fundaron Biometrika como su primera revista de la estadística matemática y la bioestadística (en aquel entonces conocida como la biometría). Pearson también fundó el primer departamento de estadística en University College de Londres. &#8203;

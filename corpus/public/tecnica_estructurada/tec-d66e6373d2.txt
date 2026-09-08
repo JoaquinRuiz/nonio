@@ -1,0 +1,15 @@
+El Cliente-a-Cliente Directo, del inglés Direct Client-to-Client (DCC), es un protocolo de Internet Relay Chat (IRC) que permite interconectar dos peers o puntos usando un servidor IRC como saludo (handshaking) para permitir intercambiar archivos o llevar a cabo tareas no relacionadas con el chat. Una vez conectados, una típica sesión de DCC corre independiente del servidor IRC.
+
+El servicio de chat permite a los usuarios charlar el uno con el otro en una conexión DCC. El tráfico va directamente entre usuarios y no sobre la red IRC. Cuando lo comparamos con el envío normal de mensajes, este reduce la carga en la red IRC. Permitiendo el envío de una gran cantidad de texto de una vez, evitando retrasos, saturación, haciendo la comunicación más segura no exponiendo el mensaje a los servidores de IRC (el mensaje sigue siendo texto plano).
+
+El chat DCC es normalmente iniciado usando un saludo CTCP. El usuario que desea establecer la conexión envía el siguiente CTCP al destino:
+
+Una vez que la conexión es establecida, el protocolo usado para el chat DCC es muy simple: los usuarios intercambian mensajes terminados en CRLF. Mensajes que comienzan con un ASCII 001 (Control+A, representado por "^A") y la palabra "ACTION" y están opcionalmente terminados por otro ASCII 001, que será interpretado como un emotivo:
+
+Esta una extensión de DCC Chat, que permite comandos para dibujar y ser enviados como líneas de texto. DCC Whiteboard es inicializado con un saludo (handshake) similar al del DCC Chat, con el pseudo nombre de archivo “Chat” reemplazado por “wboard”:
+
+Una vez que la conexión es establecida, los dos clientes intercambian mensajes terminados con CRLF. Los mensajes que comienzan (y opcionalmente terminan) ASCII 001 son interpretados como comando especiales, el comando ACTION representa una emoción, mientras otros hacen que sean dibujadas líneas en la pizarra del usuario (whiteboard), o permite que dos clientes negocien un conjunto de sus características.
+
+El servicio de envío (send) permite a los usuarios enviarse archivo entre ellos. La especificación original para el saludo (handshake) no permitía al receptor conocer el tamaño total del archivo, pausar y reanudar (resume) la transferencia. Esto hizo que los clientes introdujeran sus propias extensiones para el saludo (handshake), muchas de las cuales lograron un amplio soporte.
+
+En este punto, la especificación original tenía al receptor conectado a la dirección dada y el puerto esperando los datos, o ignorar el pedido, pero para clientes que soportan la extensión DCC RESUME, una tercer alternativa es preguntar al remitente saltarse una parte del archivo enviando un CTCP reply:

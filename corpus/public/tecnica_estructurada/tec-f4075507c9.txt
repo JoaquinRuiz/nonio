@@ -1,0 +1,577 @@
+La barrera divide el espacio en tres zonas, correspondientes a 
+ 
+ 
+ 
+ x
+ <
+ 0
+ ,
+ 0
+ <
+ x
+ <
+ a
+ ,
+ x
+ >
+ a
+ 
+ 
+ 
+ {\displaystyle x<0,0<x<a,x>a\,}
+ 
+. En cada una de estas zonas el potencial es constante, lo que significa que la partícula es cuasi-libre. Así, la solución general se puede escribir como una superposición de ondas moviéndose hacia la derecha y hacia la izquierda. Para el caso en el que la partícula tiene una energía menor que la de la barrera (
+ 
+ 
+ 
+ E
+ <
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle E<V_{0}}
+ 
+), tendremos
+
+(2)
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ =
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ x
+ 
+ 
+ +
+ 
+ A
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ x
+ 
+ 
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ x
+ <
+ 0
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ x
+ 
+ 
+ +
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 
+ k
+ 
+ 1
+ 
+ 
+ x
+ 
+ 
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ 0
+ &#x2264;
+ x
+ &#x2264;
+ a
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ x
+ 
+ 
+ +
+ 
+ C
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ x
+ 
+ 
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ x
+ >
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \psi (x)={\begin{cases}A_{r}e^{ik_{0}x}+A_{l}e^{-ik_{0}x}&{\mbox{si }}x<0\\B_{r}e^{k_{1}x}+B_{l}e^{-k_{1}x}&{\mbox{si }}0\leq x\leq a\\C_{r}e^{ik_{0}x}+C_{l}e^{-ik_{0}x}&{\mbox{si }}x>a\\\end{cases}}}
+
+(3)
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ k
+ 
+ 0
+ 
+ 
+ =
+ 
+ 
+ 2
+ m
+ E
+ 
+ /
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ x
+ <
+ 0
+ 
+ o
+ 
+ x
+ >
+ a
+ 
+ 
+ 
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ =
+ 
+ 
+ 2
+ m
+ (
+ 
+ V
+ 
+ 0
+ 
+ 
+ &#x2212;
+ E
+ )
+ 
+ /
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ si&#xA0;
+ 
+ 
+ 0
+ &#x2264;
+ x
+ &#x2264;
+ a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}k_{0}={\sqrt {2mE/\hbar ^{2}}}&{\mbox{si }}x<0\qquad o\qquad x>a\\k_{1}={\sqrt {2m(V_{0}-E)/\hbar ^{2}}}&{\mbox{si }}0\leq x\leq a\\\end{cases}}}
+
+La relación entre los coeficientes 
+ 
+ 
+ 
+ A
+ ,
+ B
+ ,
+ C
+ 
+ 
+ {\displaystyle A,B,C}
+ 
+ se obtiene de las condiciones de contorno de la función de onda en 
+ 
+ 
+ 
+ x
+ =
+ 0
+ 
+ 
+ {\displaystyle x=0}
+ 
+ y 
+ 
+ 
+ 
+ x
+ =
+ a
+ 
+ 
+ {\displaystyle x=a}
+ 
+.
+Así, las condiciones de continuidad de la función de onda y de su primera derivada se expresan como:
+
+(4)
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ 0
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ =
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ 0
+ 
+ +
+ 
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ 0
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ d
+ x
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ =
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ 0
+ 
+ +
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ d
+ x
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ a
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ =
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ a
+ 
+ +
+ 
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ a
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ d
+ x
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ =
+ 
+ lim
+ 
+ x
+ &#x2192;
+ 
+ a
+ 
+ +
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ d
+ x
+ 
+ 
+ 
+ &#x03C8;
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}\lim _{x\to 0^{-}}\psi (x)=\lim _{x\to 0^{+}}\psi (x)\\\lim _{x\to 0^{-}}{\frac {d}{dx}}\psi (x)=\lim _{x\to 0^{+}}{\frac {d}{dx}}\psi (x)\\\lim _{x\to a^{-}}\psi (x)=\lim _{x\to a^{+}}\psi (x)\\\lim _{x\to a^{-}}{\frac {d}{dx}}\psi (x)=\lim _{x\to a^{+}}{\frac {d}{dx}}\psi (x)\\\end{cases}}}
+
+Teniendo en cuenta la expresión de la función de onda, las condiciones de contorno imponen las siguientes relaciones entre los coeficientes

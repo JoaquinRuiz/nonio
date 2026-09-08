@@ -1,0 +1,287 @@
+En física, el ansatz de Bethe es un método de suposición (ansatz) para encontrar las funciones de onda exactas de ciertos modelos cuánticos unidimensionales de muchos cuerpos. Fue inventado por Hans Bethe en 1931 &#8203; para resolver el modelo de Heisenberg unidimensional antiferromagnético. Desde entonces, el método se ha extendido a otros modelos en una dimensión: la cadena de Heisenberg (anisotrópica) (modelo XXZ), la interacción de Lieb-Liniger del gas de Bose, el modelo Hubbard, el modelo de Kondo, el modelo de impurezas de Anderson, el modelo de Richardson, etc.
+
+En el marco de la mecánica cuántica de muchos cuerpos, los modelos que se pueden resolver mediante el ansatz de Bethe se pueden contrastar con los modelos de fermiones libres. Se puede decir que la dinámica de un modelo libre es reducible de un cuerpo: la función de onda de muchos cuerpos para fermiones (bosones) es el producto antisimetrizado (simétrizado) de las funciones de onda de un cuerpo. Los modelos que se pueden resolver con el ansatz de Bethe no son gratuitos: el sector de dos cuerpos tiene una matriz de dispersión no trivial, que en general depende de los momentos.
+
+Por otro lado, la dinámica de los modelos que se pueden resolver con el ansatz de Bethe es reducible en dos cuerpos: la matriz de dispersión de muchos cuerpos es un producto de matrices de dispersión de dos cuerpos. Las colisiones de muchos cuerpos ocurren como una secuencia de colisiones de dos cuerpos y la función de onda de muchos cuerpos se puede representar en una forma que contiene solo elementos de las funciones de onda de dos cuerpos. La matriz de dispersión de muchos cuerpos es igual al producto de las matrices de dispersión por pares.
+
+La forma genérica del ansatz de Bethe para una función de onda de muchos cuerpos es
+
+&#x03A8;
+ 
+ M
+ 
+ 
+ (
+ 
+ j
+ 
+ 1
+ 
+ 
+ ,
+ &#x22EF;
+ ,
+ 
+ j
+ 
+ M
+ 
+ 
+ )
+ =
+ 
+ &#x220F;
+ 
+ M
+ &#x2265;
+ a
+ >
+ b
+ &#x2265;
+ 1
+ 
+ 
+ 
+ sgn
+ 
+ (
+ 
+ j
+ 
+ a
+ 
+ 
+ &#x2212;
+ 
+ j
+ 
+ b
+ 
+ 
+ )
+ 
+ &#x2211;
+ 
+ P
+ &#x2208;
+ 
+ P
+ 
+ M
+ 
+ 
+ 
+ 
+ (
+ &#x2212;
+ 1
+ 
+ )
+ 
+ [
+ P
+ ]
+ 
+ 
+ 
+ e
+ 
+ i
+ 
+ &#x2211;
+ 
+ a
+ =
+ 1
+ 
+ 
+ M
+ 
+ 
+ 
+ k
+ 
+ 
+ P
+ 
+ a
+ 
+ 
+ 
+ 
+ 
+ j
+ 
+ a
+ 
+ 
+ +
+ 
+ 
+ i
+ 2
+ 
+ 
+ 
+ &#x2211;
+ 
+ M
+ &#x2265;
+ a
+ >
+ b
+ &#x2265;
+ 1
+ 
+ 
+ 
+ sgn
+ 
+ (
+ 
+ j
+ 
+ a
+ 
+ 
+ &#x2212;
+ 
+ j
+ 
+ b
+ 
+ 
+ )
+ &#x03D5;
+ (
+ 
+ k
+ 
+ 
+ P
+ 
+ a
+ 
+ 
+ 
+ 
+ ,
+ 
+ k
+ 
+ 
+ P
+ 
+ b
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \Psi _{M}(j_{1},\cdots ,j_{M})=\prod _{M\geq a>b\geq 1}{\text{sgn}}(j_{a}-j_{b})\sum _{P\in P_{M}}(-1)^{[P]}e^{i\sum _{a=1}^{M}k_{P_{a}}j_{a}+{\frac {i}{2}}\sum _{M\geq a>b\geq 1}{\text{sgn}}(j_{a}-j_{b})\phi (k_{P_{a}},k_{P_{b}})}}
+
+en el cual 
+ 
+ 
+ 
+ M
+ 
+ 
+ {\displaystyle M}
+ 
+ es el número de partículas, 
+ 
+ 
+ 
+ 
+ j
+ 
+ a
+ 
+ 
+ ,
+ a
+ =
+ 1
+ ,
+ &#x22EF;
+ M
+ 
+ 
+ {\displaystyle j_{a},a=1,\cdots M}
+ 
+ su posición, 
+ 
+ 
+ 
+ 
+ P
+ 
+ M
+ 
+ 
+ 
+ 
+ {\displaystyle P_{M}}
+ 
+ es el conjunto de todas las permutaciones de los enteros 
+ 
+ 
+ 
+ 1
+ ,
+ &#x22EF;
+ ,
+ M
+ 
+ 
+ {\displaystyle 1,\cdots ,M}
+ 
+, 
+ 
+ 
+ 
+ 
+ k
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle k_{a}}
+ 
+ es el (cuasi) impulso del 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+ -ésima partícula, 
+ 
+ 
+ 
+ &#x03D5;
+ 
+ 
+ {\displaystyle \phi }
+ 
+ es la función de desplazamiento de fase de dispersión y 
+ 
+ 
+ 
+ s
+ g
+ n
+ 
+ 
+ {\displaystyle sgn}
+ 
+ es la función de signo. Esta forma es universal (al menos para sistemas no anidados), y las funciones de momento y dispersión dependen del modelo.

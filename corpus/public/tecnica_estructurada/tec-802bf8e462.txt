@@ -1,0 +1,76 @@
+ 
+ 
+ 
+ &#x2220;
+ (
+ x
+ ,
+ y
+ )
+ =
+ arccos
+ &#x2061;
+ 
+ 
+ 
+ &#x27E8;
+ x
+ ,
+ y
+ &#x27E9;
+ 
+ 
+ &#x2016;
+ x
+ &#x2016;
+ &#x22C5;
+ &#x2016;
+ y
+ &#x2016;
+ 
+ 
+ 
+ ,
+ 
+ 
+ {\displaystyle \angle (x,y)=\arccos {\frac {\langle x,y\rangle }{\|x\|\cdot \|y\|}},}
+ 
+
+Si el cociente anterior es 0, se dice que ambos vectores son ortogonales o perpendiculares. El cociente anterior está en el intervalo 
+ 
+ 
+ 
+ (
+ &#x2212;
+ 1
+ ,
+ 1
+ )
+ 
+ 
+ {\displaystyle (-1,1)}
+ 
+ debido a la desigualdad de Cauchy-Schwarz, lo que garantiza que siempre puede aplicarse el arcocoseno. Normalmente, se toma la rama del arcocoseno de forma que el ángulo que forman dos vectores siempre está en el intervalo 
+ 
+ 
+ 
+ [
+ 0
+ ,
+ &#x03C0;
+ ]
+ 
+ 
+ {\displaystyle [0,\pi ]}
+ 
+ (geométricamente, se elige el menor de los ángulos que forman dos vectores). Las principales propiedades que cumple el ángulo de dos vectores son las siguientes:
+
+El tamaño de un ángulo geométrico se suele caracterizar por la magnitud de la menor rotación que mapea uno de los rayos en el otro. Se dice que los ángulos que tienen el mismo tamaño son iguales o congruentes o de igual medida.
+
+En algunos contextos, como la identificación de un punto en un círculo o la descripción de la orientación de un objeto en dos dimensiones con respecto a una orientación de referencia, los ángulos que difieren en un múltiplo exacto de una vuelta completa son efectivamente equivalentes. En otros contextos, como la identificación de un punto en una curva espiral o la descripción de la rotación acumulada de un objeto en dos dimensiones con respecto a una orientación de referencia, los ángulos que difieren en un múltiplo no nulo de una vuelta completa no son equivalentes.
+
+Para medir un ángulo θ, se traza un arco de círculo centrado en el vértice del ángulo, por ejemplo, con un par de compases. El cociente de la longitud s del arco por el radio r del círculo es el número de radianes del ángulo. Convencionalmente, en matemáticas y en el SI, el radián se trata como si fuera igual al valor adimensional 1.
+
+El ángulo expresado en otra unidad angular puede obtenerse entonces multiplicando el ángulo por una constante de conversión adecuada de la forma k/2π, donde k es la medida de una vuelta completa expresada en la unidad elegida (por ejemplo, k = 360° para grados o 400&#160;grad para gradians):
+
+El valor de θ así definido es independiente del tamaño del círculo: si se cambia la longitud del radio, entonces la longitud del arco cambia en la misma proporción, por lo que la relación s/r no se altera. &#8203;

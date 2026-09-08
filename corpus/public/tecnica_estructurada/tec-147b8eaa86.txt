@@ -1,0 +1,145 @@
+La constante universal de los gases ideales &#8203; &#8203; es una constante física que relaciona entre sí diversas variables de estado gaseoso, estableciendo esencialmente una relación entre el volumen, la presión, la temperatura y la cantidad de materia.
+
+En su forma más particular la constante se emplea en la relación de la cantidad de materia en un gas ideal, medida en número de moles (n), con la presión (P), el volumen (V) y la temperatura (T), a través de la ecuación de estado de los gases ideales &#8203; &#8203; &#8203; &#8203; &#8203;
+
+El modelo del gas ideal asume que el volumen de la molécula es cero y las partículas no interactúan entre sí. La mayor parte de los gases reales se acercan a esta constante dentro de dos cifras significativas, en condiciones de presión y temperatura suficientemente alejadas del punto de licuefacción o sublimación. Las ecuaciones de estado de gases reales son, en muchos casos, correcciones de la anterior.
+
+R
+ =
+ 
+ 
+ {
+ 
+ 
+ 
+ =
+ 0
+ ,
+ 08205746
+ 
+ 
+ [
+ 
+ 
+ 
+ a
+ t
+ m
+ &#x22C5;
+ L
+ 
+ 
+ m
+ o
+ l
+ &#x22C5;
+ K
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ 
+ 
+ =
+ 62
+ ,
+ 36367
+ 
+ 
+ [
+ 
+ 
+ 
+ m
+ m
+ H
+ g
+ &#x22C5;
+ L
+ 
+ 
+ m
+ o
+ l
+ &#x22C5;
+ K
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ 
+ 
+ =
+ 1
+ ,
+ 987207
+ 
+ 
+ [
+ 
+ 
+ 
+ c
+ a
+ l
+ 
+ 
+ m
+ o
+ l
+ &#x22C5;
+ K
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ 
+ 
+ =
+ 8
+ ,
+ 31446261815324
+ 
+ 
+ [
+ 
+ 
+ J
+ 
+ m
+ o
+ l
+ &#x22C5;
+ K
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle R={\begin{cases}=0,08205746\mathrm {\left[{\frac {atm\cdot L}{mol\cdot K}}\right]} \\=62,36367\mathrm {\left[{\frac {mmHg\cdot L}{mol\cdot K}}\right]} \\=1,987207\mathrm {\left[{\frac {cal}{mol\cdot K}}\right]} \\=8,31446261815324\mathrm {\left[{\frac {J}{mol\cdot K}}\right]} \\\end{cases}}}
+
+Si bien la constante se introdujo originalmente en el contexto de los gases, y de ahí su nombre, la constante R aparece en muchos otros contextos que no tienen nada que ver con los gases. Eso se debe a que realmente la constante R está relacionada con la constante de Boltzmann, que es un factor que relaciona en muchos sistemas unidades de energía con unidades de temperatura. Así, cuando la relación se establece con la cantidad de materia entendida como número de partículas, se transforma la constante R en la constante de Boltzmann, que es igual al cociente entre R y el número de Avogadro:
+
+Como desde 2019 las constantes de Boltzmann y de Avogadro fueron definidas con valor exacto, ello hace que R también tenga un valor exacto.
+Además de en la ecuación de estado de los gases ideales, la constante universal R (o en forma de constante de Boltzmann) aparece en muchas expresiones físico-químicas importantes, como la ecuación de Nernst, la de Clausius-Mossotti (conocida también como de Lorentz-Lorentz), la de Arrhenius, la de Van't Hoff, la ley de Dulong-Petit, así como en termodinámica estadística.

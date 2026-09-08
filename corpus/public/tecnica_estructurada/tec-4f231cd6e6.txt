@@ -1,0 +1,31 @@
+La aproximación de pruebas de hipótesis, ampliamente usada, obliga a establecer una hipótesis nula para contrastar posteriormente el acuerdo de los datos con esta hipótesis. Una mala interpretación de los resultados puede exagerar la importancia de pequeñas diferencias en estudios con muestras grandes que puede no tener ninguna relevancia práctica.
+
+En los campos de la psicología y la medicina, especialmente con respecto a la aprobación de nuevos medicamentos por la Food and Drug Administration, las críticas a la prueba de hipótesis se han incrementado en los años recientes. Una respuesta ha sido un gran énfasis en el p-valor en vez de simplemente reportar si la hipótesis fue rechazada al nivel de significancia 
+ 
+ 
+ 
+ &#x03B1;
+ 
+ 
+ {\displaystyle \alpha }
+ 
+ dado. De nuevo, sin embargo, esto resume la evidencia para un efecto pero no el tamaño del efecto. Una posibilidad es reportar intervalos de confianza, puesto que estos indican el tamaño del efecto y la incertidumbre. Esto ayuda a interpretar los resultados, como el intervalo de confianza para un 
+ 
+ 
+ 
+ &#x03B1;
+ 
+ 
+ {\displaystyle \alpha }
+ 
+ dado indicando simultáneamente la significancia estadística y el efecto de tamaño. El p-valor y los intervalos de confianza son basados en los mismos cálculos fundamentales como aquellos para las correspondientes pruebas de hipótesis. Los resultados son presentados en un formato más detallado, en lugar del «sí o no» de las pruebas de hipótesis y con la misma metodología estadística.
+
+Otro tipo de aproximación es el uso de métodos bayesianos. Esta aproximación, sin embargo, también ha sido criticada.
+
+El fuerte deseo de que los medicamentos buenos sean aprobados y que los medicamentos peligrosos o de poco uso sean rechazados crea tensiones y conflictos (errores tipo I y II en el lenguaje de pruebas de hipótesis).
+
+Sobre la enseñanza de la estadística en las ciencias sociales, algunas investigaciones “sugieren que los estudiantes aprenden más cuando los profesores usan ejemplos concretos y problemas relevantes para ellos”. &#8203;
+
+Para contar con ejemplos concretos y problemas relevantes a los estudiantes, es posible proponer actividades de aprendizaje que vinculen los métodos cuantitativos a los enfoques cualitativos, debido a que estos últimos son utilizados con mayor recurrencia en los planes de estudio de las licenciaturas en Ciencias sociales. Sobre esta combinación de métodos encontramos que una de sus principales virtudes es que “la recopilación de los ricos detalles descriptivos de los datos cualitativos se puede usar para cuantificar y generalizar los resultados”. &#8203;
+
+Entre las ventajas de una enseñanza que combine los métodos cuantitativos con los cualitativos se encuentra el que los estudiantes desarrollen la destreza para triangular resultados, lo que disminuye la falibilidad inherente a cada enfoque. Por ejemplo los errores que puedan atribuirse a los datos de origen, dado que los métodos utilizan tipos de datos distintos, serán más confiables los resultados si proceden de una triangulación de métodos. &#8203;

@@ -1,0 +1,62 @@
+La dilatación térmica negativa es un proceso físico-químico en el que algunos materiales se contraen al ser calentados, al contrario de lo que hacen la mayoría de las sustancias. Estos materiales tienen una amplia gama de aplicaciones potenciales en ingeniería, fotónica, electrónica, y en usos estructurales. Por ejemplo, mezclando un material de expansión térmica negativa con un material "normal" que se expanda al calentarlo, sería posible hacer un material compuesto de expansión cero.
+
+Hay ciertos procesos físicos que pueden causar la contracción de un material con temperaturas crecientes, incluyendo los modos de vibración transversal, los modos de unidad rígida y las transiciones de fase.
+
+Recientemente, Liu y otros han demostrado que este fenómeno se origina a partir de la existencia de presión alta, fases de volumen pequeño con entropía elevada, y con sus configuraciones presentes en la matriz de fase estable a través de fluctuaciones térmicas. &#8203;
+
+La expansión térmica negativa se observa normalmente en sustancias cuyas moléculas están dispuestas en sistemas cuasi-cristalizados con interacciones direccionales (como el hielo o el grafeno) y en compuestos complejos (como Cu2O, ZrW2O8, beta-cuarzo, algunas zeolitas, etc.). Aun así, en un artículo se ha expuesto que la dilatación térmica negativa (DTN) también se presenta en componentes con estructuras empaquetadas compactas con interacciones de un par de fuerzas central. &#8203; Se ha propuesto la siguiente condición suficiente (relativa al aumento de potencial) de los materiales con comportamiento (DTN):
+
+donde 
+ 
+ 
+ 
+ &#x03A0;
+ 
+ 
+ {\displaystyle \Pi }
+ 
+ es el par interatómico potencial, y 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+ es la distancia de equilibrio. Esta condición es:
+
+donde 
+ 
+ 
+ 
+ d
+ 
+ 
+ {\displaystyle d}
+ 
+ es la dimensión espacial. Así, en 2D y 3D la dilatación térmica negativa en sistemas cuasi-cristalizados con interacciones de par se da incluso cuando la tercera derivada del potencial es cero o incluso negativa. Debe notarse que los casos unidimensionales y multidimensionales son cualitativamente diferentes. En 1D, la expansión térmica está constreñida solo por la desarmonía del potencial interatómico. Por lo tanto, el signo del coeficiente de expansión térmica está determinado por el signo de la tercera derivada del potencial. En el caso multidimensional, la geometría no-lineal está también presente, y las vibraciones de la malla de moléculas son no-lineales incluso en el caso de potencial interatómico armónico. Esta no-linealidad contribuye a la expansión térmica. Por lo tanto, en caso multidimensional, tanto 
+ 
+ 
+ 
+ 
+ &#x03A0;
+ &#x2033;
+ 
+ 
+ 
+ {\displaystyle \Pi ''}
+ 
+ como 
+ 
+ 
+ 
+ 
+ &#x03A0;
+ &#x2034;
+ 
+ 
+ 
+ {\displaystyle \Pi '''}
+ 
+ intervienen como condiciones para que se verifique la dilatación térmica negativa.

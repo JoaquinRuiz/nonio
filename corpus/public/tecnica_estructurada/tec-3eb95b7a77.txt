@@ -1,0 +1,14 @@
+DECnet es un grupo de productos de Comunicaciones, desarrollado por la firma Digital Equipment Corporation. La primera versión de DECnet se realiza en 1975 y permitía la comunicación entre dos mini computadoras PDP-11 directamente. Se desarrolló en una de las primeras arquitecturas de red Peer-to-peer.
+
+DECnet, al igual que la ASR de IBM, define un marco general tanto para la red de comunicación de datos como para el procesamiento distribuido de datos. El objetivo de DECnet es permitir la interconexión generalizada de diferentes computadoras principales y redes punto a punto, multipunto o conmutadas de manera tal que los usuarios puedan compartir programas, archivos de datos y dispositivos de terminales remotos.
+
+DECnet soporta la norma del protocolo internacional X.25 y cuenta con capacidades para conmutación de paquetes. Se ofrece un emulador mediante el cual los sistemas de la Digital Equipment Corporation se pueden interconectar con las macrocomputadoras de IBM y correr en un ambiente ASR. El protocolo de mensaje para comunicación digital de datos (PMCDD) de la DECnet es un protocolo orientado a los bytes cuya estructura es similar a la del protocolo de Comunicación Binaria Síncrona (CBS) de IBM.
+
+El DECnet primero fue anunciado a mediados de los años setenta junto con la introducción de la DEC VAX 11/780. Fue diseñado originalmente para las interfaces paralelas que conectaron sistemas próximos. 
+El DECnet también define redes de comunicaciones sobre redes del área metropolitana del FDDI (Fiber Distributed Data Interface), y las redes de área amplia que utilizan instalaciones de transmisión privadas o públicas de datos.
+
+Se han lanzado al mercado varias versiones del DECnet. Primero el utilizado para la comunicación entre dos microcomputadoras directamente unidas. Los lanzamientos siguientes ampliaron la funcionalidad del DECnet agregando la ayuda para los protocolos propietarios y estándares adicionales, manteniendo también la compatibilidad con los protocolos anteriores a su lanzamiento.
+
+Estas versiones se han desarrollado en forma de fases. La fase III del DECnet puso muchas características avanzadas del establecimiento de una red en ejecución, incluyendo el encaminamiento adaptante que podría detectar faltas del acoplamiento y reencaminar tráfico cuanto sea necesario. Fase IV del DECnet, introducida en 1982, con varias características, incluyendo las siguientes:
+
+La Fase IV del DECnet es la versión más extendida puesta en ejecución; sin embargo, DECnetLa OSI es el lanzamiento más reciente. La Fase IV del DECnet se basa en la arquitectura de red de la Fase IV Digital (la DNA), y se apoya en los protocolos propietarios de Digital y otros protocolos propietarios y estándares. La Fase IV es compatible con la Fase III del DECnet, su versión predecesora.

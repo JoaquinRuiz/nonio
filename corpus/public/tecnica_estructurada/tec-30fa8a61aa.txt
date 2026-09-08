@@ -1,0 +1,148 @@
+La variabilidad total, SC(total), de los datos de cualquier diseño experimental puede ser expresada como:
+
+(1)
+ 
+ 
+ 
+ S
+ 
+ C
+ 
+ t
+ o
+ t
+ a
+ l
+ 
+ 
+ =
+ S
+ 
+ C
+ 
+ U
+ E
+ 
+ 
+ +
+ S
+ 
+ C
+ 
+ E
+ M
+ 
+ 
+ 
+ 
+ {\displaystyle SC_{total}=SC_{UE}+SC_{EM}}
+
+La suma de cuadrados de las unidades experimentales, SC(UE), representa la variablidad de los datos que se presenta entre unidades experimentales. La suma de cuadrados del error de muestreo, SC(EM), refleja la variabilidad que hay en las unidades experimentales, es decir, la variabilidad entre observaciones tomadas en la misma unidad experimental. Acá hay un detalle importante de aclarar: la ecuación es válida tanto si el diseño experimental es con submuestras o es estándar. Sin embargo, cuando el experimento es estándar (es decir, no se toman varias muestras en las unidades experimentales), la SC(EM) toma el valor de cero puesto que no es posible estimar la variabilidad en la unidad experimental en tanto que sólo ha sido tomada una observación al azar.
+
+A la ecuación (1) le llamaremos identidad general de las sumas de cuadrados y al modelo lineal que representa esta idea general lo nombraremos diseño de las unidades experimentales, que se escribe como sigue:
+
+(2)
+ 
+ 
+ 
+ 
+ Y
+ 
+ i
+ j
+ 
+ 
+ =
+ u
+ +
+ 
+ u
+ 
+ i
+ 
+ 
+ +
+ 
+ E
+ 
+ i
+ j
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{ij}=u+u_{i}+E_{ij}}
+
+donde 
+ 
+ 
+ 
+ 
+ Y
+ 
+ i
+ j
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{ij}}
+ 
+ representa la j-ésima observación tomada al azar de la i-ésima unidad experimental, 
+ 
+ 
+ 
+ u
+ 
+ 
+ {\displaystyle u}
+ 
+ denota la media general, 
+ 
+ 
+ 
+ 
+ u
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle u_{i}}
+ 
+ representa a la i-ésima unidad experimental y 
+ 
+ 
+ 
+ 
+ E
+ 
+ i
+ j
+ 
+ 
+ 
+ 
+ {\displaystyle E_{ij}}
+ 
+ el ij-ésimo error aleatorio que representa la variabilidad de observaciones dentro de unidades, esto es, 
+ 
+ 
+ 
+ 
+ E
+ 
+ i
+ j
+ 
+ 
+ 
+ 
+ {\displaystyle E_{ij}}
+ 
+ es el error de muestreo. Se consideran n unidades experimentales -o parcelas - y r submuestras en cada una. En total, hay r n observaciones.
+
+Pensemos en una situación en que hay el mismo número de submuestras por unidad experimental; los casos con diferente número de submuestras no se incluye, lo cual sería un punto interesante de desarrollar. El algoritmo presentado acá es válido para cualquier diseño experimental con el mismo número de submuestras.
+
+Suponer que en un experimento balanceado con n unidades experimentales se toman r submuestras por unidad experimental. El modelo lineal de este diseño, al que llamaremos diseño de las unidades experimentales está representado por la ecuación 2. Es importante remarcar que el diseño de las unidades experimentales es sólo una forma de conceptualizar cualquier diseño experimental. No es una forma de disponer físicamente las unidades experimentales en la práctica sino una estrategia que nos permite hacer comparables, en cuanto a su análisis, diseños experimentales diferentes. Enseguida los tres pasos del algoritmo:

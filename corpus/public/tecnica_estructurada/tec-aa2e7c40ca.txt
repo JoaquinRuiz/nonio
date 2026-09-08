@@ -1,0 +1,124 @@
+En el experimento mental del amigo de Wigner, esta visión (de Wigner) viene de la siguiente manera:
+
+La conciencia del amigo se "impresiona" por la medida del giro y, por lo tanto, puede asignarle una función de onda de acuerdo con la naturaleza de su impresión. Wigner, al no tener acceso a esa información, solo puede asignar la función de onda 
+ 
+ 
+ 
+ &#x03B1;
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ )
+ +
+ &#x03B2;
+ (
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle \alpha (|0\rangle _{S}\otimes |0\rangle _{F})+\beta (|1\rangle _{S}\otimes |1\rangle _{F})}
+ 
+ al sistema conjunto de giro y amigo después de la interacción. Cuando luego le pregunta a su amigo sobre el resultado de la medición, la conciencia de Wigner queda "impresionada" por la respuesta del amigo: Como resultado, Wigner podrá asignar una función de onda al sistema de giro, es decir, le asignará la función de onda correspondiente a la respuesta del amigo.
+
+Hasta ahora, no hay inconsistencia en la teoría de la medición. Sin embargo, Wigner se entera (preguntándole nuevamente a su amigo) que los sentimientos / pensamientos de su amigo sobre el resultado de la medición habían estado en la mente del amigo mucho antes de que Wigner preguntara por ellos en primer lugar. Por lo tanto, la función de onda correcta para el sistema conjunto de giro y amigo justo después de la interacción debe haber sido 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle |0\rangle _{S}\otimes |0\rangle _{F}}
+ 
+o 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle |1\rangle _{S}\otimes |1\rangle _{F}}
+ 
+, y no su combinación lineal. Por lo tanto, existe una contradicción, específicamente en la interpretación de "la conciencia causa colapso".
+
+Wigner luego sigue que "el ser con conciencia debe tener un papel diferente en la mecánica cuántica que el dispositivo de medición inanimado": &#8203; Si el amigo fuera reemplazado por algún dispositivo de medición sin conciencia, el estado de superposición describiría el sistema conjunto de girar y dispositivo correctamente. Además, Wigner considera que un estado de superposición para un ser humano es absurdo, ya que el amigo no podría haber estado en un estado de "animación suspendida" &#8203; antes de responder a la pregunta. Esta visión necesitaría que las ecuaciones de la mecánica cuántica no fueran lineales. Wigner cree que las leyes de la física deben modificarse al permitir la inclusión de seres conscientes.
+
+Lo anterior y otros comentarios originales de Wigner sobre su amigo aparecieron en su artículo "Remarks on the Mind-Body Question", publicado en el libro The Scientist Speculates (1961), editado por IJ Good. El artículo se reimprime en el propio libro de Wigner Symmetries and Reflections (1967).

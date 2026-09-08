@@ -1,0 +1,34 @@
+Los pares {1,2} , {2,3} , {2,4} y {3,4} tienen una confianza mayor que 3, por lo que son frecuentes; el resto se considera que no lo son. Como {1,3} y {1,4} no son frecuentes, cualquier conjunto que contenga estos pares es considerado infrecuente. De esta manera se pueden podar los conjuntos.
+Analizando los conjuntos de ítems frecuentes de tamaño 3 se obtiene
+
+En este ejemplo, no hay triplos frecuentes, ya que {2,3,4} se encuentra por debajo del valor de confianza.
+Hemos determinado entonces los conjuntos frecuentes de ítems en la base de datos.
+
+El proceso de generación de candidatos en el algoritmo apriori genera un número grande de subconjuntos. Exploración de conjuntos de forma bottom-up encuentra cualquier subconjunto maximal solo después de todos los 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ |
+ 
+ S
+ 
+ |
+ 
+ 
+ 
+ &#x2212;
+ 1
+ 
+ 
+ {\displaystyle 2^{|S|}-1}
+ 
+ de sus subconjuntos propios.
+Algoritmos posteriores como Max-Miner trata de identificar el conjunto maximal de ítems frecuentes sin enumerar sus subconjuntos, ejecutan "saltos" en el espacio de búsqueda en vez de una estrategia puramente bottom-up.
+
+Bayardo Jr, Roberto J. (1998). «Efficiently mining long patterns from databases». ACM SIGMOD Record 27 (2).&#160;
+
+Rakesh Agrawal and Ramakrishnan Srikant Fast algorithms for mining association rules in large databases. Proceedings of the 20th International Conference on Very Large Data Bases, VLDB, pages 487-499, Santiago, Chile, September 1994.

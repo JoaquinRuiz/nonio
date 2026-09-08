@@ -1,0 +1,226 @@
+La convergencia en probabilidad se da cuando a medida que 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+, o el tamaño de muestra, aumenta entonces la variable aleatoria (v.a.) toma valores cercanos a una constante 
+ 
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle c}
+ 
+ con mayor probabilidad. Un ejemplo sencillo de esto sería, dado una v.a. que toma 2 valores c con probabilidad 
+ 
+ 
+ 
+ 1
+ &#x2212;
+ 1
+ 
+ /
+ 
+ n
+ 
+ 
+ {\displaystyle 1-1/n}
+ 
+ y 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+ con probabilidad 
+ 
+ 
+ 
+ 1
+ 
+ /
+ 
+ n
+ 
+ 
+ {\displaystyle 1/n}
+ 
+. Entonces al hacer crecer n lo que ocurre es que el valor "n" de la v.a. aumenta pero su probabilidad disminuye a una velocidad de (1/n) mientras que la probabilidad de que la v.a. tome el valor c va tendiendo a 1.
+
+Sea 
+ 
+ 
+ 
+ 
+ X
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle X_{n}}
+ 
+ una variable aleatoria cuyo índice señala el tamaño de la muestra a partir de la cual dicha variable aleatoria está construida.
+
+Se dice que la sucesión de variables aleatorias 
+ 
+ 
+ 
+ 
+ X
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle X_{n}}
+ 
+ converge en probabilidad a una constante c si 
+ 
+ 
+ 
+ 
+ lim
+ 
+ n
+ &#x2192;
+ &#x221E;
+ 
+ 
+ 
+ P
+ (
+ 
+ |
+ 
+ 
+ X
+ 
+ n
+ 
+ 
+ &#x2212;
+ c
+ 
+ |
+ 
+ >
+ &#x03B5;
+ )
+ =
+ 0
+ 
+ 
+ 
+ {\displaystyle \lim _{n\to \infty }{P(|X_{n}-c|>\varepsilon )=0}}
+ 
+ para cualquier 
+ 
+ 
+ 
+ &#x03B5;
+ 
+ 
+ {\displaystyle \varepsilon }
+ 
+ >0, también se escribe como 
+ 
+ 
+ 
+ 
+ X
+ 
+ n
+ 
+ 
+ 
+ 
+ &#x2192;
+ P
+ 
+ 
+ c
+ 
+ 
+ {\displaystyle X_{n}{\overset {P}{\rightarrow }}c}
+ 
+.
+
+El resultado anterior, con ayuda de las propiedades de valor absoluto se puede ver como
+
+lim
+ 
+ n
+ &#x2192;
+ &#x221E;
+ 
+ 
+ P
+ (
+ 
+ |
+ 
+ 
+ X
+ 
+ n
+ 
+ 
+ &#x2212;
+ c
+ 
+ |
+ 
+ >
+ &#x03F5;
+ )
+ =
+ 
+ lim
+ 
+ n
+ &#x2192;
+ &#x221E;
+ 
+ 
+ P
+ (
+ 
+ X
+ 
+ n
+ 
+ 
+ &#x2212;
+ c
+ >
+ &#x03F5;
+ &#xA0;
+ &#x222A;
+ &#xA0;
+ c
+ &#x2212;
+ 
+ X
+ 
+ n
+ 
+ 
+ >
+ &#x03F5;
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\displaystyle \lim _{n\to \infty }P(|X_{n}-c|>\epsilon )=\lim _{n\to \infty }P(X_{n}-c>\epsilon \ \cup \ c-X_{n}>\epsilon )}}

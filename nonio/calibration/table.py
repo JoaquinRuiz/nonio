@@ -71,6 +71,22 @@ class CalibrationTable:
             return None
         return no_nativo.fpr / general.fpr
 
+    def absolute_fpr(self) -> float | None:
+        """FP sobre texto humano general, en términos absolutos.
+
+        FR-030 restringe solo el **cociente** entre categorías, no esta cifra. Es
+        un agujero de la salvaguarda: un umbral bajo que acuse por igual a todo el
+        mundo da un cociente perfecto de 1,00x y pasa la puerta mientras señala
+        falsamente a una de cada cinco personas. Medido: con umbral 0,85 el sesgo
+        es 1,00x y la FP absoluta 18,3%.
+
+        Se expone para que ese caso sea visible en el informe. Enmendar FR-030
+        para añadir un techo absoluto es decisión de spec, no de una task, así que
+        la puerta se deja como está especificada. Ver docs/calibration-findings.md.
+        """
+        general = self.per_category.get(CorpusCategory.HUMANO_PRE2022)
+        return general.fpr if general else None
+
     def check_bias_gate(self, max_ratio: float = MAX_NON_NATIVE_FPR_RATIO) -> float:
         """Falla si el sesgo supera el factor admitido. Bloquea la publicación."""
         ratio = self.bias_ratio()

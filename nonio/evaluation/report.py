@@ -29,6 +29,7 @@ class EvaluationReport:
     corpus_version: str
     per_category: dict[str, dict[str, Any]]
     bias_ratio: float | None
+    absolute_fpr: float | None
     bias_gate_max: float
     bias_gate_passes: bool | None
     missing_categories: list[str]
@@ -42,9 +43,15 @@ class EvaluationReport:
             "per_category": self.per_category,
             "bias": {
                 "ratio_non_native_vs_general": self.bias_ratio,
+                "absolute_fpr_general": self.absolute_fpr,
                 "max_allowed": self.bias_gate_max,
                 "passes": self.bias_gate_passes,
                 "requirement": "FR-030",
+                "note": (
+                    "FR-030 restringe el cociente, no la tasa absoluta. Un umbral bajo "
+                    "que acuse por igual a todo el mundo pasa la puerta siendo inútil; "
+                    "mira absolute_fpr_general antes de fiarte del cociente."
+                ),
             },
             "missing_categories": self.missing_categories,
             "note": (
@@ -76,6 +83,12 @@ class EvaluationReport:
                 f"Puerta FR-030: sesgo no nativo/general = {self.bias_ratio:.2f}× "
                 f"(máximo {self.bias_gate_max:.1f}×) → {estado}"
             )
+            if self.absolute_fpr is not None:
+                lineas.append(
+                    f"  FP absoluta sobre texto humano general: {self.absolute_fpr:.1%}. "
+                    "FR-030 no la limita; un cociente bajo con FP alta es un detector "
+                    "equitativo e inútil."
+                )
         if self.missing_categories:
             lineas.append("Categorías ausentes del corpus: " + ", ".join(self.missing_categories))
         return "\n".join(lineas)
@@ -100,6 +113,7 @@ def build_report(table: CalibrationTable) -> EvaluationReport:
             for c, s in table.per_category.items()
         },
         bias_ratio=ratio,
+        absolute_fpr=table.absolute_fpr(),
         bias_gate_max=MAX_NON_NATIVE_FPR_RATIO,
         bias_gate_passes=(None if ratio is None else ratio <= MAX_NON_NATIVE_FPR_RATIO),
         missing_categories=faltan,

@@ -89,3 +89,16 @@ def test_las_categorias_ausentes_se_declaran():
     """Que falte una categoría del Artículo VII no puede pasar inadvertido."""
     d = build_report(_table()).to_dict()
     assert "mixto" in d["missing_categories"]
+
+
+def test_el_informe_expone_la_fp_absoluta_junto_al_cociente():
+    """FR-030 solo limita el cociente; la cifra absoluta debe ser visible.
+
+    Un umbral bajo que acuse por igual a todo el mundo da cociente 1,00x y pasa
+    la puerta siendo inútil. Documentado en docs/calibration-findings.md.
+    """
+    d = build_report(_table(0.18, 0.18)).to_dict()
+    assert d["bias"]["passes"] is True, "cociente 1,0x: la puerta pasa"
+    assert d["bias"]["absolute_fpr_general"] == 0.18, "y la FP absoluta es visible"
+    texto = build_report(_table(0.18, 0.18)).to_text()
+    assert "18.0%" in texto and "inútil" in texto

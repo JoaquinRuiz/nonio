@@ -49,11 +49,19 @@ What works today:
 - CLI and importable Python API with verified parity
 - Evaluation harness and corpus builders
 
-What is missing, and it is the part that decides whether this project is
-publishable at all: **a calibration that survives scrutiny**. See
-[calibration findings](docs/calibration-findings.md) — the current measurement
-does not pass the project's own bias gate, and at the current sample size the
-gate cannot even be evaluated.
+What the measurement says so far, from
+[calibration findings](docs/calibration-findings.md):
+
+| | |
+|---|---|
+| False positives on human prose | **5.3 %** |
+| Machine-generated text caught | **47 %** (CI 36–58, n=72) |
+| Bias against non-native Spanish | 1.30×, CI [0.78 – 2.53] → **inconclusive** |
+
+Read plainly: at an acceptable false-positive rate it catches slightly under half
+of what it is looking for, and there is not yet enough sample to say whether it is
+unfair to non-native writers. **It is not good enough to be used for anything
+consequential**, and it reports that rather than rounding it up.
 
 ## Install
 

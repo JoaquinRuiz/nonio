@@ -1,5 +1,5 @@
 {
-  "corpus_version": "2026.09-test",
+  "corpus_version": "2026.09",
   "language": "es",
   "min_words": 250,
   "null_distributions": {
@@ -846,10 +846,10 @@
     },
     "generado": {
       "fpr": 0.0,
-      "n_samples": 18,
+      "n_samples": 72,
       "reproducible": true,
       "threshold": 0.916667,
-      "tpr": 0.611111
+      "tpr": 0.472222
     },
     "humano_pre2022": {
       "fpr": 0.05314,

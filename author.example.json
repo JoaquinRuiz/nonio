@@ -1,0 +1,11 @@
+{
+  "name": "Joaquín Ruiz",
+  "tagline": "Escribo y grabo sobre lenguaje, medida e incertidumbre.",
+  "youtube_url": "https://youtube.com/@TU_CANAL",
+  "youtube_label": "Mi canal de YouTube",
+  "books": [
+    { "title": "Título del primer libro", "url": "https://..." },
+    { "title": "Título del segundo libro", "url": "https://..." }
+  ],
+  "site_url": "https://tu-web.com"
+}

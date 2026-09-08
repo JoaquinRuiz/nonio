@@ -1,0 +1,11 @@
+El sistema de riego de un huerto pequeño es un componente esencial para garantizar un cultivo saludable y productivo, especialmente en áreas con escasez de agua. A continuación, describiremos una estructura básica y eficiente para un sistema de riego de huerto pequeño, combinando técnicas tradicionales y modernas.
+
+1. **Planificación y diseño**: Antes de comenzar, es crucial planificar y diseñar el sistema de riego. Identifica las necesidades hídricas de cada planta, considerando su tamaño, especie y fase de crecimiento. Asegúrate de que el diseño respete la topografía del terreno para minimizar pérdidas de agua debido al escurrimiento.
+
+2. **Tubería de riego**: Utiliza manguera de PVC o tubo de polietileno grueso y resistente para transportar el agua desde la fuente de suministro hasta las plantas. La elección entre PVC y tubo de polietileno depende de factores como el presupuesto, la durabilidad y la facilidad de instalación. Las mangueras deben conectarse a un sistema de cabezales de riego, que a su vez están alimentados por una bomba o un suministro de agua directa.
+
+3. **Sistema de cabezales de riego**: Existen varios tipos de cabezales de riego, cada uno con características específicas para diferentes sistemas de cultivo. Algunos ejemplos son:
+
+   - **Cabezales de goteo**: Permiten un riego preciso y uniforme, reduciendo el desperdicio de agua y promoviendo el crecimiento saludable de las raíces. Estos cabezales se instalan en el suelo, a unos centímetros del nivel del sustrato, y pueden ser controlados individualmente o en grupos para adaptar el volumen de agua según las necesidades de cada planta.
+   
+   - **Cabezales de aspersión**: Satisfacen las necesidades de cultivos con alta evaporación o que requieren un riego directo sobre las hojas. Estos cabezales dispersan agua a través de pequeñas espinas o tubos en forma de "u", proporcionando un riego uniforme en una amp

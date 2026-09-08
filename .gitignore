@@ -30,3 +30,6 @@ build/
 models/
 # Corpus privado: cifras publicadas, textos no redistribuibles (FR-029)
 corpus/private/
+
+# Enlaces personales del autor: cada quien los suyos
+author.json

@@ -72,9 +72,10 @@ nonio check                     # should report the profile as available
 ### Command line
 
 ```bash
-nonio analyze essay.md                  # human-readable
-nonio analyze essay.md --json           # structured output with schema_version
-cat essay.md | nonio analyze            # reads stdin
+nonio analyze essay.md                        # human-readable
+nonio analyze essay.md --json                 # structured, with schema_version
+nonio analyze essay.md --html -o report.html  # self-contained HTML report
+cat essay.md | nonio analyze                  # reads stdin
 nonio analyze essay.md --profile salamandra-2b
 ```
 
@@ -87,6 +88,23 @@ Other commands:
 | `nonio profiles` / `profiles --use ID` | List profiles, or remember one. |
 | `nonio schema` | Emit the JSON Schema of the output. |
 | `nonio eval --corpus public` | Evaluate over the corpus, always per category. |
+
+### HTML reports
+
+`--html` writes a self-contained report: no external fonts, no CDN, no remote
+images. A report that loaded anything from outside would tell whoever serves that
+resource that someone is analysing a text, and Article V exists so that neither
+the text nor the fact of analysing it leaves your machine.
+
+The report is deliberately **not** designed to look like a certificate. The
+warning comes before the figure, the measured error rate sits next to every
+number, and there are no seals, signatures, or logos. Article IX forbids exports
+designed to be attached to a disciplinary file, and an official-looking document
+is exactly what gets printed and attached.
+
+To add your own links to the footer, create an `author.json` next to where you
+run it — see `author.example.json`. Those links are shown in a footer clearly
+separated from the measurement, and labelled as not being part of it.
 
 ### Exit codes
 

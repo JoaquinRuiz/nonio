@@ -1,0 +1,13 @@
+El sistema de riego de un huerto pequeño es un aspecto crucial para garantizar el crecimiento y la producción de cultivos sanos y abundantes. Una implementación eficiente y sostenible de este sistema permite optimizar el uso de agua, reducir desperdicios y promover la salud de las plantas. A continuación, se describen los pasos clave y elementos básicos para construir un sistema de riego adecuado para un huerto pequeño.
+
+1. **Análisis del huerto**: Antes de diseñar el sistema de riego, es esencial evaluar las características del huerto, como su tamaño, topografía, tipo de suelo y clima local. Esto permitirá determinar la cantidad y frecuencia de riego necesarias para cada cultivo.
+
+2. **Diseño del sistema**: En función de las condiciones del huerto, se pueden considerar los siguientes tipos de sistemas de riego:
+
+   a. **Riego por goteo**: Ideal para huertos con cultivos de alto valor o espacios limitados, ya que permite entregar agua directamente a las raíces, minimizando el desperdicio por evaporación y arrastre. Se instala un sistema de tuberías y mangueras con goteros ajustables, generalmente instalados cerca de las plantas.
+
+   b. **Riego por aspersión**: Adecuado para huertos con cultivos de crecimiento rápido o en superficies más amplias, ya que proporciona una aplicación uniforme de agua a través de bombas y aspersores. Sin embargo, puede generar más evaporación y desplazamiento superficial.
+
+   c. **Riego por inundación**: Situado en huertos con suelos bien drenados y en regiones con precipitaciones abundantes, este método consiste en cubrir el huerto con una capa de agua, permitiendo que el agua se infilte gradualmente en el suelo.
+
+3. **Sistemas de bombeo y suministro de agua**: Para los sistemas de riego por goteo y aspersión, se requiere una fuente de agua, como un pozo, un arroyo o una red de aguas pluviales. Se instalan bombas y tuberías para transportar el agua desde la

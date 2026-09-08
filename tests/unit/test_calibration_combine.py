@@ -173,3 +173,20 @@ def test_un_caso_generado_debe_declarar_su_generador():
     )
     with pytest.raises(ValueError, match="generador"):
         caso.validate_against_profiles({"Qwen"})
+
+
+# --- FR-031: una cifra de sesgo sin su incertidumbre no es una medida ----------
+
+
+def test_la_fp_absoluta_es_consultable_junto_al_cociente():
+    """El cociente solo no basta: FR-030 no limita la tasa absoluta."""
+    t = _table(0.18, 0.18)
+    assert t.check_bias_gate() == pytest.approx(1.0), "cociente perfecto"
+    assert t.absolute_fpr() == 0.18, "y sin embargo acusa al 18%"
+
+
+def test_sin_categoria_de_referencia_no_hay_fp_absoluta():
+    t = CalibrationTable(
+        profile_id="qwen2.5-0.5b", language="es", min_words=250, corpus_version="x"
+    )
+    assert t.absolute_fpr() is None

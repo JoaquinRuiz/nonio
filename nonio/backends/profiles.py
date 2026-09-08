@@ -39,6 +39,9 @@ PROFILES: dict[str, Profile] = {
         revision="main",
         validated_languages=(),  # vacío hasta que la calibración lo demuestre
         note="Perfil por defecto. Apache-2.0. Rápido en CPU; cumple SC-006 con margen.",
+        # Medido (SC-006): 1.000 palabras, Apple Silicon, CPU, float32. El p95 se
+        # tomó con otra carga compitiendo por CPU, así que es un peor caso realista.
+        measured_runtime={"words": 1000, "median_s": 12.1, "p95_s": 19.1},
     ),
     "salamandra-2b": Profile(
         id="salamandra-2b",
@@ -50,6 +53,8 @@ PROFILES: dict[str, Profile] = {
             "Español primero (BSC). Apache-2.0. Mejor calidad esperada en español, "
             "más coste; puede no cumplir SC-006 en CPU modesta."
         ),
+        # Sin medir todavía: no se inventa una cifra que no se ha tomado.
+        measured_runtime=None,
     ),
 }
 

@@ -13,7 +13,7 @@ from pathlib import Path
 from nonio.backends.loader import load_pair
 from nonio.calibration.corpus import load_manifest
 from nonio.calibration.table import CalibrationTable
-from nonio.evaluation.calibrate import fit_table, measure_cases, selection_bias
+from nonio.evaluation.calibrate import bias_ci, fit_table, measure_cases, selection_bias
 from nonio.evaluation.report import EvaluationReport, build_report
 from nonio.schema.enums import CorpusCategory
 
@@ -76,7 +76,15 @@ def evaluate(
         corpus_version=_corpus_version(base),
         min_words=min_words,
     )
-    return build_report(table)
+    # FR-031: el intervalo se calcula siempre, no a petición. Publicar el
+    # cociente sin él es lo que el requisito prohíbe.
+    stats = table.per_category.get(CorpusCategory.HUMANO_PRE2022)
+    ci = None
+    if stats is not None:
+        _, lo, hi = bias_ci(measurements, threshold=stats.threshold, min_words=min_words)
+        if lo == lo:  # no NaN
+            ci = (lo, hi)
+    return build_report(table, bias_ci=ci)
 
 
 def _corpus_version(base: Path) -> str:

@@ -41,6 +41,7 @@ def _cmd_profiles(args) -> int:
             "observer": p.observer_model,
             "performer": p.performer_model,
             "validated_languages": list(p.validated_languages),
+            "measured_runtime": p.measured_runtime,
             "note": p.note,
         }
         for p in nonio.profiles()
@@ -54,7 +55,13 @@ def _fmt_profiles(data) -> str:
     for p in data:
         idiomas = ", ".join(p["validated_languages"]) or "ninguno validado todavía"
         out.append(f"{p['id']}\n  observer: {p['observer']}\n  performer: {p['performer']}")
-        out.append(f"  idiomas calibrados: {idiomas}\n  {p['note']}")
+        rt = p["measured_runtime"]
+        tiempo = (
+            f"{rt['median_s']:.1f}s mediana / {rt['p95_s']:.1f}s p95 " f"por {rt['words']} palabras"
+            if rt
+            else "sin medir"
+        )
+        out.append(f"  idiomas calibrados: {idiomas}\n  tiempo medido: {tiempo}\n  {p['note']}")
     return "\n".join(out)
 
 

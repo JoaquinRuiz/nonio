@@ -29,6 +29,8 @@ class EvaluationReport:
     corpus_version: str
     per_category: dict[str, dict[str, Any]]
     bias_ratio: float | None
+    bias_ci: tuple[float, float] | None
+    bias_verdict: str | None
     absolute_fpr: float | None
     bias_gate_max: float
     bias_gate_passes: bool | None
@@ -43,6 +45,8 @@ class EvaluationReport:
             "per_category": self.per_category,
             "bias": {
                 "ratio_non_native_vs_general": self.bias_ratio,
+                "ci95": list(self.bias_ci) if self.bias_ci else None,
+                "verdict": self.bias_verdict,
                 "absolute_fpr_general": self.absolute_fpr,
                 "max_allowed": self.bias_gate_max,
                 "passes": self.bias_gate_passes,
@@ -78,11 +82,18 @@ class EvaluationReport:
         if self.bias_ratio is None:
             lineas.append("Puerta FR-030: NO EVALUABLE — faltan categorías para calcular el sesgo.")
         else:
-            estado = "PASA" if self.bias_gate_passes else "BLOQUEA LA PUBLICACIÓN"
+            ic = f" IC95% [{self.bias_ci[0]:.2f}, {self.bias_ci[1]:.2f}]" if self.bias_ci else ""
+            estado = {
+                "pasa": "PASA",
+                "bloquea": "BLOQUEA LA PUBLICACIÓN",
+                "no_concluyente": "NO CONCLUYENTE — el intervalo cruza el límite",
+            }.get(self.bias_verdict or "", "SIN VEREDICTO")
             lineas.append(
-                f"Puerta FR-030: sesgo no nativo/general = {self.bias_ratio:.2f}× "
+                f"Puerta FR-030: sesgo no nativo/general = {self.bias_ratio:.2f}×{ic} "
                 f"(máximo {self.bias_gate_max:.1f}×) → {estado}"
             )
+            if self.bias_verdict == "no_concluyente":
+                lineas.append("  No habilita publicar umbral por defecto: hace falta más muestra.")
             if self.absolute_fpr is not None:
                 lineas.append(
                     f"  FP absoluta sobre texto humano general: {self.absolute_fpr:.1%}. "
@@ -94,8 +105,18 @@ class EvaluationReport:
         return "\n".join(lineas)
 
 
-def build_report(table: CalibrationTable) -> EvaluationReport:
+def build_report(
+    table: CalibrationTable, *, bias_ci: tuple[float, float] | None = None
+) -> EvaluationReport:
     ratio = table.bias_ratio()
+    verdict = None
+    if ratio is not None:
+        if bias_ci is None:
+            # Sin intervalo no hay veredicto (FR-031). No se degrada a comparar
+            # el punto: eso es justo lo que el requisito prohíbe.
+            verdict = "sin_intervalo"
+        else:
+            verdict = table.bias_gate_verdict(bias_ci[0], bias_ci[1]).verdict
     faltan = [c.value for c in CorpusCategory if c not in table.per_category]
     return EvaluationReport(
         profile_id=table.profile_id,
@@ -113,8 +134,10 @@ def build_report(table: CalibrationTable) -> EvaluationReport:
             for c, s in table.per_category.items()
         },
         bias_ratio=ratio,
+        bias_ci=bias_ci,
+        bias_verdict=verdict,
         absolute_fpr=table.absolute_fpr(),
         bias_gate_max=MAX_NON_NATIVE_FPR_RATIO,
-        bias_gate_passes=(None if ratio is None else ratio <= MAX_NON_NATIVE_FPR_RATIO),
+        bias_gate_passes=(None if verdict is None else verdict == "pasa"),
         missing_categories=faltan,
     )

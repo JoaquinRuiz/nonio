@@ -26,7 +26,7 @@ from nonio.calibration.table import CalibrationTable, CategoryStats
 from nonio.schema.enums import CorpusCategory
 from nonio.signals.engine import measure
 
-__all__ = ["CaseMeasurement", "measure_cases", "fit_table", "selection_bias"]
+__all__ = ["CaseMeasurement", "measure_cases", "fit_table", "selection_bias", "bias_ci"]
 
 # Categorías cuya presencia de señal se considera "positiva" al calibrar.
 POSITIVE = {CorpusCategory.GENERADO}
@@ -52,25 +52,45 @@ def measure_cases(
     y un proceso opaco durante una hora es un proceso que nadie sabe si colgó."""
     import sys
     import time
+    from collections import Counter
 
     por_categoria: dict[CorpusCategory, int] = {}
     out: list[CaseMeasurement] = []
-    total = len(cases)
+    omitidos: list[tuple[str, str]] = []
+
+    # El objetivo NO es len(cases): con un tope por categoría, la mayoría de los
+    # casos se saltan sin medirse. Estimar sobre el total sobreestima el tiempo
+    # restante varias veces —lo hacía 5x— y un ETA que miente es peor que
+    # ninguno, que es la razón por la que existe este indicador.
+    disponibles = Counter(c.category for c in cases)
+    objetivo = (
+        sum(min(limit_per_category, n) for n in disponibles.values())
+        if limit_per_category is not None
+        else len(cases)
+    )
     t0 = time.time()
-    for i, case in enumerate(cases):
-        if progress and out and len(out) % 50 == 0 and i % 50 == 0:
+    _ultimo = -1
+    for case in cases:
+        if progress and out and len(out) % 50 == 0 and _ultimo != len(out):
+            _ultimo = len(out)
             hechos = len(out)
             ritmo = (time.time() - t0) / max(1, hechos)
             print(
-                f"  {hechos} medidos ({i}/{total} vistos)  "
-                f"{ritmo:.1f}s/texto  ETA {ritmo * (total - i) / 60:.0f} min",
+                f"  {hechos}/{objetivo} medidos  {ritmo:.1f}s/texto  "
+                f"ETA {ritmo * max(0, objetivo - hechos) / 60:.0f} min",
                 file=sys.stderr,
                 flush=True,
             )
         n = por_categoria.get(case.category, 0)
         if limit_per_category is not None and n >= limit_per_category:
             continue
-        text = case.read_text(root)
+        try:
+            text = case.read_text(root)
+        except OSError as exc:
+            # Una fila mala no puede tirar una hora de cómputo. Se cuenta y se
+            # reporta al final: perder un caso es aceptable, perder la medición no.
+            omitidos.append((case.id, str(exc)))
+            continue
         m = measure(text, pair)
         agg = m.aggregate(0, len(text))
         if any(math.isnan(v) for v in agg.values()):
@@ -83,6 +103,12 @@ def measure_cases(
                 word_count=len(text.split()),
                 signals=agg,
             )
+        )
+    if omitidos and progress:
+        print(
+            f"  aviso: {len(omitidos)} casos omitidos por error de lectura "
+            f"(p. ej. {omitidos[0][0]})",
+            file=sys.stderr,
         )
     return out
 
@@ -172,4 +198,48 @@ def fit_table(
         min_words=min_words,
         corpus_version=corpus_version,
         per_category=per_category,
+    )
+
+
+def bias_ci(
+    measurements: list[CaseMeasurement],
+    *,
+    threshold: float,
+    min_words: int,
+    resamples: int = 4000,
+    seed: int = 0,
+) -> tuple[float, float, float]:
+    """Intervalo de confianza del cociente de sesgo por bootstrap (FR-031).
+
+    Se calcula aquí y no en un script suelto porque FR-031 prohíbe publicar una
+    cifra de sesgo sin su intervalo: si calcularlo dependiera de que alguien se
+    acuerde, tarde o temprano no se acordaría. Devuelve (mediana, p2.5, p97.5).
+    """
+    import random
+
+    usables = [m for m in measurements if m.word_count >= min_words]
+    ref = [m for m in usables if m.category is CorpusCategory.HUMANO_PRE2022]
+    nn = [m for m in usables if m.category is CorpusCategory.ESPANOL_NO_NATIVO]
+    if not ref or not nn:
+        return (float("nan"), float("nan"), float("nan"))
+
+    nulls = {name: sorted(m.signals[name] for m in ref) for name in usables[0].signals}
+    scores = {m.case_id: _combined(m, nulls) for m in usables}
+
+    rng = random.Random(seed)
+    ratios: list[float] = []
+    for _ in range(resamples):
+        a = rng.choices(ref, k=len(ref))
+        b = rng.choices(nn, k=len(nn))
+        fa = sum(1 for m in a if scores[m.case_id] >= threshold) / len(a)
+        fb = sum(1 for m in b if scores[m.case_id] >= threshold) / len(b)
+        if fa > 0:
+            ratios.append(fb / fa)
+    if not ratios:
+        return (float("nan"), float("nan"), float("nan"))
+    ratios.sort()
+    return (
+        statistics.median(ratios),
+        ratios[int(0.025 * len(ratios))],
+        ratios[int(0.975 * len(ratios))],
     )

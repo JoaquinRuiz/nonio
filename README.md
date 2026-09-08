@@ -173,6 +173,7 @@ the instrument to account, not to classify its users.
 
 ## Documentation
 
+- [Getting started](docs/getting-started.md) — from clone to first result
 - [Calibration findings](docs/calibration-findings.md) — the measured figures,
   why the gate does not pass, and what was deliberately not done to make it pass
 - [Known limitations](docs/limitations.md) — including ones the measurement

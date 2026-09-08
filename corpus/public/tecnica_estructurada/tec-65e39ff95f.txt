@@ -1,0 +1,78 @@
+e
+ 
+ V
+ 
+ 
+ 0
+ 
+ 
+ 
+ +
+ &#x0394;
+ E
+ =
+ h
+ f
+ 
+ (
+ 5
+ )
+ 
+ 
+ {\displaystyle eV_{\rm {0}}+\Delta E=hf\qquad (5)}
+
+Para estimar la constante de Planck se utiliza la ecuación (5). Midiendo la tensión de encendido 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+ de los diferentes LED en función su frecuencia de emisión 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ 
+ y realizando el ajuste por una recta según esta ecuación, se obtiene 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ 
+ como la pendiente de la misma, independientemente del valor de 
+ 
+ 
+ 
+ &#x0394;
+ E
+ 
+ 
+ {\displaystyle \Delta E}
+ 
+.
+
+Conviene elegir unas características adecuadas, accesibles comercialmente y comunes a los diferentes LED que se desean utilizar para las medidas, como por ejemplo, un diámetro de 5 mm, una luminosidad de unos 120 lúmenes o la potencia consumida del orden de 3w. &#8203;
+
+Si bien las hojas técnicas de los fabricantes de los diodos LED &#8203; muestran los valores de las longitudes de onda emitidas,, &#8203; &#8203; también se pueden medir en un laboratorio docente universitario. &#8203; Para ello se utiliza un analizador de espectros. En este caso, se mostrarán medidas realizadas con el analizador AQ-6315A / -6315B . La señal luminosa le llega al analizador a través de una fibra óptica. El origen de la fibra se sitúa frente al diodo LED y se emplaza mediante un 'posicionador de 3D'. La fibra se centra sobre el diodo con ayuda de la lectura de la corriente suministrada por un fotodetector de Si.
+
+El analizador proporciona la potencia óptica captada por la fibra en función de λ y su resultado viene dado en dBm ( decibelios referidos a 1 mW ). La sensibilidad del analizador alcanza los -60 dBm. Para cada diodo hay que explorar y analizar en detalle la región de longitudes de onda emitidas.
+
+El analizador de espectros permite determinar la diferente luminosidad de los diodos según sea el material de fabricación.
+
+Al aumentar la intensidad luminosa del Led aparece una dependencia de las curvas de luminosidad con la temperatura, desplazando el máximo de la curva a mayores longitudes de onda. Por ello conviene realizar las medidas aplicando al Led corrientes débiles, como en la figura, donde se muestran las curvas correspondientes a las corrientes más débiles de 10 mA. Los resultados medidos con el analizador de espectros se corresponden bien con los datos de los fabricantes.
+
+Se puede observar en la figura, en el caso de un Led RS rojo, el efecto de la temperatura en el pequeño desplazamiento del máximo de la curva hacia mayores longitudes de onda cuando se aumenta la intensidad de la corriente a través del Led,.

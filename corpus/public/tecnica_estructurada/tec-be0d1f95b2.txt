@@ -1,0 +1,15 @@
+La antípoda de Pekín está en 40° S 64° O y es un punto ubicado en el departamento Conesa, Provincia de Río Negro, Argentina) &#8203;
+
+Una región de la Tierra y su antípoda compartirán similitudes y diferencias geográficas y geodésicas notables, por el solo hecho de serlo. Los puntos anteco y perieco compartirán alguna de ellas. &#8203; &#8203;
+
+Viajando por la superficie de la Tierra, la distancia entre dos antípodas es de 20 000 km aproximadamente. Es la mayor distancia posible entre dos puntos de la superficie terrestre.
+
+Dados dos puntos cualesquiera de la superficie terrestre, la distancia más corta entre ellos contenida en la superficie se llama geodésica u ortodrómica. Esta pertenece al círculo máximo. Cada par de puntos no antipodales tiene un único círculo máximo asociado. Dichos puntos dividen este círculo en dos arcos de longitud distinta, el menor de los cuales es la ortodrómica. Esto es utilizado para diseñar las rutas áreas. Por ejemplo, el camino más corto entre Roma y Los Ángeles pasa por Groenlandia ya que ese el recorrido más corto. Algo que puede sorprender si se intenta trazar una recta en un planisferio en proyección Mercator, por ejemplo. &#8203;
+
+Si los puntos son antípodas entre sí, por ellos pasan infinitos círculos máximos, &#8203; que resultan divididos en dos semicircunferencias iguales, cada una con una longitud igual a la mitad del perímetro terrestre, es decir, la mayor distancia posible entre dos puntos en la superficie terrestre. Por esto es que se dice que las antípodas son los pares de puntos de la Tierra más alejados entre sí una distancia media de 20&#160;015&#160;km (calculado con el radio medio terrestre). &#8203; Dado que la Tierra no es una esfera perfecta, las mayores distancias corresponden a antípodas ubicadas sobre el ecuador y son 20&#160;037&#160;km. Los polos están a una distancia de 19&#160;970&#160;km.
+
+Por tener una diferencia de longitud de 180°, las antípodas tendrán una diferencia horaria de 12 horas. Este valor es exacto a lo que se refiere al tiempo solar: cuando en uno es la medianoche solar, en el otro es el mediodía solar. Pero es aproximado con respecto al tiempo civil que implica distorsiones en los husos horarios. Esta característica también la tiene el perieco de un punto.
+
+El alargamiento y acortamiento relativos de los días y las noches a través de las estaciones del año es similar en todas las latitudes donde esto ocurre.
+
+Más allá de su comportamiento relativo, la duración absoluta de los días y noches y su diferencia aumenta con la latitud. Se usará como ejemplo el 21 de junio, el día más largo en el hemisferio norte. En el trópico de Cáncer (23,5° N), la duración del día es de 13,5 horas y la de la noche, 10,5 horas; su diferencia es 3 horas. En una latitud de 50° N, la duración del día será de 16 horas y la de la noche, de 8 horas; su diferencia es 8 horas. &#8203;

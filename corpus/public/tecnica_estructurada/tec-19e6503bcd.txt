@@ -1,0 +1,94 @@
+El álgebra relacional es un conjunto de operaciones que describen paso a paso cómo computar una respuesta sobre las relaciones, tal y como éstas son definidas en el modelo relacional. Denominada de tipo procedimental, a diferencia del Cálculo relacional que es de tipo declarativo.
+
+Describe el aspecto de la manipulación de datos. Estas operaciones se usan como una representación intermedia de una consulta a una base de datos y, debido a sus propiedades algebraicas, sirven para obtener una versión más optimizada y eficiente de dicha consulta.
+
+Una tupla se define como una función finita que asocia unívocamente los nombres de los campos de una relación con los valores de una instanciación de la misma. En términos simples, es una fila de una tabla relacional.
+
+Una unión es compatible entre dos relaciones R, S, si ellas poseen el mismo grado y el dominio del i-ésimo elemento de la relación R es el mismo que el i-ésimo elemento de la relación S.
+
+Cada operador del álgebra acepta una o dos relaciones y retorna una relación como resultado.
+σ y Π son operadores unarios, el resto de los operadores son binarios. Las operaciones básicas del álgebra relacional son:
+
+Permite seleccionar un subconjunto de tuplas de una relación (R), todas aquellas que cumplan la(s) condición(es) P, esto es:
+
+Una condición puede ser una combinación booleana, donde se pueden usar operadores como: 
+ 
+ 
+ 
+ &#x2227;
+ 
+ 
+ {\displaystyle \wedge }
+ 
+ , 
+ 
+ 
+ 
+ &#x2228;
+ 
+ 
+ {\displaystyle \vee }
+ 
+, combinándolos con operadores 
+ 
+ 
+ 
+ <
+ ,
+ >
+ ,
+ &#x2264;
+ ,
+ &#x2265;
+ ,
+ =
+ ,
+ &#x2260;
+ 
+ 
+ {\displaystyle <,>,\leq ,\geq ,=,\neq }
+ 
+.
+
+Permite extraer columnas (atributos) de una relación, dando como resultado un subconjunto vertical de atributos de la relación, esto es:
+
+donde 
+ 
+ 
+ 
+ 
+ A
+ 
+ 1
+ 
+ 
+ ,
+ 
+ A
+ 
+ 2
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ A
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle A_{1},A_{2},\dots ,A_{n}}
+ 
+ son atributos de la relación R .
+
+Selecciona los atributos Apellido, Semestre y NumeroControl de la relación Alumnos, mostrados como un subconjunto de la relación Alumnos.
+
+y entrega una relación, cuyo esquema corresponde a una combinación de todas las tuplas de R con cada una de las tuplas de S, y sus atributos corresponden a los de R seguidos por los de S.
+
+Muestra una nueva relación, cuyo esquema contiene cada una de las tuplas de la relación Alumnos junto con las tuplas de la relación Maestros, mostrando primero los atributos de la relación Alumnos seguidos por las tuplas de la relación Maestros.
+
+retorna el conjunto de tuplas que están en R, o en S, o en ambas.
+R y S deben ser uniones compatibles.

@@ -1,0 +1,11 @@
+El sistema de riego de un huerto pequeño es un aspecto crucial para garantizar la producción de cultivos sanos y abundantes. Una planificación cuidadosa y la implementación de un enfoque eficiente en términos de recursos ayudan a maximizar los rendimientos y minimizar el desperdicio de agua. A continuación, describiré los pasos básicos y componentes esenciales de un sistema de riego eficaz para un huerto pequeño.
+
+1. **Evaluación del huerto y criterios de diseño**: Antes de comenzar, es esencial evaluar el tamaño, la topografía y los patrones de precipitación del terreno. Identificar las zonas más propensas al escurrimiento de agua y las áreas con mayor potencial de escasez de agua es fundamental para diseñar un sistema de riego adecuado.
+
+2. **Sistema de riego por goteo o microaspersión**: Los sistemas de riego por goteo y microaspersión son altamente eficientes y recomendados para huertos pequeños debido a su capacidad para regar directamente las raíces de las plantas, reduciendo la evaporación y el desperdicio de agua.
+
+   - **Sistema de riego por goteo**: Este sistema utiliza tuberías con pequeños orificios distribuidos a lo largo de ellas, que liberan agua a una velocidad controlada. Los tubos están enterrados debajo de la superficie del suelo y se conectan a una fuente de agua, como un suministro de piedra o un pozo. Las cabezas de goteo, dispuestas estratégicamente alrededor de las plantas, controlan la entrada de agua.
+
+   - **Sistema de microaspersión**: A diferencia del riego por goteo, los sistemas de microaspersión dispersan gotas de agua más pequeñas y uniformes sobre el suelo. Esto permite una distribución más uniforme del agua y fertilizante en la raíz, reduciendo la necesidad de fertilizantes excesivos y minimizando el crecimiento de enfermedades fúngicas.
+
+3. **Toma de agua**: Para el riego por goteo, la fuente de ag

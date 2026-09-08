@@ -1,0 +1,404 @@
+Para ilustrar la equivalencia entre esta definición y la anterior, consideremos un ejemplo con n=3, k=2. Podemos pensar que los factores de 
+ 
+ 
+ 
+ (
+ x
+ +
+ y
+ 
+ )
+ 
+ 3
+ 
+ 
+ =
+ (
+ x
+ +
+ y
+ )
+ (
+ x
+ +
+ y
+ )
+ (
+ x
+ +
+ y
+ )
+ 
+ 
+ {\displaystyle (x+y)^{3}=(x+y)(x+y)(x+y)}
+ 
+ están coloreados de azul, rojo y verde respectivamente.
+
+Por un lado, se sabe que 
+ 
+ 
+ 
+ (
+ x
+ +
+ y
+ 
+ )
+ 
+ 3
+ 
+ 
+ =
+ 
+ x
+ 
+ 3
+ 
+ 
+ +
+ 3
+ 
+ x
+ 
+ 2
+ 
+ 
+ y
+ +
+ 3
+ x
+ 
+ y
+ 
+ 2
+ 
+ 
+ +
+ 
+ y
+ 
+ 3
+ 
+ 
+ 
+ 
+ {\displaystyle (x+y)^{3}=x^{3}+3x^{2}y+3xy^{2}+y^{3}}
+ 
+, por lo que el coeficiente de 
+ 
+ 
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ y
+ 
+ 
+ {\displaystyle x^{2}y}
+ 
+ es 3. Por otro lado, al desarrollar los factores, aparecerá un término 
+ 
+ 
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ y
+ 
+ 
+ {\displaystyle x^{2}y}
+ 
+ cada vez que se elija dos colores para x (dejando el color restante para y). El número de formas de escoger dos colores entre tres posibles opciones es precisamente 
+ 
+ 
+ 
+ 
+ C
+ 
+ (
+ 3
+ ,
+ 2
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle C_{(3,2)}}
+ 
+, como se estableció con anterioridad. La conclusión es que el coeficiente de 
+ 
+ 
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ y
+ 
+ 
+ {\displaystyle x^{2}y}
+ 
+ es necesariamente 
+ 
+ 
+ 
+ 
+ C
+ 
+ (
+ 3
+ ,
+ 2
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle C_{(3,2)}}
+ 
+.
+
+Para el caso general, se puede imaginar que los n factores de (x+y) han sido coloreados con diferentes colores, por lo que el coeficiente de x y será igual al número de formas de escoger k colores para asignarlos a la variable x (dejando los n-k colores restantes para y). El número de formas para escoger k colores entre n posibles opciones es C(n,k), con lo que se termina la prueba.
+
+En contextos más técnicos, suele usarse una forma diferente de expresar el teorema de Newton mediante el uso de sumatorios:
+
+donde 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ n
+ 
+ 
+ n
+ 
+ 1
+ 
+ 
+ &#x22EF;
+ 
+ n
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {n \choose n_{1}\cdots n_{r}}}
+ 
+ es un coeficiente multinomial que se define: 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ n
+ 
+ 
+ n
+ 
+ 1
+ 
+ 
+ &#x22EF;
+ 
+ n
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ &#x2261;
+ 
+ 
+ 
+ n
+ !
+ 
+ 
+ 
+ n
+ 
+ 1
+ 
+ 
+ !
+ &#x22EF;
+ 
+ n
+ 
+ r
+ 
+ 
+ !
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {n \choose n_{1}\cdots n_{r}}\equiv {n! \over n_{1}!\cdots n_{r}!}}
+ 
+. Los coeficientes multinomiales también tienen definición combinatoria. Puesto que 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+ no es más que la suma de 
+ 
+ 
+ 
+ 
+ n
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle n_{1}}
+ 
+, 
+ 
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle n_{2}}
+ 
+,... y 
+ 
+ 
+ 
+ 
+ n
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle n_{r}}
+ 
+, también se emplean notaciones en las que 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+, no aparece, como 
+ 
+ 
+ 
+ (
+ 
+ n
+ 
+ 1
+ 
+ 
+ &#x22EF;
+ 
+ n
+ 
+ r
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (n_{1}\cdots n_{r})}
+ 
+. Otras notaciones son 
+ 
+ 
+ 
+ (
+ n
+ ;
+ 
+ n
+ 
+ 1
+ 
+ 
+ &#x22EF;
+ 
+ n
+ 
+ r
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (n;n_{1}\cdots n_{r})}
+ 
+ o 
+ 
+ 
+ 
+ (
+ 
+ n
+ 
+ 1
+ 
+ 
+ &#x22EF;
+ 
+ n
+ 
+ r
+ 
+ 
+ )
+ !
+ 
+ 
+ {\displaystyle (n_{1}\cdots n_{r})!}
+ 
+.

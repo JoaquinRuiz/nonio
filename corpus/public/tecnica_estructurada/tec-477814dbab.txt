@@ -1,0 +1,603 @@
+(5)
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ +
+ 
+ A
+ 
+ l
+ 
+ 
+ =
+ 
+ B
+ 
+ r
+ 
+ 
+ +
+ 
+ B
+ 
+ l
+ 
+ 
+ ,
+ 
+ 
+ 
+ 
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ (
+ 
+ A
+ 
+ r
+ 
+ 
+ &#x2212;
+ 
+ A
+ 
+ l
+ 
+ 
+ )
+ =
+ 
+ k
+ 
+ 1
+ 
+ 
+ (
+ 
+ B
+ 
+ r
+ 
+ 
+ &#x2212;
+ 
+ B
+ 
+ l
+ 
+ 
+ )
+ ,
+ 
+ 
+ 
+ 
+ 
+ B
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ a
+ 
+ k
+ 
+ 1
+ 
+ 
+ 
+ 
+ +
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ a
+ 
+ k
+ 
+ 1
+ 
+ 
+ 
+ 
+ =
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ i
+ a
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ 
+ +
+ 
+ C
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ i
+ a
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ 
+ ,
+ 
+ 
+ 
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ (
+ 
+ B
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ a
+ 
+ k
+ 
+ 1
+ 
+ 
+ 
+ 
+ &#x2212;
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ a
+ 
+ k
+ 
+ 1
+ 
+ 
+ 
+ 
+ )
+ =
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ (
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ i
+ a
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ 
+ &#x2212;
+ 
+ C
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ i
+ a
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}A_{r}+A_{l}=B_{r}+B_{l},\\ik_{0}(A_{r}-A_{l})=k_{1}(B_{r}-B_{l}),\\B_{r}e^{ak_{1}}+B_{l}e^{-ak_{1}}=C_{r}e^{iak_{0}}+C_{l}e^{-iak_{0}},\\k_{1}(B_{r}e^{ak_{1}}-B_{l}e^{-ak_{1}})=ik_{0}(C_{r}e^{iak_{0}}-C_{l}e^{-iak_{0}})\\\end{cases}}}
+
+El coeficiente de transmisión se define como la relación entre el flujo o densidad de corriente de la onda transmitida y el flujo de la onda incidente. Se utiliza habitualmente para obtener la probabilidad de que una partícula pase a través de una barrera por efecto túnel.
+Así.
+
+donde jincidente es la densidad de corriente en la onda que incide antes de alcanzar la barrera y jtransmitida la densidad de corriente en la onda transmitida al otro lado de la barrera.
+
+j
+ 
+ 
+ incidente
+ 
+ 
+ 
+ =
+ 
+ |
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x210F;
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ m
+ 
+ 
+ 
+ 
+ {\displaystyle j_{\mbox{incidente}}=|A_{r}|^{2}{\frac {\hbar k_{0}}{m}}}
+
+j
+ 
+ 
+ transmitida
+ 
+ 
+ 
+ =
+ 
+ |
+ 
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x210F;
+ 
+ k
+ 
+ 0
+ 
+ 
+ 
+ m
+ 
+ 
+ 
+ 
+ {\displaystyle j_{\mbox{transmitida}}=|C_{r}|^{2}{\frac {\hbar k_{0}}{m}}}
+
+De esta forma, el coeficiente de transmisión se obtiene de la relación entre los cuadrados de las amplitudes de las ondas incidente y transmitida
+
+T
+ =
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ A
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle T={\frac {|C_{r}|^{2}}{|A_{r}|^{2}}}}
+
+Es interesante presentar una expresión aproximada para el coeficiente de transmisión para el caso en el que la energía de la partícula 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ 
+ es menor que la de la barrera 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+. Para ello consideremos una barrera con una anchura 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+ grande. Si 
+ 
+ 
+ 
+ a
+ &#x2192;
+ &#x221E;
+ 
+ 
+ {\displaystyle a\rightarrow \infty }
+ 
+, el coeficiente 
+ 
+ 
+ 
+ 
+ B
+ 
+ r
+ 
+ 
+ 
+ 
+ {\displaystyle B_{r}}
+ 
+ tenderá a cero para compensar que la exponencial 
+ 
+ 
+ 
+ 
+ e
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ x
+ 
+ 
+ 
+ 
+ {\displaystyle e^{k_{1}x}}
+ 
+ tiende a infinito. Así, la condición de continuidad de la función de onda en 
+ 
+ 
+ 
+ x
+ =
+ a
+ 
+ 
+ {\displaystyle x=a}
+ 
+ se expresa en este caso simplificado como
+
+C
+ 
+ r
+ 
+ 
+ 
+ e
+ 
+ i
+ 
+ k
+ 
+ 0
+ 
+ 
+ a
+ 
+ 
+ =
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 
+ k
+ 
+ 1
+ 
+ 
+ a
+ 
+ 
+ &#x2192;
+ 
+ |
+ 
+ 
+ C
+ 
+ r
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ =
+ 
+ |
+ 
+ 
+ B
+ 
+ l
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 2
+ 
+ k
+ 
+ 1
+ 
+ 
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle C_{r}e^{ik_{0}a}=B_{l}e^{-k_{1}a}\rightarrow |C_{r}|^{2}=|B_{l}|^{2}e^{-2k_{1}a}}

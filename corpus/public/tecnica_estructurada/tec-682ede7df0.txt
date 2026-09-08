@@ -1,0 +1,5 @@
+Una alternativa sencilla a la configuración anterior es colocar un único diodo de baja caída de voltaje entre el colector y la base base. Para operar correctamente, la caída en directa del diodo debe ser menor que la caída base-emisor. De esta manera, con transistores de silicio, pueden utilizarse diodos de germanio de baja caída de voltaje o diodos Schottky. Un circuito alternativo de sujetador con diodo conecta el diodo a la unión de dos resistores de polarización de base. &#8203; La solución contemporánea es integrar la combinación de un diodo Schottky y un transistor en lo que se conoce como transistor Schottky. Algunas fuentes también refieren a esta configuración como sujetador Baker. &#8203;
+
+Los sujetadores de Baker también se utilizan en aplicaciones de potencia, y la elección de los diodos es una importante problemática de diseño. &#8203;
+
+Un inconveniente del sujetador de Baker es el aumento de su voltaje de salida en nivel bajo, es decir, el mínimo voltaje alcanzado (como en un transistor Darlington). En circuitos lógicos, esto disminuye la inmunidad al ruido; en aplicaciones de potencia, aumenta la potencia disipada.

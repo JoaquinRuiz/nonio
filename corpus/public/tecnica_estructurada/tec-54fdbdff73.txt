@@ -1,0 +1,17 @@
+Algunas áreas de las matemáticas que entran en la clasificación de álgebra abstracta tienen la palabra álgebra en su nombre; el álgebra lineal es un ejemplo. Otras no: La teoría de grupos, la teoría de anillos y la teoría de campos son ejemplos. En esta sección, enumeramos algunas áreas de las matemáticas con la palabra "álgebra" en el nombre.
+
+Consiste en que los números se emplean para representar cantidades conocidas y determinadas.
+Las letras se emplean para representar toda clase de cantidades, ya sean conocidas o desconocidas.
+Las cantidades conocidas se expresan por las primeras letras del alfabeto: a, b, c, d, …
+Las cantidades desconocidas se representan por las últimas letras del alfabeto: u, v, w, x, y, z. &#8203;
+
+Los signos empleados en álgebra son tres clases: Signos de operación, signos de relación y signos de agrupación. &#8203;
+
+En álgebra se verifican con las cantidades las mismas operaciones que en aritmética: suma, resta, multiplicación, elevación a potencias y extracción de raíces, que se indican con los principales signos de aritmética excepto el signo de multiplicación. En lugar del signo × suele emplearse un punto entre los factores y también se indica a la multiplicación colocando los factores entre paréntesis. Así a⋅b y (a)(b) equivale a a × b.
+
+Se emplean estos signos para indicar la relación que existe entre dos cantidades. Los principales son:
+
+Los signos de agrupación son: los paréntesis o paréntesis ordinarios (&#160;), los corchetes o paréntesis angulares o paréntesis rectangulares [&#160;], las llaves {&#160;}, y la barra o vínculo |&#160;|. Estos signos indican que la operación colocada entre ellos debe efectuarse primero. Así, (a + b)c índica que el resultado de la suma a y b debe multiplicarse por c; [a – b]m indica que la diferencia entre a y b debe multiplicarse por m, {a + b} ÷ {c – d} índica que la suma de a y b debe dividirse entre la diferencia de c y d.
+El orden de estos signos son de la siguiente forma |&#160;{&#160;[&#160;(&#160;)&#160;]&#160;}&#160;|, por ejemplo: | { [ (a + b) – c ] × d } ÷ e | indica que al resultado de la suma de a + b debe restarse c, luego el resultado de la resta debe multiplicarse por d, y al final el resultado de la multiplicación debe dividirse entre e.
+
+Los signos y símbolos son utilizados en el álgebra —y en general en teoría de conjuntos y álgebra de conjuntos— con los que se constituyen ecuaciones, matrices, series, etc. Sus letras son llamadas variables, ya que se usa esa misma letra en otros problemas y su valor va variando.

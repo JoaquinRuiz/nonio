@@ -1,0 +1,256 @@
+que es un resultado coincidente con la experimentación, y además por si fuera poco con el modelo atómico de Bohr.
+
+De la deducción anterior es fácil obtener las soluciones para cualquier átomo hidrogenoide. Solamente es necesario considerar que en este caso el potencial electrostático se escribe
+
+E
+ 
+ n
+ 
+ 
+ 
+ =
+ 
+ &#x2212;
+ 
+ 
+ &#x03BC;
+ 
+ 2
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ Z
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ 
+ 4
+ &#x03C0;
+ 
+ &#x03B5;
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle E_{n}\,=\,-{\frac {\mu }{2\hslash ^{2}n^{2}}}\left({\frac {Ze^{2}}{4\pi \varepsilon _{0}}}\right)^{2}}
+
+En la sección anterior se consideraron las funciones de onda de un electrón ligado a un potencial central creado por un protón. Si bien dicho modelo explica cualitativamente el átomo de hidrógeno y con cierta aproximación las líneas espectrales, los datos experimentales revelan que dichas líneas son algo más complicadas, y el modelo anterior es sólo una simplificación razonable.
+
+En un átomo real los niveles energéticos anteriores y la forma de las funciones de onda debe ser modificada para dar cuenta de la interacción entre el electrón y el protón es algo más complicada debido a efectos relativistas y la existencia del espín del electrón. Concretamente este último lleva tanto al acoplamiento entre espín y momento angular del electrón, como a la interacción entre el espín y el momento magnético del núcleo atómico. El hamiltoniano de un átomo de hidrógeno que tenga en cuenta todos estos efectos es más complicado que el Hamiltoniano que sólo incluye el potencial central, aunque numéricamente las energías de los estados ligados son similares:
+
+H
+ &#x005E;
+ 
+ 
+ 
+ =
+ 
+ 
+ 1
+ 
+ 2
+ &#x03BC;
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ p
+ 
+ &#x005E;
+ 
+ 
+ 
+ &#x2212;
+ e
+ 
+ A
+ 
+ 
+ )
+ 
+ 2
+ 
+ 
+ +
+ V
+ (
+ 
+ r
+ 
+ )
+ &#x2212;
+ 
+ 
+ 
+ e
+ &#x210F;
+ 
+ 
+ 2
+ &#x03BC;
+ 
+ 
+ 
+ 
+ &#x03C3;
+ 
+ &#x22C5;
+ 
+ B
+ 
+ &#x2212;
+ 
+ 
+ 
+ p
+ 
+ 4
+ 
+ 
+ 
+ 8
+ 
+ &#x03BC;
+ 
+ 3
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 8
+ 
+ &#x03BC;
+ 
+ 2
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x2207;
+ 
+ 2
+ 
+ 
+ 
+ V
+ +
+ 
+ 
+ &#x210F;
+ 
+ 4
+ 
+ &#x03BC;
+ 
+ 2
+ 
+ 
+ 
+ c
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x03C3;
+ 
+ &#x22C5;
+ (
+ 
+ &#x2207;
+ 
+ V
+ &#x00D7;
+ 
+ p
+ 
+ )
+ 
+ 
+ {\displaystyle {\hat {H}}={\frac {1}{2\mu }}({\hat {\mathbf {p} }}-e\mathbf {A} )^{2}+V(\mathbf {r} )-{\frac {e\hbar }{2\mu }}{\boldsymbol {\sigma }}\cdot \mathbf {B} -{\frac {p^{4}}{8\mu ^{3}c^{2}}}+{\frac {\hbar ^{2}}{8\mu ^{2}c^{2}}}{\nabla ^{2}}V+{\frac {\hbar }{4\mu ^{2}c^{2}}}{\boldsymbol {\sigma }}\cdot ({\boldsymbol {\nabla }}V\times \mathbf {p} )}
+
+Las correcciones que se desprenden de estos términos reciben el nombre de "estructura fina" de las líneas espectrales y experimentalmente aparecen como desdobles en líneas más finas de lo que aparentemente parecían con menor detalle líneas gruesas. El factor corrector debido a la corrección relativista y al término de Darwin lleva a que la energía de los niveles energéticos dependa no sólo del número cuántico principal 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+, sino también del número cuántico 
+ 
+ 
+ 
+ &#x2113;
+ 
+ 
+ {\displaystyle \ell }
+ 
+ siendo la expresión calculada para el caso de un átomo hidrogenoide:

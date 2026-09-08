@@ -1,0 +1,401 @@
+|
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2261;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2261;
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle _{A}\otimes |1\rangle _{B}\equiv |0\rangle _{A}|1\rangle _{B}\equiv |01\rangle }
+
+siendo las tres equivalentes entre sí, recordando siempre que el primer qubit del estado pertenecerá a Alice y el segundo a Bob.
+
+Supongamos que se elige el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 00
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\beta _{00}\rangle }
+ 
+, al que se denominará 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 0
+ 
+ 
+ &#x27E9;
+ (
+ =
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 00
+ 
+ 
+ &#x27E9;
+ )
+ 
+ 
+ {\displaystyle |\Psi _{0}\rangle (=|\beta _{00}\rangle )}
+ 
+. Una vez elegido el estado de Bell que compartirán, se separarán una distancia suficiente tal que no pueda haber ninguna influencia entre ambos sistemas.
+
+El objetivo ahora es que Alice quiere enviar mediante un qubit a Bob dos bits, llamémoslos 
+ 
+ 
+ 
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle M_{1}M_{2}}
+ 
+. Las posibilidades para cada bit son 0 o 1, por lo que tenemos cuatro conjuntos de bits que Alice puede enviar. Entonces, dependiendo de qué dos bits Alice quiera enviar, tendrá que realizar una cierta operación a su estado. Los operadores que se aplicarán a este estado pertenecerán al conjunto (
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ 
+ {\displaystyle \mathrm {I} }
+ 
+, X, 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ 
+Y, Z), que no son más que el operador (o matriz) identidad y las tres matrices de Pauli.
+
+Recordar antes como actúan estos operadores sobre los estados 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+
+{
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ I
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}\mathrm {I} |0\rangle =|0\rangle \\\mathrm {I} |1\rangle =|1\rangle \end{cases}}}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ X
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ 
+ 
+ X
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}X|0\rangle =|1\rangle \\X|1\rangle =|0\rangle \end{cases}}}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ i
+ Y
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ =
+ &#x2212;
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ 
+ 
+ i
+ Y
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}iY|0\rangle =-|1\rangle \\iY|1\rangle =|0\rangle \end{cases}}}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {
+ 
+ 
+ 
+ Z
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ 
+ 
+ Z
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ =
+ &#x2212;
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}Z|0\rangle =|0\rangle \\Z|1\rangle =-|1\rangle \end{cases}}}
+
+Entonces, en función de los bits que se quieran enviar, se realizarán ciertas operaciones y se obtendrá un nuevo estado, que se puede ver en la tabla siguiente
+
+Así, para cada elección del conjunto de bits, se tiene una operación que Alice realiza para obtener el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ )
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{1}(M_{1}M_{2})\rangle }
+ 
+.

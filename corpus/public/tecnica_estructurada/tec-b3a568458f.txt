@@ -1,0 +1,45 @@
+En matemáticas, cuando los elementos de algún conjunto S tienen una noción de equivalencia definida en ellos (formalizada como una relación de equivalencia), entonces se puede dividir naturalmente el conjunto S en clases de equivalencia. Estas clases de equivalencia se construyen de modo que los elementos a y b pertenecen a la misma clase de equivalencia si y solo si son equivalentes.
+
+Formalmente, dado un conjunto S y una relación de equivalencia ~ en S, la clase de equivalencia de un elemento a en S es el conjunto
+
+de elementos que son equivalentes al elemento a. Puede demostrarse a partir de las propiedades definitorias de las relaciones de equivalencia que las clases de equivalencia forman una partición de S. Esta partición, el conjunto de clases de equivalencia, a veces se denomina conjunto cociente o espacio de cocientes de S respecto a ~ y se denota por S / ~.
+
+Cuando el conjunto S tiene alguna estructura (como una operación de grupo o una topología) y la relación de equivalencia ~ es compatible con esta estructura, el conjunto del cociente a menudo hereda una estructura similar a la de su conjunto origen. Los ejemplos incluyen espacios cocientes en álgebra lineal, espacios cocientes en topología, grupos cocientes, espacios homogéneos, anillos cocientes, monoides cocientes y categorías cocientes.
+
+Una relación de equivalencia en un conjunto X es una relación binaria ~ en X, que satisface las tres propiedades siguientes: &#8203;
+
+La clase de equivalencia de un elemento a se denota [a] o [a]~, y se define como el conjunto 
+ 
+ 
+ 
+ {
+ x
+ &#x2208;
+ X
+ &#x2223;
+ a
+ &#x223C;
+ x
+ }
+ 
+ 
+ {\displaystyle \{x\in X\mid a\sim x\}}
+ 
+ de elementos que están relacionados con el elemento a por &#160; ~. La palabra "clase" en el término "clase de equivalencia" no se refiere a las clases como se define en la teoría de conjuntos, pero las clases de equivalencia a menudo resultan ser clases propias.
+
+El conjunto de todas las clases de equivalencia en X con respecto a una relación de equivalencia R se denota como X/R y se llama X módulo R (o el conjunto del cociente de X por R). &#8203; La aplicación sobreyectiva 
+ 
+ 
+ 
+ x
+ &#x21A6;
+ [
+ x
+ ]
+ 
+ 
+ {\displaystyle x\mapsto [x]}
+ 
+ de X a X/R que hace corresponder cada elemento a su clase de equivalencia, se llama sobreyección canónica o aplicación de proyección canónica.
+
+Cuando se elige un elemento (a menudo implícitamente) en cada clase de equivalencia, esto define una aplicación inyectiva llamada sección. Si esta sección se denota por s, se tiene que [s(c)] = c para cada clase de equivalencia c. El elemento s(c) se llama representante de c. Cualquier elemento de una clase se puede elegir como representante de la clase, especificando la sección de manera apropiada.

@@ -1,0 +1,21 @@
+ATA over Ethernet (AoE) es un protocolo de red diseñado para acceder a dispositivos de almacenamiento ATA mediante redes Ethernet. Proporciona la posibilidad de construir redes de almacenamiento (Storage Area Network, SAN) de bajo costo con tecnologías estándar.
+
+AoE no depende de las capas superiores de Ethernet, tales como IP, UDP, TCP, etc. Esto significa que AoE no es ruteable en las LAN y está diseñado únicamente para SAN. Como alternativa a iSCSI, la especificación AoE mide solamente ocho páginas comparado con las 257 páginas de iSCSI.
+
+Coraid &#8203; es el proveedor original de los controladores para FreeBSD, y las versiones actuales son mantenidas por Stacey D. Son. &#8203;
+
+2DegreesFrost &#8203; ha distribuido el controlador para Mac OS X (10.4), que posee soporte para AoE.
+
+La compañía Coraid ofrece un disco de AoE llamado EtherDrive. Además, el programa vblade &#8203; hace posible exportar los datos desde discos duros, usando computadores que usen Linux. Existen dos implementaciones diferentes de vblade: un paquete de programas y como un módulo del kernel de Linux.
+
+A pesar de que AoE es un simple protocolo de red, abre un amplio espectro de posibilidades para el almacenamiento. Para comprender y evaluar los posibles escenarios, se deben manejar los siguientes conceptos.
+
+La tecnología de ATA en "ATA over Ethernet" es un tipo de protocolo con cables para discos duros. Los datos son escritos al disco y leídos desde el dispositivo en uno o más trozos de longitud fija, llamados bloquees de datos.
+
+El protocolo de AoE pone los comandos de control de ATA en un nivel inferior (Paquete), o para ser más específicos, en un trama de datos (o data frame), permitiendo que una red de Ethernet reemplace al cable que va al disco duro. Como los bloques de datos pueden ir al disco duro usando los cables de transmisión tradicional, además pueden ir al disco con los cables de red.
+
+El cable de datos tradicional no se preocupa de los datos que van dentro de los bloques, pero AoE sí lo hace. Se pueden leer y escribir cualquier bloque de datos, pero la mayoría del tiempo, se usa un sistema de archivos para organizar los datos.
+
+Tradicionalmente, un sistema de archivos que usan los computadores son ext3, XFS, HFS+, y NTFS.
+
+Cuando se usa AoE, usando una red Ethernet en lugar del cable, es posible violar la suposición inicial de utilizar un sistema de archivos tradicional. Para los sistemas tradicionales, es peligroso no llevar el control directo sobre las particiones, provocando fallos del sistema de archivos o un pánico de kernel.

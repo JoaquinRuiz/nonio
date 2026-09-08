@@ -1,0 +1,116 @@
+Un circuito cuántico es el modelo más común para realizar computación cuántica, análogo a los circuitos clásicos. Se construye a partir de una secuencia de puertas lógicas reversibles, llamadas puertas cuánticas, que actúan sobre estados cuánticos llamados cúbits. Es común que estos circuitos finalicen en una medida de los cúbits, para obtener resultados de 0 o 1. Al contrario que los circuitos clásicos, las puertas cuánticas son operadores unitarios, y por tanto reversibles, por lo que será necesario que el circuito tenga tantos cúbits de entrada como de salida. El proceso de medida rompe la reversibilidad en la mayoría de casos, ya que la función de onda colapsa al estado medido. &#8203; &#8203;
+
+Los circuitos cuánticos se representan como líneas horizontales, que representan los cúbits, y cajas que representan las puertas cuánticas. Se lee de izquierda a derecha, partiendo de los cúbits iniciales, que van cambiando su estado al atravesar las diferentes puertas. En muchos casos, al final del circuito se encuentran las mediciones sobre los cúbits, que se ilustran con líneas dobles, y unen los cúbits con un registro clásico que toma valores de 0 y 1. &#8203; &#8203; El origen de esta representación gráfica puede trazarse en una versión temprana de circuito cuántico debida Richard Feynman en 1986. &#8203;
+
+El modelo de computación por puertas cuánticas fue introducido por David Deutsch en 1989 &#8203; como el análogo de la computación lógica secuencial clásica. Este formalismo es equivalente a la máquina de Turing cuántica, introducida también por Deutsch en 1985. &#8203; Mientras que la máquina de Turing cuántica es un formalismo meramente teórico, los circuitos cuánticos tienen multitud de implementaciones. &#8203;
+
+Matemáticamente las puertas se modelan como operadores unitarios (reversibles) que toman una entrada de 
+ 
+ 
+ 
+ &#x2113;
+ 
+ 
+ {\displaystyle \ell }
+ 
+ cúbits y devuelven una salida de 
+ 
+ 
+ 
+ &#x2113;
+ 
+ 
+ {\displaystyle \ell }
+ 
+ cúbits, modificados de acuerdo al operador. Un circuito de puertas con 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+ cúbtis será entonces una secuencia de 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ 
+ puertas que actúan sobre 
+ 
+ 
+ 
+ 
+ &#x2113;
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle \ell _{i}}
+ 
+ cúbits cada una. Por ejemplo, la puerta CNOT actúa sobre dos cúbits de forma que si el primer cúbit es 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+ se invierta el segundo cúbit, y si el primer cúbit es 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ no se modifique. La matriz unitaria que representa dicha transformación es, en la base 
+ 
+ 
+ 
+ {
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ }
+ 
+ 
+ {\displaystyle \{|00\rangle ,|01\rangle ,|10\rangle ,|11\rangle \}}
+ 
+&#160;:

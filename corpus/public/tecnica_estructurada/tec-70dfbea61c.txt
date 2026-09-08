@@ -1,0 +1,556 @@
+&#x03C8;
+ (
+ r
+ ,
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ =
+ 
+ R
+ 
+ n
+ l
+ 
+ 
+ (
+ r
+ )
+ 
+ Y
+ 
+ l
+ ,
+ m
+ 
+ 
+ (
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \psi (r,\theta ,\phi )=R_{nl}(r)Y_{l,m}(\theta ,\phi )\,\!}
+
+Los números cuánticos no son independientes unos de otros por lo que el número de combinaciones posibles de estas funciones está limitado. Las restricciones son las siguientes:
+
+Siendo 
+ 
+ 
+ 
+ 
+ L
+ 
+ n
+ &#x2212;
+ l
+ &#x2212;
+ 1
+ 
+ 
+ 2
+ l
+ +
+ 1
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 2
+ Z
+ r
+ 
+ 
+ n
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle L_{n-l-1}^{2l+1}\left({\frac {2Zr}{na_{\mu }}}\right)}
+ 
+ las funciones asociadas de Laguerre y 
+ 
+ 
+ 
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ =
+ 
+ 
+ 
+ 4
+ &#x03C0;
+ 
+ &#x03B5;
+ 
+ 0
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ &#x03BC;
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle a_{\mu }={{4\pi \varepsilon _{0}\hbar ^{2}} \over {\mu e^{2}}}}
+ 
+. Nótese que 
+ 
+ 
+ 
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle a_{\mu }\,}
+ 
+ es aproximadamente igual al radio de Bohr, 
+ 
+ 
+ 
+ 
+ a
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle a_{0}\,}
+ 
+. Si la masa del núcleo es infinita entonces 
+ 
+ 
+ 
+ &#x03BC;
+ =
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \mu =m_{e}\,}
+ 
+ y 
+ 
+ 
+ 
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ =
+ 
+ a
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle a_{\mu }=a_{0}\,}
+ 
+.
+
+Sin embargo, es más habitual encontrar las autofunciones expresadas en función de la función radial reducida: 
+ 
+ 
+ 
+ 
+ P
+ 
+ n
+ l
+ 
+ 
+ =
+ r
+ 
+ R
+ 
+ n
+ l
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle P_{nl}=rR_{nl}\,\!}
+
+&#x03C8;
+ 
+ n
+ l
+ m
+ 
+ 
+ (
+ &#x03B8;
+ ,
+ &#x03D5;
+ ,
+ r
+ )
+ =
+ 
+ 
+ 
+ 
+ P
+ 
+ n
+ l
+ 
+ 
+ (
+ r
+ )
+ 
+ r
+ 
+ 
+ 
+ Y
+ 
+ l
+ ,
+ m
+ 
+ 
+ (
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ =
+ &#x2212;
+ 
+ 
+ [
+ 
+ 
+ 
+ (
+ n
+ &#x2212;
+ l
+ &#x2212;
+ 1
+ )
+ !
+ 
+ 
+ 2
+ n
+ [
+ (
+ n
+ +
+ l
+ )
+ !
+ ]
+ 
+ 
+ 
+ ]
+ 
+ 
+ 1
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 2
+ Z
+ 
+ 
+ n
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ l
+ +
+ 3
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ r
+ 
+ l
+ 
+ 
+ 
+ e
+ 
+ &#x2212;
+ 
+ 
+ 
+ Z
+ r
+ 
+ 
+ n
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ n
+ &#x2212;
+ l
+ &#x2212;
+ 1
+ 
+ 
+ 2
+ l
+ +
+ 1
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 2
+ Z
+ r
+ 
+ 
+ n
+ 
+ a
+ 
+ &#x03BC;
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ Y
+ 
+ l
+ ,
+ m
+ 
+ 
+ (
+ &#x03B8;
+ ,
+ &#x03D5;
+ )
+ 
+ 
+ {\displaystyle \psi _{nlm}(\theta ,\phi ,r)={\frac {P_{nl}(r)}{r}}Y_{l,m}(\theta ,\phi )=-\left[{\frac {(n-l-1)!}{2n[(n+l)!]}}\right]^{1/2}\left({\frac {2Z}{na_{\mu }}}\right)^{l+3/2}r^{l}e^{-{\frac {Zr}{na_{\mu }}}}L_{n-l-1}^{2l+1}\left({\frac {2Zr}{na_{\mu }}}\right)Y_{l,m}(\theta ,\phi )}
+
+En el caso de los átomos hidrogenoides al no haber interacciones entre electrones, pues solo hay uno, la energía de los orbitales atómicos puede ser calculada analíticamente de forma exacta. Los valores de energía permitidos son
+
+E
+ 
+ n
+ 
+ 
+ =
+ &#x2212;
+ 
+ 
+ 
+ &#x03BC;
+ 
+ e
+ 
+ 4
+ 
+ 
+ 
+ 
+ (
+ 4
+ &#x03C0;
+ 
+ &#x03F5;
+ 
+ 0
+ 
+ 
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Z
+ 
+ 2
+ 
+ 
+ 
+ 2
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle E_{n}=-{\frac {\mu e^{4}}{(4\pi \epsilon _{0})^{2}\hbar ^{2}}}{\frac {Z^{2}}{2n^{2}}}}
+ 
+.
+
+Habitualmente se considera 
+ 
+ 
+ 
+ &#x03BC;
+ =
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \mu =m_{e}\,}
+ 
+, por lo que los valores de energía se expresan como:
+
+E
+ 
+ n
+ 
+ 
+ =
+ &#x2212;
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ 
+ Z
+ 
+ 2
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ E
+ 
+ h
+ 
+ 
+ 
+ 
+ {\displaystyle E_{n}=-{\frac {1}{2}}{\frac {Z^{2}}{n^{2}}}E_{h}}

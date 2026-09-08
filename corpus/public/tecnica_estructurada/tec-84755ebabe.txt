@@ -1,0 +1,17 @@
+Y el receptor puede conectarse a la dirección y al puerto dato y escuchar los datos para añadirlo en el archivo.
+
+Los datos se envían en bloques, a los que el cliente debe corresponder enviando los tamaños de los bloques de datos entrantes como enteros de 32 bits (Endianness, network byte order). Esto ralentiza las conexiones, y es redundante porque tal comportamiento ya está implementado por Transmission Control Protocol (TCP). La extensión send-ahead solventa este problema no esperando las respuestas, pero ya que el receptor aún debe enviarlas por cada bloque que recibe, en el caso de que el emisor las espere, no está completamente solucionado.
+
+Otra extensión, TDCC, o turbo DCC, elimina las respuestas, pero requiere un saludo (handshake) ligeramente modificado y no está ampliamente soportado. Versiones más antiguas de TDCC reemplazan la palabra SEND en el saludo con TSEND; versiones posteriores usan la palabra SEND pero añaden "T" después del saludo, haciendo esta versión de TSEND compatible con otros clientes (tanto como estos puedan analizar el saludo modificado).
+
+El servicio XMIT es una versión modificada de DCC SEND que permite reanudar archivos y cortes. XMIT no está ampliamente soportado.
+
+El saludo XMIT difiere algo del saludo SEND. El emisor envía un CTCP ofreciendo un archivo al receptor:
+
+El CHAT se usa aquí para mantener la compatibilidad con los mensajes de error enviados por DCC CHAT extendido. Si el receptor declina la transferencia, envía el siguiente CTCP reply:
+
+Otros errores son reportados de la misma manera. Si el receptor está dispuesto y capaz de recibir el archivo, conectará a la dirección y puerto dados. Lo que pase después dependerá del protocolo usado.
+
+En el caso del protocolo "clear", el servidor XMIT, para recibir una conexión, enviará un valor de tiempo time t de 32 bits en (network byte order), representando el tiempo de modificación del archivo. En principio, basándose en el tiempo de modificación del archivo local, el cliente entonces enviará otro dato de tipo long en (network byte order), un offset que el servidor debería buscar cuando envía el archivo. Este debería ser cero si se quiere todo el archivo, o el tamaño del archivo local si el cliente desea reanudar una descarga previa.
+
+Aunque es más rápido que SEND, XMIT lleva una de las mismas limitaciones en la que es imposible indicar el tamaño del archivo, a no ser que su tamaño sea especificado en el CTCP de la negociación o conocido antes del saludo. Además, no puedes reanudar un archivo pasada la marca de los dos gigabytes debido al offset de 32 bites.

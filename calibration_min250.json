@@ -1,0 +1,46 @@
+{
+  "profile_id": "qwen2.5-0.5b",
+  "language": "es",
+  "min_words": 250,
+  "corpus_version": "dev",
+  "per_category": {
+    "humano_pre2022": {
+      "threshold": 0.903509,
+      "tpr": 0.0,
+      "fpr": 0.105263,
+      "n_samples": 57,
+      "reproducible": true
+    },
+    "generado": {
+      "threshold": 0.903509,
+      "tpr": 0.666667,
+      "fpr": 0.0,
+      "n_samples": 18,
+      "reproducible": true
+    },
+    "espanol_no_nativo": {
+      "threshold": 0.903509,
+      "tpr": 0.0,
+      "fpr": 0.141304,
+      "n_samples": 92,
+      "reproducible": true
+    },
+    "tecnica_estructurada": {
+      "threshold": 0.903509,
+      "tpr": 0.0,
+      "fpr": 0.090909,
+      "n_samples": 55,
+      "reproducible": true
+    }
+  },
+  "bias": {
+    "ratio_non_native_vs_general": 1.3423900135850206,
+    "max_allowed": 2.0,
+    "passes": true,
+    "requirement": "FR-030"
+  },
+  "missing_categories": [
+    "mixto"
+  ],
+  "note": "No se publica precisión agregada: el Artículo III exige desglose por categoría porque la media esconde el sesgo contra prosa de no nativos y contra escritura técnica muy estructurada."
+}

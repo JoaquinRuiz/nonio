@@ -1,0 +1,14 @@
+En geometría, el ángulo puede ser definido como la parte del plano determinada por dos semirrectas llamadas lados que tienen el mismo punto de origen llamado vértice del ángulo. La unidad de medida de los ángulos son los grados. &#8203;
+
+La medida de un ángulo es considerada como la amplitud del arco de circunferencia centrada en el vértice y delimitada por sus lados. Su medida es un múltiplo de la razón entre la longitud del arco y el radio. Su unidad natural es el radián, pero también se puede utilizar el grado sexagesimal o el grado centesimal.
+
+Pueden estar definidos sobre superficies planas (trigonometría plana) o curvas (trigonometría esférica). Se denomina ángulo diedro al espacio comprendido entre dos semiplanos cuyo origen común es una recta. Un ángulo sólido es el que abarca un objeto visto desde un punto dado, midiendo su tamaño aparente.
+
+Ángulo también se utiliza para designar la medición de un ángulo o de una rotación. Esta medida es la relación entre la longitud de un arco circular y su radio. En el caso de un ángulo geométrico, el arco está centrado en el vértice y delimitado por los lados. En el caso de una rotación, el arco está centrado en el centro de la rotación y delimitado por cualquier otro punto y su imagen por la rotación.
+
+La palabra ángulo proviene del latín, angulus, que significa "esquina"; las palabras afines son la griega ἀγκύλος (ankylοs), que significa "torcido, curvado", y la palabra inglés "tobillo". Ambas están conectadas con la raíz Protoindoeuropeo *ank-, que significa "doblarse" o "inclinarse". &#8203;
+Nota: ἀγκύλος en lugar de ἀνκύλος es correcto, el γκ es un dígrafo que se pronuncia [ŋk].
+
+Euclides define un ángulo plano como la inclinación recíproca, en un plano, de dos rectas que se encuentran entre sí y no son rectas entre sí. Según Proclus, un ángulo debe ser una cualidad o una cantidad, o una relación. El primer concepto fue utilizado por Eudemo, que consideraba un ángulo como una desviación de una línea recta; el segundo por Carpo de Antioquía, que lo consideraba como el intervalo o espacio entre las líneas que se cruzan; Euclides adoptó el tercer concepto. &#8203; &#8203;
+
+Euclides define un ángulo como la inclinación entre dos líneas que se encuentran una a otra en un plano y no están en línea recta. Según Proclo, un ángulo debe ser una calidad o una cantidad, o una relación. El primer concepto fue utilizado por Eudemo de Rodas, que describió un ángulo como desviación de una línea recta; el segundo por Carpo de Antioquía, que lo vio como el intervalo o el espacio entre las líneas que se intersecaban; Euclides adoptó un tercer concepto, aunque sus definiciones de ángulos rectos, agudos, y obtusos son cuantitativas.

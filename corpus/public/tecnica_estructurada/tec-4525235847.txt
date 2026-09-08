@@ -1,0 +1,20 @@
+Las constantes condicionales, también conocidas como constantes aparentes, son cocientes de concentración que no son verdaderas constantes de equilibrio pero que pueden derivarse de ellas. &#8203; Un ejemplo muy común es cuando el pH se fija en un valor particular. Por ejemplo, en el caso de hierro (III) que interactúa con EDTA, una constante condicional podría definirse por
+
+Esta constante condicional variará con el pH. Tiene un máximo a un pH determinado. Ese es el pH donde el ligando secuestra el metal de manera más efectiva.
+
+En bioquímica, las constantes de equilibrio a menudo se miden a un pH fijado por medio de una solución tampón. Dichas constantes son, por definición, condicionales y se pueden obtener valores diferentes cuando se utilizan diferentes buffers.
+
+Para los equilibrios en una fase gaseosa, la fugacidad, f, se usa en lugar de la actividad. Sin embargo, la fugacidad tiene la dimensión de la presión, por lo que debe dividirse por una presión estándar, generalmente 1 bar, para producir una cantidad adimensional, f /p . Una constante de equilibrio se expresa en términos de la cantidad adimensional. Por ejemplo, para el equilibrio 2NO2 N2O4,
+
+La fugacidad está relacionada con presión parcial, p, por un coeficiente de fugacidad sin dimensiones ϕ:
+ f = ϕp . Así, para el ejemplo,
+
+Por lo general, la presión estándar se omite en tales expresiones. Las expresiones para constantes de equilibrio en la fase gaseosa se asemejan a la expresión para equilibrios de solución con coeficiente de fugacidad en lugar de coeficiente de actividad y presión parcial en lugar de concentración.
+
+El equilibrio termodinámico se caracteriza porque la energía libre para todo el sistema (cerrado) es un mínimo. Para sistemas a temperatura y presión constantes, la energía libre de Gibbs es mínima. &#8203; La pendiente de la energía libre de reacción con respecto a la coordenada de reacción, ξ, es cero cuando la energía libre está en su valor mínimo.
+
+El cambio de energía libre, δGr, se puede expresar como una suma ponderada de potenciales químicos, las energías libres parciales de la especie en equilibrio. El potencial, μi, de la especie i en una reacción química es el derivado parcial de la energía libre con respecto al número de moles de esa especie, Ni
+
+donde nj son los coeficientes estequiométricos de los reactivos en la ecuación de equilibrio, y mj son los coeficientes de los productos. En equilibrio
+
+El potencial químico, μi, de la especie i puede calcularse en términos de su actividad, ai.

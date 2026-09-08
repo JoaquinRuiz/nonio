@@ -1,0 +1,15 @@
+Existen dos tipos que están clasificados por el método de envío de la información: bus paralelo o bus serial.
+
+Hay diferencias en el rendimiento y hasta hace unos años se consideraba que el uso apropiado dependía de la longitud física de la conexión: para cortas distancias el bus paralelo, para largas el serial.
+
+Es un bus en el cual los datos son enviados por bytes al mismo tiempo, con la ayuda de varias líneas que tienen funciones fijas. La cantidad de datos enviada es bastante grande con una frecuencia moderada y es igual al ancho de los datos por la frecuencia de funcionamiento. En los computadores ha sido usado de manera intensiva, desde el bus del procesador, los buses de discos duros, tarjetas de expansión y de vídeo, hasta las impresoras.
+
+El front-side bus de los procesadores Intel es un bus de este tipo y como cualquier bus presenta unas funciones en líneas dedicadas:
+
+Un bus paralelo tiene conexiones físicas complejas, pero la lógica es sencilla, que lo hace útil en sistemas con poco poder de cómputo. En los primeros microcomputadores, el bus era simplemente la extensión del bus del procesador y los demás integrados "escuchan" las línea de direcciones, en espera de recibir instrucciones. En el PC IBM original, el diseño del bus fue determinante a la hora de elegir un procesador con I/O de 8 bits (Intel 8088), sobre uno de 16 (el 8086), porque era posible usar hardware diseñado para otros procesadores, abaratando el producto.
+
+En este los datos son enviados, bit a bit y se reconstruyen por medio de registros o rutinas. Está formado por pocos conductores y su ancho de banda depende de la frecuencia. Aunque originalmente fueron usados para conectar dispositivos lentos (como el teclado o un ratón), actualmente se están usando para conectar dispositivos mucho más rápidos como discos duros, unidades de estado sólido, tarjetas de expansión e incluso para el bus del procesador.
+
+El bus de control gobierna el uso y acceso a las líneas de datos y de direcciones. Como éstas líneas están compartidas por todos los componentes, tiene que proveerse de determinados mecanismos que controlen su utilización. Las señales de control transmiten tanto órdenes como información de temporización entre los módulos. Mejor dicho, es el que permite que no haya colisión de información en el sistema.
+
+La memoria RAM es direccionable, de forma que cada celda de memoria tiene su propia dirección. Las direcciones son un número que selecciona una celda de memoria dentro de la memoria principal o en el espacio de direcciones de la unidad de entrada/salida.

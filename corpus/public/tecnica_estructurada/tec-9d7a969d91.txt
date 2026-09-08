@@ -1,0 +1,261 @@
+Hagamos un breve apunte. Si Alice quiere enviar los bits 01, dependiendo de la bibliografía que se consulte, realizará la operación 
+ 
+ 
+ 
+ Z
+ 
+ 
+ {\displaystyle Z}
+ 
+ o 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ 
+, y lo mismo si quiere enviar los bits 10. Para un entendimiento más intuitivo, aquí se ha elegido esta convención para que el resultado final que más tarde definiremos sea de la forma 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ )
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{3}(M_{1}M_{2})\rangle =|M_{1}M_{2}\rangle }
+ 
+. Esto no ocurre, por ejemplo, en el libro de M. A. Nielsen y I. L Chuang, Quantum computation and quantum information &#8203; &#8203;. En él, para enviar los bits 10 se realiza con el operador 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ 
+ y los bits 01 con 
+ 
+ 
+ 
+ Z
+ 
+ 
+ {\displaystyle Z}
+ 
+, al contrario de lo que hacemos aquí. El resultado obtenido entonces según esta convención sería de la forma 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ )
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ 
+ M
+ 
+ 1
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{3}(M_{1}M_{2})\rangle =|M_{2}M_{1}\rangle }
+ 
+, con el orden de los bits cambiado, al contrario de lo que nosotros obtenemos. También existe bibliografía &#8203; en la que, para obtener los bits 11, Alice realiza la operación 
+ 
+ 
+ 
+ X
+ Z
+ 
+ 
+ {\displaystyle XZ}
+ 
+, cambiando el orden de actuación de los operadores tal y como aquí se hace. Lo que provoca esto es que obtendremos 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 11
+ )
+ &#x27E9;
+ =
+ &#x2212;
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{3}(11)\rangle =-|11\rangle }
+ 
+, donde ese signo negativo no es más que una fase añadida que no altera el experimento.
+
+Después de este inciso, recordar que Alice ha aplicado ciertos operadores a su estado inicial 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 0
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{0}\rangle }
+ 
+ para obtener el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ )
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{1}(M_{1}M_{2})\rangle }
+ 
+. Este estado es el que Alice le enviará a Bob por un canal cuántico.
+
+Una vez que Bob reciba el estado (o qubit) 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 1
+ 
+ 
+ (
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ M
+ 
+ 2
+ 
+ 
+ )
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi _{1}(M_{1}M_{2})\rangle }
+ 
+, lo primero que hará será aplicarle una puerta CNOT al qubit recibido de Alice y al que él ya tenía. El fundamento de una puerta CNOT es que un qubit nos sirva de control mientras que otro sea un objetivo (target).
+
+El aplicar una puerta CNOT se puede ver como aplicar un operador a los estados, tal que la matriz con la que se puede representar a este operador sea de la forma

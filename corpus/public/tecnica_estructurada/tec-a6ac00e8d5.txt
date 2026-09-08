@@ -1,0 +1,295 @@
+La ecuación de Yang-Baxter garantiza la consistencia de la construcción. El principio de exclusión de Pauli es válido para modelos que pueden resolverse mediante el ansatz de Bethe, incluso para modelos de bosones que interactúan.
+
+El estado fundamental es una esfera de Fermi. Las condiciones de contorno periódicas conducen a las ecuaciones del ansatz de Bethe. En forma logarítmica, las ecuaciones del ansatz de Bethe pueden generarse mediante la acción de Yang. El cuadrado de la norma de la función de onda de Bet es igual al determinante de la matriz de segundas derivadas de la acción de Yang. &#8203; El desarrollo del ansatz de Bethe algebraico &#8203; condujo a un progreso esencial.
+
+El método de dispersión inversa cuántica ... un método bien desarrollado ... ha permitido resolver una amplia clase de ecuaciones de evolución no lineal. Explica la naturaleza algebraica del ansatz de Bethe.
+
+Las soluciones exactas del llamado modelo s-d (por P. B. Wiegmann &#8203; en 1980 e independientemente por N. Andrei, &#8203; también en 1980) y el modelo de Anderson (por P. B. Wiegmann &#8203; en 1981, y por N. Kawakami y A. Okiji &#8203; en 1981) también se basan en el ansatz de Bethe. Existen generalizaciones multicanal de estos dos modelos también susceptibles de soluciones exactas (por N. Andrei y C. Destri &#8203; y por CJ Bolech y N. Andrei &#8203; ).
+
+La cadena antiferromagnética de Heisenberg está definida por el hamiltoniano (asumiendo condiciones de contorno periódicas)
+
+H
+ =
+ J
+ 
+ &#x2211;
+ 
+ j
+ =
+ 1
+ 
+ 
+ N
+ 
+ 
+ 
+ 
+ S
+ 
+ 
+ j
+ 
+ 
+ &#x22C5;
+ 
+ 
+ S
+ 
+ 
+ j
+ +
+ 1
+ 
+ 
+ ,
+ 
+ 
+ 
+ S
+ 
+ 
+ j
+ +
+ N
+ 
+ 
+ &#x2261;
+ 
+ 
+ S
+ 
+ 
+ j
+ 
+ 
+ .
+ 
+ 
+ {\displaystyle H=J\sum _{j=1}^{N}{\boldsymbol {S}}_{j}\cdot {\boldsymbol {S}}_{j+1},\qquad {\boldsymbol {S}}_{j+N}\equiv {\boldsymbol {S}}_{j}.}
+
+Este modelo se puede resolver usando el ansatz de Bethe. La función de desplazamiento de fase de dispersión es 
+ 
+ 
+ 
+ &#x03D5;
+ (
+ 
+ k
+ 
+ a
+ 
+ 
+ (
+ 
+ &#x03BB;
+ 
+ a
+ 
+ 
+ )
+ ,
+ 
+ k
+ 
+ b
+ 
+ 
+ (
+ 
+ &#x03BB;
+ 
+ b
+ 
+ 
+ )
+ )
+ =
+ 
+ &#x03B8;
+ 
+ 2
+ 
+ 
+ (
+ 
+ &#x03BB;
+ 
+ a
+ 
+ 
+ &#x2212;
+ 
+ &#x03BB;
+ 
+ b
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle \phi (k_{a}(\lambda _{a}),k_{b}(\lambda _{b}))=\theta _{2}(\lambda _{a}-\lambda _{b})}
+ 
+, con 
+ 
+ 
+ 
+ 
+ &#x03B8;
+ 
+ n
+ 
+ 
+ (
+ &#x03BB;
+ )
+ &#x2261;
+ 2
+ arctan
+ &#x2061;
+ 
+ 
+ 
+ 2
+ &#x03BB;
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle \theta _{n}(\lambda )\equiv 2\arctan {\frac {2\lambda }{n}}}
+ 
+ en el que el impulso ha sido convenientemente reparametrizado como 
+ 
+ 
+ 
+ k
+ (
+ &#x03BB;
+ )
+ =
+ &#x03C0;
+ &#x2212;
+ 2
+ arctan
+ &#x2061;
+ 2
+ &#x03BB;
+ 
+ 
+ {\displaystyle k(\lambda )=\pi -2\arctan 2\lambda }
+ 
+ en términos de rapidez 
+ 
+ 
+ 
+ &#x03BB;
+ 
+ 
+ {\displaystyle \lambda }
+ 
+. Las condiciones de contorno (aquí, periódicas) imponen las ecuaciones de Bethe
+
+[
+ 
+ 
+ 
+ 
+ &#x03BB;
+ 
+ a
+ 
+ 
+ +
+ i
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ &#x03BB;
+ 
+ a
+ 
+ 
+ &#x2212;
+ i
+ 
+ /
+ 
+ 2
+ 
+ 
+ 
+ ]
+ 
+ 
+ N
+ 
+ 
+ =
+ 
+ &#x220F;
+ 
+ b
+ &#x2260;
+ a
+ 
+ 
+ M
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x03BB;
+ 
+ a
+ 
+ 
+ &#x2212;
+ 
+ &#x03BB;
+ 
+ b
+ 
+ 
+ +
+ i
+ 
+ 
+ 
+ &#x03BB;
+ 
+ a
+ 
+ 
+ &#x2212;
+ 
+ &#x03BB;
+ 
+ b
+ 
+ 
+ &#x2212;
+ i
+ 
+ 
+ 
+ ,
+ 
+ a
+ =
+ 1
+ ,
+ .
+ .
+ .
+ ,
+ M
+ 
+ 
+ {\displaystyle \left[{\frac {\lambda _{a}+i/2}{\lambda _{a}-i/2}}\right]^{N}=\prod _{b\neq a}^{M}{\frac {\lambda _{a}-\lambda _{b}+i}{\lambda _{a}-\lambda _{b}-i}},\qquad a=1,...,M}

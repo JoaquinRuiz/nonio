@@ -1,0 +1,19 @@
+Los argumentos termodinámicos estándar pueden usarse para mostrar que, más generalmente, la entalpía cambiará con la temperatura.
+
+El cálculo de K a una temperatura particular de un K conocido a otra temperatura dada se puede abordar de la siguiente manera si se dispone de propiedades termodinámicas estándar. El efecto de la temperatura en la constante de equilibrio es equivalente al efecto de la temperatura en la energía de Gibbs porque:
+
+donde Δr G es la energía de Gibbs estándar de reacción, que es la suma de las energías de Gibbs estándar de los productos de reacción menos la suma de las energías de Gibbs estándar de reactivos.
+
+Aquí, el término "estándar" denota el comportamiento ideal (es decir, una dilución infinita) y una concentración estándar hipotética (típicamente 1 mol / kg). No implica ninguna temperatura o presión en particular porque, aunque contrariamente a la recomendación de la IUPAC, es más conveniente cuando se describen sistemas acuosos en amplios rangos de temperatura y presión. &#8203;
+
+La energía estándar de Gibbs (para cada especie o para la reacción completa) se puede representar (a partir de las definiciones básicas) como:
+
+En la ecuación anterior, el efecto de la temperatura en la energía de Gibbs (y por lo tanto en la constante de equilibrio) se atribuye por completo a la capacidad térmica. Para evaluar las integrales en esta ecuación, se debe conocer la forma de la dependencia de la capacidad calorífica de la temperatura.
+
+puede ser aproximado por alguna función analítica de la temperatura (por ejemplo, la ecuación de Shomate), luego las integrales involucradas en el cálculo de otros parámetros pueden resolverse para producir expresiones analíticas para ellos. Por ejemplo, usando aproximaciones de las siguientes formas: &#8203;
+
+Las constantes A, B, C, a, b y la entropía absoluta, S̆&#160;&#160;o298&#160;K , requerido para la evaluación de C op (T), así como los valores de G 298 K y S 298 K para muchas especies están tabuladas en la literatura.
+
+La dependencia de la presión de la constante de equilibrio es generalmente débil en el rango de presiones que normalmente se encuentran en la industria, y por lo tanto, generalmente se descuida en la práctica. Esto es cierto para los reactivos/productos condensados (es decir, cuando los reactivos y productos son sólidos o líquidos), así como los gaseosos.
+
+Para un ejemplo de reacción gaseosa, se puede considerar la reacción bien estudiada del hidrógeno con nitrógeno para producir amoníaco:

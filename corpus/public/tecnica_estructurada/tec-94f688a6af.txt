@@ -1,0 +1,545 @@
+2
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 2
+ 
+ 
+ 3
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 1
+ 
+ 
+ 8
+ 
+ 
+ 7
+ 
+ 
+ 4
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 9
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 6
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 9
+ 
+ 
+ 7
+ 
+ 
+ 9
+ 
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 6
+ 
+ 
+ 7
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 9
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 23
+ 
+ 958
+ 
+ 233
+ &#x00D7;
+ 0
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 23
+ 
+ 958
+ 
+ 233
+ &#x00D7;
+ 30
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 23
+ 
+ 958
+ 
+ 233
+ &#x00D7;
+ 800
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 23
+ 
+ 958
+ 
+ 233
+ &#x00D7;
+ 5.000
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrrrrrrr}&&&&2&3&9&5&8&2&3&3\\\times &&&&&&&&5&8&3&0\\\hline &&&&0&0&0&0&0&0&0&0\\&&&7&1&8&7&4&6&9&9&\\&1&9&1&6&6&5&8&6&4&&\\1&1&9&7&9&1&1&6&5&&&\\\hline 1&3&9&6&7&6&4&9&8&3&9&0\\\end{array}}{\begin{array}{l}\\\\\longleftarrow 23\;958\;233\times 0\\\longleftarrow 23\;958\;233\times 30\\\longleftarrow 23\;958\;233\times 800\\\longleftarrow 23\;958\;233\times 5.000\\\\\end{array}}}
+
+2
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 2
+ 
+ 
+ 3
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 1
+ 
+ 
+ 8
+ 
+ 
+ 7
+ 
+ 
+ 4
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 9
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 6
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 9
+ 
+ 
+ 7
+ 
+ 
+ 9
+ 
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 6
+ 
+ 
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 6
+ 
+ 
+ 7
+ 
+ 
+ 6
+ 
+ 
+ 4
+ 
+ 
+ 9
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 9
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ Multiplicando
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ Multiplicador
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ Producto
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrrrrrrrrr}&&&&2&3&9&5&8&2&3&3\\\times &&&&&&&&5&8&3&0\\\hline &&&&0&0&0&0&0&0&0&0\\&&&7&1&8&7&4&6&9&9&\\&1&9&1&6&6&5&8&6&4&&\\1&1&9&7&9&1&1&6&5&&&\\\hline 1&3&9&6&7&6&4&9&8&3&9&0\\\end{array}}{\begin{array}{l}\longleftarrow \;{\text{Multiplicando}}\\\longleftarrow \;{\text{Multiplicador}}\\\\\\\\\\\longleftarrow \;{\text{Producto}}\\\end{array}}}
+
+La multiplicación hindú o de Fibonacci requiere la preparación de una tabla (una rejilla dibujada en un papel) que sirve de guía para el cálculo. Fue introducida en Europa en 1202 por Fibonacci en su Liber Abaci. Leonardo describió la operación como "cálculo mental", y utilizaba los dedos de las manos para realizar los cálculos intermedios. Napier también publicó este método en 1617, el año en que murió.
+
+Como se muestra en el ejemplo, el multiplicando y el multiplicador se escriben encima y a la derecha de la tabla.
+
+Las imágenes de la derecha muestran cómo calcular 345 × 12 usando la multiplicación hindú. Como ejemplo más complejo, más abajo se muestra el cálculo de 23.958.233 por 5.830; el resultado es 139.676.498.390. Obsérvese que el número 23.958.233 se encuentra en la parte superior de la tabla, y que 5.830 está verticalmente en su lado derecho. Los productos llenan la tabla y la suma de estos productos (diagonalmente) se encuentran en el lado izquierdo y el inferior. A continuación estas sumas se agregan, como se muestra al multiplicar la división.
+
+Es un sistema de multiplicación con líneas escritas en un papel y opuestas que representan las cifras y se cortan en un ángulo de noventa grados. Contando las intersecciones se obtiene el resultado final. &#8203;
+
+Para multiplicar monomios no es necesario que sean semejantes. Para ello se multiplican los coeficientes, se deja la misma parte literal y se suman los grados. Ejemplo:

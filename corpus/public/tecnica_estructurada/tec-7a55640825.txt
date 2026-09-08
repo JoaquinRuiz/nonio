@@ -1,0 +1,20 @@
+En geometría, el baricentro o centroide de una superficie contenida en una figura geométrica plana es un punto tal que cualquier recta que pasa por él divide a dicho segmento en dos partes de igual momento respecto a dicha recta. En física, el baricentro de un cuerpo material coincide con el centro de masas del mismo cuando el cuerpo es homogéneo (densidad uniforme) o cuando la distribución de materia en el cuerpo tiene ciertas propiedades, tales como la simetría.
+
+Sean A1, …, An n puntos, y m1, …, mn n números (m como masa). Entonces el baricentro de los (Ai, mi) es el punto G definido como sigue:
+
+Esta definición no depende del punto O, que puede ser cualquiera. Si se toma el origen del plano o del espacio se obtienen las coordenadas del baricentro como promedio ponderado por los mi de las coordenadas de los puntos Ai:
+
+La definición anterior equivale a la fórmula siguiente, más práctica para el cálculo vectorial, pues prescinde de las fracciones (se obtiene tomando O = G):
+
+Un isobaricentro (iso: mismo) es un baricentro con todas las masas iguales entre sí; es usual en tal caso tomarlas iguales a 1. Si no se precisan las masas, el baricentro es por defecto el isobaricentro.
+
+El baricentro coincide con el concepto físico de centro de masa de un cuerpo material en tanto que el cuerpo sea homogéneo.
+
+La coincidencia del baricentro y el centro de masa permite localizar el primero de una forma sencilla. Si tomamos una superficie recortada en una cartulina y la sujetamos verticalmente desde cualquiera de sus puntos, girará hasta que el centro de gravedad (baricentro) se sitúe justamente en la vertical del punto de sujeción; marcando dicha vertical sobre la cartulina y repitiendo el proceso sujetando desde un segundo punto, encontraremos el baricentro en el punto de intersección.
+
+El baricentro G de (A, a) y (B, b) con a y b cualesquiera, está ubicado en la recta (AB). Si a y b son ambos positivos, G pertenece al segmento [A,B]. En este caso los coeficientes a y b se pueden leer en el gráfico. Por ejemplo:
+
+y, por lo tanto, G = bar{(A, 7), (B, 5)}. Basta pues con permutar las longitudes del gráfico para obtener las masas de los puntos.
+
+El baricentro G de tres puntos del espacio (A, a), (B, b) y (C, c) con a, b y c cualesquiera está ubicado en el plano (ABC). Si son todos positivos, G pertenece al triángulo ABC.
+Por supuesto, estas propiedades se generalizan a todas las dimensiones.

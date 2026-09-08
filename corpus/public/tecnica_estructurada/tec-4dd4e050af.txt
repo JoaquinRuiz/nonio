@@ -1,0 +1,16 @@
+La gran cantidad de compuestos orgánicos que existen tiene su explicación en las características del átomo de carbono, que tiene cuatro electrones en su capa de valencia: según la regla del octeto necesita ocho para completarla, por lo que forma cuatro enlaces (valencia = 4) con otros átomos. Esta especial configuración electrónica da lugar a una variedad de posibilidades de hibridación orbital del átomo de carbono (hibridación química).
+
+La molécula orgánica más sencilla que existe es el metano. En esta molécula, el carbono presenta hibridación sp3, con los átomos de hidrógeno formando un tetraedro.
+
+El carbono forma enlaces covalentes con facilidad para alcanzar una configuración estable, estos enlaces los forma con facilidad con otros carbonos, lo que permite formar frecuentemente cadenas abiertas (lineales o ramificadas) y cerradas (anillos).
+
+La clasificación de los compuestos orgánicos puede realizarse de diversas maneras: atendiendo a su origen (natural o sintético), a su estructura (p. ej.: alifático o aromático), a su funcionalidad (p. ejm.:alcoholes o cetonas), o a su peso molecular (p. ej.: monómeros o polímeros).
+
+La clasificación de los compuestos orgánicos según el origen es de dos tipos: naturales o sintéticos. A menudo, los de origen natural se entiende que son los presentes en los seres vivos, pero no siempre es así, ya que algunas moléculas orgánicas también se sintetizan ex-vivo, es decir en ambientes inertes, como por ejemplo el ácido fórmico en el cometa Halle-Bopp.
+
+Los compuestos orgánicos presentes en los seres vivos o "biosintetizados" constituyen una gran familia de compuestos orgánicos. Su estudio tiene interés en medicina, farmacia, perfumería, cocina y muchos otros campos más.
+
+Los carbohidratos están compuestos fundamentalmente de carbono (C), oxígeno (O) e hidrógeno (H). Son a menudo llamados "azúcares" pero esta nomenclatura no es del todo correcta. Tienen una gran presencia en el reino vegetal (fructosa, celulosa, almidón, alginatos), pero también en el animal (glucógeno, glucosa).
+Se suelen clasificar según su grado de polimerización en:
+
+Los lípidos son un conjunto de moléculas orgánicas, la mayoría biomoléculas, compuestas principalmente por carbono e hidrógeno y en menor medida oxígeno, aunque también pueden contener fósforo, azufre y nitrógeno. Tienen como característica principal el ser hidrófobas (insolubles en agua) y solubles en disolventes orgánicos como la bencina, el benceno y el cloroformo. En el uso coloquial, a los lípidos se les llama incorrectamente grasas, ya que las grasas son sólo un tipo de lípidos procedentes de animales. Los lípidos cumplen funciones diversas en los organismos vivientes, entre ellas la de reserva energética (como los triglicéridos), la estructural (como los fosfolípidos de las bicapas) y la reguladora (como las hormonas esteroides).

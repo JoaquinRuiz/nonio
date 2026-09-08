@@ -1,0 +1,16 @@
+La geometría (del latín geometrĭa, y este del griego γεωμετρία de γῆ gē, ‘tierra’, y μετρία metría, ‘medida’) es una rama de las matemáticas que se ocupa del estudio de las propiedades de las figuras en el plano o el espacio, &#8203; incluyendo: puntos, rectas, planos, politopos (como paralelas, perpendiculares, curvas, superficies, polígonos, poliedros, etc.).
+
+Es la base teórica de la geometría descriptiva o del dibujo técnico. También da fundamento a instrumentos como el compás, el teodolito, el pantógrafo o el sistema de posicionamiento global (en especial cuando se la considera en combinación con el análisis matemático y sobre todo con las ecuaciones diferenciales).
+
+Sus orígenes se remontan a la solución de problemas concretos relativos a medidas. Tiene su aplicación práctica en física aplicada, mecánica, arquitectura, geografía, cartografía, astronomía, náutica, topografía, balística, etc., y es útil en la preparación de diseños e incluso en la fabricación de artesanía.
+
+La civilización mesopotámica, y en particular los sumerios, está asociada a la invención de la rueda. Más adelante, en el periodo babilónico, también encontramos importantes aportaciones al estudio de la geometría, entre ellas aproximaciones muy precisas al valor del número π, que relaciona la longitud de la circunferencia con su diámetro.
+
+También desarrollaron el sistema sexagesimal, al conocer que cada año cuenta con 365 días. Además implementaron una fórmula para calcular el área del trapecio rectángulo. &#8203;
+
+En el antiguo Egipto estaba muy desarrollada, según los textos de Heródoto, Estrabón y Diodoro Sículo. Euclides, en el siglo&#160;III&#160;a.&#160;C., configuró la geometría en forma axiomática y constructiva, &#8203; tratamiento que estableció una norma a seguir durante muchos siglos: la geometría euclidiana descrita en Los Elementos.
+
+El estudio de la astronomía y la cartografía, tratando de determinar las posiciones de estrellas y planetas en la esfera celeste, sirvió como importante fuente de resolución de problemas geométricos durante más de un milenio. René Descartes desarrolló simultáneamente el álgebra de ecuaciones y la geometría analítica, marcando una nueva etapa, donde las figuras geométricas, tales como las curvas planas, podrían ser representadas analíticamente, es decir, con funciones y ecuaciones. La geometría se enriquece con el estudio de la estructura intrínseca de los entes geométricos que analizan Euler y Gauss, que condujo a la creación de la topología y la geometría diferencial.
+
+La geometría se propone ir más allá de lo alcanzado por la intuición. Por ello, es necesario un método riguroso, sin errores; para conseguirlo se han utilizado históricamente los sistemas axiomáticos. El primer sistema axiomático lo establece Euclides, aunque era incompleto. David Hilbert propuso a principios del siglo XX otro sistema axiomático, este ya completo.
+Como en todo sistema formal, las definiciones, no solo pretenden describir las propiedades de los objetos, o sus relaciones. Cuando se axiomatiza algo, los objetos se convierten en entes abstractos ideales y sus relaciones se denominan modelos.

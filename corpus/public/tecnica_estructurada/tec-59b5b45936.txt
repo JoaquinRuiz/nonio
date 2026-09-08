@@ -1,0 +1,10 @@
+Un decodificador es un circuito combinacional, cuya función es inversa a la del codificador, es decir, convierte un código binario (natural, BCD, etc.) de N bits de entrada y M líneas de salida (N puede ser cualquier entero y M es un entero menor o igual a 2 ), tales que cada línea de salida será activada para una sola de las combinaciones posibles de entrada. Normalmente, estos circuitos suelen encontrarse como decodificador / demultiplexor. Esto es debido a que un demultiplexor puede comportarse como un decodificador.
+
+Si por ejemplo se tiene un decodificador de 2 entradas con 2 =4 salidas, su funcionamiento sería el que se indica en la siguiente tabla, donde se ha considerado que las salidas se activen con un "uno" lógico:
+
+Un tipo de decodificador muy empleado es el de siete segmentos. Este circuito decodifica la información de entrada en BCD a un código de siete segmentos adecuado para que se muestre en un visualizador de siete segmentos.
+
+Su función principal es la de direccionar espacios de memoria. 
+Un decodificador de N entradas es capaz de direccionar 2 espacios de memoria.
+
+Para poder direccionar 1Kib de memoria se necesitarían 10 bits, ya que la cantidad de salidas sería 2 , igual a 1024.

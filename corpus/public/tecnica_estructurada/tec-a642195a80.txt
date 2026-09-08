@@ -1,0 +1,66 @@
+Cuando se realiza una medición en un observable del sistema, la función de ondas se convierte en una del conjunto de las funciones llamadas funciones propias o estados propios del observable en cuestión. Este proceso es conocido como colapso de la función de onda. Las probabilidades relativas de ese colapso sobre alguno de los estados propios posibles son descritas por la función de onda instantánea justo antes de la reducción. Considerando el ejemplo anterior sobre la partícula en el vacío, si se mide la posición de la misma, se obtendrá un valor impredecible x. En general, es imposible predecir con precisión qué valor de x se obtendrá, aunque es probable que se obtenga uno cercano al centro del paquete de ondas, donde la amplitud de la función de onda es grande. Después de que se ha hecho la medida, la función de onda de la partícula colapsa y se reduce a una que esté muy concentrada en torno a la posición observada x.
+
+La ecuación de Schrödinger es en parte determinista en el sentido de que, dada una función de onda a un tiempo inicial dado, la ecuación suministra una predicción concreta de qué función tendremos en cualquier tiempo posterior. Durante una medida, el eigen-estado al cual colapsa la función es probabilista y en este aspecto es no determinista. Así que la naturaleza probabilista de la mecánica cuántica nace del acto de la medida.
+
+En la formulación matemática rigurosa, desarrollada por Dirac y von Neumann, los estados posibles de un sistema cuántico están representados por vectores unitarios (llamados estados) que pertenecen a un Espacio de Hilbert complejo separable (llamado el espacio de estados). Qué tipo de espacio de Hilbert es necesario en cada caso depende del sistema; por ejemplo, el espacio de estados para los estados de posición y momento es el espacio de funciones de cuadrado integrable 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 2
+ 
+ 
+ (
+ 
+ 
+ R
+ 
+ 
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \scriptstyle L^{2}(\mathbb {R} ^{3})}
+ 
+, mientras que la descripción de un sistema sin traslación pero con un espín 
+ 
+ 
+ 
+ 
+ n
+ &#x210F;
+ 
+ 
+ 
+ {\displaystyle \scriptstyle n\hbar }
+ 
+ es el espacio 
+ 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 
+ 2
+ n
+ +
+ 1
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {C} ^{2n+1}}
+ 
+. La evolución temporal de un estado cuántico queda descrita por la ecuación de Schrödinger, en la que el hamiltoniano, el operador correspondiente a la energía total del sistema, tiene un papel central.
+
+Cada magnitud observable queda representada por un operador lineal hermítico definido sobre un dominio denso del espacio de estados. Cada estado propio de un observable corresponde a un eigenvector del operador, y el valor propio o eigenvalor asociado corresponde al valor del observable en aquel estado propio. El espectro de un operador puede ser continuo o discreto. La medida de un observable representado por un operador con espectro discreto solo puede tomar un conjunto numerable de posibles valores, mientras que los operadores con espectro continuo presentan medidas posibles en intervalos reales completos. Durante una medida, la probabilidad de que un sistema colapse a uno de los eigenestados viene dada por el cuadrado del valor absoluto del producto interno entre el estado propio o auto-estado (que podemos conocer teóricamente antes de medir) y el vector estado del sistema antes de la medida. Podemos así encontrar la distribución de probabilidad de un observable en un estado dado computando la descomposición espectral del operador correspondiente. El principio de incertidumbre de Heisenberg se representa por la aseveración de que los operadores correspondientes a ciertos observables no conmutan.

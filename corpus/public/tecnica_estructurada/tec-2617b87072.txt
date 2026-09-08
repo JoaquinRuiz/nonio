@@ -1,0 +1,296 @@
+ 
+ 
+ 
+ A
+ &#x2229;
+ B
+ =
+ {
+ x
+ 
+ /
+ 
+ x
+ &#x2208;
+ A
+ &#x2227;
+ x
+ &#x2208;
+ B
+ }
+ 
+ 
+ {\displaystyle A\cap B=\{x/x\in A\land x\in B\}}
+ 
+.
+
+Se dice que dos conjuntos A y B son disjuntos cuando la coincidencia de ambos es el conjunto vacío. A ∩ B= 
+ 
+ 
+ 
+ &#x2205;
+ 
+ 
+ {\displaystyle \emptyset }
+
+La diferencia consiste en eliminar de A todo elemento que esté en B, también se puede denotar con el símbolo de la resta A-B, por lo tanto, la diferencia de los conjuntos A y B es el conjunto C que tiene a todos los elementos que están en A, pero no en B.
+
+También se le puede llamar a la diferencia de A y B: complementario de B con respecto a A.
+
+Por lo tanto, un elemento pertenece a la diferencia de A y B si, y sólo si 
+ 
+ 
+ 
+ {
+ x
+ 
+ /
+ 
+ x
+ &#x2208;
+ A
+ &#x2227;
+ x
+ &#x2209;
+ B
+ }
+ 
+ 
+ {\displaystyle \{x/x\in A\land x\not \in B\}}
+
+El símbolo de esta operación es: A , o también se suele representar con el símbolo A
+
+Supongamos que U es el conjunto universal, en el cual se encuentran todos los elementos posibles, entonces el complementario de A con respecto a U se consigue restando a U todos los elementos de A. A=U-A
+
+Por lo tanto, un elemento pertenece al complementario de A si, y sólo si 
+ 
+ 
+ 
+ 
+ A
+ 
+ c
+ 
+ 
+ =
+ {
+ x
+ 
+ /
+ 
+ x
+ &#x2208;
+ U
+ &#x2227;
+ x
+ &#x2209;
+ A
+ }
+ 
+ 
+ {\displaystyle A^{c}=\{x/x\in U\land x\not \in A\}}
+
+La diferencia simétrica de dos conjuntos A y B es otro conjunto el cual posee los elementos que o bien se encuentran en A, o bien se encuentran en B, pero no en los dos a la vez. A Δ B = C, donde C no tiene
+
+En un conjunto los elementos están desordenados y el orden es muy importante, por ello necesitamos algún tipo de estructura diferente para representar a los elementos ordenados, de ahí salen las n-tuplas ordenadas.
+
+La n-tupla ordenada 
+ 
+ 
+ 
+ (
+ 
+ a
+ 
+ 1
+ 
+ 
+ ,
+ 
+ a
+ 
+ 2
+ 
+ 
+ ,
+ 
+ a
+ 
+ 3
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ a
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (a_{1},a_{2},a_{3},\dots ,a_{n})}
+ 
+ es la colección ordenada dónde su primer elemento es 
+ 
+ 
+ 
+ (
+ 
+ a
+ 
+ 1
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (a_{1})}
+ 
+, 
+ 
+ 
+ 
+ (
+ 
+ a
+ 
+ 2
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (a_{2})}
+ 
+ es su segundo elemento, ... y 
+ 
+ 
+ 
+ (
+ 
+ a
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (a_{n})}
+ 
+ el elemento n-ésimo.
+
+Se puede decir que dos n-tuplas ordenadas son iguales si, y sólo si, cada elemento numerado de cada par es igual, o sea, 
+ 
+ 
+ 
+ (
+ 
+ a
+ 
+ 1
+ 
+ 
+ ,
+ 
+ a
+ 
+ 2
+ 
+ 
+ ,
+ 
+ a
+ 
+ 3
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ a
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (a_{1},a_{2},a_{3},\dots ,a_{n})}
+ 
+ = 
+ 
+ 
+ 
+ (
+ 
+ b
+ 
+ 1
+ 
+ 
+ ,
+ 
+ b
+ 
+ 2
+ 
+ 
+ ,
+ 
+ b
+ 
+ 3
+ 
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ b
+ 
+ n
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (b_{1},b_{2},b_{3},\dots ,b_{n})}
+ 
+ esto sucede si, y sólo si 
+ 
+ 
+ 
+ (
+ 
+ a
+ 
+ i
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (a_{i})}
+ 
+=
+ 
+ 
+ 
+ (
+ 
+ b
+ 
+ i
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (b_{i})}
+ 
+ para i= 1,2,3,...,n. Las 2-tuplas se llaman pares ordenados (a,b) y (c,d), estos son iguales si, y sólo si a=c y b=d.

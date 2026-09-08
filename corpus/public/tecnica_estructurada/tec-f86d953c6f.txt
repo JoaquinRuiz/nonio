@@ -1,0 +1,39 @@
+En las matemáticas, podemos hacer lo que queramos definir a un conjunto, por ser un concepto primitivo, pero hacemos abstracción y lo pensamos como una colección desordenada de objetos, los objetos de un conjunto pueden ser cualquier cosa siempre que tengan una relación entre ellos, a los objetos de un conjunto se les llama elementos de dicho conjunto, por lo tanto un conjunto contiene a sus elementos. Se representan con una letra mayúscula y a los elementos o miembros de ese conjunto se les mete entre llaves corchetes o paréntesis. ({,}).
+
+Dos conjuntos se pueden combinar de muchas maneras distintas, por ejemplo, teniendo un conjunto de la gente que juega al fútbol y otro de la gente que juega a baloncesto podemos hacer muchas combinaciones como el conjunto de personas que juegan a fútbol o baloncesto, las que juegan a fútbol y baloncesto, las que no juegan a baloncesto, etc.
+
+&#160;Es correspondiente a la unificación de los elementos de dos conjuntos o incluso más conjuntos que pueden, partiendo de esto conformar una nueva forma de conjunto, en la cual los elementos dentro de este correspondan a los elementos de los conjuntos originales. Cuando un elemento es repetido, forma parte de la junta una vez solamente; esto difiere del concepto de multiconjuntos en la concepción tradicional de la suma, en la cual los elementos comunes se consideran tantas veces como se encuentren en la totalidad de los conjuntos.
+
+Sean A y B dos conjuntos, la junta de ambos (A ∪ B) es el conjunto C el cual contiene a todos los elementos pertenecientes al conjunto A y al conjunto B.
+
+Un elemento x pertenece a la junta de los conjuntos A y B si, y sólo si, x pertenece al conjunto A o x pertenece al conjunto B, por lo tanto 
+
+ 
+ 
+ 
+ A
+ &#x222A;
+ B
+ =
+ {
+ x
+ 
+ /
+ 
+ x
+ &#x2208;
+ A
+ &#x2228;
+ x
+ &#x2208;
+ B
+ }
+ 
+ 
+ {\displaystyle A\cup B=\{x/x\in A\lor x\in B\}}
+
+En el Diagrama de Venn que se muestra en la imagen de la derecha se puede observar como es de forma gráfica, a continuación pondré también algunos ejemplos prácticos:
+
+Sean A y B dos conjuntos, la coincidencia de ambos (A ∩ B) es el conjunto C el cual contiene los elementos que están en A y que están en B.
+
+Un elemento x pertenece a la coincidencia de los conjuntos A y B si, y sólo si, x pertenece al conjunto A y x pertenece al conjunto B a la vez, por lo tanto 

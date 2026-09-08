@@ -1,0 +1,438 @@
+La otra ecuación es de suma importancia, ya que su solución depende de la forma específica del potencial, de hecho para cualquier potencial esféricamente simétrico la solución anterior es válida, y la solución a esta parte de la ecuación de onda es característica de la forma específica del potencial electrostático, en efecto la ecuación queda
+
+1
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x2202;
+ 
+ &#x2202;
+ r
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x2202;
+ R
+ (
+ r
+ )
+ 
+ 
+ &#x2202;
+ r
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ 2
+ &#x03BC;
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ Q
+ r
+ 
+ 
+ &#x2212;
+ E
+ 
+ )
+ 
+ R
+ (
+ r
+ )
+ 
+ =
+ 
+ 
+ 
+ 
+ l
+ (
+ l
+ +
+ 1
+ )
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ R
+ (
+ r
+ )
+ 
+ 
+ {\displaystyle {\frac {1}{r^{2}}}{\frac {\partial }{\partial r}}\left(r^{2}{\frac {\partial R(r)}{\partial r}}\right)\,-\,{\frac {2\mu }{\hslash ^{2}}}\left({\frac {Q}{r}}-E\right)R(r)\,=\,{\frac {l(l+1)}{r^{2}}}R(r)}
+
+donde se ha sustituido 
+ 
+ 
+ 
+ V
+ (
+ r
+ )
+ 
+ 
+ {\displaystyle V(r)}
+ 
+ por el potencial electrostático mediante el cual interaccionan el protón y el electrón y aquí
+
+esta ecuación es de una dificultad considerable, pero se puede resolver si se consideran las soluciones asintóticas y luego se ajusta una solución exacta, haciendo el cambio
+
+d
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ u
+ (
+ r
+ )
+ +
+ 
+ 
+ 
+ 2
+ &#x03BC;
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ &#x2212;
+ 
+ 
+ Q
+ r
+ 
+ 
+ &#x2212;
+ 
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ l
+ (
+ l
+ +
+ 1
+ )
+ 
+ 
+ 2
+ &#x03BC;
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ +
+ E
+ 
+ )
+ 
+ u
+ (
+ r
+ )
+ 
+ =
+ 
+ 0
+ 
+ 
+ {\displaystyle {\frac {{\text{d}}^{2}}{{\text{d}}r^{2}}}u(r)+{\frac {2\mu }{\hslash ^{2}}}\left(-{\frac {Q}{r}}-{\frac {\hslash ^{2}l(l+1)}{2\mu r^{2}}}+E\right)u(r)\,=\,0}
+
+si se considera ahora que 
+ 
+ 
+ 
+ x
+ &#x2192;
+ &#x221E;
+ 
+ 
+ {\displaystyle x\rightarrow \infty }
+ 
+ es claro que la ecuación queda
+
+luego otra consideración asintótica, 
+ 
+ 
+ 
+ x
+ &#x2192;
+ 0
+ 
+ 
+ {\displaystyle x\rightarrow 0}
+ 
+ el término que depende de 
+ 
+ 
+ 
+ 1
+ 
+ /
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle 1/x^{2}}
+ 
+ crece mucho más rápido que los demás términos, de donde se obtiene
+
+con 
+ 
+ 
+ 
+ n
+ &#x2208;
+ 
+ Z
+ 
+ 
+ 
+ {\displaystyle n\in \mathbb {Z} }
+ 
+ y luego 
+ 
+ 
+ 
+ &#x03B2;
+ =
+ n
+ +
+ l
+ 
+ 
+ {\displaystyle \beta =n+l}
+ 
+ se tendría
+
+donde los 
+ 
+ 
+ 
+ 
+ L
+ 
+ n
+ +
+ l
+ 
+ 
+ 2
+ l
+ +
+ 1
+ 
+ 
+ (
+ &#x03C1;
+ )
+ 
+ 
+ {\displaystyle L_{n+l}^{2l+1}(\rho )}
+ 
+ son los polinomios asociados de Laguerre y que vienen definidos por la fórmula de Rodrigues
+
+En la solución de la parte radial de la ecuación del átomo de hidrógeno, apareció un nuevo entero positivo, de hecho mayor estrictamente que cero, y es 
+ 
+ 
+ 
+ n
+ 
+ 
+ {\displaystyle n}
+ 
+, en la ecuación en la que apareció que se estableció &#8203;
+
+&#x03BE;
+ 
+ 2
+ 
+ 
+ 
+ =
+ 
+ &#x2212;
+ 
+ 
+ 
+ 2
+ &#x03BC;
+ 
+ Q
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ E
+ 
+ 
+ 
+ 
+ =
+ 
+ 4
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle \xi ^{2}\,=\,-{\frac {2\mu Q^{2}}{\hslash ^{2}E}}\,=\,4n^{2}}
+
+E
+ 
+ n
+ 
+ 
+ 
+ =
+ 
+ &#x2212;
+ 
+ 
+ &#x03BC;
+ 
+ 2
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ 4
+ &#x03C0;
+ 
+ &#x03B5;
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle E_{n}\,=\,-{\frac {\mu }{2\hslash ^{2}n^{2}}}\left({\frac {e^{2}}{4\pi \varepsilon _{0}}}\right)^{2}}

@@ -1,0 +1,16 @@
+En agosto de 2016, los productos se renombraron de la siguiente manera: Centreon ahora designa el producto que integra el sistema operativo basado en CentOS; todos los demás productos de código fuente abierto (Centreon Web, Centreon Broker, Centreon Engine, ...) - anteriormente denominado CES - fueron englobados y renombrados como Centreon Enterprise Server. La interfaz web de Centreon se le colocó el sustantivo de Centreon Web.
+
+Todas las soluciones de Centreon se basan en un entorno de fuente básico y totalmente abierto denominado OSS para software de código abierto.
+
+Muchos módulos y widgets están disponibles a través del editor o la comunidad para ampliar la funcionalidad de la plataforma.
+Soporta el manejo de traps SNMP desde la versión 2.4 Centreon Engine. &#8203; También, por medio de SNMP, es capaz de monitorizar sistemas ininterrumpidos de energía con guiones originalmente escritos para Nagios. &#8203;
+
+Centreon está disponible en inglés y en francés sin embargo en su blog existen instrucciones detalladas para instalar los lenguajes adicionales. &#8203;
+
+Un componente que garantiza el poder monitorizar miles de dispositivos o servicios, (a medida que crecen las empresas se pueden instalar y configurar tantos como se necesiten) son los servidores tipo Poller, término anacrónico en el habla inglesa y utilizado en el campo de la informática para describir un dispositivo que recolecta datos (Recolector) para enviar a un servidor central. &#8203; Cada uno de estos Recolectores de Datos tienen un Centreon Engine y si se necesita pueden ser configurados con Centreon Web y Centreon Broker.
+
+Por todo lo anterior, y a pesar del vasto número de combinaciones posibles, Centreon recomienda las siguientes configuraciones normalizadas, probadas y aprobadas: &#8203;
+
+Los números de versión del componente y el número de versión de Centreon no coinciden. El tiempo de vida de una versión publicada es de doce meses y en general un soporte de hasta dos años. &#8203;
+
+En general, el software de código abierto proporcionado por Centreon está disponible en cuatro formatos:

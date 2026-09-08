@@ -1,0 +1,7 @@
+Arista (del latín arista) es, en geometría, el segmento de recta que limita la cara, también conocida como lado, de una figura plana. &#8203; En la geometría sólida se le llama arista al segmento de línea donde se encuentran dos caras. &#8203;
+Un tetraedro, por ejemplo, tiene 6 aristas. Una arista corresponde a lo que en lenguaje cotidiano se llama de modo coloquial «borde», «filo» o «extremo».
+
+Línea recta de intersección de dos planos o dos superficies de un poliedro que se cortan: la arista de un poliedro es la línea recta en la que se cortan dos caras.
+
+En un polígono, dos aristas se encuentran en cada vértice; en general, según el Teorema de Balinski, al menos «n» aristas se encuentran en un politopo convexo de la dimensión «n». &#8203;
+De manera similar, en un poliedro, dos facetas planas, de la segunda dimensión, se encuentran en cada arista, &#8203; Mientras en un politopo de dimensión superior tres o más facetas de la segunda dimensión se encuentran en cada arista.

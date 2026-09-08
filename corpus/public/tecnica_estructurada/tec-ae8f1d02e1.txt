@@ -1,0 +1,13 @@
+En bases de datos, el aislamiento es una propiedad que define cómo y cuándo los cambios producidos por una operación se hacen visibles para las demás operaciones concurrentes. Aislamiento es una de las 4 propiedades ACID (Atomicidad, Consistencia, Aislamiento, Durabilidad) aplicables a una base de datos transaccional.
+
+De las cuatro propiedades ACID de un Sistema de gestión de bases de datos relacionales (SGBDR) la de aislamiento es la que más frecuentemente se relaja. Para obtener el mayor nivel de aislamiento, un SGBDR generalmente hace un bloqueo de los datos o implementa un Control de concurrencia mediante versiones múltiples (MVCC), lo que puede resultar en una pérdida de concurrencia. Por ello se necesita añadir lógica adicional al programa que accede a los datos para su funcionamiento correcto.
+
+La mayor parte de los SGBDR ofrecen unos ciertos niveles de aislamiento que controlan el grado de bloqueo durante el acceso a los datos. Para la mayor parte de aplicaciones, el acceso a los datos se puede realizar de modo que se eviten altos niveles de aislamiento (i.e. nivel SERIALIZABLE), reduciendo así la sobrecarga debida a la necesidad de bloqueos por el sistema. El programador debe analizar detenidamente el código que accede a la base de datos para asegurarse de que el descenso del nivel de aislamiento que ofrece el SGBD no produce errores en el programa. Recíprocamente, si se usan altos niveles de aislamiento la posibilidad de bloqueo aumenta, lo que también requiere análisis cuidadoso del código.
+
+Este es el nivel de aislamiento más alto. Especifica que todas las transacciones ocurran de modo aislado, o dicho de otro modo, como si todas las transacciones se ejecutaran de modo serie (una tras otra). La sensación de ejecución simultánea de dos o más transacciones que perciben los usuarios sería una ilusión producida por el SGBD.
+
+Si el SGBDR hace una implementación basada en bloqueos, la serialización requiere que los bloques de lectura y escritura se liberen al final de la transacción. Del mismo modo deben realizarse bloqueos de rango -sobre los datos seleccionados con SELECT usando WHERE- para evitar el efecto de las lecturas fantasma (ver más abajo).
+
+Cuando se hace una implementación no basada en bloqueos, si el SGBDR detecta una colisión de escritura entre transacciones solo a una de ellas se le autoriza cometer.
+
+En este nivel de aislamiento, un SGBDR que implemente el control de concurrencia basado en bloqueos mantiene los bloqueos de lectura y escritura -de los datos seleccionados- hasta el final de la transacción. Sin embargo, no se gestionan los bloqueos de rango, por lo que las lecturas fantasma pueden ocurrir (ver más abajo).

@@ -1,0 +1,51 @@
+El símbolo circular de la aromaticidad fue introducido por Sir Robert Robinson y su alumno James Armit en 1925 &#8203; y popularizado a partir de 1959 por el libro de texto de Morrison & Boyd sobre química orgánica. Se debate el uso adecuado del símbolo: algunas publicaciones lo usan para cualquier sistema cíclico 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+, mientras que otras lo usan solo para aquellos sistemas 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+ que obedecen la regla de Hückel. Jensen &#8203; sostiene que, de acuerdo con la propuesta original de Robinson, el uso del símbolo del círculo debería limitarse a sistemas monocíclicos de 6 electrones 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+. De esta manera, el símbolo del círculo para un enlace de seis electrones de seis centros se puede comparar con el símbolo Y de un enlace de dos electrones de tres centros.
+
+Una reacción que forma un compuesto aromático a partir de un precursor cíclico insaturado o parcialmente insaturado se denomina simplemente aromatización. Existen muchos métodos de laboratorio para la síntesis orgánica de arenos a partir de precursores no arenos. Muchos métodos se basan en reacciones de cicloadición. La trimerización de alquinos describe la ciclación 
+ 
+ 
+ 
+ [
+ 2
+ +
+ 2
+ +
+ 2
+ ]
+ 
+ 
+ {\displaystyle [2+2+2]}
+ 
+ de tres alquinos, en la reacción de Dötz un alquino, monóxido de carbono y un complejo de carbeno de cromo son los reactivos. Las reacciones de Diels-Alder de alquinos con pirona o ciclopentadienona con expulsión de dióxido de carbono o monóxido de carbono también forman compuestos de areno. En la ciclación de Bergman, los reactivos son un enino más un donante de hidrógeno.
+
+Otro conjunto de métodos es la aromatización de ciclohexanos y otros anillos alifáticos: los reactivos son catalizadores utilizados en la hidrogenación como platino, paladio y níquel (hidrogenación inversa), quinonas y los elementos azufre y selenio.
+
+En la sustitución aromática, un sustituyente del anillo areno, normalmente hidrógeno, se sustituye por otro sustituyente. Los dos tipos principales son la sustitución aromática electrófila cuando el reactivo activo es un electrófilo y la sustitución aromática nucleófila cuando el reactivo es un nucleófilo. En la sustitución aromática nucleófila por radicales, el reactivo activo es un radical. Un ejemplo de sustitución aromática electrofílica es la nitración del ácido salicílico: &#8203;
+
+En las reacciones de acoplamiento, un metal cataliza un acoplamiento entre dos fragmentos de radicales formales. Las reacciones de acoplamiento comunes con los arenos dan como resultado la formación de nuevos enlaces carbono-carbono, por ejemplo, alquilarenos, vinil-arenos, birarilos, nuevos enlaces carbono-nitrógeno (anilinas) o nuevos enlaces carbono-oxígeno (compuestos ariloxi). Un ejemplo es la arilación directa de perfluorobencenos &#8203;

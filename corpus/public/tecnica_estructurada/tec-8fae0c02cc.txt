@@ -1,0 +1,11 @@
+El análisis de combustión o análisis elemental es un método utilizado tanto en química orgánica y química analítica para determinar la composición elemental en forma de la fórmula empírica, de un compuesto orgánico puro, por combustión de la muestra bajo condiciones donde los productos resultantes de la combustión puedan ser analizados cuantitativamente. Una vez que se ha determinado el número de moles de cada producto de la combustión, puede calcularse la fórmula empírica o fórmula empírica parcial del compuesto original.
+
+El método fue inventado por Joseph Louis Gay-Lussac. Justus von Liebig estudió el método mientras estaba trabajando con Gay-Lussac entre 1822 y 1824, y mejoró el método en los años siguientes a un nivel que podía ser usado como procedimiento estándar para análisis orgánico. &#8203;
+
+Un tren de combustión es una herramienta analítica para la determinación de la composición elemental de un compuesto químico. Con el conocimiento de la composición elemental, puede derivarse una fórmula química. El tren de combustión permite la determinación del carbono e hidrógeno en una serie de pasos:
+
+La determinación analítica de las cantidades de agua y dióxido de carbono producidas a partir de una cantidad conocida de muestra da la fórmula empírica. Para cada átomo de hidrógeno en el compuesto, se produce 1/2 equivalentes de agua, y por cada átomo de carbono en el compuesto, se produce 1 equivalente de dióxido de carbono.
+
+Hoy en día, los instrumentos modernos están suficientemente automatizados para permitir hacer estos análisis rutinariamente. Las muestras requeridas también son extremadamente pequeñas: 3 mg de muestra es suficiente para producir un análisis CHN satisfactorio.
+
+También es posible hacer un análisis químico a los gases de combustión con el análisis Orsat.

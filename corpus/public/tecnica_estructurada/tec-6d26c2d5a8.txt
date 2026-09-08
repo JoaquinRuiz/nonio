@@ -1,0 +1,237 @@
+En cambio, el ángulo sólido bajo el cual se ve una superficie cerrada desde un punto O exterior a la misma es nulo. Esto es así porque desde O vemos la cara positiva (convexa) de la superficie cerrada bajo un ángulo sólido que designaremos por 
+ 
+ 
+ 
+ 
+ &#x2212;
+ &#x03A9;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle -\Omega \,}
+ 
+. Inmediatamente detrás vemos la cara negativa (cóncava) de la superficie, bajo el mismo ángulo sólido, en valor absoluto, que designaremos por 
+ 
+ 
+ 
+ 
+ +
+ &#x03A9;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle +\Omega \,}
+ 
+. Obviamente, resulta que 
+ 
+ 
+ 
+ 
+ 
+ &#x03A9;
+ 
+ t
+ 
+ 
+ =
+ &#x2212;
+ &#x03A9;
+ +
+ &#x03A9;
+ 
+ =
+ 0
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \Omega _{t}=-\Omega +\Omega \,=0}
+ 
+.
+
+Busquemos ahora la expresión del elemento de ángulo sólido 
+ 
+ 
+ 
+ 
+ &#x03A9;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \Omega \,}
+ 
+ bajo el cual se ve un elemento de superficie dS desde un punto O, como se ilustra en la figura. El producto escalar 
+ 
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ 
+ r
+ 
+ 
+ &#x22C5;
+ d
+ 
+ S
+ 
+ =
+ d
+ S
+ cos
+ &#x2061;
+ &#x03B8;
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbf {e} _{r}\cdot d\mathbf {S} =dS\cos \theta }
+ 
+ representa la proyección del vector dS en la dirección radial er procedente de O y que pasa por el "centro" del elemento de superficie. Dicho de otro modo, 
+ 
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ 
+ r
+ 
+ 
+ &#x22C5;
+ d
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbf {e} _{r}\cdot d\mathbf {S} }
+ 
+ es la proyección del elemento de área dS sobre un plano perpendicular a la dirección de er. Ahora, una simple relación de semejanza entre la componente del área a una distancia 
+ 
+ 
+ 
+ r
+ 
+ 
+ {\displaystyle r}
+ 
+ y el área subtendida en la esfera unitaria (reconociendo que la superficie de una esfera varía como 
+ 
+ 
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle r^{2}}
+ 
+), nos permite escribir:
+
+d
+ &#x03A9;
+ =
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ 
+ r
+ 
+ 
+ &#x22C5;
+ d
+ 
+ S
+ 
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle d\Omega ={\mathbf {e} _{r}\cdot d\mathbf {S} \over r^{2}}\,}
+
+que constituye la expresión matemática del ángulo sólido elemental. Entonces, el ángulo sólido bajo el cual se ve una superficie finita S desde un punto O será
+
+&#x03A9;
+ =
+ 
+ &#x222B;
+ 
+ S
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ 
+ r
+ 
+ 
+ &#x22C5;
+ d
+ 
+ S
+ 
+ 
+ 
+ r
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \Omega =\int _{S}{\mathbf {e} _{r}\cdot d\mathbf {S} \over r^{2}}\,}
+
+El ángulo sólido bajo el cual se ve un objeto depende tanto de las dimensiones del objeto como de la distancia a la que se encuentra del observador. Así, el ángulo sólido bajo el cual se ve una moneda de un céntimo de un euro a 1,80 m, la Luna o el Sol, es muy parecido (
+ 
+ 
+ 
+ 
+ 
+ &#x2243;
+ 6
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 5
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {\simeq 6\times 10^{-5}}}
+ 
+ sr) a pesar de la enorme diferencia de dimensiones.

@@ -1,0 +1,452 @@
+En física, los coeficientes de Clebsch-Gordan o coeficientes CG son el conjunto de números que aparecen al acoplar momentos angulares en mecánica cuántica. El nombre deriva de los matemáticos alemanes Alfred Clebsch (1833-1872) y Paul Gordan (1837-1912), que resolvieron un problema equivalente en la teoría de invariantes.
+
+En términos matemáticos, los coeficientes de CG se utilizan en teoría de grupos, en particular en los grupos de Lie para calcular un producto tensorial de representaciones irreducibles como suma directa de la descomposión del mismo en las distintas representaciones irreducibles.
+
+La física emplea esta peculiaridad para descomponer un determinado estado con una determinada base del espacio de Hilbert y una determinada representación en una suma de estados en otra representación que pueda ser más útil, especialmente en el caso de estados en una determinada representación irreducible de SO(3) de rotaciones. En el artículo se utiliza la notación de Dirac.
+
+Sea 
+ 
+ 
+ 
+ 
+ V
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle V_{1}}
+ 
+ un espacio vectorial con 
+ 
+ 
+ 
+ 2
+ 
+ j
+ 
+ 1
+ 
+ 
+ +
+ 1
+ 
+ 
+ {\displaystyle 2j_{1}+1}
+ 
+ dimensiones representado por los estados 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ j
+ 
+ 1
+ 
+ 
+ 
+ m
+ 
+ 1
+ 
+ 
+ &#x27E9;
+ ,
+ {
+ 
+ m
+ 
+ 1
+ 
+ 
+ =
+ &#x2212;
+ 
+ j
+ 
+ 1
+ 
+ 
+ ,
+ &#x2212;
+ 
+ j
+ 
+ 1
+ 
+ 
+ +
+ 1
+ ,
+ &#x2026;
+ 
+ j
+ 
+ 1
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle |j_{1}m_{1}\rangle ,\{m_{1}=-j_{1},-j_{1}+1,\ldots j_{1}\}}
+ 
+ y 
+ 
+ 
+ 
+ 
+ V
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle V_{2}}
+ 
+ otro espacio vectorial con 
+ 
+ 
+ 
+ 2
+ 
+ j
+ 
+ 2
+ 
+ 
+ +
+ 1
+ 
+ 
+ {\displaystyle 2j_{2}+1}
+ 
+ dimensiones, igualmente representado por los estados 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ j
+ 
+ 2
+ 
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ &#x27E9;
+ ,
+ {
+ 
+ m
+ 
+ 2
+ 
+ 
+ =
+ &#x2212;
+ 
+ j
+ 
+ 2
+ 
+ 
+ ,
+ &#x2212;
+ 
+ j
+ 
+ 2
+ 
+ 
+ +
+ 1
+ ,
+ &#x2026;
+ 
+ j
+ 
+ 2
+ 
+ 
+ }
+ .
+ 
+ 
+ {\displaystyle |j_{2}m_{2}\rangle ,\{m_{2}=-j_{2},-j_{2}+1,\ldots j_{2}\}.}
+
+El producto tensorial de estos espacios, 
+ 
+ 
+ 
+ 
+ V
+ 
+ 12
+ 
+ 
+ &#x2261;
+ 
+ V
+ 
+ 1
+ 
+ 
+ &#x2297;
+ 
+ V
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle V_{12}\equiv V_{1}\otimes V_{2}}
+ 
+, tiene 
+ 
+ 
+ 
+ (
+ 2
+ 
+ j
+ 
+ 1
+ 
+ 
+ +
+ 1
+ )
+ (
+ 2
+ 
+ j
+ 
+ 2
+ 
+ 
+ +
+ 1
+ )
+ 
+ 
+ {\displaystyle (2j_{1}+1)(2j_{2}+1)}
+ 
+ dimensiones. Este espacio se representa con la denominada base desacoplada: 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ j
+ 
+ 1
+ 
+ 
+ 
+ j
+ 
+ 2
+ 
+ 
+ 
+ m
+ 
+ 1
+ 
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ &#x27E9;
+ &#x2261;
+ 
+ |
+ 
+ 
+ j
+ 
+ 1
+ 
+ 
+ 
+ m
+ 
+ 1
+ 
+ 
+ &#x27E9;
+ &#x2297;
+ 
+ |
+ 
+ 
+ j
+ 
+ 2
+ 
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ &#x27E9;
+ .
+ 
+ 
+ {\displaystyle |j_{1}j_{2}m_{1}m_{2}\rangle \equiv |j_{1}m_{1}\rangle \otimes |j_{2}m_{2}\rangle .}
+
+Puede ser más útil emplear un espacio vectorial suma 
+ 
+ 
+ 
+ 
+ V
+ 
+ 3
+ 
+ 
+ =
+ 
+ V
+ 
+ 1
+ 
+ 
+ &#x2295;
+ 
+ V
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle V_{3}=V_{1}\oplus V_{2}}
+ 
+ (con 
+ 
+ 
+ 
+ 
+ j
+ 
+ 3
+ 
+ 
+ =
+ 
+ |
+ 
+ 
+ j
+ 
+ 1
+ 
+ 
+ &#x2212;
+ 
+ j
+ 
+ 2
+ 
+ 
+ 
+ |
+ 
+ ,
+ &#x2026;
+ ,
+ 
+ j
+ 
+ 1
+ 
+ 
+ +
+ 
+ j
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle j_{3}=|j_{1}-j_{2}|,\ldots ,j_{1}+j_{2}}
+ 
+, 
+ 
+ 
+ 
+ 
+ m
+ 
+ 3
+ 
+ 
+ =
+ &#x2212;
+ 
+ j
+ 
+ 3
+ 
+ 
+ ,
+ &#x2212;
+ 
+ j
+ 
+ 3
+ 
+ 
+ +
+ 1
+ ,
+ &#x2026;
+ 
+ j
+ 
+ 3
+ 
+ 
+ 
+ 
+ {\displaystyle m_{3}=-j_{3},-j_{3}+1,\ldots j_{3}}
+ 
+ y 
+ 
+ 
+ 
+ 2
+ 
+ j
+ 
+ 3
+ 
+ 
+ +
+ 1
+ 
+ 
+ {\displaystyle 2j_{3}+1}
+ 
+ dimensiones) y utilizar una nueva base, denominada base acoplada, de forma que:

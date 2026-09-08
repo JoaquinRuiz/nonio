@@ -1,0 +1,15 @@
+Pero no existe ningún usuario que tenga la edad de 21, pues la Transacción 2 nunca cometió los cambios.
+
+Una lectura no repetible ocurre cuando en el curso de una transacción una fila se lee dos veces y los valores no coinciden.
+
+El efecto de lecturas no repetible puede ocurrir en una implementación de concurrencia mediante bloqueos cuando no se efectúan éstos al hacer un SELECT, o cuando los bloqueos se liberan nada más terminar la operación SELECT. Cuando se usa el método MVCC, las lecturas no repetibles pueden aparecer cuando se relaja el requisito de que al cometer una transacción afectada por un conflicto esta deba deshacerse.
+
+En este ejemplo, la transacción 2 comete correctamente, lo que significa que sus cambios a la fila con id 1 deberían hacerse visibles. Sin embargo, la transacción 1 ya ha leído un valor distinto para edad en esa fila. En los niveles de aislamiento SERIALIZABLE y REPEATABLE READ, el SGBDR debería devolver el valor antiguo. En los niveles READ COMMITTED y READ UNCOMMITTED, el SGBDR debería devolver el valor nuevo; esto es una lectura no repetible.
+
+Hay dos estrategias básicas para prevenir las lecturas no repetibles. La primera consiste en retrasar la ejecución de la transacción 2 hasta que la transacción 1 haya cometido o haya deshecho. Este método se usa con bloqueos, y es equivalente a la ejecución en serie T1, T2. La ejecución en serie no muestra efectos de lecturas no repetibles.
+
+La otra estrategia, la usada en MVCC, se permite cometer a la transacción 2 primero, lo que permite mejor concurrencia. Si embargo, la transacción 1, que comenzó antes que la transacción 2, debe continuar operando sobre una versión anterior de la base de datos —una instantánea del momento en que empezó. Cuando la transacción 1 intenta cometer, el SGBDR verifica si el resultado de cometer la transacción 1 sería equivalente a la ejecución serie T1, T2. Si fuera así la transacción 1 podría proceder. Si no fuera así, la transacción 1 fallaría y debería deshacerse.
+
+Usando control de concurencia mediante bloqueos, al nivel de aislamiento REPEATABLE READ, la fila con id 1 debería bloquearse, bloqueando de ese modo la consulta 2 hasta que la transacción 1 se cometa o deshaga. En el modo READ COMMITTED, la segunda vez que se ejecute la consulta 1, la edad habrá cambiado.
+
+Usando MVCC, al nivel de aislamiento SERIALIZABLE, ambas consultas SELECT ven una instantánea de la base de datos tomada al comienzo de la transacción 1. Por ello devuelven los mismo datos. Sin embargo, si la transacción 1 intenta entonces actualizar esa misma fila, ocurriría un fallo de serialización y la transacción 1 estaría forzada a deshacerse.

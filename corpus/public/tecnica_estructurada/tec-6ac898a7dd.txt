@@ -1,0 +1,15 @@
+La constante de Boltzmann (k o kB) es la constante física que relaciona temperatura absoluta y energía. Se llama así en honor del físico austriaco Ludwig Boltzmann, quien hizo importantes contribuciones a la teoría de la mecánica estadística, en cuyas ecuaciones fundamentales esta constante desempeña un papel central. Su valor es un número fijo sin incertidumbre (26th CGPM de noviembre de 2018, en vigor desde el 20 de mayo de 2019): &#8203;
+
+En mecánica estadística, la entropía, S, de un sistema aislado en equilibrio termodinámico se define como el logaritmo natural de W, el número de estados microscópicos definidos en los que puede llegar a estar un sistema dadas las limitaciones macroscópicas (como, por ejemplo, la energía total fija, E):
+
+Esta ecuación, que relaciona los detalles microscópicos o microestados del sistema (a través de W) con su estado macroscópico (a través de la entropía S), es la idea central de la mecánica estadística. Es tal su importancia que fue grabada en la lápida de la tumba de Boltzmann.
+
+La constante de proporcionalidad, k, relaciona la entropía de la mecánica estadística con la entropía de la termodinámica clásica de Clausius:
+
+Se trata de una forma mucho más natural, y esta entropía reajustada corresponde exactamente a la entropía de la información desarrollada posteriormente por Claude Elwood Shannon.
+
+Aquí, la energía característica, kT, es el calor necesario para aumentar la entropía reajustada por un nat.
+
+Aunque Boltzmann vinculó por primera vez la entropía y la probabilidad en 1877, al parecer la relación nunca se expresó a través de una constante específica sino hasta que Max Planck introdujo k por vez primera, y ofreció un valor exacto (1.346×10 &#160;J/K, aproximadamente 2.5% menor que la cifra que se usa hoy en día), en su derivación de la ley de la radiación del cuerpo negro en 1900–1901. &#8203; Antes de 1900, las ecuaciones que incluían los factores de Boltzmann no utilizaban las energías por molécula ni la constante de Boltzmann, sino una forma de constante de gas R y energías macroscópicas para las cantidades macroscópicas de la sustancia. La breve y simbólica forma de la ecuación S = k log W en la lápida de la tumba de Boltzmann se debe de hecho a Planck, no a Boltzmann. En realidad Planck la introdujo en el mismo trabajo en el que presentó h. &#8203;
+
+Estas "condiciones peculiares" pueden comprenderse si se recuerda uno de los grandes debates científicos de la época. Existía un enorme desacuerdo, durante la segunda mitad del siglo XIX, respecto a si los átomos y las moléculas eran "reales" o si eran tan sólo una herramienta heurística, útil para la solución de problemas. También había un desacuerdo respecto a si las "moléculas químicas" (medidas a través de los pesos atómicos) eran lo mismo que las "moléculas físicas" (medidas a través de la teoría cinética). Para continuar la cita de la lectura de 1920 de Planck: &#8203;

@@ -1,0 +1,88 @@
+El principal objetivo de la termodinámica química es la creación de un criterio para la determinación de la viabilidad o espontaneidad de una transformación dada. &#8203; De esta manera, la termodinámica química es comúnmente utilizada para predecir los intercambios de energía que ocurren en los siguientes procesos:
+
+Muchas identidades en la termodinámica química surgen de la aplicación de la primera y segunda leyes de la termodinámica, particularmente la ley de la conservación de energía a estas funciones de estado.
+
+Energía química es el potencial de una sustancia química para experimentar una transformación a través de una reacción química o para transformar otras sustancias químicas. Romper o generar enlaces químicos implica energía, la cual puede ser absorbida o generada de un sistema químico.
+
+La energía que puede ser liberada (o absorbida) debido a una reacción entre un conjunto de sustancias químicas es igual a la diferencia entre el contenido energético en los productos y reactivos. Este cambio en la energía es llamado el cambio en la energía interna de una reacción química. Donde 
+ 
+ 
+ 
+ 
+ &#x0394;
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+ 
+ 
+ U
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ r
+ e
+ a
+ c
+ t
+ i
+ v
+ o
+ s
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta _{\rm {f}}{U^{\circ }}_{\mathrm {reactivos} }}
+ 
+ es la energía interna de la formación de moléculas de reactivos que puede ser calculado a partir de las energías de enlace de varios enlaces químicos de las moléculas bajo consideración y 
+ 
+ 
+ 
+ 
+ &#x0394;
+ 
+ 
+ f
+ 
+ 
+ 
+ 
+ 
+ 
+ U
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ p
+ r
+ o
+ d
+ u
+ c
+ t
+ o
+ s
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta _{\rm {f}}{U^{\circ }}_{\mathrm {productos} }}
+ 
+ es la energía interna de la formación de las moléculas de producto. El cambio en la energía interna de un proceso es igual al cambio de calor si es medido bajo condiciones de volumen constante, así como en un contenedor rígido tal como una bomba calorimétrica. Sin embargo, bajo condiciones de presión constante, como reacciones en recipientes abiertos a la atmósfera, el cambio de calor medido no siempre es igual al cambio de energía interna, ya que el trabajo presión-volumen también libera o absorbe energía. (El cambio de calor a presión constante es llamado cambio de entalpía; para este caso la entalpía de formación).
+
+Otro término útil es el calor de combustión, el cual es la energía liberada debido a una reacción de combustión y es comúnmente aplicado en el estudio de combustibles. La comida es similar a combustibles hidrocarburo y carbohidrato y cuando se oxida su contenido calórico es similar (sin valorarlo de la misma forma que un hidrocarburo).
+En termodinámica química el término utilizado para la energía potencial química es potencial químico y para la transformación química una ecuación sumamente utilizada es la ecuación Gibbs-Duhem.

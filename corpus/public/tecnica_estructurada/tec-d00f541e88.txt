@@ -1,0 +1,202 @@
+El análisis en ondas parciales, en el contexto de la mecánica cuántica, se refiere a una técnica empleada para resolver problemas de dispersión mediante la descomposición de cada onda en sus componentes de momento angular y la resolución usando condiciones de contorno.
+
+Un haz constante de partículas sufre la dispersión en un potencial con simetría esférica 
+ 
+ 
+ 
+ V
+ (
+ r
+ )
+ 
+ 
+ {\displaystyle V(r)}
+ 
+ de corto alcance, de manera que para largas distancias 
+ 
+ 
+ 
+ r
+ &#x2192;
+ &#x221E;
+ 
+ 
+ {\displaystyle r\to \infty }
+ 
+, las partículas se comportan como si fueran libres. En principio, cualquier partícula vendría descrita por un paquete de ondas, pero describiremos la dispersión de una onda plana viajando en la dirección del eje z 
+ 
+ 
+ 
+ exp
+ &#x2061;
+ (
+ i
+ k
+ z
+ )
+ 
+ 
+ {\displaystyle \exp(ikz)}
+ 
+, porque los paquetes de ondas se pueden descomponer en términos de ondas planas y es más sencillo matemáticamente. Dado que el haz está en operación durante tiempos largos en comparación con el tiempo de interacción de las partículas con el potencial, se supone que está en el estado estacionario. Esto significa que se debe resolver la ecuación de Schrödinger estacionaria para la función de ondas 
+ 
+ 
+ 
+ &#x03A8;
+ (
+ 
+ r
+ 
+ )
+ 
+ 
+ {\displaystyle \Psi (\mathbf {r} )}
+ 
+ del haz de partículas:
+
+onde 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ 
+ 0
+ 
+ 
+ (
+ 
+ r
+ 
+ )
+ &#x221D;
+ exp
+ &#x2061;
+ (
+ i
+ k
+ z
+ )
+ 
+ 
+ {\displaystyle \Psi _{0}(\mathbf {r} )\propto \exp(ikz)}
+ 
+ es la onda plana incidente y 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ 
+ 
+ s
+ 
+ 
+ 
+ (
+ 
+ r
+ 
+ )
+ 
+ 
+ {\displaystyle \Psi _{\mathrm {s} }(\mathbf {r} )}
+ 
+ es la parte dispersada, que representa una perturbación de la función de ondas original. Solamente la forma asintótica de 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ 
+ 
+ s
+ 
+ 
+ 
+ (
+ 
+ r
+ 
+ )
+ 
+ 
+ {\displaystyle \Psi _{\mathrm {s} }(\mathbf {r} )}
+ 
+ es de interés, ya que las observaciones cerca del centro dispersor (por ejemplo, un núcleo atómico) usualmente no son viables y la detección de partículas se realiza lejos del origen. A largas distancias, las partículas deberían comportarse como partículas libres y 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ 
+ 
+ s
+ 
+ 
+ 
+ (
+ 
+ r
+ 
+ )
+ 
+ 
+ {\displaystyle \Psi _{\mathrm {s} }(\mathbf {r} )}
+ 
+ debería ser por tanto una solución a la ecuación de Schrödinger libre. Esto sugiere que debería tener una forma similar a una onda plana, omitiendo las partes físicamente irrelevantes. Por lo tanto examinamos la expansión en ondas planas:
+
+La función de Bessel esférica 
+ 
+ 
+ 
+ 
+ j
+ 
+ &#x2113;
+ 
+ 
+ (
+ k
+ r
+ )
+ 
+ 
+ {\displaystyle j_{\ell }(kr)}
+ 
+ se comporta asintóticamente como
+
+Esto corresponde a una onda esférica incidente y saliente. Para la función de onda dispersada, solo se necesita la parte saliente. Por lo tanto esperamos que 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ 
+ 
+ s
+ 
+ 
+ 
+ (
+ 
+ r
+ 
+ )
+ &#x221D;
+ exp
+ &#x2061;
+ (
+ i
+ k
+ r
+ )
+ 
+ /
+ 
+ r
+ 
+ 
+ {\displaystyle \Psi _{\mathrm {s} }(\mathbf {r} )\propto \exp(ikr)/r}
+ 
+ a largas distancias, y fijamos la forma asintótica de la onda dispersada a

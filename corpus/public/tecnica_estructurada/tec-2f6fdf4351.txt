@@ -1,0 +1,66 @@
+donde 
+ 
+ 
+ 
+ f
+ (
+ &#x03B8;
+ ,
+ k
+ )
+ 
+ 
+ {\displaystyle f(\theta ,k)}
+ 
+ es la amplitud de dispersión, que en este caso solamente depende del ángulo de elevación 
+ 
+ 
+ 
+ &#x03B8;
+ 
+ 
+ {\displaystyle \theta }
+ 
+ y la energía. En conclusión, la teoría de la dispersión proporciona la siguiente forma asintótica para la función de ondas completa:
+
+En el caso de un potencial de simetría esférica 
+ 
+ 
+ 
+ V
+ (
+ 
+ r
+ 
+ )
+ =
+ V
+ (
+ r
+ )
+ 
+ 
+ {\displaystyle V(\mathbf {r} )=V(r)}
+ 
+, la función de onda dispersada puede desarrollarse en armónicos esféricos que se reducen a polinomios de Legendre por la simetría azimutal (no hay dependencia en 
+ 
+ 
+ 
+ &#x03D5;
+ 
+ 
+ {\displaystyle \phi }
+ 
+):
+
+En los problemas de dispersión usuales, el haz incidente se supone que toma la forma de una onda plana de número de ondas k, que se puede descomponer en ondas parciales usando la expansión de las ondas planas en términos de funciones de Bessel esféricas y polinomios de Legendre:
+
+Hemos asumido un sistema de coordenadas esféricas con el eje z alineado con la dirección del haz. La parte radial de esta función de ondas depende únicamente de funciones de Bessel esféricas, que se pueden reescribir como la suma de dos funciones de Hankel esféricas:
+
+El significado físico es el siguiente: hℓ se comporta asintóticamente (es decir, para r grande) como i e /(kr) y por tanto es una onda saliente, mientras que hℓ (2) se comporta asintóticamente como i e /(kr) y es por tanto una onda incidente. La onda incidente no se ve afectada por la dispersión, mientras que la onda dispresada se modifica por un factor conocido como el elemento de la matriz S de la onda parcial Sℓ:
+
+donde uℓ(r)/r es la componente radial de la función de ondas. El desfase de la dispersión δℓ se define como la mitad de la fase de Sℓ:
+
+Si no se pierde flujo en el haz, |Sℓ| = 1 y el desfase es real. Esto es lo que ocurre normalmente, a no ser que el potencial tenga una componente imaginaria de absorción, lo que se emplea en modelos fenomenológicos para describir pérdidas debido a otros canales de reacción.
+
+Este procedimiento se puede aplicar a cualquier interacción de corto alcance. Para interacciones de largo alcance, como la interacción de Coulomb, la suma sobre ℓ puede no ser convergente. La estrategia general para estos problemas es tratar la interacción de Coulomb y las interacciones de corto alcance por separado, ya que el problema de Coulomb se puede resolver de forma exacta en términos de las funciones de Coulomb, que hacen el papel de las funciones de Hankel en este problema.

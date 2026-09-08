@@ -1,0 +1,16 @@
+El campo de la topología, que tuvo un gran desarrollo en el siglo XX, es en sentido técnico un tipo de geometría transformacional, en que las transformaciones que preservan las propiedades de las figuras son los homeomorfismos (por ejemplo, esto difiere de la geometría métrica, en que las transformaciones que no alteran las propiedades de las figuras son las isometrías). Esto ha sido frecuentemente expresado en la forma del dicho: "la topología es la geometría de la página de goma".
+
+Desde los antiguos griegos, han existido numerosas contribuciones a la geometría, particularmente a partir del siglo XVIII. Eso ha hecho que proliferen numerosas subramas de la geometría con enfoques muy diferentes. Para clasificar los diferentes desarrollos de la geometría moderna se pueden recurrir a diferentes enfoques:
+
+Los antiguos griegos manejaban un único tipo de geometría, a saber, la geometría euclídea, hábilmente codificada en los Elementos de Euclides por una escuela alejandrina encabezada por Euclides. Este tipo de geometría se basó en un estilo formal de deducciones a partir de cinco postulados básicos. Los cuatro primeros fueron ampliamente aceptados y Euclides los usó extensivamente, sin embargo, el quinto postulado fue menos usado y con posterioridad diversos autores trataron de demostrarlo a partir de los demás, la imposibilidad de dicha deducción llevó a constatar que junto con la geometría euclídea existían otros tipos de geometrías en que el quinto postulado de Euclídes no participaba. De acuerdo a las modificaciones introducidas en ese quinto postulado se llega a familias diferentes de geometrías o espacios geométricos diferentes entre ellos:
+
+A partir del siglo XIX se llegó a la conclusión de que podían definirse geometrías no euclídeas entre ellas:
+
+En el siglo XIX, Klein desarrolló el denominado Programa de Erlange que establecía otra forma de enfocar los conceptos geométricos: estudiar bajo qué diferentes tipos de transformaciones matemáticas se verificaban invarianzas. Así se identificaron grupos dotados de diversas operaciones y se plantearon subdisciplinas con base en cuales eran los tipos particulares de transformaciones bajo las cuales se registraban invarianzas. Este estudio permitió la siguiente clasificación geométrica:
+
+Si bien Euclides básicamente se restringió a conceptos geométricos representables mediante figuras (puntos, líneas, círculos, etc.) el desarrollo de otras ramas de las matemáticas no conectadas inicialmente con la geometría propiamente dicha, llevó a poder aplicar las herramientas de otras ramas a problemas propiamente geométricos así nacieron:
+. La geometría algebraica
+. La geometría analítica
+. La geometría descriptiva
+
+Además de las subramas propiamente dichas modernamente han surgido numerosas aplicaciones prácticas de la geometría entre ellas:

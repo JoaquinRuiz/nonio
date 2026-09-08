@@ -1,0 +1,255 @@
+PASO 1. Se ajusta un modelo basado en las unidades experimentales, calculando la suma de cuadrados total, SCT; la suma de cuadrados de las unidades experimentales, SC(UE); y la suma de cuadrados del error muestreo, SC(EM). En este paso se usan los datos originales, las Yij. Recordemos que Yij es j-ésima observación de la i-ésima unidad experimental, con i=1, 2,..., n y j=1, 2,..., r; se tienen rn observaciones en total.
+
+La suma de cuadrados de las unidades experimentales, que define la variabilidad entre unidades experimentales, está dada por:
+
+La suma de cuadrados del error muestral, que define la variabilidad de observaciones dentro unidades experimentales, está dada por:
+
+En estas fórmulas, 
+ 
+ 
+ 
+ 
+ Y
+ 
+ i
+ .
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{i.}}
+ 
+ representa el total de la i-ésima unidad experimental y 
+ 
+ 
+ 
+ 
+ Y
+ 
+ .
+ .
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{..}}
+ 
+ es el gran total obtenido de sumar todas las observaciones de todas las unidades experimentales.
+
+PASO 2. Ahora se ajusta un modelo usando una variable-respuesta Nueva que denotaremos como 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+. La 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+ se calcula así: (el total obtenido de sumar las submuestras de una unidad experimental) se divide entre (la raíz cuadrada del número de esas submuestras). Esta operación se hace en cada una de las unidades experimentales. Esto es, la 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+ está dada por:
+
+Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ =
+ 
+ 
+ 
+ 
+ &#x2211;
+ 
+ j
+ =
+ 1
+ 
+ 
+ r
+ 
+ 
+ 
+ Y
+ 
+ i
+ j
+ 
+ 
+ 
+ 
+ r
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}={\frac {\sum _{j=1}^{r}Y_{ij}}{\sqrt {r}}}}
+
+Nota: Observe que las 
+ 
+ 
+ 
+ r
+ n
+ 
+ 
+ {\displaystyle rn}
+ 
+ observaciones 
+ 
+ 
+ 
+ 
+ Y
+ 
+ i
+ j
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{ij}}
+ 
+ originales se convierten ahora en sólo n 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+, una que corresponde a cada unidad experimental.
+
+¿Qué se hace con la nueva variable respuesta, 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+?
+
+Con 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+ se ajusta el modelo que corresponde al diseño experimental en que obtuvo los datos. Esto es, si los datos provienen de un diseño completamente aleatorizado, se calculan las sumas de cuadrados de tratamientos, del error y del "total", con la 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+. Si los datos provienen de un diseño de bloques completos al azar, se requiere calcular las Sumas de cuadrados de bloques (SCbloq), Suma de cuadrados de tratamiento y Suma de cuadrados del Error; si los datos provienen de un diseño de cuadrado latino, se calculan las sumas de cuadrados de hileras, columnas, error y "total", y así en seguida. Estos cálculos deben hacerse considerando a 
+ 
+ 
+ 
+ 
+ Y
+ 
+ N
+ u
+ e
+ v
+ a
+ 
+ 
+ 
+ 
+ {\displaystyle Y_{Nueva}}
+ 
+ como si fuera la observación "registrada" en las unidades experimentales.

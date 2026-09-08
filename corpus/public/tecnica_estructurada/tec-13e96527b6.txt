@@ -1,0 +1,57 @@
+La constante de normalización es un término que aparece en teoría de la probabilidad y en distintas otras áreas de las matemáticas. Se utiliza para reducir cualquier función de probabilidad a una función de densidad de probabilidad, de forma que su probabilidad total tenga valor uno.
+
+En teoría de la probabilidad, una constante de normalización se define como un valor mediante el que una función no negativa en todo su dominio debe multiplicarse para que el área debajo de su gráfica sea 1, por ejemplo, para convertirla en una función de densidad de probabilidad o en una función de probabilidad. &#8203; &#8203; Por ejemplo, si se define
+
+Entonces, se dice que la función 
+ 
+ 
+ 
+ &#x03C6;
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle \varphi (x)}
+ 
+ es una función de densidad de probabilidad. &#8203; En este caso, se trata de una distribución normal estándar (aquí, estándar significa que su esperanza matemática es 0 y su varianza es 1).
+
+En consecuencia, la constante 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 2
+ &#x03C0;
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {1}{\sqrt {2\pi \,}}}}
+ 
+ es la constante de normalización de la función 
+ 
+ 
+ 
+ p
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle p(x)}
+ 
+.
+
+es una función de densidad en el conjunto de todos los enteros no negativos. &#8203; Esta es la función de probabilidad de densidad de la distribución de Poisson con el valor esperado &#955;.
+
+Se debe tener en cuenta que si la función de densidad de probabilidad es una función de varios parámetros, también lo será su constante de normalización. La constante de normalización parametrizada para la distribución Boltzmann desempeña un papel central en la física estadística. En ese contexto, la constante de normalización se llama función de partición.
+
+El teorema de Bayes afirma que la medida de la probabilidad posterior es proporcional al producto de la medida de probabilidad anterior y a la función de verosimilitud. Proporcional a implica que debe multiplicarse o dividirse por una constante de normalización para asignar la medida 1 a todo el espacio, es decir, para obtener una medida de probabilidad. En un caso simple y discreto se tiene que
+
+donde P (H0) es la probabilidad previa de que la hipótesis sea cierta; P(D|H0) es la probabilidad condicionada de los datos dado que la hipótesis es cierta, pero dado que los datos son conocidos, es la verosimilitud de la hipótesis (o sus parámetros) dados los datos; P(H0|D) es la probabilidad posterior de que la hipótesis sea cierta dados los datos. P(D) debe ser la probabilidad de producir los datos, pero por sí sola es difícil de calcular, por lo que una forma alternativa de describir esta relación es como una condición de proporcionalidad:

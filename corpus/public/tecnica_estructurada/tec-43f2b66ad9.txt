@@ -1,0 +1,553 @@
+2
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ M
+ 
+ 
+ C
+ 
+ 
+ D
+ 
+ 
+ U
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 5
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ acarreo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 1
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 2
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 3
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrr}&&2&1&\\&M&C&D&U\\&&7&5&0\\&1&5&8&3\\+&&&6&9\\\hline &&&0&2\\\end{array}}{\begin{array}{l}{\color {Red}\longleftarrow {\textrm {acarreo}}}\\\\\longleftarrow 1^{\circ }\;{\textrm {sumando}}\\\longleftarrow 2^{\circ }\;{\textrm {sumando}}\\\longleftarrow 3^{\circ }\;{\textrm {sumando}}\\\\\end{array}}}
+
+Se procede de igual forma con la columna de las decenas, acarreo incluido, colocando en la fila de acarreo sobre la columna de las centenas las decenas (de unidades de decenas).
+
+En la columna de las centenas tenemos, el 2 de acarreo, el 7 y el 5 que sumados dan 14, el 4 del 14 se pone en la parte inferior y el 1 se pasa a la siguiente columna como acarreo.
+
+1
+ 
+ 
+ 2
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ M
+ 
+ 
+ C
+ 
+ 
+ D
+ 
+ 
+ U
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 5
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 
+ 4
+ 
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ acarreo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 1
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 2
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 3
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrr}&1&2&1&\\&M&C&D&U\\&&7&5&0\\&1&5&8&3\\+&&&6&9\\\hline &&4&0&2\\\end{array}}{\begin{array}{l}{\color {Red}\longleftarrow {\textrm {acarreo}}}\\\\\longleftarrow 1^{\circ }\;{\textrm {sumando}}\\\longleftarrow 2^{\circ }\;{\textrm {sumando}}\\\longleftarrow 3^{\circ }\;{\textrm {sumando}}\\\\\end{array}}}
+
+Se procede de igual forma con todas las columnas, añadiendo a la columna última de la izquierda las decenas de la columna anterior en vez de subir a la fila de acarreo.
+
+En la columna de los millares tenemos 1 de acarreo más el 1 de sumando que sumados dan 2, que se pone en la parte inferior como resultado, al no haber más sumandos damos por finalizada la operación.
+
+1
+ 
+ 
+ 2
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ M
+ 
+ 
+ C
+ 
+ 
+ D
+ 
+ 
+ U
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+ 
+ 
+ 5
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 4
+ 
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ acarreo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 1
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 2
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 3
+ 
+ &#x2218;
+ 
+ 
+ 
+ 
+ 
+ sumando
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x27F5;
+ 
+ 
+ total
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrr}&1&2&1&\\&M&C&D&U\\&&7&5&0\\&1&5&8&3\\+&&&6&9\\\hline &2&4&0&2\\\end{array}}{\begin{array}{l}{\color {Red}\longleftarrow {\textrm {acarreo}}}\\\\\longleftarrow 1^{\circ }\;{\textrm {sumando}}\\\longleftarrow 2^{\circ }\;{\textrm {sumando}}\\\longleftarrow 3^{\circ }\;{\textrm {sumando}}\\\longleftarrow {\textrm {total}}\\\end{array}}}
+
+Normalmente los acarreos o llevadas no se anotan en el papel, sumando directamente el acarreo a los sumandos de la columna siguiente y el aspecto de la realización de la suma sin las anotaciones auxiliares sería el siguiente:
+
+7
+ 
+ 
+ 5
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ 5
+ 
+ 
+ 8
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ 
+ 6
+ 
+ 
+ 9
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 4
+ 
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{array}{rrrrr}&&7&5&0\\&1&5&8&3\\+&&&6&9\\\hline &2&4&0&2\\\end{array}}}
+
+Según la axiomática de Peano la adición en el conjunto de los n números naturales se definen por estas dos condiciones:

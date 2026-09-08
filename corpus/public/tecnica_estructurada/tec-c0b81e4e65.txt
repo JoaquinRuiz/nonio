@@ -1,0 +1,125 @@
+En termodinámica, se conoce como diagrama p-v &#8203; &#8203; (o simplemente diagrama PV) al diagrama que refleja la presión 
+ 
+ 
+ 
+ (
+ p
+ )
+ 
+ 
+ {\displaystyle (p)}
+ 
+ en el eje de ordenadas y el volumen 
+ 
+ 
+ 
+ (
+ V
+ )
+ 
+ 
+ {\displaystyle (V)}
+ 
+ en el eje de abscisas. En el diagrama p-v se representa el estado de un sistema termodinámico (como un punto en el mismo) o un proceso termodinámico del sistema (como una curva en él).
+
+La ventaja más directa de la representación de los procesos termodinámicos en un diagrama p-v es que el trabajo realizado en el proceso (por el sistema o sobre el sistema) es el área bajo la curva.
+Efectivamente, de la propia definición del trabajo 
+ 
+ 
+ 
+ (
+ W
+ )
+ 
+ 
+ {\displaystyle (W)}
+ 
+ en termodinámica: &#8203; &#8203; &#8203;
+
+W
+ 
+ a
+ b
+ 
+ 
+ =
+ 
+ &#x222B;
+ 
+ a
+ 
+ 
+ b
+ 
+ 
+ p
+ d
+ 
+ V
+ 
+ 
+ {\displaystyle W_{ab}=\int _{a}^{b}p\operatorname {d} \!V}
+
+Por tanto, para un proceso termodinámico concreto entre los estados 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+ y 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ 
+, el trabajo será el directamente el área bajo la curva si representamos como varía la presión 
+ 
+ 
+ 
+ (
+ p
+ )
+ 
+ 
+ {\displaystyle (p)}
+ 
+ en función del volumen 
+ 
+ 
+ 
+ (
+ V
+ )
+ 
+ 
+ {\displaystyle (V)}
+ 
+.
+
+Para ello, tenemos que tener en cuenta que al fijar el proceso termodinámico, estamos fijando también como varían el resto de variables termodinámicas que sean necesarias para definir el estado del sistema en cada punto. De esa manera, se supone que somos capaces de conocer la presión como función del volumen, 
+ 
+ 
+ 
+ p
+ =
+ p
+ (
+ V
+ )
+ 
+ 
+ {\displaystyle p=p(V)}
+ 
+.
+
+Los procesos más conocidos son aquellos en los que alguna de las variables termodinámicas permanece constante. Por ejemplo: &#8203;
+
+Se dice que el sistema ha realizado un proceso cíclico cuando, tras una sucesión de procesos termodinámicos encandenados, termina en el mismo estado en el que se encontraba inicialmente. &#8203; &#8203;
+
+En esa situación, el trabajo total realizado en el ciclo por (o sobre) el sistema es el área total encerrada dentro del ciclo. Ello depende de como sea recorrido el ciclo:

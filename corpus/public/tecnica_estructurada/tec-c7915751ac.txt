@@ -1,0 +1,410 @@
+El resultado de esta integral es el área comprendida entre las curvas: 
+ 
+ 
+ 
+ f
+ (
+ x
+ )
+ 
+ 
+ 
+ {\displaystyle f(x)\,}
+ 
+ y 
+ 
+ 
+ 
+ g
+ (
+ x
+ )
+ [
+ <
+ f
+ (
+ x
+ )
+ ]
+ 
+ 
+ 
+ {\displaystyle g(x)[<f(x)]\,}
+ 
+ en el intervalo 
+ 
+ 
+ 
+ [
+ a
+ ,
+ b
+ ]
+ 
+ 
+ 
+ {\displaystyle [a,b]\,}
+ 
+.
+
+Si se quiere hallar el área delimitada entre el eje x y la función 
+ 
+ 
+ 
+ f
+ (
+ x
+ )
+ =
+ 4
+ &#x2212;
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle f(x)=4-x^{2}}
+ 
+ en el intervalo 
+ 
+ 
+ 
+ [
+ &#x2212;
+ 2
+ ;
+ 2
+ ]
+ 
+ 
+ {\displaystyle [-2;2]}
+ 
+, se utiliza la ecuación anterior, en este caso: 
+ 
+ 
+ 
+ g
+ (
+ x
+ )
+ =
+ 0
+ 
+ 
+ {\displaystyle g(x)=0}
+ 
+ entonces evaluando la integral, se obtiene:
+
+A
+ (
+ &#x2212;
+ 2
+ ,
+ 2
+ )
+ =
+ 
+ 
+ {\displaystyle A(-2,2)=}
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x222B;
+ 
+ &#x2212;
+ 2
+ 
+ 
+ 2
+ 
+ 
+ 
+ |
+ 
+ 4
+ &#x2212;
+ 
+ x
+ 
+ 2
+ 
+ 
+ &#x2212;
+ 0
+ 
+ |
+ 
+ d
+ x
+ =
+ 
+ 
+ {\displaystyle \int _{-2}^{2}|4-x^{2}-0|dx=}
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ &#x222B;
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ 4
+ &#x2212;
+ 
+ x
+ 
+ 2
+ 
+ 
+ d
+ x
+ =
+ 
+ 
+ {\displaystyle 2\int _{0}^{2}4-x^{2}dx=}
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 
+ [
+ 
+ 4
+ x
+ &#x2212;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ x
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ ]
+ 
+ 
+ 0
+ 
+ 
+ 2
+ 
+ 
+ =
+ 
+ 
+ {\displaystyle 2\left[4x-{\cfrac {x^{3}}{3}}\right]_{0}^{2}=}
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ [
+ 
+ 8
+ &#x2212;
+ 
+ (
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+ 
+ 3
+ 
+ 
+ &#x2212;
+ 0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ ]
+ 
+ =
+ 
+ 
+ {\displaystyle 2\left[8-\left({\cfrac {2^{3}-0}{3}}\right)\right]=}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 32
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\cfrac {32}{3}}}
+
+Por lo que se concluye que el área delimitada es 
+ 
+ 
+ 
+ 32
+ 
+ /
+ 
+ 3
+ 
+ 
+ {\displaystyle 32/3}
+ 
+.
+
+El volumen encerrado entre dos funciones también puede ser reducido al cálculo de una integral, similar.
+
+Dada una curva simple cerrada en el plano euclídeo puede probarse que su longitud o perímetro del área encerrada y la propia área encerrada satisfacen la relación:
+
+La igualdad se alcanza sólo para un círculo el resto de figuras y formas posibles cumplen la desigualdad estricta.
+
+El área de una superficie curva es más complejo y en general supone realizar algún tipo de idealización o límite para medirlo.
+
+Cuando una superficie curva puede ser generada haciendo girar una curva plana o generatriz alrededor de un eje directriz, la superficie resultante se llama superficie de revolución y su área puede ser calculada fácilmente a partir de la longitud de la curva generatriz que al girar conforma la superficie. Si y=f(x) es la ecuación que define un tramo de curva, al girar esta curva alrededor del eje X se genera una superficie de revolución cuya área lateral vale:
+
+A
+ 
+ r
+ 
+ 
+ (
+ a
+ ,
+ b
+ )
+ =
+ 2
+ &#x03C0;
+ 
+ &#x222B;
+ 
+ a
+ 
+ 
+ b
+ 
+ 
+ f
+ (
+ x
+ )
+ 
+ 
+ 1
+ +
+ 
+ 
+ (
+ 
+ 
+ 
+ d
+ f
+ (
+ x
+ )
+ 
+ 
+ d
+ x
+ 
+ 
+ 
+ )
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ &#xA0;
+ 
+ d
+ 
+ x
+ 
+ 
+ {\displaystyle A_{r}(a,b)=2\pi \int _{a}^{b}f(x){\sqrt {1+\left({\frac {df(x)}{dx}}\right)^{2}}}\ \mathrm {d} x}
+
+Mediante la geometría diferencial de superficies o más generalmente la geometría riemanniana puede calcularse el área de cualquier superficie curva finita. Si la superficie viene dada por la función explícita z = f(x, y) entonces, dada una región Ω contenida en una superficie su área resultar ser:

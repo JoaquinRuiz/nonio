@@ -1,0 +1,17 @@
+Un plano es una superficie plana bidimensional que se extiende infinitamente. &#8203; Los planos se utilizan en todas las áreas de la geometría. Por ejemplo, los planos se pueden estudiar como una superficie topológica sin hacer referencia a distancias o ángulos; &#8203; se puede estudiar como un espacio afín , donde se pueden estudiar la colinealidad y las proporciones pero no las distancias; &#8203; se puede estudiar como el plano complejo utilizando técnicas de análisis complejo&#160;; &#8203; y así sucesivamente.
+
+Euclides define un ángulo plano como la inclinación entre sí, en un plano, de dos líneas que se encuentran y no son rectas entre sí. &#8203;En términos modernos, un ángulo es la figura formada por dos rayos, llamados lados del ángulo, que comparten un punto final común, llamado vértice del ángulo. &#8203;
+
+En la geometría euclidiana, los ángulos se utilizan para estudiar polígonos y triángulos , además de formar un objeto de estudio por derecho propio. &#8203; El estudio de los ángulos de un triángulo o de los ángulos en un círculo unitario forma la base de la trigonometría. &#8203;
+
+En geometría diferencial y cálculo, los ángulos entre curvas planas o curvas espaciales o superficies se pueden calcular utilizando la derivada &#8203; &#8203;
+
+Una curva es un objeto unidimensional que puede ser recto (como una línea) o no; las curvas en el espacio bidimensional se denominan curvas planas y las del espacio tridimensional se denominan curvas espaciales. &#8203;
+
+En topología, una curva se define mediante una función de un intervalo de los números reales a otro espacio. &#8203; En geometría diferencial, se usa la misma definición, pero se requiere que la función definitoria sea diferenciable. &#8203; La geometría algebraica estudia las curvas algebraicas , que se definen como variedades algebraicas de dimensión uno. &#8203;
+
+Una superficie es un objeto bidimensional, como una esfera o un paraboloide. &#8203; En geometría diferencial &#8203; y topología , &#8203; las superficies se describen mediante "parches" bidimensionales (o vecindades ) que se ensamblan mediante difeomorfismos u homeomorfismos , respectivamente. En geometría algebraica, las superficies se describen mediante ecuaciones polinómicas. &#8203;
+
+Una variedad es una generalización de los conceptos de curva y superficie. En topología, una variedad es un espacio topológico donde cada punto tiene una vecindad que es homeomorfa al espacio euclidiano. &#8203;En geometría diferencial, una variedad diferenciable es un espacio donde cada vecindario es difeomórfico al espacio euclidiano. &#8203;
+
+Las variedades se utilizan ampliamente en física, incluida la relatividad general y la teoría de cuerdas. &#8203;

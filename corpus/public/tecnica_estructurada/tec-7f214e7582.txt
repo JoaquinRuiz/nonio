@@ -1,0 +1,69 @@
+El arco capaz es el lugar geométrico de los puntos desde los que un segmento AB se «ve» con el mismo ángulo, es decir, el lugar geométrico de los vértices P de los ángulos APB que tienen la misma amplitud.
+El arco capaz de ángulo 
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 
+ {\displaystyle \gamma }
+ 
+ de un segmento AB es el lugar geométrico de los puntos P tales que 
+ 
+ 
+ 
+ &#x2220;
+ A
+ P
+ B
+ =
+ &#x03B3;
+ 
+ 
+ {\displaystyle \angle APB=\gamma }
+ 
+ y son exclusivamente dos arcos de circunferencia, uno a cada lado del segmento AB, ambos puntos se incluyen uniendo dichos arcos.
+
+El arco capaz con ángulo 
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 
+ {\displaystyle \gamma }
+ 
+ = 90º corresponde con el 2º teorema de Tales, de tal modo que el arco capaz es la circunferencia cuyo diámetro es el segmento AB.
+
+Para construir el arco capaz de ángulo 
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 
+ {\displaystyle \gamma }
+ 
+ del segmento AB, en delineación, se empieza por la construcción de la mediatriz del segmento AB que es donde están los posibles centros C del arco capaz.
+
+Se construye el ángulo 
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 
+ {\displaystyle \gamma }
+ 
+ en el punto A sobre el segmento AB, y luego con una escuadra se traza una perpendicular por A al nuevo lado del ángulo que incide en el punto C sobre la mediatriz.
+
+Se construye el ángulo 
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 
+ {\displaystyle \gamma }
+ 
+ en cualquier punto de la mediatriz, y mediante una paralela al nuevo lado del ángulo que pase por el punto A, se obtiene el punto C sobre la mediatriz.

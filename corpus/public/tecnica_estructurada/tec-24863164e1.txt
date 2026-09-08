@@ -1,0 +1,375 @@
+A
+ p
+ r
+ i
+ o
+ r
+ i
+ 
+ (
+ T
+ ,
+ &#x03F5;
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 1
+ 
+ 
+ &#x2190;
+ {
+ 
+ l
+ a
+ r
+ g
+ e
+ &#xA0;
+ 1
+ &#x2212;
+ i
+ t
+ e
+ m
+ s
+ e
+ t
+ s
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ k
+ &#x2190;
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ while
+ 
+ 
+ &#xA0;
+ 
+ L
+ 
+ k
+ &#x2212;
+ 1
+ 
+ 
+ &#x2260;
+ &#xA0;
+ &#x2205;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ k
+ 
+ 
+ &#x2190;
+ {
+ a
+ &#x222A;
+ {
+ b
+ }
+ &#x2223;
+ a
+ &#x2208;
+ 
+ L
+ 
+ k
+ &#x2212;
+ 1
+ 
+ 
+ &#x2227;
+ b
+ &#x2209;
+ a
+ }
+ &#x2212;
+ {
+ c
+ &#x2223;
+ {
+ s
+ &#x2223;
+ s
+ &#x2286;
+ c
+ &#x2227;
+ 
+ |
+ 
+ s
+ 
+ |
+ 
+ =
+ k
+ &#x2212;
+ 1
+ }
+ &#x2288;
+ 
+ L
+ 
+ k
+ &#x2212;
+ 1
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ for
+ 
+ 
+ &#xA0;
+ t
+ r
+ a
+ n
+ s
+ a
+ c
+ t
+ i
+ o
+ n
+ s
+ 
+ &#xA0;
+ t
+ &#x2208;
+ T
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ t
+ 
+ 
+ &#x2190;
+ {
+ c
+ &#x2223;
+ c
+ &#x2208;
+ 
+ C
+ 
+ k
+ 
+ 
+ &#x2227;
+ c
+ &#x2286;
+ t
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ for
+ 
+ 
+ &#xA0;
+ c
+ a
+ n
+ d
+ i
+ d
+ a
+ t
+ e
+ s
+ 
+ &#xA0;
+ c
+ &#x2208;
+ 
+ C
+ 
+ t
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ c
+ o
+ u
+ n
+ t
+ 
+ 
+ [
+ c
+ ]
+ &#x2190;
+ 
+ 
+ c
+ o
+ u
+ n
+ t
+ 
+ 
+ [
+ c
+ ]
+ +
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ k
+ 
+ 
+ &#x2190;
+ {
+ c
+ &#x2223;
+ c
+ &#x2208;
+ 
+ C
+ 
+ k
+ 
+ 
+ &#x2227;
+ &#xA0;
+ 
+ 
+ c
+ o
+ u
+ n
+ t
+ 
+ 
+ [
+ c
+ ]
+ &#x2265;
+ &#x03F5;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ k
+ &#x2190;
+ k
+ +
+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ return
+ 
+ 
+ &#xA0;
+ 
+ &#x22C3;
+ 
+ k
+ 
+ 
+ 
+ L
+ 
+ k
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{aligned}&\mathrm {Apriori} (T,\epsilon )\\&\qquad L_{1}\gets \{\mathrm {large~1-itemsets} \}\\&\qquad k\gets 2\\&\qquad \mathrm {\textbf {while}} ~L_{k-1}\neq \ \emptyset \\&\qquad \qquad C_{k}\gets \{a\cup \{b\}\mid a\in L_{k-1}\land b\not \in a\}-\{c\mid \{s\mid s\subseteq c\land |s|=k-1\}\nsubseteq L_{k-1}\}\\&\qquad \qquad \mathrm {{\textbf {for}}~transactions} ~t\in T\\&\qquad \qquad \qquad C_{t}\gets \{c\mid c\in C_{k}\land c\subseteq t\}\\&\qquad \qquad \qquad \mathrm {{\textbf {for}}~candidates} ~c\in C_{t}\\&\qquad \qquad \qquad \qquad {\mathit {count}}[c]\gets {\mathit {count}}[c]+1\\&\qquad \qquad L_{k}\gets \{c\mid c\in C_{k}\land ~{\mathit {count}}[c]\geq \epsilon \}\\&\qquad \qquad k\gets k+1\\&\qquad \mathrm {\textbf {return}} ~\bigcup _{k}L_{k}\end{aligned}}}
+
+Asumamos una base de datos de transacciones donde cada transacción es un conjunto de productos que son comprados juntos. Por conveniencia, productos como "mantequilla" y "pan" son representados por números.
+Sea la base de datos representados por los siguientes conjuntos
+
+Usaremos Apriori para determinar los conjuntos de ítems frecuentes de la base de datos. Definamos que un ítem es frecuente si aparece en al menos 3 transacciones de la base da datos, por lo que 3 será el umbral de confianza.
+El primer paso es contar el número de ocurrencias, llamado la confianza, de cada ítem separadamente, escaneando la base una primera vez. Se obtienen los siguientes resultados
+
+Todos los conjuntos de tamaño 1 tienen confianza de al menos 3, por lo que todos son frecuentes.
+El próximo paso es generar la lista de todos los pares de ítems frecuentes.
+Por ejemplo, considerando que el par {1,2} de la primera tabla del ejemplo, muestra que los ítems 1 y 2 aparecen juntos en tres de los conjuntos de ítems originales de la base de datos, definimos que {1,2} tiene una confianza de tres.

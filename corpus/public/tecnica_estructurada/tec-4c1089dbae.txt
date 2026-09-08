@@ -1,0 +1,147 @@
+en cuyo caso la constante de equilibrio se define, en términos de valores de concentración numéricos, como
+
+La dimensión aparente de este valor K es la concentración ; esto puede escribirse como M o mM , donde el símbolo M significa una concentración molar ( 1&#160;M = 1&#160;mol&#160;dm )
+
+Otra complicación surge del hecho de que una constante de equilibrio puede definirse como una constante de asociación o como una constante de disociación. Para constantes de disociación.
+
+La dimensión aparente asociada con una constante de disociación es el recíproco de la dimensión asociada con la constante de asociación correspondiente.
+
+Cuando las concentraciones se expresan en la escala de fracciones molares, todos los términos en la expresión
+
+En ambos enfoques, el valor numérico de la constante de estabilidad no se modifica. El primero es más útil para propósitos prácticos; de hecho, la unidad del cociente de concentración a menudo se adjunta a un valor constante de estabilidad publicado en la literatura bioquímica. El segundo enfoque es consistente con la exposición estándar de la teoría de Debye-Hückel.
+
+la concentración de agua puede tomarse como constante y la formación del ion hidronio está implícita.
+
+La concentración de agua se omite en las expresiones que definen las constantes de equilibrio, excepto cuando las soluciones están muy concentradas.
+
+Si tanto la constante de equilibrio, 
+ 
+ 
+ 
+ K
+ 
+ 
+ {\displaystyle K}
+ 
+y el cambio de entalpía estándar, 
+ 
+ 
+ 
+ &#x0394;
+ 
+ H
+ 
+ &#x2296;
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta H^{\ominus }}
+ 
+para que una reacción se haya determinado experimentalmente, el cambio de entropía estándar para la reacción se deriva fácilmente. Ya que 
+ 
+ 
+ 
+ &#x0394;
+ G
+ =
+ &#x0394;
+ H
+ &#x2212;
+ T
+ &#x0394;
+ S
+ 
+ 
+ {\displaystyle \Delta G=\Delta H-T\Delta S}
+ 
+y 
+ 
+ 
+ 
+ &#x0394;
+ G
+ =
+ &#x2212;
+ R
+ T
+ ln
+ &#x2061;
+ K
+ 
+ 
+ {\displaystyle \Delta G=-RT\ln K}
+
+Para una primera aproximación, el cambio de entalpía estándar es independiente de la temperatura. Usando esta aproximación, integración definitiva de la ecuación de van't Hoff
+
+Esta ecuación se puede usar para calcular el valor del log K a una temperatura, T2, conociendo el valor a la temperatura T1.
+
+La ecuación de van't Hoff también muestra que, para una reacción exotérmica ( 
+ 
+ 
+ 
+ &#x0394;
+ H
+ <
+ 0
+ 
+ 
+ {\displaystyle \Delta H<0}
+ 
+), cuando aumenta la temperatura, K disminuye y cuando disminuye la temperatura K aumenta, de acuerdo con el principio de Le Chatelier. Lo contrario se aplica cuando la reacción es endotérmica.
+
+Cuando K se ha determinado a más de dos temperaturas, se puede aplicar un procedimiento de ajuste de línea recta a una gráfica de 
+ 
+ 
+ 
+ ln
+ &#x2061;
+ K
+ 
+ 
+ {\displaystyle \ln K}
+ 
+en contra 
+ 
+ 
+ 
+ 1
+ 
+ /
+ 
+ T
+ 
+ 
+ {\displaystyle 1/T}
+ 
+para obtener un valor para 
+ 
+ 
+ 
+ &#x0394;
+ 
+ H
+ 
+ &#x2296;
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta H^{\ominus }}
+ 
+. La teoría de propagación de errores se puede utilizar para demostrar que, con este procedimiento, el error en el cálculo 
+ 
+ 
+ 
+ &#x0394;
+ 
+ H
+ 
+ &#x2296;
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta H^{\ominus }}
+ 
+el valor es mucho mayor que el error en los valores K de registro individuales. En consecuencia, K debe ser determinado a alta precisión cuando se utiliza este método. Por ejemplo, con un electrodo selectivo de iones de plata, cada valor de log K se determinó con una precisión de aprox. 0.001 y el método fue aplicado exitosamente. &#8203;

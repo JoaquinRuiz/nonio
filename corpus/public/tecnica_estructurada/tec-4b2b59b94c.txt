@@ -1,0 +1,7 @@
+Las macroceldas de un CPLD son similares a las de un PLD. Estas también están provistas con registros, control de polaridad, y buffers para salidas en alta impedancia. Por lo general un CPLD tiene macroceldas de entrada/salida, macroceldas de entrada y macroceldas internas u ocultas (buried macrocells), en tanto que un 22V10 tiene solamente macroceldas de entrada/salida. Una macrocelda interna es similar a una macrocelda de entrada/salida, solo que esta no puede ser conectada directamente a un pin de salida. La salida de una macrocelda interna va directamente a la matriz de interconexión programable.
+
+La función de una celda de entrada/salida es permitir el paso de una señal hacia dentro o hacia el exterior del dispositivo. Dependiendo del fabricante y de la arquitectura del CPLD estas celdas pueden o no ser consideradas parte del bloque lógico.
+
+Su Arquitectura de un CPLD es la forma en que están organizados y a la disposición a los elementos internos del dispositivo. Son similares al diagrama de bloque de un CPLD genérico, Teniendo la estructura clásica PAL/GAL que nos permite generar las funciones suma de producto. Su densidad varía entre dos bloques LAB y 16 bloques LAB, dependiendo del dispositivo concreto de la serie que se vaya a utilizar. &#8203;
+
+Un bloque LAB es similar a un SPLD y que el tamaño de los encapsulados varían entre 44 y 208 pines, cabe mencionar que utilizan una tecnología de proceso basada en EEPROM. Las versiones que se pueden programar dentro del sistema para ello se utilizan la interfaz estándar JTAG. &#8203;

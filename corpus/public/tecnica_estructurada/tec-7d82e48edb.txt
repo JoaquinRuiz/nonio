@@ -1,0 +1,11 @@
+A veces, existe una sección que es más "natural" que las otras. En este caso, los representantes se llaman representantes canónicos. Por ejemplo, en aritmética modular, considérese la relación de equivalencia en los enteros definidos por a ~ b si (a − b) es un múltiplo de un entero positivo dado n, llamado módulo. Cada clase contiene un número entero no negativo único menor que n, y estos números enteros son los representantes canónicos. La clase y su representante están más o menos identificados, como lo demuestra el hecho de que la notación a mod n puede denotar la clase o su representante canónico (que es el resto de la división de a por n).
+
+Cada elemento x de X es un miembro de la clase de equivalencia [x]. Cada dos clases de equivalencia [x] e [y] son iguales o disjuntas. Por lo tanto, el conjunto de todas las clases de equivalencia de X forma una partición de X: cada elemento de X pertenece a una sola clase de equivalencia. &#8203; Por el contrario, cada partición de X proviene de una relación de equivalencia de esta manera, según la cual x ~ y si y solo si x e y pertenecen al mismo conjunto de la partición. &#8203;
+
+En otras palabras, si ~ es una relación de equivalencia en un conjunto X, y x e y son dos elementos de X, entonces estas declaraciones son equivalentes:
+
+Un grafo no dirigido puede estar asociada a cualquier relación simétrica en un conjunto X donde los vértices son los elementos de X y dos vértices s y t se unen si y solo si s ~ t Entre estos gráficos están los gráficos de las relaciones de equivalencia; se caracterizan como los gráficos de manera que los componentes conectados son camarillas. &#8203;
+
+Si ~ es una relación de equivalencia en X, y P(x) es una propiedad de elementos de X de modo que siempre que x ~ y, P(x) sea verdadero si P(y) es verdadero, entonces se dice que la propiedad P es un invariante de ~, o que está bien definido bajo la relación ~.
+
+Un caso particular frecuente ocurre cuando f es una función de X a otro conjunto Y; si f(x1) = f(x2) siempre que x1 ~ x2, entonces se dice que f es invariante de clase bajo ~, o simplemente invariante bajo ~. Esto ocurre, por ejemplo, en la teoría del carácter de los grupos finitos. Algunos autores usan "compatible con ~" o simplemente "respeta ~" en lugar de "invariante bajo ~".

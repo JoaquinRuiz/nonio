@@ -1,0 +1,77 @@
+Los compuestos aromáticos son aquellos compuestos químicos (más comúnmente orgánicos) que contienen uno o más anillos con electrones pi deslocalizados alrededor de ellos. A diferencia de los compuestos que exhiben aromaticidad, los compuestos alifáticos carecen de esta deslocalización. El término "aromático" se asignó antes de que se descubriera el mecanismo físico que determina la aromaticidad, y se refería simplemente al hecho de que muchos de estos compuestos tienen un olor dulce o agradable; sin embargo, no todos los compuestos aromáticos tienen olor dulce y no todos los compuestos con olor dulce son aromáticos. Los hidrocarburos aromáticos, o arenos, son compuestos orgánicos aromáticos que contienen únicamente átomos de carbono e hidrógeno. La configuración de seis átomos de carbono en compuestos aromáticos se llama "anillo bencénico", después del compuesto aromático simple benceno, o un grupo fenilo cuando forma parte de un compuesto más grande.
+
+No todos los compuestos aromáticos están basados en benceno; la aromaticidad también puede manifestarse en heteroarenos, que siguen la regla de Hückel (para anillos monocíclicos: cuando el número de sus electrones 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+ es igual a 
+ 
+ 
+ 
+ 4
+ n
+ +
+ 2
+ 
+ 
+ {\displaystyle 4n+2}
+ 
+, donde 
+ 
+ 
+ 
+ n
+ =
+ 0
+ ,
+ 1
+ ,
+ 2
+ ,
+ 3
+ ,
+ .
+ .
+ .
+ 
+ 
+ {\displaystyle n=0,1,2,3,...}
+ 
+). En estos compuestos, al menos un átomo de carbono se reemplaza por uno de los heteroátomos: oxígeno, nitrógeno o azufre. Ejemplos de compuestos distintos del benceno con propiedades aromáticas son el furano, un compuesto heterocíclico con un anillo de cinco miembros que incluye un solo átomo de oxígeno, y la piridina, un compuesto heterocíclico con un anillo de seis miembros que contiene un átomo de nitrógeno. &#8203;
+
+El benceno, 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ H
+ 
+ 6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\ce {C6H6}}}
+ 
+, es el hidrocarburo aromático menos complejo y fue el primero en ser nombrado como tal. La naturaleza de su vínculo fue reconocida por primera vez por August Kekulé en el siglo XIX. Cada átomo de carbono en el ciclo hexagonal tiene cuatro electrones para compartir. Uno va al átomo de hidrógeno y otro a cada uno de los dos carbonos vecinos. Esto deja un electrón para compartir con uno de los dos átomos de carbono vecinos, creando así un doble enlace con un carbono y dejando un enlace sencillo con el otro, razón por la cual algunas representaciones de la molécula de benceno lo describen como un hexágono con alternancia simple y dobles enlaces.
+
+Otras representaciones de la estructura muestran el hexágono con un círculo en su interior, para indicar que los seis electrones están flotando en orbitales moleculares deslocalizados del tamaño del anillo en sí. Esto representa la naturaleza equivalente de los seis enlaces carbono-carbono, todos de orden de enlace 1,5; la equivalencia se explica por formas de resonancia. Los electrones se visualizan flotando por encima y por debajo del anillo, y los campos electromagnéticos que generan actúan para mantener el anillo plano.

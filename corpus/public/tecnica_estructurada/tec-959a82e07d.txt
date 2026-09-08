@@ -1,0 +1,169 @@
+CNOT
+ 
+ 
+ =
+ 
+ 
+ [
+ 
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 0
+ 
+ 
+ 0
+ 
+ 
+ 1
+ 
+ 
+ 0
+ 
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ {\displaystyle {\mbox{CNOT}}={\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{bmatrix}}}
+ 
+.
+
+Un ejemplo de circuito cuántico es el circuito que implementa el algoritmo de grover. Su esquema básico consiste en una puerta Hadamard en cada cúbit, que crea una superposición de todos los cúbit, una puerta oráculo, que selecciona los cúbits que queremos encontrar, y una puerta Grover, que amplifica la probabilidad de encontrar los estados seleccionados. Al final del circuito se incluye una medida sobre cada cúbit, cuyo resultado es enviado a un registro clásico. Opcionalmente, el circuito puede tener unos cúbits y registros auxiliares o ancilla. Por ejemplo, estos cúbits se usan para simplificar circuitos cuánticos a la hora de compilarlos en un ordenador cuántico real.
+
+Existen conjuntos finitos de puertas cuánticas que pueden usarse para construir un circuito cuántico arbitrario, son los llamados conjuntos universales de puertas cuánticas. &#8203; Por ejemplo, la puerta de Toffoli y la puerta de Hadamard constituyen un conjunto universal. &#8203; Nótese, sin embargo, que en la práctica no es eficiente implementar todas las puertas de un circuito como sucesión de puertas universales, ya que si necesitamos un número grande de ellas, estaríamos encadenando errores innecesarios.
+
+La reversibilidad de los circuitos cuánticos es fundamental para entender la diferencia entre la computación cuántica y la clásica. En un circuito clásico, puertas como la AND no son reversibles, ya que tienen una entrada de dos bits y una salida de un bit. Esto implica una pérdida de información en el circuito. El principio de Landauer asegura que al eliminar un bit de información, se disipa al menos una energía de 
+ 
+ 
+ 
+ 
+ k
+ 
+ B
+ 
+ 
+ T
+ 
+ 
+ ln
+ 
+ 
+ 2
+ 
+ 
+ 
+ {\displaystyle k_{B}T\,{\text{ln}}\,2\,}
+ 
+, siendo 
+ 
+ 
+ 
+ 
+ k
+ 
+ B
+ 
+ 
+ 
+ 
+ {\displaystyle k_{B}}
+ 
+ la constante de Boltzmann y 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ 
+ la temperatura en el entorno del ordenador (
+ 
+ 
+ 
+ 
+ ln
+ 
+ 
+ 2
+ 
+ 
+ {\displaystyle {\text{ln}}\,2}
+ 
+ aparece porque tenemos 
+ 
+ 
+ 
+ 2
+ 
+ 
+ {\displaystyle 2}
+ 
+ bits). Dicho de otra manera, la entropía del entorno del ordenador aumenta al menos 
+ 
+ 
+ 
+ 
+ k
+ 
+ B
+ 
+ 
+ 
+ 
+ ln
+ 
+ 
+ 2
+ 
+ 
+ 
+ {\displaystyle k_{B}\,{\text{ln}}\,2\,}
+ 
+. Puesto que los circuitos cuánticos son reversibles y no eliminan información, no tienen este límite inferior para la disipación de energía. Aunque teóricamente la disipación de energía podría eliminarse, no quiere decir que en la práctica los ordenadores cuánticos no disipen energía o que disipen menos que un ordenador clásico. &#8203;
+
+A la hora de realizar experimentalmente un ordenador cuántico, con vistas a la escalabilidad, son fundamentales dos factores: el número de cúbits y el tiempo de coherencia. Actualmente, la mayor problemática con los ordenadores cuánticos es la decoherencia o ruido cuántico, que limita severamente la profundidad (número de puertas) de los circuitos cuánticos. A continuación se introducen algunas de las propuestas de ordenadores cuánticos escalables que se valoran en la actualidad.

@@ -1,0 +1,229 @@
+&#x0394;
+ 
+ v
+ 
+ p
+ 
+ 
+ &#xA0;
+ =
+ (
+ 1
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 2
+ 
+ 
+ )
+ (
+ 2
+ ,
+ 998
+ &#x00D7;
+ 
+ 10
+ 
+ 8
+ 
+ 
+ m
+ &#x22C5;
+ 
+ s
+ 
+ &#x2212;
+ 1
+ 
+ 
+ )
+ =
+ 2
+ ,
+ 998
+ &#x00D7;
+ 
+ 10
+ 
+ 6
+ 
+ 
+ m
+ &#x22C5;
+ 
+ s
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \Delta v_{p}\ =(1\times 10^{-2})(2,998\times 10^{8}m\cdot s^{-1})=2,998\times 10^{6}m\cdot s^{-1}}
+
+Dado que 
+ 
+ 
+ 
+ &#x0394;
+ p
+ &#xA0;
+ =
+ m
+ &#x00D7;
+ &#x0394;
+ 
+ v
+ 
+ p
+ 
+ 
+ &#xA0;
+ 
+ 
+ {\displaystyle \Delta p\ =m\times \Delta v_{p}\ }
+ 
+, de la incertidumbre en la determinación simultánea de su velocidad y posición se obtiene la siguiente relación para 
+ 
+ 
+ 
+ &#x0394;
+ x
+ 
+ 
+ 
+ {\displaystyle \Delta x\,}
+ 
+,
+
+&#x0394;
+ x
+ &#xA0;
+ &#x2265;
+ 
+ 
+ 
+ 6
+ ,
+ 626
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 34
+ 
+ 
+ J
+ &#x22C5;
+ s
+ 
+ 
+ (
+ 4
+ &#x03C0;
+ )
+ (
+ 1
+ ,
+ 673
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 27
+ 
+ 
+ k
+ g
+ )
+ (
+ 2
+ ,
+ 998
+ &#x00D7;
+ 
+ 10
+ 
+ 6
+ 
+ 
+ &#xA0;
+ m
+ &#x22C5;
+ 
+ s
+ 
+ &#x2212;
+ 1
+ 
+ 
+ )
+ 
+ 
+ 
+ &#x2265;
+ 
+ 
+ 
+ 6
+ ,
+ 626
+ 
+ 
+ 63
+ ,
+ 029
+ 
+ 
+ 
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 13
+ 
+ 
+ m
+ 
+ 
+ {\displaystyle \Delta x\ \geq {\frac {6,626\times 10^{-34}J\cdot s}{(4\pi )(1,673\times 10^{-27}kg)(2,998\times 10^{6}\ m\cdot s^{-1})}}\geq {\frac {6,626}{63,029}}\times 10^{-13}m}
+
+Por tanto, 
+ 
+ 
+ 
+ &#x0394;
+ x
+ &#xA0;
+ &#x2265;
+ (
+ &#x00B1;
+ 1
+ ,
+ 05
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 14
+ 
+ 
+ m
+ )
+ 
+ 
+ {\displaystyle \Delta x\ \geq (\pm 1,05\times 10^{-14}m)}
+ 
+, es la indeterminación en la posición del protón.
+
+En las mismas condiciones de precisión, y siguiendo el principio de incertidumbre, se comprueba que cuanto mayor es la velocidad de la partícula, menor es su indeterminación en la posición y viceversa. Un ejemplo extremo sería el caso de un protón a muy bajas velocidades, entonces su posición estaría muy localizada en el espacio pero, en cambio, su incertidumbre sobre dicha posición sería grande.
+
+Un artículo publicado en la revista Science &#8203; en febrero de 2013 demuestra que los efectos de la mecánica cuántica no solo son claramente medibles en los experimentos microscópicos, sino que también es posible observarlos en la macrofísica. Es el caso de un oscilador macroscópico que consta de una membrana situada dentro de una cavidad óptica y cuya posición se puede medir gracias a la luz que se refleja en ambos extremos de la cavidad.
+
+Una analogía para la medida óptica de la posición de un objeto es la que se realiza con el sistema de enfoque automático de una cámara de fotos. &#8203; &#8203; Al emitir un pulso de luz infrarroja, este se refleja en el objeto y vuelve a la cámara. El tiempo empleado por el haz en ir y volver lo usa la cámara para estimar la distancia entre el objeto y el plano de la imagen. Los autores han podido comprobar cómo se ve afectada la posición de la membrana por la presión de radiación debida a la radiación incidente en la membrana. La medida es tan precisa que se encuentra influenciada por la naturaleza cuántica de los fotones y el error sistemático de la medida solo está limitado por el ruido cuántico que predice el principio de indeterminación de Heisenberg, ecuación (1). El citado principio conduce a cambios en la intensidad de la luz detectada que permiten medir el retroceso de la membrana debido a la presión de la radiación.

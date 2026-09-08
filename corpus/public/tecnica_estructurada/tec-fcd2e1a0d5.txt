@@ -1,0 +1,237 @@
+Deje que Wigner pregunte ahora a su amigo por el resultado de la medición: cualquiera que sea la respuesta que dé el amigo (0 o 1), Wigner asignará el estado "el sistema está en el estado 0 / el amigo ha medido 0" o "el sistema está en el estado 1 / amigo ha medido 1 "al laboratorio. Por lo tanto, es solo en el momento en que se entera del resultado de su amigo cuando el estado de superposición del laboratorio colapsa.
+
+Sin embargo, a menos que se considere a Wigner en una "posición privilegiada como observador final", &#160;el punto de vista del amigo debe considerarse igualmente válido, y aquí es donde entra en juego una aparente paradoja: desde el punto de vista del amigo, el resultado de la medición se determinó mucho antes de que Wigner preguntara al respecto, y el estado del sistema físico ya colapsó. ¿Cuándo ocurrió exactamente el colapso? ¿Fue cuando el amigo había terminado su medición o cuando la información de su resultado entró en la conciencia de Wigner?
+
+Supóngase por simplicidad que el sistema físico es un sistema de giro de dos estados 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ 
+ con estados 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle |0\rangle _{S}}
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle |1\rangle _{S}}
+ 
+, correspondiente a los resultados de medición 0 y 1.
+
+&#x03B1;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ +
+ &#x03B2;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle \alpha |0\rangle _{S}+\beta |1\rangle _{S}}
+
+y lo mide el amigo de Wigner (
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ 
+) en el 
+ 
+ 
+ 
+ {
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ ,
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ }
+ 
+ 
+ {\displaystyle \{|0\rangle _{S},|1\rangle _{S}\}}
+ 
+-base. Entonces, con probabilidad 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03B1;
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle |\alpha |^{2}}
+ 
+, 
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ 
+ medirá 0 y con probabilidad 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x03B2;
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle |\beta |^{2}}
+ 
+, medirá 1.
+
+Desde el punto de vista del amigo, el espín se ha colapsado en uno de sus estados base tras su medición, y por lo tanto, le asignarán al espín el estado correspondiente a su resultado de medición: si obtuvieron 0, le asignarán el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle |0\rangle _{S}}
+ 
+ al giro, si obtuvieron 1, asignarán el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle |1\rangle _{S}}
+ 
+ al giro.
+
+Wigner (
+ 
+ 
+ 
+ W
+ 
+ 
+ {\displaystyle W}
+ 
+) ahora modela el sistema combinado del giro junto con su amigo (el sistema articular viene dado por el producto tensorial 
+ 
+ 
+ 
+ S
+ &#x2297;
+ F
+ 
+ 
+ {\displaystyle S\otimes F}
+ 
+). Por lo tanto, toma un punto de vista fuera del laboratorio de 
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ 
+', que se considera aislado del ambiente. Por tanto, según las leyes de la mecánica cuántica para sistemas aislados, el estado de todo el laboratorio evoluciona unitariamente en el tiempo. Por tanto, la descripción correcta del estado del sistema de articulación visto desde fuera es el estado de superposición

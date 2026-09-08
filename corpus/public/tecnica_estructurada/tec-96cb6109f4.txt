@@ -1,0 +1,158 @@
+Los materiales utilizados para los LED tienen una banda prohibida en polarización directa cuya anchura en energías varía desde la luz infrarroja, al visible o incluso cerca del ultravioleta. La evolución de los LED comenzó con dispositivos infrarrojos y rojos de arseniuro de galio. &#8203; Los avances de la ciencia de materiales han permitido fabricar dispositivos con longitudes de onda cada vez más cortas, emitiendo luz en una amplia gama de colores. Los LED se fabrican generalmente sobre un sustrato de tipo N, con un electrodo conectado a la capa de tipo p depositada en su superficie. Los sustratos de tipo P, aunque son menos comunes, también se fabrican.
+
+Como se ha descrito en el fundamento, un LED requiere alcanzar una cierta tensión aplicada a sus bornes 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+, en polarización directa, para que emita luz. Esta tensión de encendido del LED, 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+ es proporcional, en energías, a la anchura de la banda prohibida 
+ 
+ 
+ 
+ 
+ E
+ 
+ g
+ 
+ 
+ 
+ 
+ {\displaystyle E_{g}}
+ 
+:
+
+E
+ 
+ g
+ 
+ 
+ =
+ e
+ 
+ V
+ 
+ 0
+ 
+ 
+ +
+ &#x0394;
+ E
+ 
+ 
+ (
+ 3
+ )
+ ,
+ 
+ 
+ {\displaystyle E_{g}=eV_{0}+\Delta E\qquad \qquad (3),}
+
+E
+ 
+ g
+ 
+ 
+ =
+ 
+ E
+ 
+ 
+ F
+ o
+ t
+ o
+ n
+ 
+ 
+ 
+ =
+ h
+ f
+ 
+ (
+ 4
+ )
+ ,
+ 
+ 
+ {\displaystyle E_{g}=E_{\rm {Foton}}=hf\qquad (4),}
+
+En realidad, esta proporcionalidad en energías entre el gap 
+ 
+ 
+ 
+ 
+ E
+ 
+ g
+ 
+ 
+ 
+ 
+ {\displaystyle E_{g}}
+ 
+ y la energía de «encendido» 
+ 
+ 
+ 
+ e
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle eV_{0}}
+ 
+ y entre el gap y el cuanto de energía del fotón, es aproximada. Si bien dependiendo del material semiconductor del LED, la frecuencia de emisión está determinada, debido a que se utilizan diferentes materiales dopantes con un mismo substrato semiconductor, la energía asociada al salto del electrón desde la banda de conducción a la de valencia es algo menor. &#8203; Debido a la aproximación realizada, se incluye en la ecuación (3) una constante aditiva 
+ 
+ 
+ 
+ &#x0394;
+ E
+ 
+ 
+ {\displaystyle \Delta E}
+ 
+ que la hace más realista y permite un ajuste más adecuado a las medidas experimentales.
+
+La tensión de «encendido» tiene una interpretación de interés a partir de la curva característica del LED como se explica a continuación. En el codo de la misma (ver ilustración) y en polarización directa, es precisamente, donde está localizada la tensión 
+ 
+ 
+ 
+ 
+ V
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle V_{0}}
+ 
+, que es diferente de un LED a otro. Para tensiones menores a la tensión de encendido la corriente es muy débil y la tensión en bornes del LED no es suficiente para producir una emisión de fotones estadísticamente significativa. Para tensiones correspondientes al comienzo del codo de la curva y a una intensidad de corriente determinada, la misma para todos los LED considerados, es donde se considera el comienzo de la emisión de luz.

@@ -1,0 +1,28 @@
+En los ordenadores cuánticos de trampa de iones, los cúbits son estados cuantizados de un conjunto de iones. Por ejemplo, los estados vibracionales o fonones de una cadena de iones y estados fundamentales de la estructura hiperfina del ion (espín nuclear). &#8203; Su origen está en los trabajos de Wolfgang Paul, quien propuso la trampa de iones, trabajos por los que recibió el Premio Nobel en 1989. &#8203; &#8203; Más adelante, en 1995, Juan Ignacio Cirac y Peter Zoller implementaron por primera vez una puerta NOT controlada, en particular para la iones atrapados. &#8203;
+
+Para controlar los iones es necesario atraparlos, es decir, confinarlos en una región muy pequeña del espacio para poder controlarlos. Esto se consigue con campos eléctricos, uno de ellos oscilante, ya que el teorema de Earnshaw nos dice que no se puede mantener un equilibrio mecánico solo con campos estáticos. Antes de operar con los iones es necesario enfriarlos cerca del cero absoluto para reducir el ruido en las computaciones. Esto se hace mediante enfriamiento Doppler y enfriamiento láser. El estado inicial del ordenador se prepara mediante bombeo óptico, que usa un láser para inicializar todos los iones al mismo estado de espín. &#8203;
+
+Para operar con los cúbits se utiliza la interferencia entre dos pulsos láser, que modifican el estado del cúbit, por ejemplo vía el modelo de Jaynes–Cummings. Las puertas que actúan sobre varios cúbits entrelazados se suelen implementar con los fonones, cuyo estado vibracional afecta a varios iones. En cambio, cuando se quieren aplicar puertas sobre un solo cúbit, se suelen implementar sobre estados cuantizados de la estructura hiperfina del ion. Para medir se iluminan todos los cúbit a la vez con un láser resonante, que colapsa los estados de los iones a uno de dos: el ion se ilumina o no se ilumina. &#8203;
+
+Los circuitos electrónicos superconductores permiten la implementación de ordenadores cuánticos y es una de las principales líneas de investigación en computación cuántica. &#8203; &#8203; &#8203; &#8203; Se pueden nombrar principalmente tres arquetipos de cúbits superconductores: cúbits carga, flujo y fase; además de varios tipos híbridos (Fluxonium, &#8203; Transmon, &#8203; &#8203; Xmon, &#8203; Quantronium). &#8203; En estos ordenadores, los cúbits 
+ 
+ 
+ 
+ {
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ }
+ 
+ 
+ {\displaystyle \{|0\rangle ,|1\rangle \}}
+ 
+ se realizan como estados del sistema superconductor, normalmente niveles de energía cuantizados (discretos) o sus superposiciones cuánticas. En el cúbit tipo carga, los niveles de energía se corresponden con un número entero de pares de Cooper en un superconductor. En el cúbit flujo, los niveles de energía se corresponden números enteros de cuantos de flujo magnético atrapados en un anillo superconductor. En el cúbit tipo fase, los niveles de energía se corresponden con oscilaciones de la diferencia de fase entre los electrodos de una unión de Josephson (superconductor-aislante-superconductor).

@@ -1,0 +1,11 @@
+Estas surgen debido a la existencia física de organismos descentralizados. Esto les da la capacidad de unir las bases de datos de cada localidad y acceder así a distintas universidades, sucursales de tiendas, etc.
+
+Una base de datos orientada a grafos (BDOG) representa la información como nodos de un grafo y sus relaciones con las aristas del mismo, de manera que se pueda usar teoría de grafos para recorrer la base de datos ya que esta puede describir atributos de los nodos (entidades) y las aristas (relaciones).
+
+Una BDOG debe estar absolutamente normalizada, esto quiere decir que cada tabla tendría una sola columna y cada relación tan solo dos, con esto se consigue que cualquier cambio en la estructura de la información tenga un efecto solamente local.
+
+En la actualidad, existen muchos tipos de bases de datos, algunas menos comunes adaptadas a funciones financieras, funciones científicas y otras funciones altamente específicas, todo dependiendo de como va avanzando la tecnología. Entre algunas de ellas se pueden citar: &#8203;
+
+Una consulta es el método para acceder a la información en las bases de datos. Con las consultas se puede modificar, borrar, mostrar y agregar datos en una base de datos, también pueden utilizarse como origen de registro para formularios. Para esto se utiliza un Lenguaje de consulta.
+
+Las consultas a la base de datos se realizan a través de un Lenguaje de manipulación de datos, el lenguaje de consultas a base de datos más utilizado es SQL.

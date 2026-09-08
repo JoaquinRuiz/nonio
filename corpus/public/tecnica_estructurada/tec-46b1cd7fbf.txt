@@ -1,0 +1,22 @@
+Otra forma de ver un espacio bidimensional es mediante el álgebra lineal, donde la idea de independencia es crucial. El plano tiene dos dimensiones porque la longitud del rectángulo es independiente de su ancho. En el lenguaje técnico del álgebra lineal, el plano es bidimensional porque cada punto puede ser descripto por una combinación lineal de dos vectores independientes.
+
+El producto escalar de dos vectores A = [A1, A2] y B = [B1, B2] se define como: &#8203;
+
+Un vector puede ser imaginado como una flecha. Su magnitud es su longitud, y su dirección es la dirección en la que apunta la flecha. La magnitud de un vector A se expresa como 
+ 
+ 
+ 
+ &#x2016;
+ 
+ A
+ 
+ &#x2016;
+ 
+ 
+ {\displaystyle \|\mathbf {A} \|}
+ 
+. En esta forma, el producto escalar de dos vectores euclidianos A y B se define como &#8203;
+
+En la química se puede hablar de un sistema bidimensional si el enlace es especialmente fuerte en dos dimensiones, y más débil en la tercera, como en el caso del grafito. Igualmente, en electricidad, un conductor se considera bidimensional si es prácticamente aislante en una de las direcciones del espacio, y su conductividad es mucho mayor en las otras dos.
+
+En papel (superficie bidimensional) es posible representar objetos o paisajes tridimensionales. En las pantallas de ordenador también se hace. Para esto, se usa la perspectiva, entre otros mecanismos.

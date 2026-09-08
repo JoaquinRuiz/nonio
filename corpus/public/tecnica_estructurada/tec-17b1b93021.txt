@@ -1,0 +1,226 @@
+Sea 
+ 
+ 
+ 
+ A
+ &#x2192;
+ B
+ 
+ 
+ {\displaystyle A\to B}
+ 
+ una implicación de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+, entonces 
+ 
+ 
+ 
+ A
+ &#x2192;
+ B
+ 
+ 
+ {\displaystyle A\to B}
+ 
+ se sigue de 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+, si rige 
+ 
+ 
+ 
+ B
+ &#x2286;
+ 
+ 
+ L
+ 
+ 
+ (
+ A
+ )
+ 
+ 
+ {\displaystyle B\subseteq {\mathcal {L}}(A)}
+ 
+. Esto es equivalente a decir que en todo contexto formal en el que rigen todas las implicaciones de 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+, también rige siempre la implicación de 
+ 
+ 
+ 
+ A
+ &#x2192;
+ B
+ 
+ 
+ {\displaystyle A\to B}
+ 
+.
+
+Entonces, una base para 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ es un conjunto 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+ de implicaciones válidas de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+, tales que toda implicación (semánticamente) válida de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ ya se sigue de
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+, a través de la aplicación de reglas de inferencia sintácticamente apropiadas tales como las reglas de Armstrong. &#8203; El conjunto, cerrado en este nuevo sentido, de todas las implicaciones de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ es una teoría, puesto que se puede satisfacer además, según su construcción, por ejemplo respecto del contexto subyacente.
+
+La base se denomina irredundante, si acaso es 
+ 
+ 
+ 
+ &#x2286;
+ 
+ 
+ {\displaystyle \subseteq }
+ 
+-mínima con esa característica. Un ejemplo de base irredundante es la base canónica (véase también exploración de características), que además tiene la propiedad de ser también mínima en relación con el tamaño de la base.
+
+Aquí rige que un conjunto de implicaciones 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+ es base de un contexto 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+ exactamente cuando el conjunto de los conjuntos cerrados bajo 
+ 
+ 
+ 
+ 
+ 
+ L
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {L}}}
+ 
+ es también exactamente el de los contenidos (intenciones) de 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ {\displaystyle \mathbb {K} }
+ 
+.
+
+Es posible representar con ayuda de un contexto formal la teoría de implicaciones de un área temática determinada. En particular, esto significa que uno puede hacerlo con ayuda de un conjunto suficiente de ejemplos que se transformen en los objetos del contexto formal. En teoría, un conjunto tal de ejemplos podría ser aportado por un experto humano o también por una máquina.
+
+Aquí surge, sin embargo, el problema de que ni está garantizado de partida que esté dado una conjunto suficiente de ejemplos, ni que no sean redundantes algunos de los ejemplos generados, debido a que los ejemplos ya dados alcancen. Considerando que la generación de buenos ejemplos resulta difícil, las entrevistas a expertos o hasta la realización de nuevos experimentos son iniciativas caras, al tiempo que la investigación bibliográfica o de algoritmos puede ser costosa, se trata de un problema serio.

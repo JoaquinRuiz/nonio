@@ -1,0 +1,157 @@
+Con 
+ 
+ 
+ 
+ a
+ 
+ 
+ {\displaystyle a}
+ 
+ se representa la desviación de una observación individual con respecto a la media muestral, y con 
+ 
+ 
+ 
+ b
+ 
+ 
+ {\displaystyle b}
+ 
+ se representa la diferencia entre la media muestral y la media poblacional. Nótese que lo que se ha hecho ha sido simplemente descomponer la desviación respecto a la media poblacional (que es desconocida) en dos componentes: la desviación respecto a la media muestral -que se conoce- y la desviación adicional respecto a la media poblacional -que se desconoce-. Ahora, aplicando esta identidad, se descompone:
+
+Ahora se aplica esta fórmula desarrollada a las 5 observaciones, y se analiza el patrón resultante:
+
+La suma de los valores de la columna del medio debe ser cero, porque la suma de las desviaciones respecto a la media muestral debe ser cero. Dado que la columna del medio se anula, entonces se observa que
+
+Por lo tanto, la suma de los cuadrados de las diferencias respecto a la media poblacional siempre será mayor que la suma de las desviaciones al cuadrado respecto a la media muestral (excepto cuando la media poblacional y la media muestral coincidan, en cuyo caso ambas son iguales). Es por esto que la suma de los cuadrados de las desviaciones respecto a la media muestral resulta ser un estimador sesgado a la baja de la varianza poblacional.
+
+Esta corrección es tan común, que los términos "varianza muestral" y "desvío estándar muestral" se refieren frecuentemente al estimador corregido, usando n&#160;−&#160;1. Sin embargo se debe ser cauto: algunas calculadoras y paquetes estadísticos pueden dar la opción de usar ambos estimadores, o solamente la versión menos usual. Para mayor precisión, en este artículo se denomina "desviación estándar muestral" a la desviación estándar muestral, que por definición usa n, y está sesgado con respecto a la desviación estándar poblacional.
+
+Las desviaciones estándar se obtienen aplicando la raíz cuadrada a sus varianzas respectivas. Ya que las desviaciones estándar producen sesgo, la terminología "no corregido" o "corregido" se prefiere para los estimadores de la varianza poblacional.
+
+A continuación se incluyen dos pruebas de la consistencia de la corrección de Bessel como factor apropiado para evitar el sesgo de la varianza muestral:
+
+Como dato de partida, se usa la identidad 
+ 
+ 
+ 
+ E
+ [
+ 
+ x
+ 
+ 2
+ 
+ 
+ ]
+ =
+ 
+ &#x03BC;
+ 
+ 2
+ 
+ 
+ +
+ 
+ &#x03C3;
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle E[x^{2}]=\mu ^{2}+\sigma ^{2}}
+ 
+ que se sirve de las definiciones de la desviación estándar y de la esperanza matemática.
+
+Una observación muy útil es que para cualquier distribución, la varianza es igual a la mitad del valor esperado de 
+ 
+ 
+ 
+ (
+ 
+ x
+ 
+ 1
+ 
+ 
+ &#x2212;
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ )
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle (x_{1}-x_{2})^{2}}
+ 
+ cuando 
+ 
+ 
+ 
+ 
+ x
+ 
+ 1
+ 
+ 
+ ,
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle x_{1},x_{2}}
+ 
+ son muestras independientes. Para probar esta observación, basta saber que 
+ 
+ 
+ 
+ E
+ [
+ 
+ x
+ 
+ 1
+ 
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ ]
+ =
+ E
+ [
+ 
+ x
+ 
+ 1
+ 
+ 
+ ]
+ E
+ [
+ 
+ x
+ 
+ 2
+ 
+ 
+ ]
+ 
+ 
+ {\displaystyle E[x_{1}x_{2}]=E[x_{1}]E[x_{2}]}
+ 
+ (lo que se deduce del hecho de que son variables independientes), así como de la linealidad del valor esperado:

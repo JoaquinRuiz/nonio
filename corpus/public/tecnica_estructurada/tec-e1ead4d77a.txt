@@ -1,0 +1,144 @@
+En las matemáticas, álgebra geométrica es un término aplicado a la teoría de las álgebras de Clifford y teorías relacionadas, siguiendo un libro del mismo título por Emil Artin. Este término también ha tenido reciente uso en los tratamientos de la misma área en la literatura física. En David Hestenes et al. álgebra geométrica es una reinterpretación de las álgebras de Clifford sobre los reales (lo que se afirma como una vuelta al nombre y a la interpretación originales previstos por William Clifford). Los números reales se utilizan como escalares en un espacio vectorial V. Desde ahora en adelante, un vector es algo en V mismo. El producto externo (producto exterior, o producto cuña) ∧ se define tal que se genere el álgebra graduada (álgebra exterior de Hermann Grassmann) de Λ Vn de multivectores. El álgebra geométrica es el álgebra generada por el producto geométrico (el cual es pensado como fundamental) con (para todos los multivectores A, B, C)
+
+El punto distintivo de esta formulación es la correspondencia natural entre las entidades geométricas y los elementos del álgebra asociativa. La conexión entre las álgebra de Clifford y las formas cuadráticas vienen de la propiedad de contracción. Esta regla también da al espacio una métrica definida por el naturalmente derivado producto interno. Debe ser observado que en álgebra geométrica en toda su generalidad no hay restricción ninguna en el valor del escalar, puede suceder que sea negativa, incluso cero (en tal caso, la posibilidad de un producto interno está eliminada si se requiere 
+ 
+ 
+ 
+ &#x27E8;
+ x
+ ,
+ x
+ &#x27E9;
+ &#x2265;
+ 0
+ 
+ 
+ {\displaystyle \langle x,x\rangle \geq 0}
+ 
+).
+
+El producto escalar usual y el producto cruzado tradicional del álgebra vectorial (en 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ {\displaystyle \mathbb {R} ^{3}}
+ 
+) hallan sus lugares en el álgebra geométrica 
+ 
+ 
+ 
+ 
+ 
+ 
+ G
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ {\displaystyle {\mathcal {G}}_{3}}
+ 
+ como el producto interno:
+
+a
+ 
+ &#x22C5;
+ 
+ b
+ 
+ =
+ 
+ 
+ 1
+ 2
+ 
+ 
+ (
+ 
+ a
+ 
+ 
+ b
+ 
+ +
+ 
+ b
+ 
+ 
+ a
+ 
+ )
+ 
+ 
+ {\displaystyle \mathbf {a} \cdot \mathbf {b} ={\frac {1}{2}}(\mathbf {a} \mathbf {b} +\mathbf {b} \mathbf {a} )}
+
+a
+ 
+ &#x2227;
+ 
+ b
+ 
+ =
+ 
+ 
+ 1
+ 2
+ 
+ 
+ (
+ 
+ a
+ 
+ 
+ b
+ 
+ &#x2212;
+ 
+ b
+ 
+ 
+ a
+ 
+ )
+ 
+ 
+ {\displaystyle \mathbf {a} \wedge \mathbf {b} ={\frac {1}{2}}(\mathbf {a} \mathbf {b} -\mathbf {b} \mathbf {a} )}
+ 
+ con:
+
+a
+ 
+ &#x00D7;
+ 
+ b
+ 
+ =
+ &#x2212;
+ i
+ (
+ 
+ a
+ 
+ &#x2227;
+ 
+ b
+ 
+ )
+ 
+ 
+ {\displaystyle \mathbf {a} \times \mathbf {b} =-i(\mathbf {a} \wedge \mathbf {b} )}
+
+(que es antisimétrico). Relevante es la distinción entre los vectores axiales y polares en el álgebra vectorial, que es natural en álgebra geométrica como la mera distinción entre los vectores y los bivectores (elementos de grado dos). El i aquí es la unidad pseudoscalar del 3-espacio euclidiano, lo que establece una dualidad entre los vectores y los bivectores, y se lo llama así debido a la propiedad prevista i² = -1.

@@ -1,0 +1,9 @@
+En matemáticas, en particular en álgebra abstracta, un álgebra graduada es un álgebra sobre un cuerpo, o más en general R-álgebra, en la cual hay una noción consistente del peso de un elemento. La idea es de que los pesos de los elementos se sumen, cuando se multiplican los elementos. Aunque se tiene que permitir la adición 'inconsistente' de elementos de diversos pesos. Una definición formal sigue.
+
+Sea G un grupo abeliano. un álgebra G-graduada es un álgebra con la descomposición en suma directa
+
+Un elemento del i-ésimo subespacio Ai se dice elemento de grado i homogéneo o puro.
+
+Los ejemplos importantes de álgebra graduadas incluyen las álgebras tensoriales T(V) de un espacio vectorial V así como las álgebras exteriores ΛV que son ambas Z-graduadas.
+
+Las álgebras de Clifford y las super álgebras son ejemplos de álgebras Z2-graduadas. Aquí los elementos homogéneos son pares (grado 0) o impares (el grado 1). Las álgebras graduadas también se utilizan mucho en álgebra comutativa, geometría algebraica, álgebra homológica y topología algebraica.

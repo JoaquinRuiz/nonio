@@ -1,0 +1,9 @@
+1,1,1,2 Tetrafluoroetano o R-134a es un fluido refrigerante muy utilizado en el aire acondicionado de los automóviles y en equipos de refrigeración doméstica e industrial. Es un HFC que substituye desde principios de la década de 1990 al antiguo refrigerante Freón R12 que era perjudicial para la capa de ozono y favorecía el calentamiento global.
+
+Su fórmula es CF3CH2F y su punto de ebullición es −26.3&#160;°C a presión atmosférica. Los cilindros de R-134a son de color celeste. &#8203;
+
+Al igual que todos los HFC no daña la capa de ozono pero afecta al cambio climático, tiene una gran estabilidad térmica y química, no es inflamable, y además tiene una excelente compatibilidad con la mayoría de los materiales.
+
+No es miscible con aceites tradicionales de R12 pero si lo es con aceites poliésteres (POE) por lo que siempre debe utilizarse con este tipo de aceites.
+
+Una de las ventajas comparado con el R12 es que tiene una temperatura final de compresión más baja. Por otra parte posee la desventaja que la máquina frigorífica precisa un mayor caudal de fluido, es decir se precisa un compresor más grande.

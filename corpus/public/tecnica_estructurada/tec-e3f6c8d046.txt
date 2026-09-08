@@ -1,0 +1,208 @@
+En teoría de anillos y áreas relacionadas del álgebra, un álgebra simple central (ASC) sobre un cuerpo 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+ es un álgebra asociativa de dimensión finita A, que es un álgebra simple cuyo centro es precisamente 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+. En otras palabras, cualquier álgebra simple es un álgebra central simple sobre su centro.
+
+Por ejemplo, los números complejos 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {C} }
+ 
+ forman un ASC ellos mismos, pero no los números reales 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {R} }
+ 
+ (el centro de 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {C} }
+ 
+ es todo 
+ 
+ 
+ 
+ 
+ 
+ C
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {C} }
+ 
+, no simplemente 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {R} }
+ 
+). Los números cuaterniónicos H forman un ASC de cuatro dimensiones sobre 
+ 
+ 
+ 
+ 
+ 
+ R
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {R} }
+ 
+, y de hecho son el único elemento no trivial del grupo de Brauer de los reales (ver más adelante).
+
+Las ASC sobre un cuerpo 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+ son un análogo no conmutativo de las extensiones del cuerpo 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+ (en ambos casos, no existen ideales bilaterales no triviales, y tienen un cuerpo como centro, aunque un ASC puede ser no-conmutativa y no tienen porqué existir inversos de todos los elementos). Esto es particularmente interesante en la teoría de números no conmutativa como generalizaciones de los cuerpos numéricos (extensiones de los racionales 
+ 
+ 
+ 
+ 
+ 
+ Q
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {Q} }
+ 
+).
+
+De acuerdo con el teorema de Artin-Wedderburn un álgebra simple de dimensión finita A es isomorfa a álgebra de matrices M(n,S) de algún anillo de división S. Dadas dos álgebras simples centrales ~ M(n,S) y B ~ M(m,T) sobre el mismo cuerpo 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+, A y B son similares (o Brauer-equivalentes) si sus anillos de división S y T son isomorfos. El conjunto de todas las clases de equivalencia de álgebras simples centrales sobre un cuerpo dado 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+, bajo esta relación de equivalencia, puede ser equipado con una operación que lo convierte en grupo, dada por el producto tensorial de álgebras. El grupo resultante se llama grupo de Brauer 
+ 
+ 
+ 
+ 
+ 
+ B
+ r
+ 
+ (
+ 
+ K
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathrm {Br} (\mathbb {K} )}
+ 
+ del cuerpo of the field 
+ 
+ 
+ 
+ 
+ 
+ K
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle \mathbb {K} }
+ 
+.

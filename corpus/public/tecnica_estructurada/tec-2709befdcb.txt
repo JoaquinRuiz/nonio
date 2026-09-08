@@ -1,0 +1,12 @@
+El coeficiente de transmisión se utiliza en física y en Ingeniería cuando se consideran medios con discontinuidades en propagación de ondas. El coeficiente de transmisión describe la amplitud (o la intensidad) de una onda transmitida respecto a la onda incidente. El coeficiente de transmisión está estrechamente relacionado con el coeficiente de reflexión.
+
+En Óptica, la transmisión es la propiedad de una sustancia para permitir el paso de luz, con o sin absorción de la luz incidente. Si hay absorción de luz por la sustancia, entonces la luz transmitida será una combinación de las longitudes de onda de la luz que fue transmitida y no absorbida.
+
+El coeficiente de transmisión es una medida de qué cantidad de una onda electromagnética (luz) pasa a través de una superficie o algún elemento óptico. El coeficiente de transmisión puede definirse como el cociente de las amplitudes de las ondas incidentes y transmitidas.
+
+El coeficiente de transmisión se define como la relación entre el flujo o densidad de corriente de la onda transmitida y el flujo de la onda incidente. Se utiliza habitualmente para obtener la probabilidad de que una partícula pase a través de una barrera por efecto túnel.
+Así.
+
+donde jincidente es la densidad de corriente en la onda que incide antes de alcanzar la barrera y jtransmitida la densidad de corriente en la onda transmitida al otro lado de la barrera.
+
+Un ejemplo simple del cálculo del coeficiente de transmisión se puede ver en barrera de potencial.

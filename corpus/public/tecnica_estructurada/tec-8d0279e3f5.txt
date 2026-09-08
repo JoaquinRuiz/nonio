@@ -1,0 +1,17 @@
+Un alcohol puede también ser convertido a bromoalcano usando ácido bromhídrico o tribromuro de fósforo (PBr3).
+
+Se reemplaza el grupo hidroxilo por un yodo para formar el yodoalcano usando fósforo rojo y yodo para generar "in situ" el triyoduro de fósforo.
+
+La deshidratación de alcoholes es un proceso químico que consiste en la transformación de un alcohol para poder ser un alqueno por procesos de eliminación. Para realizar este procedimiento se utiliza un ácido mineral para extraer el grupo hidroxilo (OH) desde el alcohol, generando una carga positiva en el carbono del cual fue extraído el Hidroxilo el cual tiene una interacción eléctrica con los electrones más cercanos (por defecto, electrones de un hidrógeno en el caso de no tener otro sustituyente) que forman un doble enlace en su lugar.
+
+Por esto, la deshidratación de alcoholes es útil, puesto que fácilmente convierte a un alcohol en un alqueno.
+
+Un ejemplo simple es la síntesis del ciclohexeno por deshidratación del ciclohexanol. Se puede ver la acción del ácido (H2SO4) ácido sulfúrico el cual quita el grupo hidroxilo del alcohol, generando el doble enlace y agua. Si se requiere deshidratar un alcohol en condiciones más suaves se puede utilizar el reactivo de Burgess.
+
+Muchos alcoholes pueden ser creados por fermentación de frutas o granos con levadura, pero solamente el etanol es producido comercialmente de esta manera, principalmente como combustible y como bebida. Otros alcoholes son generalmente producidos como derivados sintéticos del gas natural o del petróleo.
+
+Los alcoholes tienen una gran gama de usos en la industria y en la ciencia como disolventes y combustibles. El etanol y el metanol pueden hacerse combustionar de una manera más limpia que la gasolina o el gasoil. Por su baja toxicidad y disponibilidad para disolver sustancias no polares, el etanol es utilizado frecuentemente como disolvente en fármacos, perfumes y en esencias vitales como la vainilla. Los alcoholes sirven frecuentemente como versátiles intermediarios en la síntesis orgánica.
+
+El alcohol isopropílico o 2-propanol tiene gran importancia por sus aplicaciones industriales por ser un muy buen disolvente orgánico, siendo empleado para el tratamiento de resinas, gomas y lacas, como desnaturalizante del alcohol etílico mezclado con otros compuestos y en la fabricación de acetona. &#8203;
+
+El etanol es un líquido incoloro, volátil y de olor suave que se puede obtener a partir de la fermentación de azúcares. A escala industrial es más habitual su obtención a partir de la hidratación del etileno (una reacción del etileno con el agua en presencia de ácido fosfórico). El etanol es el depresor más utilizado en el mundo, y así lleva siéndolo desde hace milenios; su consumo es adictivo y puede conducir al alcoholismo.

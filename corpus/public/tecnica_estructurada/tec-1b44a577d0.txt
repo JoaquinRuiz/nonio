@@ -1,0 +1,13 @@
+En el siglo II a.&#160;C. Crates de Malos construyó un globo terráqueo en el que el mundo estaba divido por dos cintas oceánicas que lo rodeaban y se cruzaban entre sí: una, alrededor del ecuador; y otra, pasando por los polos. Entre estos océanos, había cuatro masas terrestres: el Ecúmene, al noreste; el Perieco, en el noroeste; el Anteco, al sudeste; y el Antípodas, situado en la zona austral pero en el hemisferio occidental, diametralmente opuestas al Ecúmene. &#8203; &#8203;
+
+En la edad media, se reavivó el debate acerca de la posibilidad de la existencia de habitantes en las antípodas. En el s.&#160;IV Macrobio contribuyó a difundir las ideas de Crates a las que incorporó la noción de zonas climáticas. &#8203; Agustín de Hipona (s.&#160;IV y&#160;V) argumentó en contra de que hubiera habitantes en las antípodas (antíctonos). La existencia de gente a la que se suponía separada por zonas infranqueables era muy difícil de reconciliar con la visión cristiana de una humanidad unificada, descendiente de una misma pareja original y redimida por un solo Jesucristo.
+
+El conocimiento histórico (empírico) que reclamaba Agustín llegaría con las exploraciones y conquistas europeas que tuvieron su auge en los siglos XV y XVII a través de las cuales se termina de configurar la idea del mundo que tenemos hoy.
+
+Una recta que pasa por el centro de una circunferencia, la interseca en dos puntos. Entre esos dos puntos estará definido el diámetro de la circunferencia. Se dice que los puntos están diametralmente opuestos.
+
+Lo mismo vale para el caso en una esfera. &#8203; Se les llama antípodas a los puntos diametralmente opuestos de una esfera. Como propiedades, se observa que cada punto de la esfera tiene un antípoda &#8203; además, los dos puntos antipodales y el centro de la esfera, están alineados. &#8203;
+
+Las coordenadas geográficas son un sistema de coordenadas que permite que cada punto de la Tierra sea especificado por un conjunto de números y letras. Las coordenadas de posición horizontal son la latitud y longitud, un sistema de coordenadas esféricas cuyo centro es el centro de la Tierra y suelen expresarse en grados sexagesimales y a continuación el hemisferio al que pertenece: Norte o Sur, para la latitud y Este u Oeste para la longitud. Ejemplo: la ciudad de Pekín, China tiene coordenadas: 40° N 116° E.
+
+Para obtener las coordenadas geográficas de la antípoda de un punto P el procedimiento es: &#8203; &#8203;

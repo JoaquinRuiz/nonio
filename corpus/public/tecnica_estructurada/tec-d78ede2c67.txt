@@ -1,0 +1,17 @@
+Si se aumenta la presión mediante la adición de un gas inerte, entonces ni la composición en equilibrio ni la constante de equilibrio se ven afectadas de manera apreciable (porque las presiones parciales permanecen constantes, suponiendo un comportamiento del gas ideal de todos los gases involucrados). Sin embargo, la composición en equilibrio dependerá apreciablemente de la presión cuando:
+
+En el ejemplo de reacción anterior, el número de moles cambia de 4 a 2, y un aumento de la presión por la compresión del sistema dará como resultado un aumento apreciable de amoniaco en la mezcla de equilibrio. En el caso general de una reacción gaseosa:
+
+El cambio de la composición de la mezcla con la presión se puede cuantificar usando:
+
+donde p denota las presiones parciales de los componentes, P es la presión total del sistema, X denota la fracción molar, K p es la constante de equilibrio expresada en términos de presiones parciales y K X es la constante de equilibrio expresada en términos de fracciones molares.
+
+El cambio anterior en la composición está de acuerdo con el principio de Le Chatelier y no implica ningún cambio de la constante de equilibrio con la presión total del sistema. De hecho, para reacciones de gases ideales, K p es independiente de la presión. &#8203;
+
+En una fase condensada, la dependencia de la presión de la constante de equilibrio se asocia con el volumen molar de reacción. &#8203; Para la reacción:
+
+Para la reacción anterior, se puede esperar que el cambio de la constante de equilibrio de la reacción (basada ya sea en la fracción molar o en la escala de concentración molar) con presión a temperatura constante sea:
+
+La sustitución isotópica puede provocar cambios en los valores de las constantes de equilibrio, especialmente si el hidrógeno se reemplaza por deuterio (o tritio). &#8203; Este efecto de isótopo de equilibrio es análogo al efecto de isótopo cinético en las constantes de velocidad, y se debe principalmente al cambio en la energía vibratoria de punto cero de los enlaces H – X debido al cambio de masa en la sustitución isotópica. &#8203; La energía del punto cero es inversamente proporcional a la raíz cuadrada de la masa del átomo de hidrógeno vibrante y, por lo tanto, será más pequeña para un enlace D – X que para un enlace H – X.
+
+Un ejemplo es una reacción de abstracción del átomo de hidrógeno R '+ H – R R'– H + R con una constante de equilibrio KH, donde R' y R son radicales orgánicos, de manera que R 'forma un enlace más fuerte con el hidrógeno que R. la disminución de la energía del punto cero debido a la sustitución de deuterio será más importante para R'– H que para R – H, y R'– D se estabilizará más que R – D, de modo que la constante de equilibrio K D para R ' + D – R R'– D + R es mayor que KH. Esto se resume en la regla de que el átomo más pesado favorece al enlace más fuerte. &#8203;

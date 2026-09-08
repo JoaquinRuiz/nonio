@@ -1,0 +1,143 @@
+Un enfoque para definir lo que se entiende por «área» es a través de axiomas. El «área» se puede definir como una función de una colección M de un tipo especial de figuras planas (denominadas conjuntos medibles) al conjunto de números reales, que satisface las siguientes propiedades: &#8203;
+
+El perímetro es, junto con el área, una de las dos medidas principales de las figuras geométricas planas. A pesar de que no se expresan en la misma unidad, es común confundir estas dos nociones &#8203; o creer que cuanto mayor es una, más también es la otra. De hecho, la ampliación (o reducción) de una figura geométrica aumenta (o disminuye) simultáneamente su área y su perímetro. Por ejemplo, si un pedazo de tierra se muestra en un mapa a una escala de 1:10&#160;000, el perímetro real de la tierra se puede calcular multiplicando el perímetro de la representación por 10&#160;000 y el área multiplicando el de la representación por 10&#160;000 . Sin embargo, no existe un vínculo directo entre el área y el perímetro de ninguna figura. Por ejemplo, un rectángulo que tiene un área igual a un metro cuadrado puede tener como dimensiones, en metros: 0,5 y 2 (por lo tanto un perímetro igual a 5&#160;m) pero también 0,001 y 1000 (por lo tanto un perímetro de más de 2000&#160;m). Proclo (siglo V) informa que los campesinos griegos compartían «equitativamente» campos de acuerdo con sus perímetros, pero con áreas diferentes. &#8203; &#8203; Sin embargo, la producción de un campo es proporcional al área, no al perímetro.
+
+A
+ =
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ C
+ 
+ &#x00AF;
+ 
+ 
+ &#x22C5;
+ 
+ 
+ 
+ B
+ D
+ 
+ &#x00AF;
+ 
+ 
+ &#x22C5;
+ sin
+ &#x2061;
+ &#x03B8;
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle A={\frac {{\overline {AC}}\cdot {\overline {BD}}\cdot \sin \theta }{2}}}
+
+A
+ =
+ 
+ 
+ 
+ a
+ &#x22C5;
+ d
+ &#x22C5;
+ sin
+ &#x2061;
+ &#x03B1;
+ +
+ b
+ &#x22C5;
+ c
+ &#x22C5;
+ sin
+ &#x2061;
+ &#x03B3;
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle A={\frac {a\cdot d\cdot \sin \alpha +b\cdot c\cdot \sin \gamma }{2}}}
+
+A
+ =
+ 
+ 
+ 
+ 
+ 
+ 
+ A
+ C
+ 
+ &#x00AF;
+ 
+ 
+ &#x22C5;
+ 
+ 
+ 
+ B
+ D
+ 
+ &#x00AF;
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle A={\frac {{\overline {AC}}\cdot {\overline {BD}}}{2}}}
+
+El área de un círculo, o la delimitada por una circunferencia, se calcula mediante la siguiente expresión matemática: &#8203;
+
+El área delimitada por una elipse es similar y se obtiene como producto del semieje mayor por el semieje menor multiplicados por π: &#8203;
+
+Una forma para hallar el área delimitada entre dos funciones, es utilizando el cálculo integral:
+
+Area
+ 
+ (
+ a
+ ,
+ b
+ )
+ =
+ 
+ &#x222B;
+ 
+ a
+ 
+ 
+ b
+ 
+ 
+ 
+ |
+ 
+ f
+ (
+ x
+ )
+ &#x2212;
+ g
+ (
+ x
+ )
+ 
+ |
+ 
+ d
+ x
+ 
+ 
+ {\displaystyle {\text{Area}}(a,b)=\int _{a}^{b}|f(x)-g(x)|dx}

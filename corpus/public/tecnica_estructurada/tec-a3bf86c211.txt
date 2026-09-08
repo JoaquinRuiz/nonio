@@ -1,0 +1,359 @@
+La condición de cuantización de las órbitas permitidas para el movimiento del electrón en el átomo es una de las grandes aportaciones de Bohr, si bien no aparece en su primer postulado. Bohr hace uso de la constante de Planck como un momento angular elemental de forma que los momentos angulares posibles del electrón son solo los múltiplos enteros del citado momento angular elemental. Así, no todas las órbitas del electrón alrededor del núcleo están permitidas, tan solo aquellas cuyo radio cumpla que el momento angular, 
+ 
+ 
+ 
+ L
+ 
+ 
+ {\displaystyle L}
+ 
+, del electrón sea un múltiplo entero de 
+ 
+ 
+ 
+ &#x210F;
+ =
+ 
+ 
+ h
+ 
+ 2
+ &#x03C0;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \hbar ={h \over 2\pi }}
+ 
+.
+
+A partir de esto queda la condición de cuantización para los radios permitidos para el electrón son:
+
+r
+ 
+ n
+ 
+ 
+ =
+ 
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ k
+ 
+ m
+ 
+ e
+ 
+ 
+ Z
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle r_{n}={n^{2}\hbar ^{2} \over km_{e}Ze^{2}}}
+
+Sustituyendo los radios permitidos 
+ 
+ 
+ 
+ 
+ r
+ 
+ n
+ 
+ 
+ 
+ 
+ {\displaystyle r_{n}}
+ 
+ en la expresión de la energía se puede obtener la energía correspondiente a cada órbita permitida:
+
+E
+ 
+ n
+ 
+ 
+ =
+ &#x2212;
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ k
+ 
+ 2
+ 
+ 
+ m
+ 
+ Z
+ 
+ 2
+ 
+ 
+ 
+ e
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle E_{n}=-{1 \over 2}{k^{2}mZ^{2}e^{4} \over n^{2}\hbar ^{2}}}
+
+El electrón solo emite o absorbe energía en los saltos de una órbita permitida a otra. En dicho cambio emite o absorbe un fotón cuya energía es la diferencia de energía entre ambos niveles. El fotón, siguiendo las ideas de Planck, tiene una energía:
+
+E
+ 
+ &#x03B3;
+ 
+ 
+ =
+ h
+ &#x03BD;
+ =
+ 
+ E
+ 
+ 
+ n
+ 
+ i
+ 
+ 
+ 
+ 
+ &#x2212;
+ 
+ E
+ 
+ 
+ n
+ 
+ f
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle E_{\gamma }=h\nu =E_{n_{i}}-E_{n_{f}}}
+
+Donde 
+ 
+ 
+ 
+ 
+ n
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle n_{i}}
+ 
+ identifica la órbita inicial y 
+ 
+ 
+ 
+ 
+ n
+ 
+ f
+ 
+ 
+ 
+ 
+ {\displaystyle n_{f}}
+ 
+ la final, y 
+ 
+ 
+ 
+ &#x03BD;
+ 
+ 
+ {\displaystyle \nu }
+ 
+ es la frecuencia del fotón.
+Introduciendo los valores de las energías asociadas a cada órbita se obtiene para la frecuencia del fotón emitido o absorbido:
+
+&#x03BD;
+ =
+ 
+ 
+ 
+ 
+ k
+ 
+ 2
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ Z
+ 
+ 2
+ 
+ 
+ 
+ e
+ 
+ 4
+ 
+ 
+ 
+ 
+ 2
+ h
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 1
+ 
+ n
+ 
+ f
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ &#x2212;
+ 
+ 
+ 1
+ 
+ n
+ 
+ i
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle \nu ={k^{2}m_{e}Z^{2}e^{4} \over 2h\hbar ^{2}}\left({1 \over n_{f}^{2}}-{1 \over n_{i}^{2}}\right)}
+
+Esta última expresión obtenida a partir de principios cuánticos confirma la fórmula empírica hallada antes por Balmer y utilizada habitualmente por los espectroscopistas para describir la Serie de Balmer —observada desde finales del siglo XIX— en la desexcitación del Hidrógeno y que venía dada por:
+
+&#x03BD;
+ &#x00AF;
+ 
+ 
+ =
+ 
+ 
+ 1
+ &#x03BB;
+ 
+ 
+ =
+ 
+ R
+ 
+ H
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 2
+ 
+ 
+ 
+ 
+ &#x2212;
+ 
+ 
+ 1
+ 
+ n
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle {\overline {\nu }}={1 \over \lambda }=R_{H}\left({1 \over 2^{2}}-{1 \over n^{2}}\right)}

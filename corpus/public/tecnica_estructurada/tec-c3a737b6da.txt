@@ -1,0 +1,309 @@
+De primer orden, (suponiendo, por el momento, la serie será asintóticamente consistente) sobre él se puede aproximar como:
+
+En el límite 
+ 
+ 
+ 
+ &#x03B4;
+ &#x2192;
+ 0
+ 
+ 
+ {\displaystyle \delta \rightarrow 0}
+ 
+, el equilibrio dominante está dado por:
+
+Por lo tanto δ es proporcional a ε. Valorizando a ellos igual y comparando podemos hacer:
+
+Y 
+ 
+ 
+ 
+ 
+ k
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle k_{1}}
+ 
+ es una constante arbitraria. Nosotros ahora tenemos un par de aproximaciones para el sistema(un par porque 
+ 
+ 
+ 
+ 
+ S
+ 
+ 0
+ 
+ 
+ 
+ 
+ {\displaystyle S_{0}}
+ 
+ puede tomar dos signos); la aproximación-WKB de primer orden será una combinación lineal de las dos:
+
+Términos de mayor orden pueden ser obtenidos por examinar en ecuaciones para más altas potencia de ε. Explícitamente
+
+para 
+ 
+ 
+ 
+ n
+ >
+ 2
+ 
+ 
+ {\displaystyle n>2}
+ 
+. Este ejemplo viene de los libros de texto Bender y Orszag (ver referencias).
+
+La ecuación de Schrödinger independiente del tiempo en una dimensión viene dada por:
+
+ 
+ 
+ 
+ &#x2212;
+ 
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 2
+ m
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ (
+ x
+ )
+ +
+ V
+ (
+ x
+ )
+ &#x03A8;
+ (
+ x
+ )
+ =
+ E
+ &#x03A8;
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle -{\frac {\hbar ^{2}}{2m}}{\frac {\mathrm {d} ^{2}}{\mathrm {d} x^{2}}}\Psi (x)+V(x)\Psi (x)=E\Psi (x)}
+ 
+,
+
+La cual puede reescribirse como:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ x
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ &#x03A8;
+ (
+ x
+ )
+ =
+ 
+ 
+ 
+ 2
+ m
+ 
+ 
+ &#x210F;
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ V
+ (
+ x
+ )
+ &#x2212;
+ E
+ 
+ )
+ 
+ &#x03A8;
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle {\frac {\mathrm {d} ^{2}}{\mathrm {d} x^{2}}}\Psi (x)={\frac {2m}{\hbar ^{2}}}\left(V(x)-E\right)\Psi (x)}
+ 
+.
+
+La función de onda puede reescribirse como la exponencial de otra función Φ (La cual esta estrechamente relacionada con la acción):
+
+Donde Φ' indica la derivada de Φ con respecto a x. La derivada 
+ 
+ 
+ 
+ 
+ &#x03A6;
+ &#x2032;
+ 
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle \Phi '(x)}
+ 
+ puede separarse en parte real e imaginaria introducciendo las funciones reales A y B:
+
+La amplitud de la función de onda es entonces 
+ 
+ 
+ 
+ exp
+ &#x2061;
+ 
+ [
+ 
+ 
+ &#x222B;
+ 
+ x
+ 
+ 
+ A
+ (
+ 
+ x
+ &#x2032;
+ 
+ )
+ d
+ 
+ x
+ &#x2032;
+ 
+ 
+ ]
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \exp \left[\int ^{x}A(x')dx'\right]\,\!}
+ 
+, mientras que la fase es 
+ 
+ 
+ 
+ 
+ &#x222B;
+ 
+ x
+ 
+ 
+ B
+ (
+ 
+ x
+ &#x2032;
+ 
+ )
+ d
+ 
+ x
+ &#x2032;
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \int ^{x}B(x')dx'\,\!}
+ 
+. Las partes real e imaginaria de la ecuación de Schrödinger entonces son:
+
+Tras esto, y usando la aproximación semiclásica, podemos escribir cada función como una serie de potencias en 
+ 
+ 
+ 
+ &#x210F;
+ 
+ 
+ {\displaystyle \hbar }
+ 
+. Desde la ecuación, esto puede ser visto como que la serie de potencias puede comenzar con al menos un orden de 
+ 
+ 
+ 
+ 
+ &#x210F;
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \hbar ^{-1}}
+ 
+ para satisfacer la parte real de la ecuación. Con el fin de alcanzar un límite clásico bueno, es necesario comenzar con tan alta potencia de la constante de Planck como sea posible.

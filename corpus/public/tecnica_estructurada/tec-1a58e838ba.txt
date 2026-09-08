@@ -1,0 +1,97 @@
+La adición o suma es la operación matemática de composición que consiste en combinar o añadir dos números o más para obtener una cantidad final o total. La suma también ilustra el proceso de juntar dos colecciones de objetos con el fin de obtener una sola colección. Por otro lado, la acción repetitiva de sumar uno, es la forma más básica de contar.
+
+En términos más formales, la suma es una operación aritmética definida sobre conjuntos de números (naturales, enteros, racionales, irracionales, reales y complejos), y también sobre estructuras asociadas a ellos, como espacios vectoriales con vectores cuyas componentes sean estos números o funciones que tengan su imagen en ellos. También se suman matrices.
+
+En el álgebra moderna se utiliza el nombre suma y su símbolo "+" para representar la operación formal de un anillo que dota al anillo de estructura de grupo abeliano, o la operación de un módulo que dota al módulo de estructura de grupo abeliano. También se utiliza a veces en teoría de grupos para representar la operación que dota a un conjunto de estructura de grupo. En estos casos se trata de una denominación puramente simbólica, sin que necesariamente coincida esta operación con la suma habitual en números, funciones, vectores, etc.
+
+El hombre neolítico ya hacía matemática elemental, por lo tanto sabía sumar; pero previamente captó la idea de restar, puesto que sus medios de subsistencia disminuían durante el año, y no le era tan fácil de reponer.
+
+Los egipcios llegaron a sumar lo que se llaman hoy, números naturales y los números fraccionarios. Los babilonios llegaron a sumar los cuadrados de los números naturales. Los chinos y los hindúes sumaron números negativos. En el Renacimiento, con el auge de la banca y del comercio, se impuso la suma de decimales, catapultada por el uso del sistema de numeración decimal. Además se popularizó la adición de logaritmos vulgares, que reemplazaba eficazmente a la multiplicación de números tanto en el comercio, finanzas, astronomía, navegación, etc. &#8203;
+
+Con la forma de los diferentes tipos de número, se habla de suma de números reales (o expresiones decimales) y la suma de números complejos, que no es sino la suma de pares ordenados de números reales. Pero sí, con sus propias peculiaridades, tanto al generalizar para racionales y enteros. Además se suman con otros objetos, aun en el álgebra de Boole se habla de suma boleana. &#8203;
+
+Elemento neutro: El elemento identidad aditivo de los números es el cero, denotado por 0; porque todo número sumado con el 0 da el mismo número como total. Simbólicamente: 
+ 
+ 
+ 
+ a
+ +
+ 0
+ =
+ 0
+ +
+ a
+ =
+ a
+ 
+ 
+ {\displaystyle a+0=0+a=a}
+ 
+; ejemplo: 
+ 
+ 
+ 
+ 0
+ +
+ 3
+ =
+ 3
+ 
+ 
+ {\displaystyle 0+3=3}
+ 
+ &#8203; &#8203;
+ Elemento opuesto: Si 
+ 
+ 
+ 
+ a
+ &#x2208;
+ S
+ 
+ 
+ {\displaystyle a\in S}
+ 
+ existe 
+ 
+ 
+ 
+ &#x2212;
+ a
+ &#x2208;
+ S
+ 
+ 
+ {\displaystyle -a\in S}
+ 
+ tal que 
+ 
+ 
+ 
+ a
+ +
+ (
+ &#x2212;
+ a
+ )
+ =
+ 0
+ 
+ 
+ {\displaystyle a+(-a)=0}
+ 
+. Ejemplo: 
+ 
+ 
+ 
+ 7
+ +
+ (
+ &#x2212;
+ 7
+ )
+ =
+ 0
+ 
+ 
+ {\displaystyle 7+(-7)=0}

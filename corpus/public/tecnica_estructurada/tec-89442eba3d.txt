@@ -1,0 +1,146 @@
+En el segundo caso, puesto que el objeto rojo no ha sido seleccionado, se debe escoger tres elementos entre los cuatro azules. El número de formas de hacer esta elección es 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 4
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {4 \choose 3}}
+ 
+.
+
+Concluimos entonces que el número total de subconjuntos con 3 elementos, 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 5
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {5 \choose 3}}
+ 
+, es igual al número de subconjuntos del primer caso, 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 4
+ 2
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {4 \choose 2}}
+ 
+ sumado al número de subconjuntos incluidos en el segundo caso, 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 4
+ 3
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {4 \choose 3}}
+ 
+, es decir:
+
+El caso general se obtiene de forma similar, marcando un elemento particular, para luego dividir el conteo en dos casos, dependiendo si el elemento marcado está incluido o no. Cuando se incluye el elemento marcado falta escoger k-1 objetos de los n-1 no marcados, mientras que cuando no se incluye, hay que escoger k objetos de los n-1 marcados, concluyendo que
+
+Existe una cantidad muy grande de identidades que involucran coeficientes binomiales. El teorema de Pascal es un primer ejemplo de identidad relativa a coeficientes binomiales, a continuación se analizarán algunas pocas de las más conocidas. Son de particular interés puesto que sus pruebas proporcionan nuevamente ejemplos de razonamiento combinatorio, el cual no es usualmente presentado al tratar el tema pues por lo general, en los pocos casos en que se dan razones sobre su origen, se limitan a simples manipulaciones de la definición algebraica.
+
+La primera identidad a considerar es una igualdad de simetría o la propiedad de Stiffel que establece
+
+Por ejemplo, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 12
+ 5
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ =
+ 792
+ =
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 12
+ 7
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\tbinom {12}{5}}=792={\tbinom {12}{7}}}
+ 
+. Es una propiedad de simetría porque equivale a la afirmación de que el triángulo de Pascal es simétrico respecto a su eje vertical. Es común remitirse a la fórmula de factoriales para verificar su veracidad.
+
+La interpretación combinatoria de la identidad de simetría es la afirmación de que al escoger un subconjunto automáticamente se determina su complemento, por lo que hay la misma cantidad de subconjuntos con k elementos que subconjuntos con n-k elementos.
+
+Por ejemplo, si se tiene un conjunto con cinco elementos, de los cuales se desea pintar tres de rojo, es posible hacer la selección de C(5,3)=10 formas. Pero cada selección automáticamente determina dos objetos que no fueron escogidos. Así, hay una correspondencia entre selecciones de tres objetos y selecciones de dos. La conclusión es que debe haber el mismo número de formas de hacer una u otra selección, es decir:

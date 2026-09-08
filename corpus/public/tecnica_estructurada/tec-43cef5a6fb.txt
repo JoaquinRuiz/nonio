@@ -1,0 +1,15 @@
+Los átomos hidrogenoides &#8203; son átomos formados por un núcleo y un solo electrón. Se llaman así porque son isoelectrónicos con el átomo de hidrógeno y, por tanto, tendrán un comportamiento químico similar.
+
+Evidentemente, cualquiera de los isótopos del hidrógeno es hidrogenoide. Un caso típico de átomo hidrogenoide es también el de un átomo de cualquier elemento que se ha ionizado hasta perder todos los electrones menos uno (por ejemplo, He , Li , Be y B ). Existen además multitud de átomos exóticos que también tienen un comportamiento hidrogenoide por motivos diversos.
+
+Como en el caso del átomo de hidrógeno los átomos hidrogenoides son uno de los pocos problemas mecáno-cuánticos que se pueden resolver de forma exacta. Los átomos o iones cuya capa de valencia está constituida por un único electrón (por ejemplo en los metales alcalinos) tienen propiedades espectroscópicas y de enlace semejantes a las de los átomos hidrogenoides.
+
+La configuración electrónica más simple posible es la de un único electrón. La resolución analítica del átomo de hidrógeno neutro que posee la misma cantidad de electrones, es decir uno, es en esencia la misma para los átomos hidrogenoides. Así pues la forma de los orbitales y los niveles de energía serán semejantes.
+
+Por el contrario, para átomos con dos o más electrones la resolución de las ecuaciones solo se puede hacer mediante métodos aproximativos. Los orbitales de átomos multielectrónicos son cualitativamente similares a los orbitales del hidrógeno y, en los modelos atómicos más simples, se considera que tienen la misma forma. Pero si se pretende realizar un cálculo riguroso y preciso se tendrá que recurrir a aproximaciones numéricas.
+
+Los orbitales de los átomos hidrogenoides se identifican mediante tres números cuánticos: n, l, y ml. Las reglas que restringen los valores de los números cuánticos y sus energías (ver más abajo) explican la configuración electrónica de los átomos y la conformación de la tabla periódica.
+
+Los estados estacionarios (estados cuánticos) de los átomos hidrogenoides son sus orbitales atómicos. A pesar de todo, en general, el comportamiento de un electrón no está plenamente descrito por un orbital simple. Los estados electrónicos se representan mejor como "mezclas" dependientes del tiempo (combinaciones lineales) de varios orbitales. Ver Orbitales moleculares por combinación lineal de orbitales atómicos.
+
+El número cuántico n apareció por primera vez en el modelo atómico de Bohr. Determina, entre otras cosas, la distancia de los electrones con respecto al núcleo. Todos los electrones con el mismo valor de n forman un nivel o capa. Los electrones con idéntico número n pero diferente l componen los llamados subniveles o subcapas. El modelo atómico de Sommerfeld que incorporaba un refinamiento relativista del electrón probó que la energía dependía también de los otros números cuánticos tal como se aprecia en la solución relativista mediante la ecuación de Dirac.

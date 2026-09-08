@@ -1,0 +1,124 @@
+En solución química y bioquímica, la energía libre de Gibbs decrece (
+ 
+ 
+ 
+ &#x2202;
+ G
+ 
+ /
+ 
+ &#x2202;
+ &#x03BE;
+ 
+ 
+ {\displaystyle \partial G/\partial \xi }
+ 
+, en unidades molares, denotada de forma críptica por 
+ 
+ 
+ 
+ &#x0394;
+ G
+ 
+ 
+ {\displaystyle \Delta G}
+ 
+) es comúnmente utilizada como un sustituto para (
+ 
+ 
+ 
+ &#x2212;
+ T
+ 
+ 
+ {\displaystyle -T}
+ 
+ veces) la entropía producida por reacciones químicas espontáneas en situaciones donde no se ha realizado trabajo, o al menos no trabajo "útil"; por ejemplo, aparte de, quizás alguna 
+ 
+ 
+ 
+ &#x00B1;
+ P
+ 
+ 
+ d
+ 
+ V
+ 
+ 
+ {\displaystyle \pm P\,\mathrm {d} V}
+ 
+. La afirmación de que toda toda reacción espontánea tiene una 
+ 
+ 
+ 
+ &#x0394;
+ G
+ 
+ 
+ {\displaystyle \Delta G}
+ 
+ negativa es simplemente una reafirmación de la relación termodinámica fundamental, otorgándole las dimensiones físicas de energía y en cierto modo oscureciendo su significado en términos de entropía. Cuando no hay un trabajo útil que se realice, será menos engañoso utilizar las transformaciones Legendre de la entropía apropiadas para la constante 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ 
+ o para la constante 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ 
+ y 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+, las funciones Massieu 
+ 
+ 
+ 
+ &#x2212;
+ F
+ 
+ /
+ 
+ T
+ 
+ 
+ {\displaystyle -F/T}
+ 
+ y 
+ 
+ 
+ 
+ &#x2212;
+ G
+ 
+ /
+ 
+ T
+ 
+ 
+ {\displaystyle -G/T}
+ 
+ respectivamente.
+
+Generalmente los sistemas tratados con la termodinámica química convencional están en equilibrio o cerca de este. Ilya Prigogine desarrolló el tratamiento termodinámico de sistemas abiertos que están lejos del equilibrio. Realizando este trabajo descubrió fenómenos y estructuras de tipos completamente nuevos e inesperados. Su termodinámica generalizada, no linear e irreversible encontró sorprendentes aplicaciones en una gran variedad de campos.
+
+La termodinámica del no equilibrio ha sido aplicada para explicar cómo estructuras ordenadas, por ejemplo sistemas biológicos, pueden desarrollarse a partir del desorden. Aun si las relaciones Onsager son utilizadas, los principios clásicos del equilibrio en termodinámica todavía muestran que los sistemas lineales cercanos al equilibrio siempre desarrollan estados de desorden que son estables ante perturbaciones y no pueden explicar la existencia de estructuras ordenadas.
+
+Prigogine llamó a estos sistemas sistemas disipativos porque están formados y sostenidos por procesos disipativos que se llevan a cabo debido al intercambio de energía entre el sistema y su ambiente y porque desaparecen si ese intercambio se interrumpe. Comúnmente se dice que viven en simbiosis con su ambiente.
+
+El método que Prigogine utilizó para estudiar la estabilidad de las estructuras disipativas frente a perturbaciones es de gran interés general. Hace posible el estudio de problemas variados como problemas de tránsito en la ciudad, la estabilidad de comunidades de insectos, el desarrollo de estructuras biológicas ordenadas y el crecimiento de las células cancerosas por mencionar algunos ejemplos.

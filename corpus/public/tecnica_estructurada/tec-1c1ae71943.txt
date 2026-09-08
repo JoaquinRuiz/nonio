@@ -1,0 +1,15 @@
+El área es un concepto métrico que puede permitir asignar una medida a la extensión de una superficie, expresada en matemáticas como unidades de medida denominadas unidades de superficie. &#8203; El área es un concepto métrico que requiere la especificación de una medida de longitud.
+
+El área es una magnitud métrica de tipo escalar definida como la extensión en dos dimensiones de una recta al plano del espacio.
+
+Para superficies planas, el concepto es más intuitivo. Cualquier superficie plana de lados rectos —es decir, cualquier polígono— puede triangularse, y se puede calcular su área como suma de las áreas de los triángulos en que se descompone. &#8203; Ocasionalmente se usa el término "área" como sinónimo de superficie, &#8203; cuando no existe confusión entre el concepto geométrico en sí mismo (superficie) y la magnitud métrica asociada al concepto geométrico (área).
+
+Sin embargo, para calcular el área de superficies curvas se requiere introducir métodos de geometría diferencial.
+
+Para poder definir el área de una superficie en general —que es un concepto métrico—, se tiene que haber definido un tensor métrico sobre la superficie en cuestión: cuando la superficie está dentro de un espacio euclídeo, la superficie hereda una estructura métrica natural inducida por la métrica euclidiana.
+
+La idea de que el área es la medida que proporciona el tamaño de la región encerrada en una figura geométrica proviene de la antigüedad. En el antiguo Egipto, tras la crecida anual de río Nilo inundando los campos, surge la necesidad de calcular el área de cada parcela agrícola para restablecer sus límites; para solventar eso, los egipcios inventaron la geometría, según Heródoto. &#8203;
+
+El modo de calcular el área de un polígono como la suma de las áreas de los triángulos, es un método que fue propuesto por primera vez por el sabio griego Antifón hacia el año 430&#160;a.&#160;C. Hallar el área de una figura curva genera más dificultad. El método exhaustivo consiste en inscribir y circunscribir polígonos en la figura geométrica, aumentar el número de lados de dichos polígonos y hallar el área buscada. Con el sistema que se conoce como método exhaustivo de Eudoxo, consiguió obtener una aproximación para calcular el área de un círculo. Dicho sistema fue empleado tiempo después por Arquímedes para resolver otros problemas similares, &#8203; así como el cálculo aproximado del número π.
+
+En el siglo V a. C., Hipócrates de Quíos fue el primero en mostrar que el área de un disco (la región encerrada por un círculo) es proporcional al cuadrado de su diámetro, como parte de su cuadratura de la lúnula, &#8203; pero no identificó la constante de proporcionalidad. Eudoxo de Cnido, también en el siglo V a. C., también encontró que el área de un disco es proporcional a su radio al cuadrado. &#8203;

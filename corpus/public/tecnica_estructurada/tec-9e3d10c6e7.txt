@@ -1,0 +1,333 @@
+La codificación superdensa, en teoría cuántica de la información, es un proceso en el cuál se pueden transmitir dos bits clásicos almacenados en un qubit entre dos posiciones (lo suficientemente alejadas para que no haya influencia alguna entre los sistema) y mediante un canal cuántico. Se denomina superdensa porque podemos enviar en un solo qubit dos bits.
+
+El estado cuántico que se transmite es lo que se llama qubit (o cúbit), que no es más que el análogo cuántico del bit. Un bit es, en resumidas cuentas, un sistema que puede existir en dos estados distintos, por ejemplo, para representar 0 y 1. Entonces, un qubit será un sistema cuántico cuyo espacio de estados tiene dimensión 2.
+
+Uno de los requisitos es tener un qubit en cada posición, que estarán entrelazados. &#8203; &#8203; Este proceso es similar al de la teleportación cuántica, en la cual se quiere teleportar un estado cuántico de un sistema a otro mediante la transmisión por un canal clásico de dos bits clásicos. &#8203; Se podría decir que la teleportación cuántica y la codificación superdensa son "procesos inversos" ya que, como se verá más adelante, el procedimiento para uno de ellos es similar al del otro, pero de forma inversa. Una característica que comparten ambos procesos es que necesitan de un estado entrelazado, siendo este estado uno de los pertenecientes a la base de Bell.
+
+Como se ha dicho, queremos enviar en un solo qubit la información de dos bits. Para ello, se inicia el proceso con dos sistemas, Alice y Bob (o sistemas A y B), los cuales comparten un estado entrelazado, con un qubit cada uno. Este estado suele escogerse entre uno de los estados de la base de Bell.
+
+{
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A6;
+ 
+ +
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ +
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 00
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A6;
+ 
+ &#x2212;
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2212;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 10
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ +
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ +
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 01
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ &#x2212;
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2212;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 11
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}|\Phi ^{+}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |0\rangle _{B}+|1\rangle _{A}\otimes |1\rangle _{B})\equiv |\beta _{00}\rangle \\|\Phi ^{-}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |0\rangle _{B}-|1\rangle _{A}\otimes |1\rangle _{B})\equiv |\beta _{10}\rangle \\|\Psi ^{+}\rangle ={\frac {1}{\sqrt {2}}}(|1\rangle _{A}\otimes |0\rangle _{B}+|0\rangle _{A}\otimes |1\rangle _{B})\equiv |\beta _{01}\rangle \\|\Psi ^{-}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |1\rangle _{B}-|1\rangle _{A}\otimes |0\rangle _{B})\equiv |\beta _{11}\rangle \end{cases}}}

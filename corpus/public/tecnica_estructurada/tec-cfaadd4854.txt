@@ -1,0 +1,68 @@
+El coeficiente ó índice de Sørensen-Dice, también conocido por otros nombres tales como el índice de Sørensen, coeficiente de Dice, es un estadístico utilizado para comparar la similitud de dos muestras. Fue desarrollado independientemente por los botánicos Thorvald Sørensen &#8203; y Lee Raymond Dice, &#8203; que publicaron en 1948 y 1945 respectivamente.
+
+La fórmula original de Sørensen estaba destinada a ser aplicada a datos de presencia/ausencia, y se define de la siguiente forma:
+
+donde A y B son el número de especies en las muestras A y B, respectivamente, y C es el número de especies compartidas por las dos muestras; QS es el cociente de similitud y varía de 0 a 1. Esta expresión se extiende fácilmente a la abundancia en lugar de la presencia / ausencia de especies. Esta versión cuantitativa del índice de Sørensen también se conoce como Czekanowski índice. El índice de Sørensen es idéntico al coeficiente de Dice &#8203; que siempre está en [0, 1] rango. El índice de Sørensen utilizado como una medida de distancia, 1 - QS, es idéntica a la distancia Hellinger y Bray Curtis disimilitud &#8203; cuando se aplica a los datos cuantitativos.
+
+No es muy diferente en forma del índice de Jaccard , pero tiene algunas propiedades diferentes. Por ejemplo en la función oscila entre cero y uno, como Jaccard. A diferencia de Jaccard, la función correspondiente diferencia
+
+no es una distancia métrica adecuada, ya que no posee la propiedad de la desigualdad del triángulo. El contraejemplo más simple de esto se da por los tres conjuntos {a}, {b}, y {a, b}, la distancia entre los dos primeros son 1, y la diferencia entre la tercera y cada uno de los otros son un tercio .
+
+De manera similar a Jaccard, el conjunto de operaciones se pueden expresar en términos de operaciones vectoriales sobre vectores binarios A y B:
+
+s
+ 
+ v
+ 
+ 
+ =
+ 
+ 
+ 
+ 2
+ 
+ |
+ 
+ A
+ &#x22C5;
+ B
+ 
+ |
+ 
+ 
+ 
+ 
+ |
+ 
+ A
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ +
+ 
+ |
+ 
+ B
+ 
+ 
+ |
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle s_{v}={\frac {2|A\cdot B|}{|A|^{2}+|B|^{2}}}}
+
+que da el mismo resultado en vectores binarios y también da una similitud más general métrica sobre vectores en términos generales.
+
+Para los conjuntos de X e Y de palabras clave utilizadas en la recuperación de la información , el coeficiente puede ser definido como dos veces la información compartida (intersección) sobre la suma de cardinalidades: &#8203;

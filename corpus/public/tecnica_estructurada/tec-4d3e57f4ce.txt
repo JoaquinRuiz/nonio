@@ -1,0 +1,97 @@
+Una hoja de papel normalizado A4 (210 mm x 297 mm), vista desde un punto centrado situado a 216 mm de la hoja se ve bajo un ángulo sólido de 1 sr, aproximadamente.
+
+El ángulo sólido bajo el cual se ve un casquete esférico cuyo radio se ve bajo un ángulo 
+ 
+ 
+ 
+ 
+ 
+ &#x03B8;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {\theta }}
+ 
+ desde el centro de la esfera, es
+
+&#x03A9;
+ =
+ 2
+ &#x03C0;
+ (
+ 1
+ &#x2212;
+ cos
+ &#x2061;
+ &#x03B8;
+ )
+ 
+ 
+ 
+ {\displaystyle \Omega =2\pi (1-\cos \theta )\,}
+
+Desde un diedro rectángulo se ve bajo un ángulo sólido de 
+ 
+ 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {\pi }}
+ 
+ sr (una esquina interior de una habitación).
+
+Desde un ángulo triedro rectangular se ve bajo un ángulo sólido de 
+ 
+ 
+ 
+ 
+ 
+ 
+ &#x03C0;
+ 2
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {\pi \over 2}}
+ 
+ sr (una habitación vista del vértice del ángulo triedro formado por una esquina y el techo).
+
+La bóveda celeste abarca medio universo, es decir, un ángulo sólido 
+ 
+ 
+ 
+ 
+ 
+ 2
+ &#x03C0;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {2\pi }}
+ 
+ sr.
+
+Desde cualquier punto en el espacio, el universo abarca un ángulo sólido de 
+ 
+ 
+ 
+ 
+ 
+ 4
+ &#x03C0;
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle {4\pi }}
+ 
+ sr.

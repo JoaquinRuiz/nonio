@@ -1,0 +1,7 @@
+Se llama antifusible (antifuse) a un dispositivo programable, desarrollado por Actel para su familia de redes lógicas programables.
+
+La matriz de antifusibles consiste en líneas paralelas conductoras, normalmente de aluminio, recubiertas por una capa fina de dieléctrico, normalmente dióxido de silicio. sobre el óxido se deposita otra capa de líneas conductoras perpendiculares a las anteriores. Esta estructura permite realizar varias capas superpuestas de antifusibles, ahorrando superficie de silicio, reservándola para los transistores.
+
+La programación se realiza estableciendo una tensión elevada entre dos líneas que se cruzan. Esta tensión es superior a la rigidez dieléctrica del óxido y el campo eléctrico lo rompe. Entonces salta un pequeño arco entre las dos pistas, que las funde parcialmente, soldándolas, estableciendo así una conexión permanente.
+
+Aunque la programación parezca similar a la de las ROM de fusible, se distingue en que se realiza por tensión, mientras que aquellas se programan por corriente. La consecuencia es que la energía por bit necesaria durante la programación es mucho menor, permitiendo una programación rápida.

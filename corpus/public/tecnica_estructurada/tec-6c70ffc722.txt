@@ -1,0 +1,80 @@
+En muchos casos de interés en la termodinámica química existen grados de libertad internos y procesos como reacciones químicas y transiciones de fase, las cuales siempre generan entropía a menos que se encuentren en equilibrio o mantenidas en un "equilibrio constante" a través de cambios "cuasi-estáticos" al ser sumados a dispositivos limitantes como pistones o electrodos, con el fin de entregar y recibir trabajo externo. Incluso para materiales "bulto" homogéneos las funciones de energía libre dependen de la composición, así como potenciales termodinámicos extensivos, incluyendo la energía interna. Si las cantidades {&#160;Ni&#160;}, el número de especies químicas son omitidos de la fórmula, es imposible describir cambios en la composición.
+
+Para un sistema "bulto" (no estructurado) hay variables extensivas. Para un sistema "bulto" homogéneo no estructurado, aún hay varias variables composicionales "extensivas" {&#160;Ni&#160;} que G depende de, el cual especifica la composición, la cantidad de cada sustancia química, expresada como el número de moléculas presentes o (divididas por el número de Avogadro), el número de moles.
+
+en donde 
+ 
+ 
+ 
+ 
+ &#x03BC;
+ 
+ i
+ 
+ 
+ 
+ 
+ {\displaystyle \mu _{i}}
+ 
+ es el potencial químico para el i-ésimo componente en el sistema
+
+La expresión para 
+ 
+ 
+ 
+ 
+ d
+ 
+ G
+ 
+ 
+ {\displaystyle \mathrm {d} G}
+ 
+ es muy útil a 
+ 
+ 
+ 
+ T
+ 
+ 
+ {\displaystyle T}
+ 
+ y 
+ 
+ 
+ 
+ P
+ 
+ 
+ {\displaystyle P}
+ 
+ constantes, condiciones que son fáciles de alcanzar de manera experimental y que aproximan la condición en criaturas vivientes
+
+Mientras esta formulación es matemáticamente justificable, no es particularmente clara desde que no se puede de manera simple remover o añadir moléculas de un sistema. Siempre hay un proceso involucrado en cambiar la composición; por ejemplo, una (o varias) reacciones químicas o movimiento de moléculas de una fase (líquida) a otra (gas o sólida). Debemos encontrar la notación que no parezca insinuar que la cantidad de componentes (&#160;Ni&#160;} puede ser cambiado de manera independiente. Todos los procesos reales obedecen a la conservación de masa y además, la conservación del número de átomos de cada clase. Sin importar las moléculas transferidas hacia o desde, deben considerarse parte del "sistema".
+
+Consecuentemente se introduce una variable explícita para representar el grado de avance de un proceso, una variable de progreso, &#160;ξ para el alcance de la reacción (Prigogine & Defay, p.&#160;18; Prigogine, pp.&#160;4–7; Guggenheim, p.&#160;37.62), y para el uso de la derivada parcial 
+ 
+ 
+ 
+ &#x2202;
+ G
+ 
+ /
+ 
+ &#x2202;
+ &#x03BE;
+ 
+ 
+ {\displaystyle \partial G/\partial \xi }
+ 
+ (en lugar del muy utilizado 
+ 
+ 
+ 
+ &#x0394;
+ G
+ 
+ 
+ {\displaystyle \Delta G}
+ 
+, desde que la cantidad en cuestión no es una carga finita). El resultado es una clara expresión para la dependencia de dG en reacciones químicas (u otros procesos). Si hay sólo una reacción

@@ -1,0 +1,138 @@
+Cuando la luz de determinada longitud de onda incide sobre la superficie de un metal, este emite un flujo de electrones. En la época en la que se realizó este descubrimiento, la teoría ondulatoria de la luz era el único modelo disponible. Según esta, el número de electrones emitidos debía aumentar proporcionalmente a la intensidad de la luz; además debería existir un margen de tiempo entre la incidencia de los fotones y la emisión de los electrones. Al proceder a la experimentación, ninguna de estas condiciones resultaron ser ciertas. La intensidad luminosa no afecta a la emisión de los electrones, pero sí a la frecuencia, ya que el efecto fotoeléctrico solo se produce para ciertos valores de esta y el margen de tiempo es irrelevante. La teoría ondulatoria, por tanto, no resulta válida a la hora de explicar el efecto fotoeléctrico.
+
+Para justificar el fenómeno, Einstein empleó una idea propuesta por Max Planck en 1900 para explicar una paradoja similar surgida a la hora de interpretar la radiación del cuerpo negro. Planck consideró la luz como una serie de paquetes discretos a los que denominó cuantos en lugar de considerarla como una onda. Utilizando esta teoría, Einstein determinó que la energía de los cuantos, partículas que llamamos fotones, está relacionada con la frecuencia de la onda luminosa mediante la expresión:
+
+Donde 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ 
+ es la energía cinética del fotón, 
+ 
+ 
+ 
+ f
+ 
+ 
+ {\displaystyle f}
+ 
+ su frecuencia y 
+ 
+ 
+ 
+ h
+ 
+ 
+ {\displaystyle h}
+ 
+ la constante de Planck 
+ 
+ 
+ 
+ (
+ 6
+ ,
+ 63
+ &#x2217;
+ 
+ 10
+ 
+ &#x2212;
+ 34
+ 
+ 
+ J
+ .
+ s
+ )
+ 
+ 
+ {\displaystyle (6,63*10^{-34}J.s)}
+ 
+ Una vez establecida la energía del fotón, el efecto fotoeléctrico se convierte en un caso simple de aplicación del principio de conservación de la energía.
+
+Cuando la luz incide sobre una superficie, está aportando una cierta energía, 
+ 
+ 
+ 
+ E
+ 
+ 
+ {\displaystyle E}
+ 
+, en particular a los electrones de la superficie. Existe un valor concreto de energía necesario para «despegar» el electrón, llamado energía umbral y también función de trabajo,
+ 
+ 
+ 
+ 
+ &#x03A6;
+ 
+ u
+ 
+ 
+ 
+ 
+ {\displaystyle \Phi _{u}}
+ 
+. El exceso de energía por encima de 
+ 
+ 
+ 
+ 
+ &#x03A6;
+ 
+ u
+ 
+ 
+ 
+ 
+ {\displaystyle \Phi _{u}}
+ 
+ aparecerá en forma de energía cinética del electrón,
+ 
+ 
+ 
+ 
+ E
+ 
+ c
+ 
+ 
+ 
+ 
+ {\displaystyle E_{c}}
+ 
+, el cual adquirirá la velocidad que corresponda a la citada energía cinética.
+
+Existen varios procedimientos para verificar esta ecuación. Uno consiste en medir las diferencias de potencial entre los electrodos de una célula fotoeléctrica con un voltímetro al iluminar la célula con luz monocromática de diversas longitudes de onda. Como consecuencia, se crearán distintas diferencias de potencial 
+ 
+ 
+ 
+ V
+ 
+ 
+ {\displaystyle V}
+ 
+ entre los electrodos y aparecerá un paso de corriente producida por los electrones arrancados del cátodo. Una variación de este experimento consistiría en conectar la célula a una batería con las polaridades invertidas y ajustar el valor de la misma hasta que la corriente de la célula descendiera a cero, lo que significaría que el campo opuesto creado es capaz de evitar que los electrones se desprendan de la superficie metálica. Ambos métodos deben verificar el principio de conservación de la energía y por tanto deben cumplir que la energía cinética de los electrones emitidos procede de la diferencia de potencial 
+ 
+ 
+ 
+ V
+ 
+ 
+ {\displaystyle V}
+ 
+ existente entre los electrodos de la fotocélula en el primer caso y en el segundo representa el potencial 
+ 
+ 
+ 
+ V
+ 
+ 
+ {\displaystyle V}
+ 
+ opuesto que se aplica y que anula la corriente establecida. Por ello, la ecuación se puede escribir de la siguiente manera:

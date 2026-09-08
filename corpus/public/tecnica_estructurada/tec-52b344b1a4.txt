@@ -1,0 +1,16 @@
+Las técnicas de corrección de error son procedimientos utilizados en tratamiento digital de señal para revertir errores detectados durante la transmisión de señales digitales.
+
+En toda transmisión digital sobre un canal real los niveles eléctricos de la señal están expuestos a pequeñas variaciones ocasionadas por interferencias, ruido o el incorrecto funcionamiento de alguno de los equipos que componen el canal. La suma de estos factores puede llega a cambiar la interpretación de los bits alterando el significado de la información enviada.
+
+En un canal la calidad de este se mide sobre la base de la tasa de error BER (Bit Error Rate en inglés) que se obtiene como el resultado de medir el número de bit recibidos erróneos entre el total de bit transmitidos.
+
+Existen multitud de protocolos de detección y corrección de errores (como los v.42 o MNP en los módems) que establecen un conjunto de normas para sincronizar y ordenar las tramas de datos y definen procedimientos para determinar cuando se ha producido un error y como deben corregirse.
+
+Se diseñó para utilizarse cuando haya un ser humano en la terminal de recepción. Analiza los datos recibidos y toma decisiones sobre su integridad. En la sustitución de símbolos si se recibe un carácter presuntamente equivocado se sustituye por un carácter que exige al operador que lo vuelva a interpretar.
+
+Ejemplo:
+Si el mensaje “documento” tuviera un error en el primer carácter, se sustituye la "d" por "%" y se le muestra al operador el mensaje “%ocumento”. En este caso por contexto se puede recuperar el contenido de ese carácter y es innecesaria la buenas tardes retransmisión pero si el mensaje fuera “&%,000.00” el operador no puede definir cual es el carácter equivocado y se pide la retransmisión del mensaje.
+
+Cuando no se está operando en tiempo real puede ser útil pedir el reenvío íntegro de las tramas que se presumen erróneas o dañadas. Éste es posiblemente el método más seguro de corrección de errores aunque raramente es el método más eficiente. Es el caso por ejemplo del protocolo ARQ (Automatic Repeat-reQuest) donde el terminal que detecta un error de recepción pide la repetición automática de todo el mensaje.
+
+Si se usan mensajes cortos será menor la probabilidad de que haya una irregularidades en la transmisión pero sin embargo estos requieren más reconocimientos y cambios de dirección de línea que los mensajes largos. Con los mensajes largos se necesita menos tiempo de cambio de línea, aunque aumenta la probabilidad de que haya un error de transmisión, respecto a los mensajes cortos.

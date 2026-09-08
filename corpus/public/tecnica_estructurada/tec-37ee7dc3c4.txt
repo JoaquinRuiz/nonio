@@ -1,0 +1,7 @@
+9p (o el Plan 9 Filesystem Protocol o Styx) es un protocolo de red desarrollado por el sistema operativo distribuido Plan 9 from Bell Labs como el medio para conectar los componentes de un sistema Plan 9. Los archivos son objetos clave en Plan 9: representan ventanas, conexiones de red, procesos y casi absolutamente cualquier cosa disponible en el sistema operativo. 9P promueve el caching y también servidores de archivos sintéticos, como /proc para representar procesos.
+
+9P fue revisado para la 4.ª edición de Plan 9 bajo el nombre 9P2000 que contiene varias mejoras fundamentales. La última versión de Inferno también usa 9P2000. El protocolo de archivos de Inferno se llamaba originalmente Styx, pero técnicamente siempre ha sido una variedad de 9P.
+
+Hay una implementación del servidor de 9P para UNIX llamada u9fs que se incluye en la distribución de Plan 9. También hay un módulo cliente para el kernel de Linux como parte del proyecto v9fs. 9P y sus derivados también han encontrado un nicho en los sistemas embebidos, como el proyecto Styx on a Brick.
+
+Muchas de las aplicaciones de Plan 9 toman la forma de servidores 9P, algunas particularmente destacables:

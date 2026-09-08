@@ -1,0 +1,8 @@
+Adabas (Adaptable Database System) es una base de datos de listas invertidas, de alto rendimiento creada por la empresa alemana Software AG, en el año 1969.
+Actualmente se sigue comercializando bajo la versión Adabas 2006, incorporando gateways para SOA y SQL.
+
+Adabas es considerado por algunos como uno de los primeros productos de base de datos disponibles comercialmente. Inicialmente lanzado para ser ejecutado en sistemas de mainframes de IBM, Adabas está ahora disponible en un gama de sistemas incluyendo: servidores OpenVMS, Unix (Linux y Linux en System Z) y de Windows. Adabas ha mantenido su posición como una de las bases de datos OLTP más rápidas, ofreciendo funcionamiento en todo momento, soporte Sysplex Paralelo, capacidad de replicación en todo momento, acceso SQL y XML y otras capacidades vanguardistas. Históricamente, Adabas fue usado en conjunción con el lenguaje NATURAL de Software AG, por lo que muchas de las aplicaciones que usa Adabas por un lado son asimismo desarrolladas con NATURAL.[...]
+
+Adabas es una Base de datos de lista invertida. Ha sido descrita como “no relacional” aunque “casi relacional” en sus características. He aquí algunas diferencias:
+
+Se ha probado que es muy exitoso en proveer acceso eficiente a los datos y en mantener la integridad en la base de datos. Adabas es ahora ampliamente usado en aplicaciones que requieren muy altos volúmenes de procesamiento de datos o en ambientes de alto procesamiento de transacciones analíticas en línea.

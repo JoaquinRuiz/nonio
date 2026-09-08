@@ -1,0 +1,26 @@
+La altura de un objeto o figura geométrica es una longitud o una distancia de una dimensión geométrica, usualmente vertical o en la dirección de la gravedad. Este término también se utiliza para designar la coordenada vertical de la parte más elevada de un objeto.
+
+Coloquialmente, el sustantivo «altura» puede ser reemplazado por «alto» (adjetivo sustantivizado), que la Real Academia Española acepta como vigesimotercera acepción en su Diccionario. &#8203;
+
+En coordenadas cartesianas (x, y), en el plano, la altura se refiere a la distancia perpendicular al eje X, o la longitud o distancia entre un vértice y el lado opuesto (o su prolongación), denominado «base» si está en posición horizontal. La altura siempre es perpendicular a la base. Un triángulo tiene tres alturas diferentes respecto de sus tres lados y vértices.
+
+En el plano, la altura de una figura geométrica relativa a un lado, considerado como horizontal, es la distancia que hay desde el punto más alto de la figura hasta dicho lado.
+
+La altura de un triángulo respecto de un lado es el segmento perpendicular a dicho lado o a su prolongación y que pasa por el vértice opuesto, y por extensión, la longitud de dicho segmento. &#8203; &#8203;
+
+Para un triángulo ΔABC cualquiera, conociendo la longitud de sus lados (a, b, c), se pueden calcular las respectivas longitudes de las alturas (ha, hb, hc) aplicando las siguientes fórmulas:
+
+Donde ha es la altura del lado a; hb , la del lado b; hc, la del lado c y el término 
+ 
+ 
+ 
+ &#x03C4;
+ 
+ 
+ {\displaystyle \tau }
+ 
+ es:
+
+La altura de un objeto o figura geométrica es una longitud o una distancia, usualmente vertical o en la dirección de la gravedad. Este término también se usa para designar la coordenada vertical de la parte más elevada de un objeto.
+
+En coordenadas cartesianas (x, y, z), la altura de los volúmenes corresponde a la coordenada Z que es la que se sitúa perpendicular al suelo (vertical), normalmente, ya que X e Y son asignados a valores horizontales: anchura (o ancho) y longitud (o largo).

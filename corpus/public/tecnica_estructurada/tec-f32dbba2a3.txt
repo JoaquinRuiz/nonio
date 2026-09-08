@@ -1,0 +1,19 @@
+Los ángulos entre rectas paralelas y una secante, en geometría euclidiana, son los ocho ángulos formados por dos rectas paralelas (r y s en la imagen de la derecha) y una transversal a ellas (t).
+
+Los ángulos alternos internos son congruentes. Pasa por el vértice opuesto en lo que podemos ver esto se suma por la distancia de las líneas paralelas en ciertos casos el ángulo de un triángulo mide 180° grados y para cada angulo siempre se busca que 35° o alguna otra cifra sumados den 180°.
+
+Los ángulos colaterales internos &#8203; o conjugados internos &#8203; son los que se encuentran del mismo lado de la secante y entre de las rectas paralelas.
+
+Los ángulos colaterales externos &#8203; o conjugados externos son los que se encuentran al mismo lado de la secante y en la parte exterior de las rectas paralelas.
+
+Son los ángulos que a un mismo lado de la secante, uno es externo y el otro interno. Los pares de ángulos: c, g; a, e; d, h y b, f; son correspondientes
+
+Los ángulos opuestos por el vértice son congruentes, de modo que, de los ocho ángulos formados entre dos paralelas y una transversal, hay únicamente dos distintos, que no son adyacentes.
+
+La noción de ángulos correspondientes es la base de numerosos ejemplos y teoremas fundamentales de la geometría, &#8203; presente en los cursos de enseñanza media de las matemáticas. Es un resultado geométrico intuitivo conocido y manejado desde la antigüedad, de manera tanto práctica como teórica, &#8203; si bien es la ciencia griega, y en particular Euclides, en los Elementos (siglo III a.C.), quienes formalizan los conceptos y las nociones de un modo que ha permanecido casi sin variaciones hasta nuestros días.
+
+La controversia sobre el V postulado alcanza la definición de los ángulos entre rectas paralelas y una secante desde el momento mismo de la elección de la noción de «rectas paralelas»: las que guardan siempre la misma distancia; las que no se encuentran; o bien las que forman ángulos congruentes al ser cortadas por una transversal. &#8203;
+
+Los siguientes dos resultados (lógicamente equivalentes &#8203;) son independientes del V postulado de Euclides. La Proposición 16, por ejemplo, no se cumple en geometría elíptica.
+
+En la geometría absoluta o la geometría esférica por ejemplo, el quinto postulado de Euclides no aplica, por lo que los ángulos entre rectas paralelas y una secante tienen propiedades diferentes.

@@ -1,0 +1,21 @@
+Un ejemplo posible de consulta utilizando consistencia es el siguiente: SELECT * FROM users WHERE state='TX' USING CONSISTENCY QUORUM;
+
+Sistema de archivos
+En la actualidad, Cassandra es compatible con HDFS (Hadoop Distributed File System), sin embargo, DataStax que es la compañía que da soporte y distribuye a Apache Cassandra a través de contribuciones abiertas, creó Cassandra File System (CFS) que tiene como objetivo ser el reemplazo de HDFS. Las principales diferencias se encuentran en los daemons llamados "Nombre de Nodo", "Nombre de Nodo Secundario" y "Nodo de Datos". El motivo de este cambio es hacer más fácil el manejo de archivos en Cassandra.
+
+• Los archivos que se manejen en Cassandra, se almacenarán en varios nodos para prevenir posibles fallas o pérdidas de información.
+
+• Es compatible con otras herramientas, como MapReduce, Apache Spark que permiten trabajar el Big Data.
+
+Entonces, en general, Cassandra File System no es ideal para manejar grandes volúmenes de información en conjuntos grandes, sino en conjuntos pequeños. Y por otro lado, es excelente para datos almacenados de manera estructurada.
+
+Cassandra es esencialmente un híbrido entre un modelo Clave-Valor y una base de datos Tabular (Orientado a columnas).
+
+La familia de columnas (llamada “Tabla” desde CQL3) se asemeja a una tabla en un RDBMS. Estas contienen filas y columnas. Cada fila tiene múltiples columnas, cada una de estas tiene a su vez un nombre, un valor y un timestamp. A diferencia de una tabla en un RDBMS, diferentes filas en una misma familia de columnas, no tiene por qué compartir el mismo conjunto de columnas, y además, una columna puede ser añadida a una o a múltiples filas en cualquier momento.
+Cada clave en Cassandra, corresponde a un valor que es a su vez un objeto. Cada clave tiene valores como columnas, y las columnas son agrupadas en sets que son llamados familias de columnas. Así, cada clave identifica una fila con un número variable de elementos. 
+Estas familias de columnas, pueden ser consideradas como tablas. Una tabla en Cassandra es un mapa multi-dimensional distribuido, indexado por una clave. Además, las aplicaciones pueden especificar el orden de las columnas dentro de una Súper Columna, o una Familia de Columnas Simples.
+
+Cuando se diseña el clúster para Apache Cassandra, un punto importante es seleccionar la partición correcta. 
+Existen dos tipos de partición:
+
+Apache Cassandra es un proyecto de Apache Software Foundation, por lo que tiene una Apache License (version 2.0).

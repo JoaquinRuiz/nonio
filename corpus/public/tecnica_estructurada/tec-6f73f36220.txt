@@ -1,0 +1,11 @@
+ARQ (del inglés Automatic Repeat-reQuest) son protocolos utilizados para el control de errores en la transmisión de datos, garantizando la integridad de los mismos. Estos suelen utilizarse en sistemas que no actúan en tiempo real, ya que el tiempo que se pierde en el reenvío puede ser considerable y suele ser más útil emitir mal en el momento, que hacerlo correctamente un tiempo después. Esto se puede ver muy claro con una aplicación de videoconferencia donde no resulta de utilidad emitir el pixel correcto de la imagen 2 segundos después de haber visto la imagen.
+
+Esta técnica de control de errores se basa en el reenvío de los paquetes de información que se detecten como erróneos (Esto quiere decir que no todos los paquetes de información se detectan como erróneos).
+
+Para controlar la correcta recepción de un paquete se utilizan ACK's (acknowledge) y NACK's de forma que cuando el receptor recibe un paquete correctamente el receptor asiente con un ACK y si no es correcto responde con un NACK. Durante el protocolo que controla recepción de paquetes pueden surgir múltiples problemas (pérdida de ACK, recibir un ACK incorrecto, etc.) complicándose así el contenido del ACK y surgiendo nuevos conceptos como el de timeout.
+
+Si el emisor no recibe información sobre la recepción del paquete durante un tiempo fijado (timeout) este se reenvía automáticamente.
+
+Esencialmente existen tres tipos de ARQ aunque en la práctica se combinen buscando el sistema óptimo para cada canal o estado de tráfico concreto.
+
+Entre otros protocolos ARQ, encontramos, Stop-and-wait ARQ, Go-Back-N ARQ y Selective Repeat ARQ; estos protocolos pertenecen a la Capa de enlace de datos y/o a la Capa de transporte del modelo OSI

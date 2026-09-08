@@ -1,0 +1,13 @@
+Las computadoras usan AAL5 para enviar paquetes de longitud variable mayor de 65.535 octetos a través de una red ATM.
+
+AAL5 es una etapa del servicio de la tecnología ATM, donde se toma la información del usuario, se le secciona y se le estructura señalando el tipo de servicio que es (voz, datos, vídeo o audio).
+
+En esta capa se modifica la estructura de las tramas que entregan los usuarios y que pueden venir en protocolos de XDSL, IP, ISDN, G703, G704, Frame Relay, voz o datos, y se cambian a la estructura de celdas de 48 Bytes de la capa 3 de ATM.
+
+Generalmente en los sistemas de transmisión se extrae el reloj para la verificación de los tiempos de los pulsos en la primera capa. También esta capa en ATM lo permite.
+
+Si bien es cierto que en esta capa se adapta la información para que pueda ser llevada a otro destino, dependiendo de su tipo de servicio es el tipo de adaptación, si es de alta prioridad como conversación telefónica o video en vivo, transcurre por la capa llamada AAL 1. En la capa AAL 2, se adapta el tráfico de información que requiere transportarse en tiempo real solo cuando esta existe.
+
+La capa AAL 3/ AAL 4 sirve para llevar información que requiere continuidad, aunque no sea en tiempo real, como por ejemplo descargar una película de un servidor para verse posteriormente.
+
+La AAL 5 es la de peor calidad y generalmente se asigna al transporte de datos que pueden ser retardados o con repeticiones si así se requiere por parte del receptor.:.

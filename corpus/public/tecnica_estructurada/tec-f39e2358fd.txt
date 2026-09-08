@@ -1,0 +1,62 @@
+μ oi es el potencial químico estándar de la especie, R es la constante de gas y T es la temperatura. Configuración de la suma de los reactivos j para que sea igual a la suma de los productos, k, de modo que rGr(Eq)&#160;= 0
+
+Esto se relaciona el cambio de energía libre de Gibbs estándar, ΔG a una constante de equilibrio, K, el cociente de reacción de los valores de actividad en el equilibrio.
+
+En el equilibrio, la velocidad de la reacción hacia adelante es igual a la velocidad de reacción hacia atrás. Una reacción simple, como la hidrólisis del éster.
+
+Según Guldberg y Waage, el equilibrio se alcanza cuando las tasas de reacción hacia adelante y hacia atrás son iguales entre sí. En estas circunstancias, una constante de equilibrio se define como igual a la relación de las constantes de velocidad de reacción hacia adelante y hacia atrás.
+
+Por conveniencia, la concentración de agua puede tomarse como constante, lo que resulta en una expresión más simple
+
+Este cociente de concentración particular, 
+ 
+ 
+ 
+ 
+ K
+ 
+ c
+ 
+ 
+ 
+ 
+ {\displaystyle K^{c}}
+ 
+, tiene la dimensión de la concentración, pero la constante de equilibrio termodinámico, K, es siempre dimensional.
+
+Es muy raro que los valores de los coeficientes de actividad se hayan determinado experimentalmente para un sistema en equilibrio. Hay tres opciones para tratar la situación en la que los valores de los coeficientes de actividad no se conocen a partir de mediciones experimentales.
+
+Cualquier constante de equilibrio, K , debe ser adimensional. Una constante de equilibrio está relacionada con el cambio de energía libre estándar de Gibbs para la reacción por la expresión
+
+Esto requiere que K sea un número puro del cual se pueda derivar un logaritmo. En el caso de un equilibrio simple.
+
+la constante de equilibrio termodinámico se define en términos de las actividades, {AB}, {A} y {B}, de la especie en equilibrio entre sí.
+
+Ahora, cada término de actividad se puede expresar como un producto de una concentración 
+ 
+ 
+ 
+ [
+ X
+ ]
+ 
+ 
+ {\displaystyle [X]}
+ 
+ y un coeficiente de actividad correspondiente, 
+ 
+ 
+ 
+ &#x03B3;
+ (
+ X
+ )
+ 
+ 
+ {\displaystyle \gamma (X)}
+ 
+. Por lo tanto,
+
+Cuando cada coeficiente de actividad tiene la dimensión 1 / concentración, K permanece sin dimensiones. Sin embargo, cuando el coeficiente de coeficientes de actividad se establece en 1, K parece tener la dimensión de 1 / concentración.
+
+Esto es lo que suele ocurrir en la práctica cuando una constante de equilibrio se calcula como un cociente de valores de concentración. El supuesto que subyace a esta práctica es que el cociente de actividades es constante en las condiciones en que se determina el valor constante de equilibrio. Normalmente, las condiciones se logran manteniendo la temperatura de reacción constante y utilizando un medio de fuerza iónica relativamente alta como disolvente. No es inusual, particularmente en textos relacionados con equilibrios bioquímicos, ver un valor citado con una dimensión. La justificación para esta práctica es que la escala de concentración utilizada puede ser mol dm o mmol dm , de modo que la unidad de concentración debe establecerse para evitar que haya alguna ambigüedad.

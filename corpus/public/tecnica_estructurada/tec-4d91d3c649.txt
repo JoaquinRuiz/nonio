@@ -1,0 +1,21 @@
+tiene la dimensión de concentración elevada a algún poder. Dichos cocientes de reacción se denominan a menudo, en la literatura bioquímica, como constantes de equilibrio.
+
+Para una mezcla de gases en equilibrio, una constante de equilibrio se puede definir en términos de presión parcial o fugacidad.
+
+Una constante de equilibrio está relacionada con las constantes de velocidad hacia adelante y hacia atrás, kf y kr de las reacciones involucradas para alcanzar el equilibrio:
+
+Una constante acumulativa o general, dado el símbolo β, es la constante para la formación de un complejo a partir de reactivos. Por ejemplo, la constante acumulativa para la formación de ML2 está dada por
+
+La constante gradual, K, para la formación del mismo complejo a partir de ML y L está dada por
+
+Una constante acumulativa siempre se puede expresar como el producto de constantes por pasos. No hay una notación acordada para las constantes por pasos, aunque un símbolo como KLML se encuentra a veces en la literatura. Siempre es mejor definir cada constante de estabilidad por referencia a una expresión de equilibrio.
+
+Un uso particular de una constante escalonada es en la determinación de valores constantes de estabilidad fuera del rango normal para un método dado. Por ejemplo, los complejos de EDTA de muchos metales están fuera del rango para el método potenciométrico. Las constantes de estabilidad para esos complejos se determinaron mediante la competencia con un ligando más débil.
+
+En química orgánica y bioquímica, es habitual utilizar valores de pKa para los equilibrios de disociación ácida.
+
+donde log denota un logaritmo a base 10 o logaritmo común, y Kdis es una constante de disociación ácida paso a paso. Para las bases, se usa la constante de asociación de bases, pKb. Para cualquier ácido o base dado, las dos constantes están relacionadas por pKa + pKb = pKw, por lo que pKa siempre puede usarse en los cálculos.
+
+Por otro lado, las constantes de estabilidad para complejos metálicos y las constantes de enlace para complejo anfitrión-huésped generalmente se expresan como constantes de asociación. Al considerar equilibrios tales como
+
+es habitual utilizar constantes de asociación tanto para ML como para HL. Además, en los programas informáticos generalizados que tratan con constantes de equilibrio, es una práctica general utilizar constantes acumulativas en lugar de constantes por pasos y omitir cargas iónicas de las expresiones de equilibrio. Por ejemplo, si NTA, ácido nitrilotriacético, N(CH2CO2H)3 se designa como H3L y forma complejos ML y MHL con un ion metálico M, las siguientes expresiones se aplicarían a las constantes de disociación.

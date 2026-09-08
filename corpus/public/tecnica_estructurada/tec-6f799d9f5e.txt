@@ -1,0 +1,340 @@
+&#x03B1;
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ )
+ +
+ &#x03B2;
+ (
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle \alpha (|0\rangle _{S}\otimes |0\rangle _{F})+\beta (|1\rangle _{S}\otimes |1\rangle _{F})}
+ 
+,
+
+donde 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle |0\rangle _{F}}
+ 
+ denota el estado del amigo cuando han medido 0, y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle |1\rangle _{F}}
+ 
+ denota el estado del amigo cuando han medido 1.
+
+Para un estado inicial 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle |0\rangle _{S}}
+ 
+ de 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ 
+, el estado para 
+ 
+ 
+ 
+ S
+ &#x2297;
+ F
+ 
+ 
+ {\displaystyle S\otimes F}
+ 
+ sería 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle |0\rangle _{S}\otimes |0\rangle _{F}}
+ 
+ después de la medición de 
+ 
+ 
+ 
+ F
+ 
+ 
+ {\displaystyle F}
+ 
+', y para un estado inicial 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle |1\rangle _{S}}
+ 
+, el estado de 
+ 
+ 
+ 
+ S
+ &#x2297;
+ F
+ 
+ 
+ {\displaystyle S\otimes F}
+ 
+ sería 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ 
+ 
+ {\displaystyle |1\rangle _{S}\otimes |1\rangle _{F}}
+ 
+. Ahora, por la linealidad de las ecuaciones mecánicas cuánticas de movimiento de Schrödinger, un estado inicial 
+ 
+ 
+ 
+ &#x03B1;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ +
+ &#x03B2;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ 
+ 
+ {\displaystyle \alpha |0\rangle _{S}+\beta |1\rangle _{S}}
+ 
+ para 
+ 
+ 
+ 
+ S
+ 
+ 
+ {\displaystyle S}
+ 
+ da como resultado la superposición 
+ 
+ 
+ 
+ &#x03B1;
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ )
+ +
+ &#x03B2;
+ (
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ S
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ F
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle \alpha (|0\rangle _{S}\otimes |0\rangle _{F})+\beta (|1\rangle _{S}\otimes |1\rangle _{F})}
+ 
+ para 
+ 
+ 
+ 
+ S
+ &#x2297;
+ F
+ 
+ 
+ {\displaystyle S\otimes F}
+ 
+.
+
+Eugene Wigner diseñó el experimento mental para ilustrar su creencia de que la conciencia es necesaria para el proceso de medición de la mecánica cuántica (y, por lo tanto, que la conciencia en general debe ser una "realidad última" &#8203; según la filosofía " Cogito ergo sum " de Descartes: "Todo lo que la mecánica cuántica pretende proporcionar son conexiones de probabilidad entre impresiones posteriores (también llamadas 'apercepciones') de la conciencia". &#8203;
+
+Aquí, "impresiones de la conciencia" se entienden como conocimiento específico sobre un sistema (medido), es decir, el resultado de una observación. De esta manera, el contenido de la conciencia de uno es precisamente todo el conocimiento del mundo externo de uno y las medidas se definen como las interacciones que crean las impresiones en nuestra conciencia. Dado que el conocimiento sobre cualquier función de onda de la mecánica cuántica se basa en tales impresiones, la función de onda de un sistema físico se modifica una vez que la información sobre el sistema entra en nuestra conciencia. Esta idea se ha conocido como la interpretación de "la conciencia causa el colapso ".

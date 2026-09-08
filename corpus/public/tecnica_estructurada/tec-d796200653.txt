@@ -1,0 +1,34 @@
+que dice cuántas moléculas de 
+ 
+ 
+ 
+ i
+ 
+ 
+ {\displaystyle i}
+ 
+ son producidas o consumidas, obtenemos una expresión algebraica para la derivada parcial
+
+donde, (De Donder; Progoine & Defay, p.&#160;69; Guggenheim, pp.&#160;37,240), se introduce un histórico y conciso nombre para esta cantidad, la "afinidad", simbolizada con una A, introducida por Théophile de Donder en 1923. El signo menos viene de la aseveración de que la afinidad fue definida para representar la regla acerca de que los cambios espontáneos siempre ocurren cuando el cambio en la energía libre de Gibbs del proceso es negativo, significando que las especies químicas tienen una afinidad positiva entre ellas. El diferencial para G toma una forma simple que muestra su dependencia en el cambio composicional
+
+Si hay un número de reacciones químicas llevándose a cabo de manera simultánea, como es el caso de
+
+una serie de reacciones coordinan {&#160;ξj&#160;}, evadiendo la idea que de la cantidad de componentes (&#160;Ni&#160;} puede ser cambiado de manera independiente. Las expresiones mostradas anteriormente son iguales a cero en el equilibrio termodinámico, mientras que en el caso general para sistemas reales son negativos, ya que todas las reacciones químicas generadas en un rango finito produce entropía. Esto se puede hacer aún más explícito al introducir los rangos de la reacción dξj/dt. Para cada y todo proceso físicamente independiente (Prigogine & Defay, p.&#160;38; Prigogine, p.&#160;24)
+
+Este es un resultado significativo desde que los potenciales químicos son variables intensivas de un sistema, dependiendo sólo del entorno local molecular. No pueden "saber" si la temperatura y presión (u otras variables de sistema) van a ser constantes a lo largo del tiempo. Es un criterio puramente local y debe permanecer a pesar de cualquier otra constante. Por supuesto pudo ser obtenido al tomar derivadas parciales de cualquier otra de las funciones fundamentales de estado, pero no obstante es un criterio general para (&#8722;T veces) la producción de entropía de un proceso espontáneo o al menos cualquier parte de la misma que no es tomada como trabajo externo. (Ver Restricciones abajo).
+
+Ahora dejamos descansar el requerimiento de un sistema “bulto” homogéneo al permitir que los potenciales químicos y la afinidad aplicada a cada localidad en que una reacción química (o cualquier otro proceso) está llevándose a cabo. Tomando en cuenta la producción de entropía debido a procesos irreversibles, la desigualdad para 
+ 
+ 
+ 
+ 
+ d
+ 
+ G
+ 
+ 
+ {\displaystyle \mathrm {d} G}
+ 
+ es ahora reemplazada por una igualdad
+
+Cualquier disminución en la función Gibbs de un sistema es el límite superior para cualquier trabajo isotérmico, isobárico que pueda ser capturado en los alrededores, o podría ser simplemente disipado, mostrándose como T veces un incremento correspondiente en la entropía del sistema y/o su entorno. O podría en parte ir hacia un trabajo externo y parte hacia crear entropía. El punto importante es que el alcance de reacción para una reacción química debe ser emparejado con el desplazamiento de una cantidad mecánica o eléctrica externa de una manera en que una pueda avanzar únicamente si la otra lo hace. El emparejamiento puede ser ocasionalmente rígido, pero es a menudo flexible y variable.

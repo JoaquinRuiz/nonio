@@ -1,0 +1,188 @@
+En física, la aproximación WKB es un método para encontrar soluciones aproximadas a ecuaciones diferenciales lineales con coeficientes variables. Se usa especialmente para cálculos semiclásicos en mecánica cuántica en los que la función de onda se escribe como una exponencial cuya amplitud o fase 
+varían lentamente.
+
+El nombre de este método es un acrónimo de aproximación Wentzel-Kramers-Brillouin. Otros acrónimos usualmente usados son aproximación JWKB y aproximación WKBJ, donde la "J" representa a Jeffreys.
+
+Este método lleva el nombre de los físicos Wentzel, Kramers, y Brillouin, quienes lo desarrollaron en 1926. En 1923, el matemático Harold Jeffreys desarrolló un método general de aproximación a soluciones lineales de ecuaciones diferenciales de segundo orden que incluía la ecuación de Schrödinger. A pesar de que la ecuación de Schrödinger fue propuesta dos años después, Wentzel, Kramers y Brillouin parece que no estaban al tanto del trabajo previo de de Jeffreys por lo que a veces se excluye a éste del reconocimiento. Los primeros textos de mecánica cuántica contienen combinaciones de sus iniciales, que incluyen WBK, BWK, WKBJ, JWKB y BWKJ.
+
+Referencias anteriores al método son:
+Carlini en 1817, Liouville en 1837, Green en 1837, Rayleigh en 1912 y Gans en 1915. Liouville y Green pueden ser llamados los fundadores del método, en 1837, y esto es también comúnmente llamado como "Liouville-Green" o "método LG".
+La importante contribución de Jeffreys, Wentzel, Kramers y Brillouin al método fue la inclusión del tratamiento momentos, conectando la Fugacidad y oscillatorio soluciones en ningún lado del momento. Por ejemplo, esto puede ocurrir en la ecuación de Schrödinger, ambos para un pico potencial de energía.
+
+En general, la teoría WKB es un método para aproximar la solución de una ecuación diferencial cuya más alta derivada va multiplicada por un pequeño parámetro ε. El método de aproximación es como sigue. Dada una ecuación diferencial
+
+&#x03F5;
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ n
+ 
+ 
+ y
+ 
+ 
+ 
+ d
+ 
+ 
+ x
+ 
+ n
+ 
+ 
+ 
+ 
+ 
+ +
+ a
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ 
+ d
+ 
+ 
+ n
+ &#x2212;
+ 1
+ 
+ 
+ y
+ 
+ 
+ 
+ d
+ 
+ 
+ x
+ 
+ n
+ &#x2212;
+ 1
+ 
+ 
+ 
+ 
+ 
+ +
+ &#x22EF;
+ +
+ k
+ (
+ x
+ )
+ 
+ 
+ 
+ 
+ d
+ 
+ y
+ 
+ 
+ 
+ d
+ 
+ x
+ 
+ 
+ 
+ +
+ m
+ (
+ x
+ )
+ y
+ =
+ 0
+ 
+ 
+ {\displaystyle \epsilon {\frac {\mathrm {d} ^{n}y}{\mathrm {d} x^{n}}}+a(x){\frac {\mathrm {d} ^{n-1}y}{\mathrm {d} x^{n-1}}}+\cdots +k(x){\frac {\mathrm {d} y}{\mathrm {d} x}}+m(x)y=0}
+
+y
+ (
+ x
+ )
+ &#x223C;
+ exp
+ &#x2061;
+ 
+ [
+ 
+ 
+ 
+ 1
+ &#x03B4;
+ 
+ 
+ 
+ &#x2211;
+ 
+ i
+ =
+ 0
+ 
+ 
+ &#x221E;
+ 
+ 
+ 
+ &#x03B4;
+ 
+ i
+ 
+ 
+ 
+ S
+ 
+ i
+ 
+ 
+ (
+ x
+ )
+ 
+ ]
+ 
+ 
+ 
+ {\displaystyle y(x)\sim \exp \left[{\frac {1}{\delta }}\sum _{i=0}^{\infty }\delta ^{i}S_{i}(x)\right]}
+
+En el límite 
+ 
+ 
+ 
+ &#x03B4;
+ &#x2192;
+ 0
+ 
+ 
+ {\displaystyle \delta \rightarrow 0}
+ 
+, la sustitución del ansatz anterior dentro de la ecuación diferencial y la cancelación de los términos exponenciales permite obtener la solución de un número arbitrario de términos 
+ 
+ 
+ 
+ 
+ S
+ 
+ i
+ 
+ 
+ (
+ x
+ )
+ 
+ 
+ {\displaystyle S_{i}(x)}
+ 
+ de la expansión. La teoría WKB es un caso especial de Análisis de escala múltiple.

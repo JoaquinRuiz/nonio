@@ -1,0 +1,15 @@
+Apache Cassandra se trata de un software NoSQL distribuido y basado en un modelo de almacenamiento de «clave-valor», de código abierto que está escrita en Java. Permite grandes volúmenes de datos en forma distribuida. Por ejemplo, lo usa Twitter para su plataforma. Su objetivo principal es la escalabilidad lineal y la disponibilidad. La arquitectura distribudores de Cassandra está basada en una serie de nodos iguales que se comunican con un protocolo P2P con lo que la redundancia es máxima. Esta soportada por la Apache Software Fundation.
+
+Cassandra ofrece soporte robusto para múltiples Centros de datos, &#8203; con replicación asincrónica sin necesidad de un servidor maestro, lo que permiten operaciones de baja latencia para todos los clientes.
+
+Cassandra también ofrece un gran rendimiento. En 2012, investigadores de la Universidad de Toronto que estudian los sistemas NoSQL concluyeron que "En términos de escalabilidad, hay un claro ganador a través de nuestros experimentos. Cassandra logra el más alto rendimiento para el número máximo de nodos en todos los experimentos", aunque "esto tiene como precio una alta latencia de escritura y lectura". &#8203;
+
+El modelo de datos de Cassandra consiste en particionar las filas, que son reorganizadas en tablas . &#8203; Las claves primarias de cada tabla tiene un primer componente que es la clave de partición. Dentro de una partición, las filas son agrupadas por las columnas restantes de la clave. &#8203; Las demás columnas pueden ser indexadas por separado de la clave primaria. &#8203;
+
+Las tablas se pueden crear, eliminar y alterar en tiempo de ejecución sin bloquear actualizaciones y consultas. &#8203;
+
+Cassandra no soporta la sentencia JOIN o subqueries, sino que enfatiza en la desnormalización a través de características como colecciones. &#8203;
+
+En las versiones iniciales utilizaba un API propia para poder acceder a la base de datos. En los últimos tiempos están apostando por un lenguaje denominado CQL (Cassandra Query Language, no confundir con Contextual Query Language) que posee una sintaxis similar a SQL aunque con muchas menos funcionalidades. Esto hace que iniciarse en el uso de la misma sea más sencillo. Permite acceder en Java desde JDBC.
+
+Apache Cassandra fue inicialmente desarrollada en Facebook para impulsar las búsqueda en la bandeja de entrada por Avinash Lakshman (uno de los autores de Amazon's Dynamo) y Prashant Malik. Fue lanzada como un proyecto open source de Google code en julio de 2008. &#8203; En marzo de 2009, se transformó en un proyecto de Apache Incubator. &#8203; El 17 de febrero de 2010 se graduó como un proyecto de alto nivel. &#8203;

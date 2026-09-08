@@ -1,0 +1,19 @@
+La catálisis bifásica se basa en el uso de dos disolventes no miscibles, de forma que el sistema catalítico queda atrapado en una de las dos fases y los reactivos y productos quedan atrapados en la otra. La fase donde queda retenido el catalizador puede ser una fase orgánica polar, una fase acuosa, fluorada o un líquido iónico. Ambas fases son inmiscibles, por lo que la reacción se produce en la interfase o dentro de la fase catalítica. Las dos fases se pueden separar fácilmente por decantación permitiendo una fácil separación del producto deseado y el reciclado del catalizador.
+
+El proceso SHOP (Shell higher-olefin process) de oligomerización de etileno en α-olefinas fue el primer proceso catalítico comercial que se benefició de la tecnología de las dos fases líquido/líquido constituyendo el primer ejemplo industrializado y comercializado de catálisis bifásica. En este caso se utilizan dos fases orgánicas inmiscibles para separar el catalizador de los productos formados.
+
+La catálisis bifásica presenta la ventaja de la posibilidad de reutilización del catalizador, la fácil separación de los productos y el grado de pureza con el que se obtienen dichos productos.
+
+Dependiendo de la fase donde queda retenido el catalizador se distinguen diversos tipos de catálisis bifásica:
+
+Disuelven muy bien las especies iónicas, lo que los hace muy útiles para este tipo de catálisis. Se han utilizado este tipo de sistemas para dimerización de olefinas, hidrogenaciones e hidroformilaciones y en diferentes tipos de separaciones.
+
+Este tipo de catálisis presenta la ventaja de que aprovecha los efectos del disolvente y que presenta una solubilidad modulable. El problema es el elevado coste de los líquidos iónicos y su eliminación una vez han sido utilizados.
+
+Otro tipo de catálisis bifásica es aquella formada por un líquido iónico y un fluido supercrítico, como el dióxido de carbono supercrítico. En este caso no se precisa disolvente orgánico y la solubilidad es también modulable, pero vuelve a aparecer el problema del precio del líquido iónico además del equipo de alta presión necesario para el fluido supercrítico.
+
+Para sustratos poco miscibles en agua la velocidad del proceso se ve muy reducida, también se ve limitada por la transferencia de masa.
+
+Como se ha dicho, este tipo de catálisis Disolvente orgánico/agua requiere el uso de ligandos específicos para mantener el catalizador solubilizado en la fase acuosa, estos ligandos se pueden clasificar en dos grupos:
+
+-Ligandos hidrosolubles: A su vez se pueden distinguir ligandos catiónicos ( con grupos amonio cuaternario), aniónicos ( con grupos sulfonato, carboxilato…) y ligandos neutros.

@@ -1,0 +1,30 @@
+Diferentes observables pueden definir descomposiciones de estado incompatibles. Los observables que no commuten definen amplitudes de probabilidad en conjuntos diferentes.
+
+En un modo formal , cualquier sistema en mecánica cuántica está descrito por un estado, el cual es un vector |Ψ⟩, que reside en un abstracto espacio de vectorial complejo , llamado un espacio de Hilbert . Este puede ser infinito- o finito-dimensional. Una presentación habitual de un espacio de Hilbert es que es una función de espacio especial, llamada L2(L (X)), en cierto conjunto X, esto es algún espacio de configuración o un conjunto discreto.
+
+Para una función medible &#x3c8;, la condición lee:
+ 
+ 
+ 
+ &#x03C8;
+ &#x2208;
+ 
+ L
+ 
+ 2
+ 
+ 
+ (
+ X
+ )
+ 
+ 
+ {\displaystyle \psi \in L^{2}(X)}
+
+Esta integral define el cuadrado de la norma de ψ. Si aquella norma es igual a 1, entonces
+
+Lo que en realidad significa que cualquier elemento de L2(X) de norma 1 define una medida de probabilidad en X y una expresión real no negativa L (X) ψ(x) |2 define su derivada de Radón Nikodym con respecto a la medida estándar μ.
+
+Si la medida estándar μ encima X es no-atómico, como la medida de Lebesgue en la recta real, o en un espacio tridimensional, o medidas similares en variedades, entonces una una función de valor real &#x7c; ψ(x) |2 se llama una densidad de probabilidad; ver detalles abajo. Si la medida estándar en X consta de sólo átomos ( llamaremos tales conjuntos discretos X), y especifica la medida de cualquier x ∈ X igual a 1, entonces un integral en X es sencillamente una suma &#8203; y L (X) ψ(x) |2 define el valor de la medida de probabilidad en el conjunto {x}, en otras palabras, la probabilidad que el sistema cuántico esté en el estado x. Cómo las amplitudes y los vectores están relacionados puede ser entendido con la base estándar de L2(X), elementos del cual será denotado por |x⟩ o ⟨x| (ver notación bra-ket ). En esta base
+
+Matemáticamente, muchos presentaciones $L^2$ de un sistema de espacio de Hilbert puede existir. Consideraremos uno no arbitrario , pero uno conveniente para el observable Q en cuestión. Un espacio de configuración conveniente X es tal que cada punto x produce un valor único de Q. Para X discreto esto significa que todos los elementos de la base estándar son vectores propios de Q. En otras palabras, Q será diagonal en esta base. Entonces \psi (x) es la "amplitud de probabilidad" para el autoestado ⟨x|. Si este corresponde a un valor propio no-degenerado de Q, entonces |\psi (x)|^2 da la probabilidad del correspondiente valor de Q para el estado inicial |Ψ⟩.

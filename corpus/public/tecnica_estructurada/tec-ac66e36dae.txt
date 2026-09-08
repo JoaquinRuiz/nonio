@@ -1,0 +1,131 @@
+En principio, los niveles de un circuito superconductor tienen varios niveles separados por la misma energía, por lo que es necesario introducir una variación anarmónica en el potencial para poder distinguir los dos estados de menor energía (cúbits 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+) del resto de niveles. &#8203; A la hora de reducir el ruido cuántico y la decoherencia, es necesario tener en cuenta que el cúbit 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+ puede decaer al cúbit 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+. Para controlar los cúbits (aplicar puertas cuánticas) se utilizan pulsos de microondas, con correcciones DRAG para disminuir la probabilidad de excitar niveles de energía superiores (
+ 
+ 
+ 
+ 
+ |
+ 
+ 2
+ &#x27E9;
+ 
+ 
+ {\displaystyle |2\rangle }
+ 
+, 
+ 
+ 
+ 
+ 
+ |
+ 
+ 3
+ &#x27E9;
+ 
+ 
+ {\displaystyle |3\rangle }
+ 
+...). A pesar de que computacionalmente se trabaja con los cúbits 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+, en la implementación práctica de varias puertas cuánticas intervienen cúbits de otros niveles de energía. Por ejemplo, en la implementación de la puerta CPHASE intervienen los cúbits 
+ 
+ 
+ 
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ {\displaystyle |11\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 02
+ &#x27E9;
+ 
+ 
+ {\displaystyle |02\rangle }
+ 
+. El método más empleado para medir los cúbits en los ordenadores superconductores son las llamadas medidas dispersivas, donde los cúbits están entrelazados con un resonador superconductor, sobre el que medimos para conocer el estado del cúbit sin interactuar directamente con él. Esta interacción entre el cúbit y el resonador está modelado por la interacción de Jaynes–Cummings. Uno de los problemas que surge al medir es el efecto Purcell, que produce una emisión espontánea de fotones que altera la señal resultante de medir el cúbit. Para solucionarlo se introduce un filtro de Purcell, que protege al cúbit de emitir (y por tanto decaer) mientras mantiene una alta velocidad de lectura. &#8203;

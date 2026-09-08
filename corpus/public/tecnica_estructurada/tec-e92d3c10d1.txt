@@ -1,0 +1,223 @@
+&#x03BC;
+ 
+ =
+ 
+ 
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ m
+ 
+ p
+ 
+ 
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ +
+ 
+ m
+ 
+ p
+ 
+ 
+ 
+ 
+ 
+ &#x2248;
+ 0
+ ,
+ 999
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ 
+ {\displaystyle \mu \,=\,{\frac {m_{e}m_{p}}{m_{e}+m_{p}}}\approx 0,999m_{e}}
+
+Siendo 
+ 
+ 
+ 
+ 
+ 
+ m
+ 
+ p
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle m_{p}}
+ 
+ la masa del protón y 
+ 
+ 
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle \scriptstyle m_{e}}
+ 
+ la masa del electrón. En ese caso el problema del átomo de hidrógeno parece admitir una solución simple en la que el electrón se moviera en órbitas elípticas alrededor del núcleo atómico. Sin embargo, existe un problema con la solución clásica, de acuerdo con las predicciones de electromagnetismo partícula eléctrica que sigue un movimiento acelerado, como sucedería al describir una elipse debería emitir radiación electromagnética, y por tanto perder energía cinética, la cantidad de energía radiada sería de hecho:
+
+d
+ 
+ E
+ 
+ r
+ 
+ 
+ 
+ 
+ d
+ t
+ 
+ 
+ 
+ =
+ 
+ 
+ 
+ 
+ e
+ 
+ 2
+ 
+ 
+ 
+ a
+ 
+ 2
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 4
+ 
+ 
+ 
+ 
+ 6
+ &#x03C0;
+ 
+ &#x03F5;
+ 
+ 0
+ 
+ 
+ 
+ c
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ &#x2248;
+ 
+ 
+ &#x03C0;
+ 96
+ 
+ 
+ 
+ 
+ 
+ 
+ e
+ 
+ 14
+ 
+ 
+ 
+ m
+ 
+ e
+ 
+ 
+ 2
+ 
+ 
+ 
+ &#x03B3;
+ 
+ 4
+ 
+ 
+ 
+ 
+ 
+ &#x03F5;
+ 
+ 0
+ 
+ 
+ 7
+ 
+ 
+ 
+ h
+ 
+ 8
+ 
+ 
+ 
+ c
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ &#x2265;
+ 5
+ ,
+ 1
+ &#x22C5;
+ 
+ 10
+ 
+ &#x2212;
+ 8
+ 
+ 
+ 
+ 
+ watt
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {dE_{r}}{dt}}={\frac {e^{2}a^{2}\gamma ^{4}}{6\pi \epsilon _{0}c^{3}}}\approx {\frac {\pi }{96}}{\frac {e^{14}m_{e}^{2}\gamma ^{4}}{\epsilon _{0}^{7}h^{8}c^{3}}}\geq 5,1\cdot 10^{-8}{\mbox{watt}}}
+
+Ese proceso acabaría con el colapso del átomo sobre el núcleo en un tiempo muy corto dadas las grandes aceleraciones existentes. A partir de los datos de la ecuación anterior el tiempo de colapso sería de 10 s, es decir, de acuerdo con la física clásica los átomos de hidrógeno no serían estables y no podrían existir más de una cienmillonésima de segundo.
+
+Esa incompatibilidad entre las predicciones del modelo clásico y la realidad observada llevó a buscar un modelo que explicara fenomenológicamente el átomo. El modelo atómico de Bohr era un modelo fenomenológico y provisorio que explicaba satisfactoriamente aunque de manera heurística algunos datos, como el orden de magnitud del radio atómico y los espectros de absorción del átomo, pero no explicaba cómo era posible que el electrón no emitiera radiación perdiendo energía. La búsqueda de un modelo más adecuado llevó a la formulación del modelo atómico de Schrödinger en el cual puede probarse que el valor esperado de la aceleración es nulo, y sobre esa base puede decirse que la energía electromagnética emitida debería ser también nula. Sin embargo, al contrario del modelo de Bohr, la representación cuántica de Schrödinger es difícil de entender en términos intuitivos.
+
+La teoría cuántica fue desarrollada en su forma básica a lo largo de la primera mitad del siglo&#160;XX. El hecho de que la energía se intercambie de forma discreta se puso de relieve por hechos experimentales como los siguientes, inexplicables con las herramientas teóricas anteriores de la mecánica clásica o la electrodinámica:

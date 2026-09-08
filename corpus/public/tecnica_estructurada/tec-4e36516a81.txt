@@ -1,0 +1,7 @@
+La contabilidad energética es un sistema usado para medir, analizar e informar el consumo de energía de diferentes actividades de manera regular. &#8203; Esto se hace para mejorarla eficiencia energética, &#8203; y para monitorear el impacto ambiental del consumo de energía.
+
+La contabilidad de energía es un sistema utilizado en los sistemas de gestión energética para medir y analizar el consumo de energía para mejorar la eficiencia energética dentro de una organización. &#8203; Organizaciones como la corporación Intel utilizan estos sistemas para rastrear el uso de energía. &#8203;
+
+Son posibles varias transformaciones energéticas. Se puede usar un balance de energía para rastrear la energía a través de un sistema. Esto se convierte en una herramienta útil para determinar el uso de los recursos y los impactos ambientales. Se mide la cantidad de energía necesaria en cada punto de un sistema, así como la forma de esa energía. Un sistema de contabilidad realiza un seguimiento de la energía que entra, la que sale y la energía no útil en comparación con el trabajo realizado y las transformaciones dentro de un sistema. A veces, el trabajo no útil es lo que a menudo es responsable de los problemas ambientales. &#8203;
+
+La tasa de retorno energético (EROEI) es la relación entre la energía entregada por una tecnología energética y la energía invertida para configurar la tecnología.

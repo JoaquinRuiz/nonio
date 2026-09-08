@@ -1,0 +1,156 @@
+|
+ 
+ &#x03B2;
+ (
+ x
+ ,
+ y
+ )
+ &#x27E9;
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ x
+ ,
+ y
+ 
+ 
+ &#x27E9;
+ =
+ 
+ (
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ ,
+ y
+ &#x27E9;
+ +
+ (
+ &#x2212;
+ 1
+ 
+ )
+ 
+ x
+ 
+ 
+ 
+ |
+ 
+ 1
+ ,
+ Y
+ &#x27E9;
+ 
+ 
+ 2
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ {\displaystyle |\beta (x,y)\rangle \equiv |\beta _{x,y}\rangle =\left({\frac {|0,y\rangle +(-1)^{x}|1,Y\rangle }{\sqrt {2}}}\right)}
+
+Después de medir el primer qubit, se obtienen dos posibles resultados para el segundo qubit, 
+ 
+ 
+ 
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ 
+ 
+ {\displaystyle |0\rangle }
+ 
+ con probabilidad 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {1}{2}}}
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ 
+ 
+ {\displaystyle |1\rangle }
+ 
+ con probabilidad 
+ 
+ 
+ 
+ 
+ 
+ 1
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle {\frac {1}{2}}}
+ 
+. Esto implica que los resultados de las medidas están correlacionados. John Bell fue el primero en probar que la correlación en las medidas de los estados de Bell son más fuertes de lo que podría existir en un sistema clásico. Esto da una pista de que la mecánica cuántica permite una capacidad en el procesamiento de la información más allá de lo que sería posible en sistemas clásicos.
+
+Además, los estados de Bell forman una base ortonormal y pueden entonces ser definidos con una medida apropiada. Debido a que los estados de Bell son estados entrelazados, toda la información del sistema puede ser conocida mientras se retiene información individual de cada subsistema. Por ejemplo, el estado de Bell es un estado puro, pero el operador matriz densidad reducida del primer qubit es un estado mixto. Este estado mixto implica que no toda la información del primer qubit es conocida a pesar de que toda la información del estado de Bell sí es conocida. &#8203;
+
+Por último, los estados de Bell pueden ser tanto simétricos como asimétricos dependiendo de la permutación de los subsistemas (todos los estados son simétricos con respecto a una permutación de los subsistemas 
+ 
+ 
+ 
+ A
+ &#x27F7;
+ B
+ 
+ 
+ {\displaystyle A\longleftrightarrow B}
+ 
+ menos el estado 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ &#x2212;
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |\Psi ^{-}\rangle }
+ 
+, que es antisimétrico). &#8203;
+
+La medida de Bell es un concepto importante en el campo de la información cuántica: es una medida mecánico-cuántica de dos qubits que determina en cuál de los cuatro estados de Bell están los dos qubits. La medida cuántica colapsa la superposición de estos estados. Puede ser interpretado como una interfase entre la información clásica y cuántica. En circuitos cuánticos, una medida proyectiva se suele notar con un símbolo de un medidor. &#8203;
+
+Un ejemplo de medida cuántica en la base de Bell puede verse en la computación cuántica. Si una puerta CNOT se aplica a dos qubits y después una puerta de Hadamard aplicada al primer qubit, una medida se puede realizar en la base computacional. La puerta CNOT realiza un desentrelazamiento de los dos qubits que antes estaban entrelazados. Esto permite convertir la información de cuántica a clásica.

@@ -1,0 +1,471 @@
+A continuación Bob aplicará una puerta u operador de Hadamard. El operador de Hadamard representa una rotación de ángulo 
+ 
+ 
+ 
+ &#x03C0;
+ 
+ 
+ {\displaystyle \pi }
+ 
+ sobre el eje 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ x
+ &#x005E;
+ 
+ 
+ 
+ +
+ 
+ 
+ 
+ z
+ &#x005E;
+ 
+ 
+ 
+ )
+ 
+ /
+ 
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle ({\hat {x}}+{\hat {z}})/{\sqrt {2}}}
+ 
+, y está representado en forma matricial de la siguiente manera
+
+H
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 1
+ 
+ 
+ 1
+ 
+ 
+ 
+ 
+ 1
+ 
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle \operatorname {H} ={\frac {1}{\sqrt {2}}}{\begin{pmatrix}1&1\\1&-1\end{pmatrix}}}
+
+{
+ 
+ 
+ 
+ H
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ +
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ )
+ &#x2261;
+ 
+ |
+ 
+ +
+ &#x27E9;
+ 
+ 
+ 
+ 
+ H
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ &#x2212;
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ )
+ &#x2261;
+ 
+ |
+ 
+ &#x2212;
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}H|0\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle +|1\rangle )\equiv |+\rangle \\H|1\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle -|1\rangle )\equiv |-\rangle \end{cases}}}
+
+Donde 
+ 
+ 
+ 
+ 
+ |
+ 
+ +
+ &#x27E9;
+ 
+ 
+ {\displaystyle |+\rangle }
+ 
+ y 
+ 
+ 
+ 
+ 
+ |
+ 
+ &#x2212;
+ &#x27E9;
+ 
+ 
+ {\displaystyle |-\rangle }
+ 
+ son las componentes de una base denominada base de Hadamard, muy utilizada en mecánica cuántica. Entonces Bob aplicará este operador sobre el qubit de Alice, es decir, el primer qubit. Se puede comprobar que, tras unas operaciones básicas, se obtiene lo siguiente &#8203;
+
+{
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 00
+ )
+ &#x27E9;
+ =
+ H
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 00
+ )
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 00
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 10
+ )
+ &#x27E9;
+ =
+ H
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 01
+ )
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 10
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 01
+ )
+ &#x27E9;
+ =
+ H
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 10
+ )
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 01
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 3
+ 
+ 
+ (
+ 11
+ )
+ &#x27E9;
+ =
+ H
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ 2
+ 
+ 
+ (
+ 11
+ )
+ &#x27E9;
+ =
+ 
+ |
+ 
+ 11
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}|\Psi _{3}(00)\rangle =H|\Psi _{2}(00)\rangle =|00\rangle \\|\Psi _{3}(10)\rangle =H|\Psi _{2}(01)\rangle =|10\rangle \\|\Psi _{3}(01)\rangle =H|\Psi _{2}(10)\rangle =|01\rangle \\|\Psi _{3}(11)\rangle =H|\Psi _{2}(11)\rangle =|11\rangle \end{cases}}}
+
+Es decir, tras aplicar una puerta CNOT y una puerta de Hadamard, Bob obtendrá un estado de la forma 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ m
+ 
+ 1
+ 
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |m_{1}m_{2}\rangle }
+ 
+, con el cuál podrá saber qué dos bits le ha enviado Alice interpretando 
+ 
+ 
+ 
+ 
+ m
+ 
+ 1
+ 
+ 
+ =
+ 
+ M
+ 
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle m_{1}=M_{1}}
+ 
+ y 
+ 
+ 
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ =
+ 
+ M
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle m_{2}=M_{2}}
+ 
+.
+Recordar el apunte que se ha hecho justo después de la anterior tabla. Si se hubiera elegido la convención de que para los bits 10 se aplica el operador 
+ 
+ 
+ 
+ X
+ 
+ 
+ {\displaystyle X}
+ 
+ y para los bits 01 el 
+ 
+ 
+ 
+ Z
+ 
+ 
+ {\displaystyle Z}
+ 
+, se hubiesen obtenido los estados de la forma 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ m
+ 
+ 2
+ 
+ 
+ 
+ m
+ 
+ 1
+ 
+ 
+ &#x27E9;
+ 
+ 
+ {\displaystyle |m_{2}m_{1}\rangle }
+ 
+.

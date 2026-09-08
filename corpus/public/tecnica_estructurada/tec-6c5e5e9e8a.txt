@@ -1,0 +1,20 @@
+Los biopolímeros son macromoléculas presentes en los seres vivos. Una definición de los mismos los considera materiales poliméricos o macromoleculares sintetizados por los seres vivos. También, a raíz de nuevas disciplinas médicas como la ingeniería de tejidos, como biopolímeros también se incluyen materiales sintéticos con la particularidad de ser biocompatibles con el ser vivo (normalmente con el ser humano).
+De entre los biopolímeros los referidos a la primera clasificación, existen tres principales familias: proteínas (fibroínas, globulinas, etc), polisacáridos (celulosa, alginatos, etc) y ácidos nucleicos (ADN, ARN, etc), &#8203; &#8203; aunque también otros más singulares como los politerpenos (ver terpenos), entre los que se incluye el caucho natural, los polifenoles (como la lignina) o algunos poliésteres como los polihidroxialcanoatos producidos por algunas bacterias. &#8203; 
+Él biopolímero más abundante en la tierra es la celulosa, &#8203; seguida por la quitina (encontrada en los exoesqueletos de arácnidos, crustáceos e insectos).
+
+De entre los polímeros naturales más comunes son los polímeros sintetizados por los seres vivos. A continuación se describen algunos de los biopolímeros más comunes.
+
+Los ácidos nucleicos pueden ser considerados, tal vez, los biopolímeros más importantes ya que son los portadores de la información genética heredada entre generaciones
+
+Las proteínas, formadas por uniones peptídicas entre aminoácidos tienen una función capital en los seres vivos, ya que participan en distintas funciones biológicas. Entre estas se incluyen funciones estructurales (p. ejemp. colágeno), funciones catalíticas (p.ejemp. enzimas) o inmunológicas (anticuerpos o inmunoglobulinas).
+
+Los polisacáridos son polímeros resultantes de la condensación acetálica de monosacáridos simples. &#8203; Los polisacáridos suelen tener funciones estructurales (celulosa, quitina, pectinas, alginatos, etc) pero también funciones de reserva energética en el reino vegetal (amilosa, amilopectina, inulina) y en el reino animal (glucógeno).
+
+De entre los politerpenos los dos más conocidos son el poliisopreno (caucho natural o químicamente isómero cis-1,4-poliisopreno) y la gutapercha (caucho de propiedades mecánicas inferiores, el isómero trans-1,4-poliisopreno).
+
+Los polihidroxialcanoatos son poliésteres lineales biosintetizados por bacterias mediante la fermentación de azúcares o lípidos.
+Existen muchos tipos de polihidroxialcanoatos pero los más conocidos son el polihidroxibutirato (PHB) y el poli-3-hidroxivalerato (PHV), así como sus copolímeros.
+
+Una diferencia importante entre la definición de biopolímeros y otros polímeros existentes, se puede encontrar en sus estructuras. Todos los polímeros están hechos de unidades repetitivas llamadas monómeros. Los biopolímeros por lo general tienen una estructura bien definida, aunque esto no es una característica definitoria (ejemplo: ligno-celulosa.
+
+La composición química exacta y la secuencia en la que estas unidades están dispuestas se denomina estructura primaria, en el caso de las proteínas. Muchos biopolímeros se pliegan espontáneamente en formas compactas características, que determinan sus funciones biológicas y dependen de dicha estructura primaria. La biología estructural es la que se encarga de estudiar las propiedades estructurales de estos biopolímeros.

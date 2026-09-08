@@ -1,0 +1,19 @@
+En arquitectura de computadores, el bus (o canal) es un sistema digital que transfiere datos entre los componentes de una computadora. Está formado por cables o pistas en un circuito impreso, dispositivos como resistores y condensadores, además de circuitos integrados. &#8203;
+
+Aunque en primera instancia parece mucho más eficiente la transferencia en paralelo, esta presenta inconvenientes:
+
+Además, los modernos buses serie están formados por varios canales: En este caso se transmite por varios buses serie simultáneamente.
+
+En los primeros computadores electrónicos, era muy habitual encontrar buses paralelos, quedando los buses serie dedicados para funciones de menor entidad y dispositivos lentos, como el teclado.
+
+La tendencia en los últimos años es reemplazar los buses paralelos por buses serie (que suelen ser multicanal). Estos son más difíciles de implementar, pero están dejando velocidades de transferencia más elevadas, además de permitir longitudes de cable mayores.
+
+La función del bus es permitir la conexión lógica entre los diferentes subsistemas que componen el computador. En su mayoría los buses están formados por conductores metálicos por los cuales se trasmiten señales eléctricas que son enviadas y recibidas con la ayuda de circuitos integrados que manejan un protocolo que les permite trasmitir datos útiles. Además de los datos el bus trasmite otras señales digitales como son las direcciones y señales de control.
+
+Los buses definen su capacidad de acuerdo a la frecuencia máxima de envío y al ancho de los datos. Por lo general estos valores son inversamente proporcionales: si se tiene una alta frecuencia, el ancho de datos debe ser pequeño. Esto se debe a que la interferencia entre las señales (crosstalk) y la dificultad de sincronizarlas, crecen con la frecuencia, de manera que un bus con pocas señales es menos susceptible a esos problemas y puede funcionar a alta velocidad.
+
+Todos los buses de computador tienen funciones especiales como las interrupciones y las DMA que permiten que un dispositivo periférico acceda a una CPU o a la memoria usando el mínimo de recursos.
+
+Los primeros computadores tenían dos sistemas de buses, uno para la memoria y otro para los demás dispositivos. La CPU tenía que acceder a dos sistemas con instrucciones para cada uno, protocolos y sincronizaciones diferentes.
+
+La empresa DEC notó que el uso de dos buses no era necesario si se combinaban las direcciones de memoria con las de los periféricos en un solo espacio de memoria (mapeo), de manera que la arquitectura se simplificaba ahorrando costos de fabricación en equipos fabricados en masa, como eran los primeros minicomputadores.

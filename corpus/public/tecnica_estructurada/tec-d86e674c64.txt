@@ -1,0 +1,19 @@
+En este nivel de aislamiento, un SGBDR que implemente el control de concurrencia basado en bloqueos mantiene los bloqueos de escritura -de los datos seleccionados- hasta el final de la transacción, mientras que los bloqueos de lectura se cancelan tan pronto como acaba la operación de SELECT (por lo que el efecto de las lecturas no repetibles puede ocurrir, como se explica más abajo). Al igual ocurría en el nivel anterior, no se gestionan los bloqueos de rango.
+
+Este es el menor nivel de aislamiento. En él se permiten las lecturas sucias (ver más abajo), por lo que una transacción puede ver cambios no cometidos aún por otra transacción.
+
+El nivel de aislamiento por defecto de distintos SGBDR varía ampliamente. La mayoría de bases de datos que gestionan transacciones permiten al usuario establecer cualquier nivel de aislamiento. Algunos SGBDR requieren sintaxis especial cuando se realiza una operación SELECT que efectúa bloqueos (e.g. SELECT ... FOR UPDATE para bloquear para escritura aquellas filas accedidas).
+
+Sin embargo, la definición anterior ha sido criticada en el artículo A Critique of ANSI SQL Isolation Levels por ambigua, y por no reflejar de modo preciso el aislamiento proporcionado por muchas bases de datos:
+
+Hay también otras críticas sobre las definiciones de aislamiento SQL de ANSI, en cuanto a que incita a los implementadores a realizar "trabajos sucios":
+
+El estándar ANSI/ISO SQL 92 se refiere a tres efectos de lectura diferentes cuando la transacción 1 lee datos que podría haber cambiado la transacción 2.
+
+En los siguientes ejemplos se ejecutan dos transacciones. La primera ejecuta la consulta 1. Entonces una segunda transacción ejecuta la consulta 2 y la comete. Por último, la primera transacción ejecuta la consulta 1 de nuevo.
+
+Una lectura sucia ocurre cuando se le permite a una transacción la lectura de una fila que ha sido modificada por otra transacción concurrente pero todavía no ha sido cometida.
+
+Las lecturas sucias funcionan de modo similar a las lecturas no repetibles; sin embargo la segunda transacción no necesita ser cometida para que la primera dé un resultado diferente. Lo único que se puede prevenir en el nivel de aislamiento LECTURAS NO COMETIDAS es que las actualizaciones aparezcan en desorden en el resultado; esto es, que las primeras actualizaciones siempre aparecerán antes que las actualizaciones posteriores.
+
+En el ejemplo, la transacción 2 cambia una fila, pero no comete los cambios. La transacción 1 entonces lee los datos sin cometer. Si ahora la transacción 2 deshace sus cambios (ya leídos por la transacción 1) o realiza otros cambios, entonces los datos que ha recuperado la transacción 1 serán erróneos.

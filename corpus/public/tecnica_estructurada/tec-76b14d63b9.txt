@@ -1,0 +1,412 @@
+Esta perfecta correlación se puede interpretar como que los dos qubits "se pusieron de acuerdo" con anterioridad a que se separasen espacialmente sobre el resultado de la medida. Por lo tanto, siguiendo el famoso artículo de Einstein, Podolsky y Rosen en 1935, "EPR paper", &#8203; falta algo en la descripción del par de dos qubits, que se denominó variable oculta.
+
+En su famoso artículo de 1964, &#8203; John Bell demostró por simple teoría de probabilidades que esas correlaciones (las de la base 
+ 
+ 
+ 
+ {
+ 
+ |
+ 
+ 0
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ 1
+ &#x27E9;
+ }
+ 
+ 
+ {\displaystyle \{|0\rangle ,|1\rangle \}}
+ 
+ y las de la base 
+ 
+ 
+ 
+ {
+ 
+ |
+ 
+ +
+ &#x27E9;
+ ,
+ 
+ |
+ 
+ &#x2212;
+ &#x27E9;
+ }
+ 
+ 
+ {\displaystyle \{|+\rangle ,|-\rangle \}}
+ 
+) no pueden hacerse a la vez de manera exacta usando ningún tipo de pre-acuerdo almacenado en unas variables ocultas. Sin embargo, la mecánica cuántica predice que estas correlaciones son exactas.
+
+En una formulación más formal y refinada denominada como la desigualdad de Bell-CHSH, se demuestra que la correlación de una medida no puede exceder el valor de 
+ 
+ 
+ 
+ 2
+ 
+ 
+ {\displaystyle 2}
+ 
+ si se asume que la física respeta las restricciones de la teoría local de variables ocultas, pero ciertos sistemas permiten que en la mecánica cuántica se puedan alcanzar valores de hasta 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle 2{\sqrt {2}}}
+ 
+. Así, la mecánica cuántica viola la desigualdad de Bell y la idea de variables ocultas locales.
+
+Los estados de Bell son cuatro estados de dos qubits con valor maximal 
+ 
+ 
+ 
+ 2
+ 
+ 
+ 2
+ 
+ 
+ 
+ 
+ {\displaystyle 2{\sqrt {2}}}
+ 
+. Forman una base entrelazada, conocida como la base de Bell cuatridimensional del espacio de Hilbert para dos qubits. Estos estados son:
+
+{
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A6;
+ 
+ +
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ +
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 00
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A6;
+ 
+ &#x2212;
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2212;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 10
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ +
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ +
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 01
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ |
+ 
+ 
+ &#x03A8;
+ 
+ &#x2212;
+ 
+ 
+ &#x27E9;
+ =
+ 
+ 
+ 1
+ 
+ 2
+ 
+ 
+ 
+ (
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ &#x2212;
+ 
+ |
+ 
+ 1
+ 
+ &#x27E9;
+ 
+ A
+ 
+ 
+ &#x2297;
+ 
+ |
+ 
+ 0
+ 
+ &#x27E9;
+ 
+ B
+ 
+ 
+ )
+ &#x2261;
+ 
+ |
+ 
+ 
+ &#x03B2;
+ 
+ 11
+ 
+ 
+ &#x27E9;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ {\displaystyle {\begin{cases}|\Phi ^{+}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |0\rangle _{B}+|1\rangle _{A}\otimes |1\rangle _{B})\equiv |\beta _{00}\rangle \\|\Phi ^{-}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |0\rangle _{B}-|1\rangle _{A}\otimes |1\rangle _{B})\equiv |\beta _{10}\rangle \\|\Psi ^{+}\rangle ={\frac {1}{\sqrt {2}}}(|1\rangle _{A}\otimes |0\rangle _{B}+|0\rangle _{A}\otimes |1\rangle _{B})\equiv |\beta _{01}\rangle \\|\Psi ^{-}\rangle ={\frac {1}{\sqrt {2}}}(|0\rangle _{A}\otimes |1\rangle _{B}-|1\rangle _{A}\otimes |0\rangle _{B})\equiv |\beta _{11}\rangle \end{cases}}}

@@ -1,0 +1,220 @@
+&#x03A0;
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 1.
+ N
+ O
+ M
+ B
+ R
+ E
+ ,
+ 
+ 
+ &#xA0;
+ 
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 1.
+ V
+ A
+ L
+ O
+ R
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ &#x03C3;
+ 
+ C
+ u
+ r
+ s
+ o
+ .
+ V
+ A
+ L
+ O
+ R
+ <
+ 3000
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{Resultado1.NOMBRE,{\mbox{ }}Resultado1.VALOR}{\Big (}\sigma _{Curso.VALOR<3000}{\big (}}
+ 
+Resultado 1
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\big )}{\Big )}}
+
+&#x03A0;
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 1.
+ N
+ O
+ M
+ B
+ R
+ E
+ ,
+ 
+ 
+ &#xA0;
+ 
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 1.
+ V
+ A
+ L
+ O
+ R
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ &#x03C3;
+ 
+ R
+ e
+ s
+ u
+ l
+ t
+ a
+ d
+ o
+ 1.
+ V
+ A
+ L
+ O
+ R
+ <
+ 3000
+ 
+ 
+ 
+ 
+ (
+ 
+ 
+ 
+ 
+ {\displaystyle \Pi _{Resultado1.NOMBRE,{\mbox{ }}Resultado1.VALOR}{\Big (}\sigma _{Resultado1.VALOR<3000}{\big (}}
+ 
+Curso
+ 
+ 
+ 
+ 
+ &#x22C8;
+ 
+ C
+ u
+ r
+ s
+ o
+ .
+ C
+ O
+ D
+ =
+ I
+ n
+ s
+ c
+ r
+ i
+ t
+ o
+ .
+ C
+ O
+ D
+ 
+ 
+ 
+ 
+ {\displaystyle \bowtie _{Curso.COD=Inscrito.COD}}
+ 
+Inscrito
+ 
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ )
+ 
+ 
+ 
+ 
+ {\displaystyle {\big )}{\Big )}}

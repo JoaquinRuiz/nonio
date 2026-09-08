@@ -1,0 +1,131 @@
+Con 
+ 
+ 
+ 
+ n
+ =
+ 3
+ ,
+ 4
+ ,
+ 5
+ ,
+ &#x2026;
+ 
+ 
+ {\displaystyle n=3,4,5,\dots }
+ 
+ y donde 
+ 
+ 
+ 
+ 
+ R
+ 
+ H
+ 
+ 
+ 
+ 
+ {\displaystyle R_{H}}
+ 
+ es la llamada constante de Rydberg para el hidrógeno. El valor medido experimentalmente de la constante de Rydberg 
+ 
+ 
+ 
+ (
+ 1
+ ,
+ 
+ 09710
+ 
+ 7
+ 
+ 
+ 
+ m
+ 
+ &#x2212;
+ 1
+ 
+ 
+ )
+ 
+ 
+ {\displaystyle (1,09710^{7}m^{-1})}
+ 
+, coincide con el valor de la fórmula teórica de Bohr.
+
+Los postulados de Bohr corresponden a una primera consideración del hecho de que los electrones estables orbitando en un átomo están descritos por funciones de onda estacionarias.
+
+Werner Heisenberg —Premio Nobel de Física en 1932— enunció el llamado principio de incertidumbre o principio de indeterminación, según el cual es imposible medir simultáneamente, y con precisión absoluta, el valor de la posición y la cantidad de movimiento de una partícula. Esto significa que la precisión con que se pueden medir las propiedades de los objetos microscópicos, como posición y momento, está limitada y el límite viene fijado por una ecuación donde la constante de Planck es sujeto principal.
+
+El principio de incertidumbre en una dimensión (por ejemplo, a lo largo del eje x) se escribe:
+
+De manera análoga, se puede considerar la relación de incertidumbre en cualquiera de las proyecciones espaciales (sobre los ejes de coordenadas y o z).
+
+La incertidumbre no se deriva de los instrumentos de medida sino del propio hecho de medir; con los aparatos más precisos la incertidumbre en la medida continúa existiendo. Así, cuanto mayor sea la precisión en la medida de una de estas magnitudes mayor será la incertidumbre en la medida de la otra variable complementaria. La posición y la cantidad de movimiento de una partícula, respecto de uno de los ejes de coordenadas, son magnitudes complementarias sujetas a las restricciones del principio de incertidumbre de Heisenberg. También son variables complementarias afectadas por el principio de incertidumbre para un mismo objeto, su energía E y el tiempo, t empleado en la medida,
+
+En el LHC (Large Hadron Collider) del CERN se producen colisiones de protones a una velocidad próxima a la de la luz. Si los protones alcanzaran velocidades punta de 
+ 
+ 
+ 
+ &#xA0;
+ 
+ v
+ 
+ p
+ 
+ 
+ &#xA0;
+ =
+ 2
+ ,
+ 998
+ &#x00D7;
+ 
+ 10
+ 
+ 8
+ 
+ 
+ &#xA0;
+ m
+ &#x22C5;
+ 
+ s
+ 
+ &#x2212;
+ 1
+ 
+ 
+ 
+ 
+ {\displaystyle \ v_{p}\ =2,998\times 10^{8}\ m\cdot s^{-1}}
+ 
+ y se midieran con un 1% de precisión, se puede calcular entonces la incertidumbre en la posición de dichos protones de masa 
+ 
+ 
+ 
+ &#xA0;
+ m
+ &#xA0;
+ =
+ 1
+ ,
+ 673
+ &#x00D7;
+ 
+ 10
+ 
+ &#x2212;
+ 27
+ 
+ 
+ k
+ g
+ 
+ 
+ {\displaystyle \ m\ =1,673\times 10^{-27}kg}
+ 
+ con una aproximación del 1% en su velocidad, y por tanto:

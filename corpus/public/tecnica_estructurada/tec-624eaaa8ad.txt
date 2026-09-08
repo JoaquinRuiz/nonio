@@ -1,0 +1,13 @@
+En la actualidad, los diseños formados solamente por puertas lógicas raramente son implementados con Matriz de puertas, y son reemplazados por dispositivos programables, como las FPGA, las cuales pueden ser programadas por el usuario, y el costo fijo asociado es mínimo, un costo por unidad marginalmente superior, y desempeño comparable. Hoy, las Matrices de puertas están evolucionando en ASIC estructurados, que consisten en un gran núcleo IP (Intellectual Property), como un procesador, una unidad DSP, periféricos, memorias y bloques lógicos reconfigurables. Este cambio se debe principalmente a que los ASIC son capaces de integrar estos grandes bloques de sistemas funcionales, y los "sistemas en un chip" (SoC) requieren más que sólo bloques lógicos.
+
+El término "Matriz de puertas" (Gate Array) es casi sinónimo del término "Semi a la medida" (Semi-Custom). El término utilizado depende de quién lo utilice; si se es un ingeniero de proceso, probablemente se utilice el término "Semi a la medida", mientras que si se es un diseñador a nivel lógico, se utiliza "Matriz de puertas" (Gate Array).
+
+Por otro lado, el diseño hecho totalmente a la medida define la totalidad de las capas litográficas del dispositivo. Este se utiliza tanto para el diseño de ASIC como para el diseño de productos estándares.
+
+Los beneficios de este método usualmente incluye un área reducida (y consecuentemente costos por unidad menores), mejoras en el desempeño y también la habilidad de integrar componentes analógicos y otros componentes pre-diseñados, como son los microprocesadores que forman un SoC.
+
+Las desventajas del diseño totalmente a la medida son un costo y tiempo de desarrollo mayores, costos fijos mayores, mayor complejidad del software CAD y la necesidad de habilidades mucho mayores por parte del equipo de diseño.
+
+Sin embargo, para diseños puramente digitales, las librerías de "celdas estándares", junto con los sistemas CAD modernos, pueden ofrecer ventajas considerables en términos de costos y desempeño junto a un bajo riesgo. Las herramientas de layout automático son rápidas y fáciles de usar, y ofrecen la posibilidad de optimizar manualmente cualquier aspecto que limite el desempeño del diseño.
+
+El diseño estructurado de ASIC es una expresión ambigua, con diferentes significados dependiendo del contexto. Este es un término relativamente nuevo en la industria, lo que explica que haya variaciones en su definición. Sin embargo, la premisa básica es que tanto el ciclo de manufactura como el ciclo de diseño se reducen comparado con los ASIC basados en celdas, gracias a la existencia de capas metálicas predefinidas (que reducen el tiempo de fabricación), y una pre-caracterización de lo que está en el silicio (lo que reduce el tiempo de diseño).

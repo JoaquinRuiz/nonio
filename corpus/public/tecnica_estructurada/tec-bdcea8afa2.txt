@@ -1,0 +1,51 @@
+Se llama así a los ángulos que tienen el mismo lado final. Pueden ser en rotación contraria al ángulo dado o con una rotación mayor de 360°.
+
+En un plano, dos semirrectas (no coincidentes ni alineadas) con un origen común determinan siempre dos ángulos, uno convexo (el de menor amplitud) y otro cóncavo (el de mayor amplitud): &#8203;
+
+Cuando dos rectas son cortadas por una tercera, se forman las siguientes relaciones distantes: &#8203;
+
+Son los obtenidos mediante la suma o diferencia de ángulos. En la figura se representan dos sectores circulares contiguos, cada uno con su ángulo, denominados α y β respectivamente; la unión de los dos sectores tendrá por ángulo la composición, en este caso la suma, α + β, de los ángulos de los sectores que unimos.
+
+Las razones trigonométricas de los ángulos compuestos están relacionadas con la de los ángulos componentes mediante las fórmulas de razones trigonométricas de ángulos compuestos, ver por ejemplo Identidades trigonométricas.
+
+Un ángulo que forma parte de un polígono simple se llama ángulo interior si se encuentra en el interior de ese polígono simple, siendo formado por lados adyacentes. Un polígono cóncavo simple tiene al menos un ángulo interior que es un ángulo reflejo.
+En geometría euclidiana , las medidas de los ángulos interiores de un triángulo suman π radianes, 180 ° o 1/2 vuelta; las medidas de los ángulos interiores de un cuadrilátero convexo simple suman 2 π radianes, 360 ° o 1 vuelta. En general, las medidas de los ángulos interiores de un polígono convexo simple con n lados suman (n - 2)π radianes, o ( n - 2) 180 grados, ( n - 2) 2 ángulos rectos o ( n - 2) 1/ 2 vuelta.
+
+Ángulo inscrito, si su vértice es un punto de la circunferencia y sus lados la cortan en dos puntos.
+
+Ángulo semi-inscrito, si su vértice está sobre esta, uno de sus lados la corta y el otro es tangente, siendo el punto de tangencia el propio vértice.
+
+La trisección del ángulo es un problema clásico que consiste en dividir un ángulo dado en tres partes iguales usando solo regla y compás. En general, es imposible de resolver con esas condiciones.
+
+Dado un espacio vectorial, cuyo cuerpo es el conjunto de los números reales y en el que existe un producto escalar entre vectores 
+ 
+ 
+ 
+ &#x27E8;
+ &#x22C5;
+ ,
+ &#x22C5;
+ &#x27E9;
+ 
+ 
+ {\displaystyle \langle \cdot ,\cdot \rangle }
+ 
+, se define el ángulo formado por dos vectores no nulos 
+ 
+ 
+ 
+ x
+ 
+ 
+ {\displaystyle x}
+ 
+ e 
+ 
+ 
+ 
+ y
+ 
+ 
+ {\displaystyle y}
+ 
+ mediante la expresión:

@@ -1,0 +1,9 @@
+El propósito de los algoritmos médicos es mejorar y estandarizar las decisiones tomadas en la prestación de atención médica. Los algoritmos médicos ayudan a estandarizar la selección y aplicación de regímenes de tratamiento, con la automatización de algoritmos destinada a reducir la posible introducción de errores. Algunos intentan predecir el resultado, por ejemplo, los sistemas de puntuación de cuidados intensivos.
+
+Los algoritmos de diagnóstico de salud computarizados pueden brindar apoyo oportuno a la toma de decisiones clínicas, mejorar el cumplimiento de pautas basadas en la evidencia y ser un recurso para la educación y la investigación.
+
+Los algoritmos médicos basados en las mejores prácticas pueden ayudar a todos los involucrados en la entrega de un tratamiento estandarizado a través de una amplia gama de proveedores de atención clínica. Muchos se presentan como protocolos y es una tarea clave en la capacitación garantizar que las personas se salgan del protocolo cuando sea necesario. En nuestro estado actual de conocimiento, generar sugerencias y producir pautas puede ser menos satisfactorio para los autores, pero más apropiado.
+
+Al igual que la mayoría de la ciencia y la medicina, los algoritmos cuyos contenidos no están totalmente disponibles para el escrutinio y pueden mejorarse deben considerarse con sospecha.
+
+Los cálculos obtenidos a partir de algoritmos médicos deben compararse y moderarse con el conocimiento clínico y el juicio del médico.

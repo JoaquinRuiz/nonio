@@ -1,0 +1,17 @@
+Al nivel de aislamiento READ COMMITTED, cada consulta ve una instantánea de la base de datos tomada al principio de la consulta. Por ello, cada una ve datos distintos en la fila actualizada. No puede producirse fallo de serialización en este modo (ya que no se hace promesa de serializabilidad), y la transacción 1 no deberá reintentarse.
+
+Una lectura fantasma ocurre cuando, durante una transacción, se ejecutan dos consultas idénticas, y los resultados de la segunda no son iguales a los de la primera.
+
+Esto puede ocurrir cuando no se realizan bloqueos de rango al realizar una operación SELECT ... WHERE.
+
+La anomalía de las lecturas fantasma es una caso particular de las lecturas no repetibles cuando la transacción 1 repite una consulta acotada en rango SELECT ... WHERE y, entre ambas operaciones la transacción 2 crea (i.e. INSERT) nuevas filas (en la misma tabla) que entran dentro de esa cláusula WHERE.
+
+Nótese que la transacción 1 ejecuta la misma consulta dos veces. Si se mantuviera el mayor nivel de aislamiento, los resultados de ambas consultas coincidirían (QUE ES LO QUE SUCEDE), de hecho es lo que se pide a una base de datos operando al nivel de aislamiento SERIALIZABLE. Sin embargo, a niveles de aislamiento menores, pueden obtenerse resultados distintos.
+
+Al nivel de aislamiento SERIALIZABLE, la consulta 1 bloquearía todos los registros con edades comprendidas entre 10 y 30, de modo que la consulta 2 quedaría bloqueada hasta que se cometiera la transacción 1. En modo REPEATABLE READ, el rango de 10 a 30 no se bloquearía, permitiendo la inserción de modo que la segunda ejecución de la consulta 1 sí incluirá la nueva fila en sus resultados.
+
+"puede ocurrir" significa que el nivel de aislamiento sufre ese efecto, mientras que "-" significa que no lo sufre.
+
+"V" indica que el método bloquea esa operación, manteniéndolo hasta el final de la transacción.
+
+Nota: Las operaciones de lectura (i.e. SELECT) pueden efectuar bloqueos (compartidos) en el nivel Read Committed, pero se liberan inmediatamente tras la operación de lectura.

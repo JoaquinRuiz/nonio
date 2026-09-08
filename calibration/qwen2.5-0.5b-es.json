@@ -13,9 +13,9 @@
     },
     "generado": {
       "threshold": 0.916667,
-      "tpr": 0.611111,
+      "tpr": 0.472222,
       "fpr": 0.0,
-      "n_samples": 18,
+      "n_samples": 72,
       "reproducible": true
     },
     "espanol_no_nativo": {

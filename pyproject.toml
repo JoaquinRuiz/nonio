@@ -9,12 +9,25 @@ description = "Instrumento de medida de señales estadísticas asociadas a la ge
 readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
+keywords = [
+  "text-analysis", "machine-generated-text", "calibration",
+  "false-positive-rate", "algorithmic-fairness", "spanish", "nlp",
+]
 classifiers = [
   "Development Status :: 3 - Alpha",
+  "Environment :: Console",
   "Intended Audience :: Science/Research",
+  "Intended Audience :: Education",
   "License :: OSI Approved :: Apache Software License",
+  "Natural Language :: Spanish",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
   "Topic :: Text Processing :: Linguistic",
+  "Typing :: Typed",
 ]
 dependencies = [
   "torch>=2.2",
@@ -30,19 +43,39 @@ dependencies = [
 dev = ["pytest>=8.0", "pytest-benchmark>=4.0", "ruff>=0.4", "black>=24.0"]
 
 [project.scripts]
-nonio = "nonio.cli.main:app"
+nonio = "nonio.cli.main:main"
 
 [project.urls]
 Homepage = "https://github.com/JoaquinRuiz/nonio"
+Repository = "https://github.com/JoaquinRuiz/nonio"
+Issues = "https://github.com/JoaquinRuiz/nonio/issues"
+Changelog = "https://github.com/JoaquinRuiz/nonio/releases"
+"Calibration findings" = "https://github.com/JoaquinRuiz/nonio/blob/main/docs/calibration-findings.md"
+"Known limitations" = "https://github.com/JoaquinRuiz/nonio/blob/main/docs/limitations.md"
 
-# El corpus público viaja con el paquete: sin él, un tercero puede importar
-# evaluate() pero no tiene contra qué ejecutarlo (FR-022, SC-003).
+# El corpus viaja con el paquete: sin él un tercero puede importar evaluate()
+# pero no tiene contra qué ejecutarlo (FR-022, SC-003). Va como un solo
+# .jsonl.gz de 1,2 MB en vez de los 5.214 ficheros y 20 MB del repositorio: la
+# calibración usa 450 casos por categoría, así que distribuir más no cambiaría
+# ninguna cifra y sí haría la instalación pesada. Se genera con
+# `python -m nonio.evaluation.bundle` y se versiona.
 [tool.hatch.build.targets.wheel]
 packages = ["nonio"]
+artifacts = ["nonio/_corpus/*.jsonl.gz"]
 
-[tool.hatch.build.targets.wheel.force-include]
-"corpus/public" = "nonio/_corpus/public"
-"corpus/manifest.jsonl" = "nonio/_corpus/manifest.jsonl"
+[tool.hatch.build.targets.sdist]
+include = [
+  "nonio/",
+  "tests/",
+  "docs/",
+  "corpus/manifest.jsonl",
+  "README.md",
+  "CONTRIBUTING.md",
+  "LICENSE",
+  "author.example.json",
+  "pyproject.toml",
+]
+exclude = ["corpus/public/**"]
 
 [tool.ruff]
 line-length = 100

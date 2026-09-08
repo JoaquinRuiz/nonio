@@ -196,6 +196,7 @@ the instrument to account, not to classify its users.
   why the gate does not pass, and what was deliberately not done to make it pass
 - [Known limitations](docs/limitations.md) — including ones the measurement
   revealed and that have not been fixed
+- [Releasing](docs/releasing.md) — how a version gets published, and what must be true before 1.0
 - [Reproducibility](docs/reproducibility.md) — what a third party can and cannot
   reproduce, and on what hardware
 

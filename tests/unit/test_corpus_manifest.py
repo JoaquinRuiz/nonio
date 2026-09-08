@@ -31,8 +31,28 @@ def test_todo_caso_declara_licencia_y_procedencia(cases):
 
 
 def test_los_textos_existen(cases):
-    for c in cases[:200]:
-        assert (ROOT / Path(c.text_path).name).exists() or (ROOT / c.text_path).exists()
+    """TODOS los casos, no una muestra.
+
+    Este test miraba los 200 primeros, y como el manifiesto va ordenado por
+    categoría, esos 200 eran todos `espanol_no_nativo`. Un fichero ausente en
+    cualquier otra categoría pasaba inadvertido — y pasó: una medición de una
+    hora reventó por una fila que apuntaba a un texto inexistente. Comprobar
+    5.000 rutas cuesta milisegundos; una muestra sesgada cuesta una hora.
+    """
+    faltan = [c.id for c in cases if not (ROOT / c.text_path).exists()]
+    assert not faltan, f"{len(faltan)} casos del manifiesto sin fichero: {faltan[:5]}"
+
+
+def test_no_hay_ficheros_huerfanos(cases):
+    """Y al revés: un texto en disco que el manifiesto no declara no tiene
+    licencia ni procedencia registradas, así que no es redistribuible."""
+    declarados = {c.text_path for c in cases}
+    huerfanos = [
+        str(f.relative_to(ROOT))
+        for f in ROOT.rglob("*.txt")
+        if str(f.relative_to(ROOT)) not in declarados
+    ]
+    assert not huerfanos, f"{len(huerfanos)} textos sin entrada en el manifiesto"
 
 
 def test_ningun_generado_usa_la_familia_de_un_perfil(cases):

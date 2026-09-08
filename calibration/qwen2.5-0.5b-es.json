@@ -1,0 +1,53 @@
+{
+  "profile_id": "qwen2.5-0.5b",
+  "language": "es",
+  "min_words": 250,
+  "corpus_version": "2026.09",
+  "per_category": {
+    "humano_pre2022": {
+      "threshold": 0.916667,
+      "tpr": 0.0,
+      "fpr": 0.05314,
+      "n_samples": 414,
+      "reproducible": true
+    },
+    "generado": {
+      "threshold": 0.916667,
+      "tpr": 0.611111,
+      "fpr": 0.0,
+      "n_samples": 18,
+      "reproducible": true
+    },
+    "espanol_no_nativo": {
+      "threshold": 0.916667,
+      "tpr": 0.0,
+      "fpr": 0.069164,
+      "n_samples": 347,
+      "reproducible": true
+    },
+    "tecnica_estructurada": {
+      "threshold": 0.916667,
+      "tpr": 0.0,
+      "fpr": 0.022959,
+      "n_samples": 392,
+      "reproducible": true
+    }
+  },
+  "bias": {
+    "ratio_non_native_vs_general": 1.3015430937147159,
+    "ci95": [
+      0.7780979827089338,
+      2.526529920325479
+    ],
+    "verdict": "no_concluyente",
+    "absolute_fpr_general": 0.05314,
+    "max_allowed": 2.0,
+    "passes": false,
+    "requirement": "FR-030",
+    "note": "FR-030 restringe el cociente, no la tasa absoluta. Un umbral bajo que acuse por igual a todo el mundo pasa la puerta siendo inútil; mira absolute_fpr_general antes de fiarte del cociente."
+  },
+  "missing_categories": [
+    "mixto"
+  ],
+  "note": "No se publica precisión agregada: el Artículo III exige desglose por categoría porque la media esconde el sesgo contra prosa de no nativos y contra escritura técnica muy estructurada."
+}

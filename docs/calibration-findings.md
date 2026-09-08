@@ -14,46 +14,60 @@ more importantly, at the current sample size it cannot be evaluated at all.
 | Profile | `qwen2.5-0.5b` (Qwen2.5-0.5B + Qwen2.5-0.5B-Instruct) |
 | Language | Spanish |
 | Hardware | Apple Silicon, CPU only, float32 |
-| Sample | 60 cases per category (`generado`: 18) |
-| Minimum length | 150 words |
+| Sample | 450 cases per category (`generado`: 18) |
+| Minimum length | 250 words |
 
-## Result: the gate blocks, but the reason is insufficient sample
+## Result: inconclusive
 
-At the design threshold (0.90, targeting 5 % FPR):
+At threshold 0.9167 (targeting 5 % FPR on the reference category):
 
 | Category | n | FPR | TPR |
 |---|--:|--:|--:|
-| `humano_pre2022` | 60 | 6.7 % | — |
-| `espanol_no_nativo` | 60 | **16.7 %** | — |
-| `tecnica_estructurada` | 60 | 6.7 % | — |
-| `generado` | 18 | — | 66.7 % |
+| `humano_pre2022` | 414 | 5.3 % | — |
+| `espanol_no_nativo` | 347 | 6.9 % | — |
+| `tecnica_estructurada` | 392 | 2.3 % | — |
+| `generado` | 18 | — | 61.1 % |
 | `mixto` | **0** | — | — |
 
-Bias ratio: **2.50×**, above the 2.0× ceiling FR-030 imposes.
+**Bias ratio: 1.30×, 95 % CI [0.78 – 2.53].**
 
-**But that number does not stand on its own.** Bootstrap over 2,000 resamples:
+The point estimate sits below the 2.0× ceiling. The interval crosses it. The
+verdict is therefore **inconclusive** — not "passes" — and inconclusive does not
+authorise publishing a default threshold.
 
-| Threshold | Ratio | 95 % CI | Cases behind it |
-|---:|---:|:---|:---|
-| 0.90 | 2.50× | **[0.89 – 11.00]** | 4/60 vs 10/60 |
-| 0.97 | 2.00× | [0.00 – 5.00] | 1/60 vs 2/60 |
+### The first measurement was noise
 
-The interval at the design threshold spans from "no bias" to "eleven-fold". The
-honest conclusion is not *"the instrument is biased 2.5×"* — it is **"with n=60
-the gate cannot be evaluated"**.
+An earlier run with n=60 produced a ratio of **2.50×, CI [0.89 – 11.00]**, and
+was reported here as though it demonstrated bias. It did not. Multiplying the
+sample by 7.5 halved the ratio: what changed was not the instrument but the
+precision of the instrument measuring it.
 
-### Sample size actually required
+That episode is why **FR-031** exists — no bias figure may be published without
+its confidence interval and the number of cases behind it — and why the gate now
+returns three states instead of two.
 
-To distinguish a 2.0× bias from 1.0× at 80 % power, α = 0.05:
+### An unexpected result worth following up
 
-| Scenario | n per category |
-|---|--:|
-| FPR 5 % vs 10 % | **434** |
-| FPR 10 % vs 20 % | 199 |
-| FPR 15 % vs 30 % | 121 |
+`tecnica_estructurada` has the **lowest** false-positive rate of all human
+categories (2.3 % against 5.3 % for general prose). Article III names highly
+structured technical writing as a category at risk of false positives, so this is
+the opposite of what the design assumed.
 
-The bottleneck is **not** the non-native category — that one has 4,251 cases
-available. It is `humano_pre2022`, which has 60.
+Two candidate explanations, neither verified: Wikipedia's technical prose may be
+less predictable than assumed, or Binoculars' normalisation by intrinsic
+difficulty may be doing exactly what FR-002 asks of it. Worth investigating before
+claiming either.
+
+### Sample size
+
+To distinguish a 2.0× bias from 1.0× at 80 % power, α = 0.05, roughly 434 cases
+per category are needed at the FPR levels Nonio operates at. The reference corpus
+was expanded from 60 to 450 to reach that.
+
+It was still not enough to reach a conclusion: at a 5 % base rate the ratio rests
+on 21 and 24 flagged cases respectively, and a ratio of small counts stays wide.
+Reaching a verdict needs either more cases or a higher base rate — and raising
+the base rate means a worse instrument, so more cases it is.
 
 ## Finding: FR-030 can be satisfied by degrading the instrument uniformly
 

@@ -190,3 +190,42 @@ def test_sin_categoria_de_referencia_no_hay_fp_absoluta():
         profile_id="qwen2.5-0.5b", language="es", min_words=250, corpus_version="x"
     )
     assert t.absolute_fpr() is None
+
+
+# --- FR-031: el veredicto tiene tres estados, no dos ---------------------------
+
+
+def test_veredicto_pasa_cuando_todo_el_intervalo_esta_por_debajo():
+    v = _table(0.05, 0.06).bias_gate_verdict(ci_low=0.9, ci_high=1.5)
+    assert v.verdict == "pasa" and v.publishable
+
+
+def test_veredicto_bloquea_cuando_todo_el_intervalo_esta_por_encima():
+    v = _table(0.03, 0.09).bias_gate_verdict(ci_low=2.4, ci_high=4.1)
+    assert v.verdict == "bloquea" and not v.publishable
+
+
+def test_veredicto_no_concluyente_cuando_el_intervalo_cruza_el_limite():
+    """El caso real medido: 1,30x con IC95% [0,78 – 2,53].
+
+    El punto está por debajo de 2,0x pero el intervalo lo cruza. Comparar solo el
+    punto diría 'pasa' y sería justo lo que FR-031 prohíbe.
+    """
+    v = _table(0.053, 0.069).bias_gate_verdict(ci_low=0.78, ci_high=2.53)
+    assert v.verdict == "no_concluyente"
+    assert not v.publishable, "no concluyente no habilita publicar"
+    assert "más muestra" in v.explain()
+
+
+def test_el_veredicto_declara_cuantos_casos_lo_sostienen():
+    v = _table().bias_gate_verdict(ci_low=1.0, ci_high=1.8)
+    assert f"{v.n_reference} casos" in v.explain()
+
+
+def test_sin_intervalo_el_informe_no_da_veredicto():
+    """FR-031: sin intervalo no se degrada a comparar el punto."""
+    from nonio.evaluation.report import build_report
+
+    d = build_report(_table(0.05, 0.06)).to_dict()
+    assert d["bias"]["verdict"] == "sin_intervalo"
+    assert d["bias"]["passes"] is False

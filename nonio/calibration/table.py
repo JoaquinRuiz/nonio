@@ -18,14 +18,72 @@ from pathlib import Path
 from nonio.backends.loader import ProfileMismatchError
 from nonio.schema.enums import CorpusCategory
 
-__all__ = ["CategoryStats", "CalibrationTable", "BiasGateError", "MAX_NON_NATIVE_FPR_RATIO"]
+__all__ = [
+    "CategoryStats",
+    "CalibrationTable",
+    "BiasGateError",
+    "BiasGateVerdict",
+    "MAX_NON_NATIVE_FPR_RATIO",
+]
 
 # FR-030 / SC-002. No es un parámetro afinable: es la promesa pública.
 MAX_NON_NATIVE_FPR_RATIO = 2.0
 
 
 class BiasGateError(RuntimeError):
-    """La tabla supera el factor máximo de sesgo admitido (FR-030)."""
+    """La tabla no supera la puerta de sesgo (FR-030)."""
+
+
+@dataclass(frozen=True)
+class BiasGateVerdict:
+    """Veredicto de la puerta con su incertidumbre (FR-030 + FR-031).
+
+    Tres estados, no dos. Comparar el punto estimado contra el techo es lo que
+    FR-031 prohíbe: un cociente de 1,30x cuyo IC95% va de 0,78 a 2,53 no
+    demuestra que se cumpla el límite, solo que no se ha demostrado lo contrario.
+    Declarar `no_concluyente` es la lectura honesta, y encaja con la spec, que
+    admite ese tercer estado en SC-002 en vez de forzar cumplido/incumplido.
+    """
+
+    ratio: float
+    ci_low: float
+    ci_high: float
+    n_reference: int
+    n_non_native: int
+    max_ratio: float
+
+    @property
+    def verdict(self) -> str:
+        if self.ci_high <= self.max_ratio:
+            return "pasa"
+        if self.ci_low > self.max_ratio:
+            return "bloquea"
+        return "no_concluyente"
+
+    @property
+    def publishable(self) -> bool:
+        """Solo se publica umbral por defecto si la puerta pasa de verdad.
+
+        `no_concluyente` no habilita publicar: el Artículo III exige la cifra
+        medida, y una cifra cuyo intervalo cruza el límite no está medida con la
+        precisión que el límite necesita.
+        """
+        return self.verdict == "pasa"
+
+    def explain(self) -> str:
+        base = (
+            f"sesgo {self.ratio:.2f}× IC95% [{self.ci_low:.2f}, {self.ci_high:.2f}] "
+            f"(máximo {self.max_ratio:.1f}×), sobre {self.n_reference} casos de "
+            f"referencia y {self.n_non_native} de no nativo"
+        )
+        if self.verdict == "pasa":
+            return f"PASA — {base}"
+        if self.verdict == "bloquea":
+            return f"BLOQUEA LA PUBLICACIÓN — {base}"
+        return (
+            f"NO CONCLUYENTE — {base}. El intervalo cruza el límite: hace falta más "
+            "muestra para decidir. No habilita publicar umbral por defecto."
+        )
 
 
 @dataclass(frozen=True)
@@ -88,7 +146,12 @@ class CalibrationTable:
         return general.fpr if general else None
 
     def check_bias_gate(self, max_ratio: float = MAX_NON_NATIVE_FPR_RATIO) -> float:
-        """Falla si el sesgo supera el factor admitido. Bloquea la publicación."""
+        """Falla si el sesgo puntual supera el factor admitido.
+
+        Conserva la semántica de dos estados para quien solo necesita el punto.
+        Para decidir si se puede publicar usa `bias_gate_verdict()`, que tiene en
+        cuenta la incertidumbre como exige FR-031.
+        """
         ratio = self.bias_ratio()
         if ratio is None:
             raise BiasGateError(
@@ -103,6 +166,26 @@ class CalibrationTable:
                 "umbral por defecto."
             )
         return ratio
+
+    def bias_gate_verdict(
+        self, ci_low: float, ci_high: float, max_ratio: float = MAX_NON_NATIVE_FPR_RATIO
+    ) -> BiasGateVerdict:
+        """Veredicto con incertidumbre (FR-031). El intervalo lo calcula quien mide."""
+        ratio = self.bias_ratio()
+        if ratio is None:
+            raise BiasGateError(
+                "No se puede comprobar la puerta de FR-030: faltan categorías o su FP es cero."
+            )
+        general = self.per_category[CorpusCategory.HUMANO_PRE2022]
+        no_nativo = self.per_category[CorpusCategory.ESPANOL_NO_NATIVO]
+        return BiasGateVerdict(
+            ratio=ratio,
+            ci_low=ci_low,
+            ci_high=ci_high,
+            n_reference=general.n_samples,
+            n_non_native=no_nativo.n_samples,
+            max_ratio=max_ratio,
+        )
 
     # ---- Persistencia -----------------------------------------------------------
 

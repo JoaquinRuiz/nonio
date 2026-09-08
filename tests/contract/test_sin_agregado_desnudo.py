@@ -73,16 +73,28 @@ def test_cada_cifra_declara_si_es_reproducible():
 
 
 def test_el_informe_publica_la_puerta_de_sesgo():
-    d = build_report(_table(0.04, 0.06)).to_dict()
+    """FR-031: el veredicto exige intervalo, no solo el punto."""
+    d = build_report(_table(0.04, 0.06), bias_ci=(1.1, 1.8)).to_dict()
     assert d["bias"]["ratio_non_native_vs_general"] == pytest.approx(1.5)
+    assert d["bias"]["ci95"] == [1.1, 1.8]
+    assert d["bias"]["verdict"] == "pasa"
     assert d["bias"]["passes"] is True
     assert d["bias"]["requirement"] == "FR-030"
 
 
 def test_el_informe_marca_el_bloqueo_cuando_se_supera_el_factor():
-    d = build_report(_table(0.03, 0.09)).to_dict()
+    d = build_report(_table(0.03, 0.09), bias_ci=(2.4, 4.1)).to_dict()
+    assert d["bias"]["verdict"] == "bloquea"
     assert d["bias"]["passes"] is False
-    assert "BLOQUEA" in build_report(_table(0.03, 0.09)).to_text()
+    assert "BLOQUEA" in build_report(_table(0.03, 0.09), bias_ci=(2.4, 4.1)).to_text()
+
+
+def test_el_informe_declara_no_concluyente_si_el_intervalo_cruza():
+    """El caso realmente medido: punto 1,30x, IC95% [0,78 – 2,53]."""
+    r = build_report(_table(0.053, 0.069), bias_ci=(0.78, 2.53))
+    assert r.to_dict()["bias"]["verdict"] == "no_concluyente"
+    assert r.to_dict()["bias"]["passes"] is False
+    assert "NO CONCLUYENTE" in r.to_text() and "más muestra" in r.to_text()
 
 
 def test_las_categorias_ausentes_se_declaran():
@@ -97,8 +109,8 @@ def test_el_informe_expone_la_fp_absoluta_junto_al_cociente():
     Un umbral bajo que acuse por igual a todo el mundo da cociente 1,00x y pasa
     la puerta siendo inútil. Documentado en docs/calibration-findings.md.
     """
-    d = build_report(_table(0.18, 0.18)).to_dict()
+    d = build_report(_table(0.18, 0.18), bias_ci=(0.8, 1.3)).to_dict()
     assert d["bias"]["passes"] is True, "cociente 1,0x: la puerta pasa"
     assert d["bias"]["absolute_fpr_general"] == 0.18, "y la FP absoluta es visible"
-    texto = build_report(_table(0.18, 0.18)).to_text()
+    texto = build_report(_table(0.18, 0.18), bias_ci=(0.8, 1.3)).to_text()
     assert "18.0%" in texto and "inútil" in texto

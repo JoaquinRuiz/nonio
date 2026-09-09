@@ -199,6 +199,7 @@ the instrument to account, not to classify its users.
 
 ## Documentation
 
+- [Roadmap](ROADMAP.md) — what comes next, and the conditions under which this project should be abandoned
 - [Getting started](docs/getting-started.md) — from clone to first result
 - [Calibration findings](docs/calibration-findings.md) — the measured figures,
   why the gate does not pass, and what was deliberately not done to make it pass

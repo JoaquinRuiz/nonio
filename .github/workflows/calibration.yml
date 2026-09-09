@@ -1,0 +1,50 @@
+name: Full calibration
+
+# Mide el corpus completo con modelos reales. No va en cada push: descargar los
+# recursos y medir ~1.400 textos cuesta cerca de una hora, y el resultado solo
+# cambia cuando cambian el corpus, las señales o los umbrales.
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # lunes de madrugada
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: Perfil de medición
+        default: qwen2.5-0.5b
+        type: choice
+        options: [qwen2.5-0.5b, salamandra-2b]
+
+permissions:
+  contents: read
+
+jobs:
+  calibrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+      - run: uv python install 3.12
+      - run: uv sync --extra dev
+
+      - name: Caché de los recursos de medición
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-${{ inputs.profile || 'qwen2.5-0.5b' }}-v1
+
+      - name: Descargar el perfil
+        run: uv run nonio download "${{ inputs.profile || 'qwen2.5-0.5b' }}"
+
+      - name: Evaluar sobre el corpus público
+        run: |
+          uv run nonio eval --corpus public --profile "${{ inputs.profile || 'qwen2.5-0.5b' }}" \
+            --json | tee calibration-run.json
+
+      - name: Puerta de sesgo sobre lo recién medido
+        run: uv run python -m nonio.evaluation.gate --artifact calibration-run.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: calibration-${{ inputs.profile || 'qwen2.5-0.5b' }}
+          path: calibration-run.json

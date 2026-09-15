@@ -15,6 +15,7 @@ Artículo III.
 
 from __future__ import annotations
 
+import json
 import math
 import statistics
 from dataclasses import dataclass
@@ -47,9 +48,20 @@ def measure_cases(
     *,
     limit_per_category: int | None = None,
     progress: bool = True,
+    checkpoint: Path | None = None,
+    checkpoint_every: int = 25,
 ) -> list[CaseMeasurement]:
-    """Mide el corpus. Informa de progreso: medir miles de textos tarda una hora
-    y un proceso opaco durante una hora es un proceso que nadie sabe si colgó."""
+    """Mide el corpus, informando de progreso y guardando por el camino.
+
+    El progreso importa porque medir miles de textos tarda horas y un proceso
+    opaco durante horas es un proceso que nadie sabe si se colgó.
+
+    El `checkpoint` importa más. Sin él, una corrida que muere a las 16 horas se
+    pierde entera: los resultados viven solo en la memoria del proceso. Pasó —
+    una calibración de salamandra-2b se degradó por paginación, se mató a
+    propósito, y las 16 horas de cómputo se fueron con ella porque no había nada
+    escrito en disco. Si se da un fichero, se reanuda solo desde lo ya medido.
+    """
     import sys
     import time
     from collections import Counter
@@ -68,9 +80,55 @@ def measure_cases(
         if limit_per_category is not None
         else len(cases)
     )
+
+    # Reanudación: lo ya medido no se vuelve a medir.
+    hechos_previos: dict[str, CaseMeasurement] = {}
+    if checkpoint is not None and checkpoint.exists():
+        for fila in json.loads(checkpoint.read_text(encoding="utf-8")):
+            m = CaseMeasurement(
+                case_id=fila["case_id"],
+                category=CorpusCategory(fila["category"]),
+                word_count=fila["word_count"],
+                signals=fila["signals"],
+            )
+            hechos_previos[m.case_id] = m
+        out.extend(hechos_previos.values())
+        for m in hechos_previos.values():
+            por_categoria[m.category] = por_categoria.get(m.category, 0) + 1
+        if progress:
+            print(
+                f"  reanudando desde {checkpoint}: {len(hechos_previos)} ya medidos",
+                file=sys.stderr,
+                flush=True,
+            )
+
+    def _guardar() -> None:
+        if checkpoint is None:
+            return
+        checkpoint.parent.mkdir(parents=True, exist_ok=True)
+        tmp = checkpoint.with_suffix(checkpoint.suffix + ".tmp")
+        tmp.write_text(
+            json.dumps(
+                [
+                    {
+                        "case_id": m.case_id,
+                        "category": m.category.value,
+                        "word_count": m.word_count,
+                        "signals": m.signals,
+                    }
+                    for m in out
+                ]
+            ),
+            encoding="utf-8",
+        )
+        # Reemplazo atómico: un corte a mitad de escritura no corrompe el fichero.
+        tmp.replace(checkpoint)
+
     t0 = time.time()
     _ultimo = -1
     for case in cases:
+        if case.id in hechos_previos:
+            continue
         if progress and out and len(out) % 50 == 0 and _ultimo != len(out):
             _ultimo = len(out)
             hechos = len(out)
@@ -104,6 +162,9 @@ def measure_cases(
                 signals=agg,
             )
         )
+        if checkpoint is not None and len(out) % checkpoint_every == 0:
+            _guardar()
+    _guardar()
     if omitidos and progress:
         print(
             f"  aviso: {len(omitidos)} casos omitidos por error de lectura "

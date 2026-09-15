@@ -80,12 +80,13 @@ def load_pair(profile_id: str | None = None) -> LoadedPair:
     os.environ.update(_offline_env())
     try:
         common = {"revision": profile.revision, "local_files_only": True}
+        dtype = getattr(torch, profile.dtype)
         tokenizer = AutoTokenizer.from_pretrained(profile.observer_model, **common)
         observer = AutoModelForCausalLM.from_pretrained(
-            profile.observer_model, dtype=torch.float32, **common
+            profile.observer_model, dtype=dtype, **common
         ).eval()
         performer = AutoModelForCausalLM.from_pretrained(
-            profile.performer_model, dtype=torch.float32, **common
+            profile.performer_model, dtype=dtype, **common
         ).eval()
     except Exception as exc:  # noqa: BLE001
         raise ResourceUnavailableError(

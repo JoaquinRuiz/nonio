@@ -33,8 +33,24 @@ __all__ = ["Measurement", "TokenSpan", "measure", "SCORERS"]
 SCORERS = (FastDetectGPT(), Binoculars())
 
 # Ventana con solapamiento para documentos que exceden el contexto del modelo.
+#
+# El tamaño se adapta al vocabulario porque los logits, no los pesos, son lo que
+# crece con la ventana: 1024 posiciones x 256.000 entradas en float32 son 1 GB
+# por modelo y por ventana, y hacen falta los dos a la vez para la
+# cross-perplexity. Con vocabularios grandes se estrecha la ventana en vez de
+# quedarse sin memoria a mitad de una medición de dos horas.
 _WINDOW = 1024
 _STRIDE = 896
+_VOCAB_GRANDE = 200_000
+_WINDOW_GRANDE = 512
+_STRIDE_GRANDE = 448
+
+
+def _ventana(pair: LoadedPair) -> tuple[int, int]:
+    vocab = len(pair.tokenizer)
+    if vocab >= _VOCAB_GRANDE:
+        return _WINDOW_GRANDE, _STRIDE_GRANDE
+    return _WINDOW, _STRIDE
 
 
 @dataclass(frozen=True)
@@ -92,9 +108,10 @@ def measure(text: str, pair: LoadedPair) -> Measurement:
         s.name: torch.full((n - 1,), float("nan")) for s in SCORERS
     }
 
+    ventana, paso = _ventana(pair)
     with torch.no_grad():
-        for start in range(0, n, _STRIDE):
-            chunk = ids[start : start + _WINDOW]
+        for start in range(0, n, paso):
+            chunk = ids[start : start + ventana]
             if chunk.shape[0] < 2:
                 break
             batch = chunk.unsqueeze(0)
@@ -110,7 +127,7 @@ def measure(text: str, pair: LoadedPair) -> Measurement:
                     idx = start + j
                     if idx < n - 1 and torch.isnan(per_token[scorer.name][idx]):
                         per_token[scorer.name][idx] = out.per_token[j]
-            if start + _WINDOW >= n:
+            if start + ventana >= n:
                 break
 
     return Measurement(

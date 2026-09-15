@@ -61,6 +61,30 @@ A threshold calibrated on `qwen2.5-0.5b` is not valid on `salamandra-2b`. The
 loader refuses to apply one profile's calibration to another. This is the same
 error Article VIII forbids across languages.
 
+## Hardware: the `salamandra-2b` profile does not fit a 26 GB machine
+
+Measured on Apple Silicon, CPU, one forward pass over 400 tokens:
+
+| dtype | Time | Pair size |
+|---|--:|--:|
+| `float32` | **0.92 s** | 18 GB |
+| `float16` | 5.59 s | 9 GB |
+| `bfloat16` | 8.77 s | 9 GB |
+
+Half precision halves memory and costs **6–9× the time**: PyTorch has no optimised
+half-precision CPU kernels on this hardware and falls back to a slow path. So the
+trade is not memory against precision — it is **memory against hours**.
+
+At `float32` the pair needs ~19 GB including per-window logits. On a 26 GB machine
+that leaves nothing, and the system pages: an attempted full calibration degraded
+to **63 s per case** (against 6 s unpaged) and would have taken 25 hours. Restarted
+with memory free it ran at 8 s per case.
+
+**Consequence:** `salamandra-2b` is usable for one-off analyses on a 26 GB machine
+but not practically calibratable there. Calibrating it needs ~32 GB or more, and
+`nonio profiles` reports its measured runtime — 34.2 s median for 1,000 words,
+above the SC-006 budget of 30 s — rather than hiding it.
+
 ## Behaviour against "humanizer" tools
 
 To be measured and documented, not avoided. Pending: no figures yet.
